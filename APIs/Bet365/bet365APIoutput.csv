@@ -1,0 +1,257 @@
+,Event ID,Event Date,Market Name,Outcome Name,Price,Handicap,Odds Type,Bookmaker,eventId,participant1,participant2
+0,id100013150869217,2024-10-27,Full Time Result,1,2.5,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+1,id100013150869217,2024-10-27,Full Time Result,X,4.0,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+2,id100013150869217,2024-10-27,Full Time Result,2,2.4,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+3,id100013150869217,2024-10-27,Both Teams To Score,Yes,1.571,0,Totals,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+4,id100013150869217,2024-10-27,Both Teams To Score,No,2.25,0,Totals,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+5,id100013150869217,2024-10-27,Over Under Full Time,Over,1.025,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+6,id100013150869217,2024-10-27,Over Under Full Time,Under,17.0,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+7,id100013150869217,2024-10-27,Over Under Full Time,Over,1.181,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+8,id100013150869217,2024-10-27,Over Under Full Time,Under,4.5,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+9,id100013150869217,2024-10-27,Over Under Full Time,Over,2.5,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+10,id100013150869217,2024-10-27,Over Under Full Time,Under,1.5,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+11,id100013150869217,2024-10-27,Over Under Full Time,Over,4.5,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+12,id100013150869217,2024-10-27,Over Under Full Time,Under,1.181,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+13,id100013150869217,2024-10-27,Over Under Full Time,Over,10.0,5.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+14,id100013150869217,2024-10-27,Over Under Full Time,Under,1.062,5.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+15,id100013150869217,2024-10-27,Over Under Full Time,Over,19.0,6.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+16,id100013150869217,2024-10-27,Over Under Full Time,Under,1.02,6.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+17,id100013150869217,2024-10-27,Over Under Full Time,Over,41.0,7.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+18,id100013150869217,2024-10-27,Over Under Full Time,Under,1.004,7.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+19,id100013150869217,2024-10-27,Asian Handicap,1,1.975,0.00,Asian Handicap,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+20,id100013150869217,2024-10-27,Asian Handicap,2,1.875,0.00,Asian Handicap,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+21,id100013150869217,2024-10-27,Asian Over Under,Over,2.05,3,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+22,id100013150869217,2024-10-27,Asian Over Under,Under,1.8,3,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+23,id100013150869217,2024-10-27,First Half Result,1,3.1,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+24,id100013150869217,2024-10-27,First Half Result,X,2.3,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+25,id100013150869217,2024-10-27,First Half Result,2,3.0,0,3Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+26,id100013150869217,2024-10-27,Draw No Bet,1,1.833,0,2Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+27,id100013150869217,2024-10-27,Draw No Bet,2,1.833,0,2Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+28,id100013150869217,2024-10-27,Odd Even Full Time,Odd,1.9,0,2Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+29,id100013150869217,2024-10-27,Odd Even Full Time,Even,1.95,0,2Way,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+30,id100013150869217,2024-10-27,Over Under Team 1,Over,1.222,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+31,id100013150869217,2024-10-27,Over Under Team 1,Under,4.0,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+32,id100013150869217,2024-10-27,Over Under Team 1,Over,2.1,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+33,id100013150869217,2024-10-27,Over Under Team 1,Under,1.666,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+34,id100013150869217,2024-10-27,Over Under Team 1,Over,4.5,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+35,id100013150869217,2024-10-27,Over Under Team 1,Under,1.181,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+36,id100013150869217,2024-10-27,Over Under Team 1,Over,11.0,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+37,id100013150869217,2024-10-27,Over Under Team 1,Under,1.05,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+38,id100013150869217,2024-10-27,Over Under Team 1,Over,29.0,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+39,id100013150869217,2024-10-27,Over Under Team 1,Under,1.006,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+40,id100013150869217,2024-10-27,Over Under Team 2,Over,1.222,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+41,id100013150869217,2024-10-27,Over Under Team 2,Under,4.0,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+42,id100013150869217,2024-10-27,Over Under Team 2,Over,2.0,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+43,id100013150869217,2024-10-27,Over Under Team 2,Under,1.727,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+44,id100013150869217,2024-10-27,Over Under Team 2,Over,4.333,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+45,id100013150869217,2024-10-27,Over Under Team 2,Under,1.2,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+46,id100013150869217,2024-10-27,Over Under Team 2,Over,11.0,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+47,id100013150869217,2024-10-27,Over Under Team 2,Under,1.05,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+48,id100013150869217,2024-10-27,Over Under Team 2,Over,26.0,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+49,id100013150869217,2024-10-27,Over Under Team 2,Under,1.01,4.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+50,id100013150869217,2024-10-27,Over Under First Half,Over,1.3,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+51,id100013150869217,2024-10-27,Over Under First Half,Under,3.4,0.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+52,id100013150869217,2024-10-27,Over Under First Half,Over,2.5,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+53,id100013150869217,2024-10-27,Over Under First Half,Under,1.5,1.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+54,id100013150869217,2024-10-27,Over Under First Half,Over,6.0,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+55,id100013150869217,2024-10-27,Over Under First Half,Under,1.125,2.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+56,id100013150869217,2024-10-27,Over Under First Half,Over,17.0,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+57,id100013150869217,2024-10-27,Over Under First Half,Under,1.025,3.5,Over/Under,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+58,id100013150869217,2024-10-27,Both Teams To Score First Half,Yes,3.75,0,Score,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+59,id100013150869217,2024-10-27,Both Teams To Score First Half,No,1.25,0,Score,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+60,id100013150869217,2024-10-27,Both Teams To Score Second Half,Yes,2.75,0,Score,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+61,id100013150869217,2024-10-27,Both Teams To Score Second Half,No,1.4,0,Score,bet365,id100013150869217,MVV Maastricht,Helmond Sport
+62,id100003750868145,2024-10-27,Full Time Result,1,1.222,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+63,id100003750868145,2024-10-27,Full Time Result,X,7.0,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+64,id100003750868145,2024-10-27,Full Time Result,2,11.0,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+65,id100003750868145,2024-10-27,Both Teams To Score,Yes,1.909,0,Totals,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+66,id100003750868145,2024-10-27,Both Teams To Score,No,1.909,0,Totals,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+67,id100003750868145,2024-10-27,Over Under Full Time,Over,1.015,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+68,id100003750868145,2024-10-27,Over Under Full Time,Under,21.0,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+69,id100003750868145,2024-10-27,Over Under Full Time,Over,1.111,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+70,id100003750868145,2024-10-27,Over Under Full Time,Under,6.5,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+71,id100003750868145,2024-10-27,Over Under Full Time,Over,2.0,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+72,id100003750868145,2024-10-27,Over Under Full Time,Under,1.727,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+73,id100003750868145,2024-10-27,Over Under Full Time,Over,3.4,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+74,id100003750868145,2024-10-27,Over Under Full Time,Under,1.3,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+75,id100003750868145,2024-10-27,Over Under Full Time,Over,6.0,5.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+76,id100003750868145,2024-10-27,Over Under Full Time,Under,1.125,5.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+77,id100003750868145,2024-10-27,Over Under Full Time,Over,13.0,6.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+78,id100003750868145,2024-10-27,Over Under Full Time,Under,1.04,6.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+79,id100003750868145,2024-10-27,Over Under Full Time,Over,23.0,7.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+80,id100003750868145,2024-10-27,Over Under Full Time,Under,1.012,7.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+81,id100003750868145,2024-10-27,Over Under Full Time,Over,51.0,8.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+82,id100003750868145,2024-10-27,Over Under Full Time,Under,1.002,8.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+83,id100003750868145,2024-10-27,Asian Handicap,1,2.05,-2.00,Asian Handicap,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+84,id100003750868145,2024-10-27,Asian Handicap,2,1.85,-2.00,Asian Handicap,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+85,id100003750868145,2024-10-27,Asian Handicap,1,1.85,-1.75,Asian Handicap,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+86,id100003750868145,2024-10-27,Asian Handicap,2,2.05,-1.75,Asian Handicap,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+87,id100003750868145,2024-10-27,First Half Result,1,1.615,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+88,id100003750868145,2024-10-27,First Half Result,X,2.875,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+89,id100003750868145,2024-10-27,First Half Result,2,8.5,0,3Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+90,id100003750868145,2024-10-27,Draw No Bet,1,1.083,0,2Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+91,id100003750868145,2024-10-27,Draw No Bet,2,8.0,0,2Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+92,id100003750868145,2024-10-27,Odd Even Full Time,Odd,1.925,0,2Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+93,id100003750868145,2024-10-27,Odd Even Full Time,Even,1.925,0,2Way,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+94,id100003750868145,2024-10-27,Over Under Team 1,Over,1.04,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+95,id100003750868145,2024-10-27,Over Under Team 1,Under,13.0,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+96,id100003750868145,2024-10-27,Over Under Team 1,Over,1.25,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+97,id100003750868145,2024-10-27,Over Under Team 1,Under,3.75,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+98,id100003750868145,2024-10-27,Over Under Team 1,Over,1.8,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+99,id100003750868145,2024-10-27,Over Under Team 1,Under,1.909,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+100,id100003750868145,2024-10-27,Over Under Team 1,Over,3.0,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+101,id100003750868145,2024-10-27,Over Under Team 1,Under,1.363,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+102,id100003750868145,2024-10-27,Over Under Team 1,Over,6.0,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+103,id100003750868145,2024-10-27,Over Under Team 1,Under,1.125,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+104,id100003750868145,2024-10-27,Over Under Team 1,Over,13.0,5.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+105,id100003750868145,2024-10-27,Over Under Team 1,Under,1.04,5.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+106,id100003750868145,2024-10-27,Over Under Team 1,Over,26.0,6.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+107,id100003750868145,2024-10-27,Over Under Team 1,Under,1.01,6.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+108,id100003750868145,2024-10-27,Over Under Team 1,Over,51.0,7.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+109,id100003750868145,2024-10-27,Over Under Team 1,Under,1.002,7.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+110,id100003750868145,2024-10-27,Over Under Team 2,Over,1.727,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+111,id100003750868145,2024-10-27,Over Under Team 2,Under,2.0,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+112,id100003750868145,2024-10-27,Over Under Team 2,Over,5.0,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+113,id100003750868145,2024-10-27,Over Under Team 2,Under,1.166,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+114,id100003750868145,2024-10-27,Over Under Team 2,Over,17.0,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+115,id100003750868145,2024-10-27,Over Under Team 2,Under,1.025,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+116,id100003750868145,2024-10-27,Over Under Team 2,Over,51.0,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+117,id100003750868145,2024-10-27,Over Under Team 2,Under,1.002,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+118,id100003750868145,2024-10-27,Over Under First Half,Over,1.222,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+119,id100003750868145,2024-10-27,Over Under First Half,Under,4.0,0.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+120,id100003750868145,2024-10-27,Over Under First Half,Over,2.0,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+121,id100003750868145,2024-10-27,Over Under First Half,Under,1.727,1.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+122,id100003750868145,2024-10-27,Over Under First Half,Over,4.333,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+123,id100003750868145,2024-10-27,Over Under First Half,Under,1.2,2.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+124,id100003750868145,2024-10-27,Over Under First Half,Over,11.0,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+125,id100003750868145,2024-10-27,Over Under First Half,Under,1.05,3.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+126,id100003750868145,2024-10-27,Over Under First Half,Over,26.0,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+127,id100003750868145,2024-10-27,Over Under First Half,Under,1.01,4.5,Over/Under,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+128,id100003750868145,2024-10-27,Both Teams To Score First Half,Yes,4.333,0,Score,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+129,id100003750868145,2024-10-27,Both Teams To Score First Half,No,1.2,0,Score,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+130,id100003750868145,2024-10-27,Both Teams To Score Second Half,Yes,3.4,0,Score,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+131,id100003750868145,2024-10-27,Both Teams To Score Second Half,No,1.3,0,Score,bet365,id100003750868145,FC Twente Enschede,Heracles Almelo
+132,id100003750868147,2024-10-27,Full Time Result,1,1.181,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+133,id100003750868147,2024-10-27,Full Time Result,X,7.5,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+134,id100003750868147,2024-10-27,Full Time Result,2,13.0,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+135,id100003750868147,2024-10-27,Both Teams To Score,Yes,2.2,0,Totals,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+136,id100003750868147,2024-10-27,Both Teams To Score,No,1.615,0,Totals,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+137,id100003750868147,2024-10-27,Over Under Full Time,Over,1.025,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+138,id100003750868147,2024-10-27,Over Under Full Time,Under,17.0,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+139,id100003750868147,2024-10-27,Over Under Full Time,Over,1.142,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+140,id100003750868147,2024-10-27,Over Under Full Time,Under,5.5,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+141,id100003750868147,2024-10-27,Over Under Full Time,Over,2.2,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+142,id100003750868147,2024-10-27,Over Under Full Time,Under,1.615,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+143,id100003750868147,2024-10-27,Over Under Full Time,Over,3.75,4.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+144,id100003750868147,2024-10-27,Over Under Full Time,Under,1.25,4.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+145,id100003750868147,2024-10-27,Over Under Full Time,Over,7.0,5.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+146,id100003750868147,2024-10-27,Over Under Full Time,Under,1.1,5.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+147,id100003750868147,2024-10-27,Over Under Full Time,Over,15.0,6.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+148,id100003750868147,2024-10-27,Over Under Full Time,Under,1.03,6.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+149,id100003750868147,2024-10-27,Over Under Full Time,Over,29.0,7.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+150,id100003750868147,2024-10-27,Over Under Full Time,Under,1.006,7.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+151,id100003750868147,2024-10-27,Over Under Full Time,Over,51.0,8.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+152,id100003750868147,2024-10-27,Over Under Full Time,Under,1.002,8.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+153,id100003750868147,2024-10-27,Asian Handicap,1,1.95,-2.00,Asian Handicap,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+154,id100003750868147,2024-10-27,Asian Handicap,2,1.95,-2.00,Asian Handicap,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+155,id100003750868147,2024-10-27,First Half Result,1,1.571,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+156,id100003750868147,2024-10-27,First Half Result,X,2.875,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+157,id100003750868147,2024-10-27,First Half Result,2,11.0,0,3Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+158,id100003750868147,2024-10-27,Draw No Bet,1,1.05,0,2Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+159,id100003750868147,2024-10-27,Draw No Bet,2,11.0,0,2Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+160,id100003750868147,2024-10-27,Odd Even Full Time,Odd,1.9,0,2Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+161,id100003750868147,2024-10-27,Odd Even Full Time,Even,1.95,0,2Way,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+162,id100003750868147,2024-10-27,Over Under Team 1,Over,1.05,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+163,id100003750868147,2024-10-27,Over Under Team 1,Under,11.0,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+164,id100003750868147,2024-10-27,Over Under Team 1,Over,1.25,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+165,id100003750868147,2024-10-27,Over Under Team 1,Under,3.75,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+166,id100003750868147,2024-10-27,Over Under Team 1,Over,1.833,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+167,id100003750868147,2024-10-27,Over Under Team 1,Under,1.833,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+168,id100003750868147,2024-10-27,Over Under Team 1,Over,3.25,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+169,id100003750868147,2024-10-27,Over Under Team 1,Under,1.333,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+170,id100003750868147,2024-10-27,Over Under Team 1,Over,6.0,4.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+171,id100003750868147,2024-10-27,Over Under Team 1,Under,1.125,4.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+172,id100003750868147,2024-10-27,Over Under Team 1,Over,13.0,5.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+173,id100003750868147,2024-10-27,Over Under Team 1,Under,1.04,5.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+174,id100003750868147,2024-10-27,Over Under Team 1,Over,26.0,6.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+175,id100003750868147,2024-10-27,Over Under Team 1,Under,1.01,6.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+176,id100003750868147,2024-10-27,Over Under Team 1,Over,51.0,7.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+177,id100003750868147,2024-10-27,Over Under Team 1,Under,1.002,7.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+178,id100003750868147,2024-10-27,Over Under Team 2,Over,2.0,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+179,id100003750868147,2024-10-27,Over Under Team 2,Under,1.727,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+180,id100003750868147,2024-10-27,Over Under Team 2,Over,7.0,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+181,id100003750868147,2024-10-27,Over Under Team 2,Under,1.1,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+182,id100003750868147,2024-10-27,Over Under Team 2,Over,26.0,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+183,id100003750868147,2024-10-27,Over Under Team 2,Under,1.01,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+184,id100003750868147,2024-10-27,Over Under First Half,Over,1.25,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+185,id100003750868147,2024-10-27,Over Under First Half,Under,3.75,0.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+186,id100003750868147,2024-10-27,Over Under First Half,Over,2.1,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+187,id100003750868147,2024-10-27,Over Under First Half,Under,1.666,1.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+188,id100003750868147,2024-10-27,Over Under First Half,Over,5.0,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+189,id100003750868147,2024-10-27,Over Under First Half,Under,1.166,2.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+190,id100003750868147,2024-10-27,Over Under First Half,Over,13.0,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+191,id100003750868147,2024-10-27,Over Under First Half,Under,1.04,3.5,Over/Under,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+192,id100003750868147,2024-10-27,Both Teams To Score First Half,Yes,5.5,0,Score,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+193,id100003750868147,2024-10-27,Both Teams To Score First Half,No,1.142,0,Score,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+194,id100003750868147,2024-10-27,Both Teams To Score Second Half,Yes,4.0,0,Score,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+195,id100003750868147,2024-10-27,Both Teams To Score Second Half,No,1.222,0,Score,bet365,id100003750868147,AFC Ajax,Willem II Tilburg
+196,id100003750868143,2024-10-27,Full Time Result,1,1.666,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+197,id100003750868143,2024-10-27,Full Time Result,X,3.9,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+198,id100003750868143,2024-10-27,Full Time Result,2,4.75,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+199,id100003750868143,2024-10-27,Both Teams To Score,Yes,1.666,0,Totals,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+200,id100003750868143,2024-10-27,Both Teams To Score,No,2.1,0,Totals,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+201,id100003750868143,2024-10-27,Over Under Full Time,Over,1.03,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+202,id100003750868143,2024-10-27,Over Under Full Time,Under,15.0,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+203,id100003750868143,2024-10-27,Over Under Full Time,Over,1.2,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+204,id100003750868143,2024-10-27,Over Under Full Time,Under,4.333,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+205,id100003750868143,2024-10-27,Over Under Full Time,Over,2.625,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+206,id100003750868143,2024-10-27,Over Under Full Time,Under,1.444,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+207,id100003750868143,2024-10-27,Over Under Full Time,Over,4.5,4.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+208,id100003750868143,2024-10-27,Over Under Full Time,Under,1.181,4.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+209,id100003750868143,2024-10-27,Over Under Full Time,Over,10.0,5.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+210,id100003750868143,2024-10-27,Over Under Full Time,Under,1.062,5.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+211,id100003750868143,2024-10-27,Over Under Full Time,Over,19.0,6.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+212,id100003750868143,2024-10-27,Over Under Full Time,Under,1.02,6.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+213,id100003750868143,2024-10-27,Over Under Full Time,Over,41.0,7.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+214,id100003750868143,2024-10-27,Over Under Full Time,Under,1.004,7.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+215,id100003750868143,2024-10-27,Asian Handicap,1,1.9,-0.75,Asian Handicap,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+216,id100003750868143,2024-10-27,Asian Handicap,2,2.0,-0.75,Asian Handicap,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+217,id100003750868143,2024-10-27,First Half Result,1,2.25,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+218,id100003750868143,2024-10-27,First Half Result,X,2.375,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+219,id100003750868143,2024-10-27,First Half Result,2,4.75,0,3Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+220,id100003750868143,2024-10-27,Draw No Bet,1,1.285,0,2Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+221,id100003750868143,2024-10-27,Draw No Bet,2,3.5,0,2Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+222,id100003750868143,2024-10-27,Odd Even Full Time,Odd,1.975,0,2Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+223,id100003750868143,2024-10-27,Odd Even Full Time,Even,1.875,0,2Way,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+224,id100003750868143,2024-10-27,Over Under Team 1,Over,1.125,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+225,id100003750868143,2024-10-27,Over Under Team 1,Under,6.0,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+226,id100003750868143,2024-10-27,Over Under Team 1,Over,1.615,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+227,id100003750868143,2024-10-27,Over Under Team 1,Under,2.2,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+228,id100003750868143,2024-10-27,Over Under Team 1,Over,3.0,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+229,id100003750868143,2024-10-27,Over Under Team 1,Under,1.363,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+230,id100003750868143,2024-10-27,Over Under Team 1,Over,6.5,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+231,id100003750868143,2024-10-27,Over Under Team 1,Under,1.111,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+232,id100003750868143,2024-10-27,Over Under Team 1,Over,17.0,4.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+233,id100003750868143,2024-10-27,Over Under Team 1,Under,1.025,4.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+234,id100003750868143,2024-10-27,Over Under Team 1,Over,34.0,5.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+235,id100003750868143,2024-10-27,Over Under Team 1,Under,1.005,5.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+236,id100003750868143,2024-10-27,Over Under Team 2,Over,1.444,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+237,id100003750868143,2024-10-27,Over Under Team 2,Under,2.625,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+238,id100003750868143,2024-10-27,Over Under Team 2,Over,3.25,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+239,id100003750868143,2024-10-27,Over Under Team 2,Under,1.333,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+240,id100003750868143,2024-10-27,Over Under Team 2,Over,9.0,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+241,id100003750868143,2024-10-27,Over Under Team 2,Under,1.071,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+242,id100003750868143,2024-10-27,Over Under Team 2,Over,26.0,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+243,id100003750868143,2024-10-27,Over Under Team 2,Under,1.01,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+244,id100003750868143,2024-10-27,Over Under First Half,Over,1.3,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+245,id100003750868143,2024-10-27,Over Under First Half,Under,3.4,0.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+246,id100003750868143,2024-10-27,Over Under First Half,Over,2.5,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+247,id100003750868143,2024-10-27,Over Under First Half,Under,1.5,1.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+248,id100003750868143,2024-10-27,Over Under First Half,Over,6.0,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+249,id100003750868143,2024-10-27,Over Under First Half,Under,1.125,2.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+250,id100003750868143,2024-10-27,Over Under First Half,Over,17.0,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+251,id100003750868143,2024-10-27,Over Under First Half,Under,1.025,3.5,Over/Under,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+252,id100003750868143,2024-10-27,Both Teams To Score First Half,Yes,4.0,0,Score,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+253,id100003750868143,2024-10-27,Both Teams To Score First Half,No,1.222,0,Score,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+254,id100003750868143,2024-10-27,Both Teams To Score Second Half,Yes,3.0,0,Score,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles
+255,id100003750868143,2024-10-27,Both Teams To Score Second Half,No,1.363,0,Score,bet365,id100003750868143,AZ Alkmaar,Go Ahead Eagles

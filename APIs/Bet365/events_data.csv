@@ -1,0 +1,470 @@
+categoryName,tournamentName,eventId,participant1,participant2,date,time,eventStatus
+Algeria,Ligue 2,id101432154457981,Skaf Khemis Miliana,NA Hussein Dey,2024-10-27,14:00:00,pre-game
+Algeria,Ligue 2,id101432154457979,MC Saida,Js El Biar,2024-10-27,14:00:00,pre-game
+Argentina,Liga Profesional,id100015546657085,Platense,Argentinos Juniors,2024-10-27,18:00:00,pre-game
+Argentina,Liga Profesional,id100015546657091,Banfield,Racing Club Avellaneda,2024-10-27,19:15:00,pre-game
+Argentina,Liga Profesional,id100015546657093,Instituto AC Cordoba,Rosario Central,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657087,Velez Sarsfield,	Belgrano,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657071,Huracan,Central Cordoba,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657073,Gimnasia,Union de Santa Fe,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657079,Atletico Tucuman,Lanus,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657077,Independiente,Godoy Cruz,2024-10-27,21:00:00,pre-game
+Argentina,Liga Profesional,id100015546657081,Boca Juniors,Riestra,2024-10-27,22:00:00,pre-game
+Argentina,Liga Profesional,id100015546657083,Talleres,Tigre,2024-10-28,00:15:00,pre-game
+Argentina,Primera B,id100134750836225,Villa San Carlos,Flandria,2024-10-27,18:00:00,pre-game
+Argentina,Primera B,id100134750836223,Sportivo Italiano,CS Dock Sud,2024-10-27,18:00:00,pre-game
+Argentina,Primera B,id100134750836219,CSYD Liniers,UAI Urquiza,2024-10-27,18:00:00,pre-game
+Argentina,Primera B,id100134750836089,CA Ferrocarril Midland,Deportivo Merlo,2024-10-27,18:00:00,pre-game
+Argentina,Primera B,id100134750836051,Villa Dalmine,Canuelas FC,2024-10-27,18:00:00,pre-game
+Argentina,Primera C,id102617446931817,Berazategui,Deportivo Espanol,2024-10-27,16:05:00,pre-game
+Argentina,Primera C,id102617446931833,CA Central Cordoba Rosario,CA Puerto Nuevo,2024-10-27,18:00:00,pre-game
+Argentina,Primera Nacional,id100070346929801,CA Agropecuario,Tristan Suarez,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929807,Arsenal de Sarandi,CA Alvarado del Plata,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929817,Quilmes AC,San Miguel,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929811,Club Atletico Chacarita Juniors,Gimnasia Jujuy,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929805,San Martin de San Juan,Racing de Cordoba,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929813,CA Estudiantes Caseros,Deportivo Maipu,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929815,Talleres Remedios,Ferro Carril Oeste,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929803,Guillermo Brown,CA Patronato Parana,2024-10-27,18:05:00,pre-game
+Argentina,Primera Nacional,id100070346929837,Club Atletico Atlanta,CA All Boys,2024-10-27,18:05:00,pre-game
+Argentina,Torneo Federal A,id103010654754699,Germinal,Ciudad de Bolivar,2024-10-27,18:00:00,pre-game
+Argentina,Torneo Federal A,id103010654754703,Sol de America,Santamarina Tandil,2024-10-27,19:30:00,pre-game
+Argentina,Torneo Federal A,id103010654754753,CD Argentino Monte Maiz,Villa Mitre,2024-10-27,19:35:00,pre-game
+Austria,Bundesliga,id100004551143475,Wolfsberger AC,FC Red Bull Salzburg,2024-10-27,13:30:00,pre-game
+Austria,Bundesliga,id100004551143481,Grazer AK,Rapid Vienna,2024-10-27,13:30:00,pre-game
+Austria,Bundesliga,id100004551143473,Linzer ASK,SK Sturm Graz,2024-10-27,16:00:00,pre-game
+Azerbaijan,Premier League,id100070951803535,Sabah Masazir,Neftchi Baku PFC,2024-10-27,13:00:00,pre-game
+Azerbaijan,Premier League,id100070951803531,Qarabag FK,Shamakhi FK,2024-10-27,15:00:00,pre-game
+Bahrain,Premier League,id100084653298815,Al-Khaldiya SC,East Riffa,2024-10-27,16:00:00,pre-game
+Belarus,Vysshaya Liga,id100016948172057,FC Vitebsk,FC Gomel,2024-10-27,13:00:00,pre-game
+Belarus,Vysshaya Liga,id100016948172053,FC Shakhter Soligorsk,FC Minsk,2024-10-27,15:00:00,pre-game
+Belgium,Challenger Pro League,id100000954760029,KAS Eupen,KSC Lokeren Temse,2024-10-27,18:15:00,pre-game
+Belgium,Nationale 1 ACFF,id104337351572099,Ur Namur,Union Saint Gilloise B,2024-10-27,14:00:00,pre-game
+Belgium,Nationale 1 VV,id104337151570151,KVK Tienen,KSK Heist,2024-10-27,14:00:00,pre-game
+Belgium,Nationale 1 VV,id104337151570149,Cercle Brugge,Oud-Heverlee Leuven,2024-10-27,14:00:00,pre-game
+Belgium,Nationale 1 VV,id104337151570147,Royal Cappellen FC,Kvk Ninove,2024-10-27,14:00:00,pre-game
+Belgium,Pro League,id100003850714997,Club Brugge KV,RSC Anderlecht,2024-10-27,12:30:00,pre-game
+Belgium,Pro League,id100003850715003,Royal Antwerp FC,Standard Liège,2024-10-27,15:00:00,pre-game
+Belgium,Pro League,id100003850715001,KAA Gent,KRC Genk,2024-10-27,17:30:00,pre-game
+Belgium,Pro League,id100003850714999,Union Saint-Gilloise,Cercle Brugge KSV,2024-10-27,18:15:00,pre-game
+Bolivia,Division Profesional,id103398053070737,CD Real Tomayapo,Always Ready,2024-10-27,19:00:00,pre-game
+Bolivia,Division Profesional,id103398053070739,Guabira Montero,Independiente Petrolero,2024-10-27,21:30:00,pre-game
+Bolivia,Division Profesional,id103398053070741,Jorge Wilstermann,CA Nacional Potosi,2024-10-27,23:00:00,pre-game
+Botswana,Premier League,id102057454645995,Matebele FC,Jwaneng Galaxy FC,2024-10-27,14:00:00,pre-game
+Botswana,Premier League,id102057454645999,Tafic FC,Orapa United,2024-10-27,14:00:00,pre-game
+Brazil,"Alagoano, Serie B U23",id104005354571077,EC Guarany AL,Igaci FC AL,2024-10-27,18:00:00,pre-game
+Brazil,Copa Santa Catarina,id104065354805907,CN Marcilio Dias SC,Hercilio Luz FC SC,2024-10-27,19:00:00,pre-game
+Brazil,"Goiano, Women",id104065151611989,Alianca FC GO,AC Goianiense GO,2024-10-27,12:30:00,pre-game
+Brazil,"Mineiro, Women",id104080553813781,Cruzeiro EC MG,America MG,2024-10-27,18:00:00,pre-game
+Canada,Canadian Premier League,id102843254857647,Atletico Ottawa,York United FC,2024-10-27,17:00:00,pre-game
+Canada,Canadian Premier League,id102843254714929,Forge FC,Cavalry FC,2024-10-27,20:00:00,pre-game
+Colombia,"Primera A, Clausura",id102707254726885,Fortaleza CEIF,Atletico Nacional Medellin,2024-10-27,19:00:00,pre-game
+Colombia,"Primera A, Clausura",id102707251468929,Deportes Tolima,Envigado FC,2024-10-27,21:00:00,pre-game
+Colombia,"Primera A, Clausura",id102707254726891,Deportivo Cali,Atletico Bucaramanga,2024-10-27,21:10:00,pre-game
+Colombia,"Primera A, Clausura",id102707254726895,Club Atletico Junior,America de Cali,2024-10-27,23:20:00,pre-game
+Costa Rica,"Liga de Ascenso, Apertura",id102776751405675,Inter San Carlos,Quepos Cambute,2024-10-27,17:00:00,pre-game
+Costa Rica,"Liga de Ascenso, Apertura",id102776751405677,AD Sarchi,Adr Jicaral,2024-10-27,17:00:00,pre-game
+Costa Rica,"Liga de Ascenso, Apertura",id102776751405175,AD Cariari Pococi,Futbol Consultants Desamparados,2024-10-27,19:00:00,pre-game
+Costa Rica,"Primera Division, Apertura",id102709250915985,AD Guanacasteca,Municipal Liberia,2024-10-27,21:00:00,pre-game
+Costa Rica,"Primera Division, Apertura",id102709250915991,Sporting San Jose,CS Herediano,2024-10-27,22:00:00,pre-game
+Croatia,HNL,id100017050603181,GNK Dinamo Zagreb,NK Osijek,2024-10-27,15:00:00,pre-game
+Croatia,HNL,id100017050603179,HNK Gorica,NK Istra 1961,2024-10-27,17:30:00,pre-game
+Croatia,Prva NL,id100072451123099,HNK Vukovar 1991,NK Sesvete,2024-10-27,12:50:00,pre-game
+Croatia,Prva NL,id100072451123107,NK Croatia Zmijavci,Orijent 1919 Rijeka,2024-10-27,14:00:00,pre-game
+Cyprus,1st Division,id100017151251707,Omonia Aradippou,Apollon Limassol,2024-10-27,15:00:00,pre-game
+Cyprus,1st Division,id100017151251709,AEL Limassol,AEK Larnaca,2024-10-27,17:00:00,pre-game
+Czechia,1. Liga,id100017250936339,SK Slavia Praha,FK Dukla Prague,2024-10-27,14:30:00,pre-game
+Czechia,1. Liga,id100017250936343,FK Mlada Boleslav,MFK Karvina,2024-10-27,14:30:00,pre-game
+Czechia,1. Liga,id100017250936347,FC Viktoria Plzen,AC Sparta Praha,2024-10-27,17:30:00,pre-game
+Czechia,CFL,id101415151248583,Sokol Hostoun,Bohemians Prague 1905 B,2024-10-27,13:30:00,pre-game
+Czechia,CFL,id101415151248589,FA Povltavska,FC Chomutov,2024-10-27,13:30:00,pre-game
+Czechia,Divize C,id104073151249701,Rmsk Cidlina,MFk Chrudim B,2024-10-27,13:30:00,pre-game
+Czechia,Divize C,id104073151249707,Horni Redice,Spartak Police Nad Metuji,2024-10-27,13:30:00,pre-game
+Czechia,Divize D,id104073351249975,SK Lisen B,Zdar Nad Sazavou,2024-10-27,13:00:00,pre-game
+Czechia,Divize E,id104073551249975,SK Lisen B,Zdar Nad Sazavou,2024-10-27,13:00:00,pre-game
+Czechia,Divize E,id104073551249707,Horni Redice,Spartak Police Nad Metuji,2024-10-27,13:30:00,pre-game
+Czechia,Divize E,id104073551250219,Tatran Vsechovice,1 HFK Olomouc,2024-10-27,13:30:00,pre-game
+Czechia,Divize E,id104073551249701,RSMK Cidlina,Chrudim B,2024-10-27,13:30:00,pre-game
+Czechia,Divize E,id104073551250225,Kozlovice,Tj Slovan Bzenec,2024-10-27,13:30:00,pre-game
+Czechia,FNL,id100020550939267,FK Varnsdorf,FC Sellier & Bellot Vlasim,2024-10-27,13:30:00,pre-game
+Czechia,MSFL,id101414751230855,TJ Start Brno,FK Blansko,2024-10-27,13:30:00,pre-game
+Denmark,1. Division,id100004750838191,Hobro IK,FC Fredericia,2024-10-27,14:00:00,pre-game
+Denmark,2nd Division,id100006551072105,Nykobing FC,Thisted FC,2024-10-27,14:00:00,pre-game
+Denmark,Superliga,id100003950606241,Vejle Boldklub,Lyngby BK,2024-10-27,13:00:00,pre-game
+Denmark,Superliga,id100003950606243,Viborg FF,Sonderjyske,2024-10-27,15:00:00,pre-game
+Denmark,Superliga,id100003950606237,FC Midtjylland,Aarhus GF,2024-10-27,17:00:00,pre-game
+Denmark Amateur,Danmarksserien,id103719551275385,Ringkoebing IF,Viby IF,2024-10-27,13:00:00,pre-game
+Denmark Amateur,Danmarksserien,id103719551275287,Esbjerg FB 2,B 1909 Odense,2024-10-27,13:00:00,pre-game
+Ecuador,LigaPro Primera A,id100024047344917,CSD Macara,Cumbaya,2024-10-27,18:00:00,pre-game
+Ecuador,LigaPro Primera A,id100024047344925,El Nacional,Orense,2024-10-27,20:30:00,pre-game
+Ecuador,LigaPro Primera A,id100024047344923,Barcelona Guayaquil,Delfin SC,2024-10-27,23:00:00,pre-game
+Egypt,2. Division A,id101949253800905,Tanta FC,Abo Qair Semads,2024-10-27,12:30:00,pre-game
+Egypt,2. Division A,id101949253800913,Gazl Kafr Eldwar,Kahrabaa Ismailia,2024-10-27,15:00:00,pre-game
+El Salvador,"Primera Division, Apertura",id102708851779377,CD Dragon,Alianza FC San Salvador,2024-10-27,21:00:00,pre-game
+El Salvador,"Primera Division, Apertura",id102708851779375,CD Fuerte San Francisco Morazan,CD. Cacahuatique,2024-10-27,21:00:00,pre-game
+El Salvador,"Primera Division, Apertura",id102708851779379,Once Deportivo de Ahuachapan,CD Luis Angel Firpo Usulutan,2024-10-27,21:00:00,pre-game
+El Salvador,"Primera Division, Reserves, Apertura",id103733151779375,CD Fuerte San Francisco Morazan,C.d. Cacahuatique,2024-10-27,21:00:00,pre-game
+El Salvador,"Primera Division, Reserves, Apertura",id103733151779377,CD Dragon,Alianza,2024-10-27,21:00:00,pre-game
+El Salvador,"Primera Division, Reserves, Apertura",id103733151779379,Once Municipal,CD Luis Angel Firpo,2024-10-27,21:00:00,pre-game
+England,Championship,id100001851095273,Norwich City,Middlesbrough FC,2024-10-27,15:00:00,pre-game
+England,Premier League,id100001750850135,Chelsea FC,Newcastle United,2024-10-27,14:00:00,pre-game
+England,Premier League,id100001750850145,West Ham United,Manchester United,2024-10-27,14:00:00,pre-game
+England,Premier League,id100001750850137,Crystal Palace FC,Tottenham Hotspur,2024-10-27,14:00:00,pre-game
+England,Premier League,id100001750850127,Arsenal FC,Liverpool FC,2024-10-27,16:30:00,pre-game
+Estonia,Esiliiga,id100067847099391,Viimsi JK,Tartu JK Welco,2024-10-27,15:00:00,pre-game
+Estonia,Premium Liiga,id100017847100211,JK Nomme Kalju,FC Levadia Tallin,2024-10-27,12:30:00,pre-game
+Ethiopia,Premier League,id103365654552499,Ethiopia Electricity,Hadiya Hosahina FC,2024-10-27,13:00:00,pre-game
+Ethiopia,Premier League,id103365654552503,Welayta Dicha,Shire Endaselassie FC,2024-10-27,16:00:00,pre-game
+Finland,Veikkausliiga,id100004154711425,FC Lahti,FF Jaro,2024-10-27,14:00:00,pre-game
+France,Ligue 1,id100003450955491,Olympique Lyonnais,AJ Auxerre,2024-10-27,13:00:00,pre-game
+France,Ligue 1,id100003450955485,OGC Nice,AS Monaco,2024-10-27,16:00:00,pre-game
+France,Ligue 1,id100003450955493,Montpellier HSC,Toulouse FC,2024-10-27,16:00:00,pre-game
+France,Ligue 1,id100003450955495,RC Strasbourg,FC Nantes,2024-10-27,16:00:00,pre-game
+France,Ligue 1,id100003450955489,Olympique Marseille,Paris Saint-Germain,2024-10-27,19:00:00,pre-game
+Georgia,Erovnuli Liga,id100070447116889,FC Gagra,Kolkheti Poti,2024-10-27,14:00:00,pre-game
+Germany,2. Bundesliga,id100004451269857,Eintracht Braunschweig,SC Preussen Münster,2024-10-27,12:30:00,pre-game
+Germany,2. Bundesliga,id100004451269855,1. FC Magdeburg,Hannover 96,2024-10-27,12:30:00,pre-game
+Germany,2. Bundesliga,id100004451269843,SV Darmstadt 98,SSV Ulm 1846,2024-10-27,12:30:00,pre-game
+Germany,3. Liga,id100049151446879,Energie Cottbus,TSV 1860 Munchen,2024-10-27,12:30:00,pre-game
+Germany,3. Liga,id100049151446867,VfB Stuttgart II,Erzgebirge Aue,2024-10-27,15:30:00,pre-game
+Germany,3. Liga,id100049151446865,SV Waldhof Mannheim,SV Wehen Wiesbaden,2024-10-27,18:30:00,pre-game
+Germany,Bundesliga,id100003551269133,VfL Bochum,FC Bayern Munchen,2024-10-27,14:30:00,pre-game
+Germany,Bundesliga,id100003551269129,1. FC Union Berlin,Eintracht Frankfurt,2024-10-27,16:30:00,pre-game
+Germany,Bundesliga,id100003551269113,1. FC Heidenheim,TSG 1899 Hoffenheim,2024-10-27,18:30:00,pre-game
+Germany Amateur,Hessenliga,id100018451538153,Hanauer SC 1960,VfB Marburg,2024-10-27,14:00:00,pre-game
+Germany Amateur,Oberliga Niederrhein,id100110351472985,TSV Meerbusch,Schwarz-Weiss Essen,2024-10-27,14:00:00,pre-game
+Germany Amateur,Oberliga Niederrhein,id100110351472987,Sportfreunde Baumberg,Mulheimer FC 97,2024-10-27,14:00:00,pre-game
+Germany Amateur,Oberliga Niederrhein,id100110351472991,SC Union Nettetal,FC Buderich 02,2024-10-27,14:15:00,pre-game
+Germany Amateur,Oberliga Niederrhein,id100110351472993,VFB 03 Hilden,VfB Homberg,2024-10-27,14:30:00,pre-game
+Germany Amateur,Oberliga Niederrhein,id100110351472995,SC St Tonis 1120,1. FC Kleve,2024-10-27,14:30:00,pre-game
+Germany Amateur,Oberliga Niedersachsen,id100081351775395,MTV Eintracht Celle,SV Meppen II,2024-10-27,13:00:00,pre-game
+Germany Amateur,Oberliga Niedersachsen,id100081351775411,Heeslinger SC,FSV Schoningen 2011,2024-10-27,13:00:00,pre-game
+Germany Amateur,Oberliga Niedersachsen,id100081351775413,1. FC Germania EgestorfLangreder,Arminia Hannover,2024-10-27,14:00:00,pre-game
+Germany Amateur,Oberliga NOFV North,id100014551276899,TSG Neustrelitz,BSV Eintracht Mahlsdorf,2024-10-27,12:30:00,pre-game
+Germany Amateur,Oberliga NOFV North,id100014551276901,SV Sparta Lichtenberg,SV Tasmania Berlin,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Bavaria,id100108551625097,FC Teutonia Ottensen 1905,FC Phonix Lubeck,2024-10-27,12:30:00,pre-game
+Germany Amateur,Regionalliga Bavaria,id100108551469869,Eintracht Trier,Stuttgarter Kickers,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Bavaria,id100108551625101,TSV Havelse,Blau-Weiss Lohne,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Bavaria,id100108551625103,Bremer SV 1906,SV Todesfelde,2024-10-27,14:00:00,pre-game
+Germany Amateur,Regionalliga North,id100004251625097,FC Teutonia Ottensen 1905,FC Phonix Lubeck,2024-10-27,12:30:00,pre-game
+Germany Amateur,Regionalliga North,id100004251469869,Eintracht Trier,Stuttgarter Kickers,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga North,id100004251625101,TSV Havelse,Blau-Weiss Lohne,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga North,id100004251625103,Bremer SV 1906,SV Todesfelde,2024-10-27,14:00:00,pre-game
+Germany Amateur,Regionalliga Northeast,id100108351625097,FC Teutonia Ottensen 1905,FC Phonix Lubeck,2024-10-27,12:30:00,pre-game
+Germany Amateur,Regionalliga Northeast,id100108351625101,TSV Havelse,Blau-Weiss Lohne,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Northeast,id100108351469869,Eintracht Trier,Stuttgarter Kickers,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Northeast,id100108351625103,Bremer SV 1906,SV Todesfelde,2024-10-27,14:00:00,pre-game
+Germany Amateur,Regionalliga Southwest,id100107951625097,FC Teutonia Ottensen 1905,FC Phonix Lubeck,2024-10-27,12:30:00,pre-game
+Germany Amateur,Regionalliga Southwest,id100107951625101,TSV Havelse,Blau-Weiss Lohne,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Southwest,id100107951469869,Eintracht Trier,Stuttgarter Kickers,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga Southwest,id100107951625103,Bremer SV 1906,SV Todesfelde,2024-10-27,14:00:00,pre-game
+Germany Amateur,Regionalliga West,id100049351625097,FC Teutonia Ottensen 1905,FC Phonix Lubeck,2024-10-27,12:30:00,pre-game
+Germany Amateur,Regionalliga West,id100049351469869,Eintracht Trier,Stuttgarter Kickers,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga West,id100049351625101,TSV Havelse,Blau-Weiss Lohne,2024-10-27,13:00:00,pre-game
+Germany Amateur,Regionalliga West,id100049351625103,Bremer SV 1906,SV Todesfelde,2024-10-27,14:00:00,pre-game
+Greece,Super League 2,id100018653473369,Ethnikos Neo Keramidi,Niki Volos,2024-10-27,13:00:00,pre-game
+Greece,Super League 2,id100018653473763,Ilioupoli,Kalamata,2024-10-27,13:00:00,pre-game
+Greece,Super League 2,id100018653473765,Panargiakos,Aigaleo,2024-10-27,13:00:00,pre-game
+Guatemala,Liga Nacional. Apertura,id102739651059723,CD Guastatoya,Antigua GFC,2024-10-27,21:00:00,pre-game
+Guatemala,Liga Nacional. Apertura,id102739651445141,Huehueteco Xinabajul,CSD Zacapa,2024-10-27,23:00:00,pre-game
+Honduras,"Liga Nacional, Apertura",id102741454552521,Olancho FC,CD Real Sociedad Tocoa,2024-10-27,23:15:00,pre-game
+Honduras,"Liga Nacional, Apertura",id102741454552513,CD Victoria La Ceiba,Juticalpa FC,2024-10-28,01:30:00,pre-game
+Hungary,NB I,id100018750937985,Paksi FC,Kecskemeti TE,2024-10-27,14:15:00,pre-game
+Hungary,NB I,id100018750937991,FC Gyori Eto,Ferencvarosi TC,2024-10-27,16:45:00,pre-game
+Hungary,NB II,id100133951356005,Soroksar SC,Ajka FC,2024-10-27,16:00:00,pre-game
+Hungary,NB II,id100133951356001,Csakvari TK,FC Tatabanya,2024-10-27,16:00:00,pre-game
+Hungary,NB II,id100133951356013,BVSC Zuglo,Budafoki MTE,2024-10-27,16:00:00,pre-game
+Iceland,Besta deild,id100018853721639,Vikingur Reykjavik,Breidablik Kopavogur,2024-10-27,14:00:00,pre-game
+India,Indian Super League,id100190053007801,Mumbai City FC,Odisha FC,2024-10-27,14:00:00,pre-game
+Indonesia,Liga 1,id100101552307637,Persik Kediri,Persib Bandung,2024-10-28,12:00:00,pre-game
+International,Int. Friendly Games W,id100085254672359,Costa Rica,Panama,2024-10-27,20:00:00,pre-game
+International,Int. Friendly Games W,id100085252253837,USA,Iceland,2024-10-27,21:30:00,pre-game
+Iran,Pro League,id100091553083127,Tractor Sport Club,Aluminium Arak,2024-10-27,13:30:00,pre-game
+Iran,Pro League,id100091553083129,Foolad KHouzestan FC,Sepahan SC,2024-10-27,14:45:00,pre-game
+Ireland,Premier Division,id100019246548087,Dundalk FC,Shamrock Rovers FC,2024-10-27,17:45:00,pre-game
+Italy,Primavera 1,id100234051828195,Hellas Verona U20,Atalanta BC U20,2024-10-27,14:00:00,pre-game
+Italy,Serie A,id100002351271593,SS Lazio,Genoa CFC,2024-10-27,14:00:00,pre-game
+Italy,Serie A,id100002351271595,AC Monza,Venezia FC,2024-10-27,14:00:00,pre-game
+Italy,Serie A,id100002351271591,Inter Milan,Juventus FC,2024-10-27,16:00:00,pre-game
+Italy,Serie A,id100002351271589,AC Fiorentina,AS Roma,2024-10-27,18:45:00,pre-game
+Italy,Serie B,id100005351467779,UC Sampdoria,Mantova FC,2024-10-27,14:00:00,pre-game
+Italy,Serie B,id100005351467767,Catanzaro,FC Sudtirol,2024-10-27,14:00:00,pre-game
+Italy,Serie B,id100005351467775,Frosinone,AC Pisa 1909,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group A",id102655451546829,US Albinoleffe,Calcio Padova,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group A",id102655451546833,Feralpisalo,Calcio Lecco 1912,2024-10-27,16:30:00,pre-game
+Italy,"Serie C, Group B",id102655651547665,US Citta Di Pontedera,Virtus Entella,2024-10-27,16:30:00,pre-game
+Italy,"Serie C, Group B",id102655651547663,Asd Pineto Calcio,Ascoli Calcio 1898,2024-10-27,16:30:00,pre-game
+Italy,"Serie C, Group B",id102655651547657,Lucchese Libertas 1905,Delfino Pescara,2024-10-27,18:30:00,pre-game
+Italy,"Serie C, Group C",id102655851548549,Taranto FC,Turris Calcio,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group C",id102655851548535,US Avellino,ACR Messina,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group C",id102655851548551,Team Altamura,Juventus Next Gen,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group C",id102655851548539,Calcio Catania,Latina Calcio,2024-10-27,14:00:00,pre-game
+Italy,"Serie C, Group C",id102655851548537,Benevento Calcio,Casertana FC,2024-10-27,14:30:00,pre-game
+Italy,"Serie C, Group C",id102655851548547,ASD Sorrento 1945,Calcio Foggia,2024-10-27,16:30:00,pre-game
+Italy,"Serie C, Group C",id102655851548543,Giugliano Calcio 1928,FC Crotone,2024-10-27,16:30:00,pre-game
+Italy,"Serie D, Group A",id100137452587629,ASD Borgaro 1965,AC Saluzzo Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group A",id100137452587641,Scd Ligorna 1922,Usd Lavagnese 1919,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group A",id100137452587627,Avc Vogherese 1919,Chisola Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group A",id100137452587637,AC Gozzano,Oltrepo FBC,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group A",id100137452587633,Citta Di Varese,Derthona FBC 1908 ASD,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588673,Ciliverghe Mazzano,Usd Breno,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588675,Club Milano Ssd,ASD Varesina Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588681,AC Magenta 1945,Sondrio Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588671,Usd Castellanzese 1921,Pro Palazzolo,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588687,AC Vigasio,Sangiuliano City FC,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588683,Acd Ospitaletto,Asd Sant Angelo,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588677,AC Crema 1908,AC Chievo Verona,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group B",id100137652588679,US Folgore Caratese,Asd Fanfulla,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group D",id100138052590721,Ravenna FC 1913,AC San Marino Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group D",id100138052590725,Asd Sasso Marconi 1924,Pistoiese FC,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group D",id100138052590717,Prato,Imolese Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group E",id100138252591523,US Grosseto,Sporting Trestina,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group E",id100138253226459,ASD San Donato Tavarnelle,AC Fulgens Foligno 1984,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group E",id100138252591531,ASD Seravezza Pozzi Calcio,USD Poggibonsi,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group F",id100138452592145,Roma City FC,Fermana FC,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group F",id100138452592135,Chieti FC 1922,Termoli,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group F",id100138452592137,Isernia FC 1928,US Sambenedettese,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group F",id100138452592139,Teramo Calcio,Asd Sora Calcio 1907,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group F",id100138452592141,FC Vigor Senigallia,US Civitanovese Ssd,2024-10-27,14:00:00,pre-game
+Italy,"Serie D, Group G",id100138652592753,Sassari Calcio Latte Dolce,Ilvamaddalena 1903,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group H",id100138852593645,Asd Ugento Calcio,Asd Real Acerrana 1926,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group H",id100138852593641,Nocerina,S.S.D. Casarano Calcio,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group H",id100138852593639,Matera Calcio,ASD Martina Calcio 1947,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group H",id100138852593963,AC Nardo,FBC Gravina,2024-10-27,13:30:00,pre-game
+Italy,"Serie D, Group I",id100139052594273,Reggina 1914,Asd Paterno Calcio,2024-10-27,13:30:00,pre-game
+Jamaica,Premier League,id100189253651151,Molynes,Humble Lions FC,2024-10-27,18:00:00,pre-game
+Jamaica,Premier League,id100189253651149,Dunbeholden FC,Harbour View FC,2024-10-27,20:00:00,pre-game
+Jamaica,Premier League,id100189253651155,Mount Pleasant FC,Tivoli Gardens,2024-10-27,20:15:00,pre-game
+Jamaica,Premier League,id100189253651153,Montego Bay United,Portmore United,2024-10-27,22:30:00,pre-game
+Jordan,Jordan 1st Division,id102407353392469,Sama,Al Baqaa,2024-10-27,12:30:00,pre-game
+Jordan,Jordan League,id100092953487497,Al Ahli Jordan,Al Hussein SC,2024-10-27,14:00:00,pre-game
+Jordan,Jordan League,id100092953487499,Al Wehdat SC,Al Aqaba,2024-10-27,16:45:00,pre-game
+Kazakhstan,Premier League,id100068248811793,FK Turan,Kaisar Kyzylorda,2024-10-27,13:00:00,pre-game
+Kenya,Premier League,id100164452323883,AFC Leopards SC,Mara Sugar,2024-10-27,13:00:00,pre-game
+Kuwait,Premier League,id100100254055131,Al-Fahaheel,Qadsia SC,2024-10-27,16:50:00,pre-game
+Latvia,1.Liga,id100067748585825,FK SmilteneBjss,SK Super Nova,2024-10-27,16:00:00,pre-game
+Latvia,Virsliga,id100019747928931,FS MettaLU,Rigas Futbola Skola,2024-10-27,14:00:00,pre-game
+Lithuania,A Lyga,id100019850911691,FK Suduva,FK Banga Gargzdai,2024-10-27,14:00:00,pre-game
+Lithuania,A Lyga,id100019850911693,FK Panevezys,FK Siauliai,2024-10-27,16:25:00,pre-game
+Malta,Premier League,id100062952307847,Naxxar Lions FC,Marsaxlokk FC,2024-10-27,15:00:00,pre-game
+Malta,Premier League,id100062952307849,Mosta FC,Zabbar Saint Patrick FC,2024-10-27,17:30:00,pre-game
+Mexico,"Liga de Expansion MX, Apertura",id102738251815893,Leones Negros UdeG,Club Celaya,2024-10-27,18:00:00,pre-game
+Mexico,"Liga de Expansion MX, Apertura",id102738251815895,Alebrijes de Oaxaca,Tepatitlan FC,2024-10-27,22:00:00,pre-game
+Mexico,"Liga MX, Apertura",id102746450728963,FC Juarez,Atletico San Luis,2024-10-28,00:00:00,pre-game
+Mexico,"Liga MX, Apertura",id102746450728961,Club Necaxa,Deportivo Toluca FC,2024-10-28,00:00:00,pre-game
+Mexico,"Liga MX, Apertura",id102746450728965,Club America,CF Monterrey,2024-10-28,02:05:00,pre-game
+Mexico,Liga Premier Serie A,id104053353129675,Montaneses FC,Deportivo Zitacuaro,2024-10-27,18:00:00,pre-game
+Mexico,Liga Premier Serie A,id104053353129667,Zacatepec FC,Gavilanes de Matamoros,2024-10-28,00:00:00,pre-game
+Mexico,Liga Premier Serie B,id104053553129675,Montaneses FC,Deportivo Zitacuaro,2024-10-27,18:00:00,pre-game
+Mexico,Liga Premier Serie B,id104053553129667,Zacatepec FC,Gavilanes de Matamoros,2024-10-28,00:00:00,pre-game
+Mexico,U23 Liga MX,id104038751229379,Necaxa U23,Deportivo Toluca U23,2024-10-27,15:00:00,pre-game
+Mexico,U23 Liga MX,id104038751229375,Club America U23,Rayados de Monterrey U23,2024-10-27,15:00:00,pre-game
+Mexico,U23 Liga MX,id104038751229377,FC Juarez U23,Atletico San Luis U23,2024-10-27,15:00:00,pre-game
+Moldova,Super Liga,id100068551485815,FC Sheriff Tiraspol,FC Zimbru Chisinau,2024-10-27,15:00:00,pre-game
+Montenegro,1. CFL,id100015451101929,FK Jedinstvo Bijelo Polje,FK Jezero Plav,2024-10-27,13:00:00,pre-game
+Montenegro,1. CFL,id100015451101923,FK Sutjeska Niksic,FK Bokelj Kotor,2024-10-27,15:00:00,pre-game
+Montenegro,1. CFL,id100015451101921,OFK Petrovac,FK Arsenal Tivat,2024-10-27,16:00:00,pre-game
+Montenegro,1. CFL,id100015451101927,FK Decic Tuzi,FK Otrant-Olympic Ulcinj,2024-10-27,17:00:00,pre-game
+Montenegro,1. CFL,id100015451101925,FK Buducnost,FK Mornar Bar,2024-10-27,19:00:00,pre-game
+Morocco,Botola Pro D1,id100093754457071,CR Khemis Zemamra,Fus Fath Union Sportive Rabat,2024-10-27,15:00:00,pre-game
+Morocco,Botola Pro D1,id100093754457073,JS Soualem Riadi Salmi,Ittihad Tanger,2024-10-27,17:00:00,pre-game
+Morocco,Botola Pro D2,id101949654603605,Olympique Club of Khouribga,US Yacoub Mansour,2024-10-27,18:00:00,pre-game
+Netherlands,Eerste Divisie,id100013150869217,MVV Maastricht,Helmond Sport,2024-10-27,15:45:00,pre-game
+Netherlands,Eredivisie,id100003750868145,FC Twente Enschede,Heracles Almelo,2024-10-27,13:30:00,pre-game
+Netherlands,Eredivisie,id100003750868147,AFC Ajax,Willem II Tilburg,2024-10-27,15:45:00,pre-game
+Netherlands,Eredivisie,id100003750868143,AZ Alkmaar,Go Ahead Eagles,2024-10-27,19:00:00,pre-game
+Nicaragua,Primera Division,id101924254816563,Indigenas de Matagalpa,Real Esteli,2024-10-27,21:00:00,pre-game
+Nicaragua,Primera Division,id101924254816565,Diriangen FC,H&H Export Sebaco FC,2024-10-28,00:00:00,pre-game
+Nigeria,Premier League,id100211254433573,Nasarawa United,Kano Pillars,2024-10-27,14:00:00,pre-game
+Nigeria,Premier League,id100211254433571,Rivers United FC,El Kanemi Warriors,2024-10-27,15:00:00,pre-game
+Nigeria,Premier League,id100211254433563,Enyimba,Ikorodu City,2024-10-27,15:00:00,pre-game
+Nigeria,Premier League,id100211254433567,Plateau United,Sunshine Stars FC,2024-10-27,15:00:00,pre-game
+Nigeria,Premier League,id100211254433569,Shooting Stars,Akwa United FC,2024-10-27,15:00:00,pre-game
+Nigeria,Premier League,id100211254433559,Heartland,Remo Stars,2024-10-27,15:00:00,pre-game
+North Macedonia,1. MFL,id100019952009571,KF Gostivari,FK AP Brera Strumica,2024-10-27,13:00:00,pre-game
+Norway,Eliteserien,id100002046374595,Lillestrom SK,Odds BK,2024-10-27,16:00:00,pre-game
+Norway,Eliteserien,id100002046374599,Sarpsborg 08,Viking FK,2024-10-27,16:00:00,pre-game
+Norway,Eliteserien,id100002046374587,Ham-Kam,Kristiansund BK,2024-10-27,16:00:00,pre-game
+Norway,Eliteserien,id100002046374593,FK Haugesund,Molde FK,2024-10-27,16:00:00,pre-game
+Norway,Eliteserien,id100002046374597,Sandefjord Fotball,KFUM Oslo,2024-10-27,16:00:00,pre-game
+Norway,Eliteserien,id100002046374591,SK Brann,Tromso IL,2024-10-27,18:15:00,pre-game
+Paraguay,"Division de Honor, Clausura",id102710054622561,Olimpia Asuncion,Cerro Porteno,2024-10-27,20:30:00,pre-game
+Paraguay,"Division de Honor, Clausura",id102710054622777,Guarani Asuncion,Sportivo Luqueno,2024-10-27,22:30:00,pre-game
+Peru,Liga 1,id100040653539899,Sport Boys Association,UTC De Cajamarca,2024-10-27,18:00:00,pre-game
+Peru,Liga 1,id100040653539897,Union Comercio,Sporting Cristal,2024-10-27,18:00:00,pre-game
+Peru,Liga 1,id100040653539901,Sport Huancayo,FBC Melgar,2024-10-27,20:15:00,pre-game
+Peru,Liga 1,id100040653539903,Universitario de Deportes,Club Cienciano,2024-10-27,23:00:00,pre-game
+Poland,CLJ,id100136551780515,Stal Rzeszow,Slask Wroclaw,2024-10-27,12:30:00,pre-game
+Poland,CLJ,id100136551780511,Warta Poznan,Zaglebie Lubin,2024-10-27,13:30:00,pre-game
+Poland,Ekstraklasa,id100020250592779,Widzew Lodz,Gornik Zabrze,2024-10-27,14:30:00,pre-game
+Poland,Ekstraklasa,id100020250592771,Legia Warszawa,Katowice,2024-10-27,17:15:00,pre-game
+Poland,I Liga,id100022950743655,Wisla Plock,Wisla Krakow,2024-10-27,13:30:00,pre-game
+Poland,I Liga,id100022950743659,Stal Stalowa Wola,Polonia Warszawa,2024-10-27,16:00:00,pre-game
+Poland,II Liga,id100051550913091,Zaglebie Lubin II,GKS Jastrzebie,2024-10-27,13:00:00,pre-game
+Poland,II Liga,id100051551227051,Rekord Bielsko Biala,SKRA Czestochowa,2024-10-27,13:00:00,pre-game
+Poland,"III Liga, Group 1",id102583551355055,Stomil Olsztyn,Wisla Plock II,2024-10-27,12:30:00,pre-game
+Poland,"III Liga, Group 4",id102584154938623,KSZO Ostrowiec Swietokrzyski,Star Starachowice,2024-10-27,17:30:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800313,SC Beira Mar,Maritimo Madeira B,2024-10-27,14:30:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800301,Guarda Desportiva FC,CF Uniao de Lamas,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800305,Leca FC,CD Cinfaes,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801041,LGC Moncarapachense,Moura AC,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801031,Louletano DC,GD Lagoa,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475853565869,SC Pombal,CD Alcains,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800311,SC Regua,SC Coimbroes,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799887,SC Vianense,Atletico Arcos,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799889,Vitoria Guimaraes B,Gdrc Os Sandinenses,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475853565871,Sertanense FC,CD Fatima,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799879,Brito SC,Rebordosa AC,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475853103285,Clube Uniao 1919,O Elvas Cad,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801033,Sintrense,CF Estrela Sad B,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799881,SC Vila Real,Dumiense Cjpii Futebol Sad,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851812193,Estrela Vendas Novas,FC Serpa,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800307,FC Alpendorada,SC Salgueiros,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475852079709,FC Alverca B,CA Pero Pinheiro,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801029,FC Barreirense,Operario,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799891,GD Braganca,Uniao SC Paredes,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801035,GD Fabril do Barreiro,Lusitano GC,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851799883,Gd Joane,AD Limianos,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800585,Sport Benfica Castelo Branco,Os Marialvas,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851801037,Uf Comercio E Industria Setubal,Amora FC,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475852074123,Gd Peniche,Mortagua FC,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800573,AC Marinhense,Arronches E Benfica,2024-10-27,15:00:00,pre-game
+Portugal,Campeonato de Portugal,id101475851800303,AD Camacha,AD Marco 09,2024-10-27,15:00:00,pre-game
+Portugal,Liga Portugal,id100023851388853,SC Braga,SC Farense,2024-10-27,15:30:00,pre-game
+Portugal,Liga Portugal,id100023851388851,SL Benfica,Rio Ave FC,2024-10-27,18:00:00,pre-game
+Portugal,Liga Portugal,id100023851388859,CF Estrela,Vitoria Guimaraes,2024-10-27,20:30:00,pre-game
+Portugal,Liga Portugal 2,id100023951391335,FC Felgueiras 1932,Maritimo Madeira,2024-10-27,14:00:00,pre-game
+Portugal,Liga Portugal 2,id100023951391339,Leixoes SC,FC Porto B,2024-10-27,15:30:00,pre-game
+Portugal,Liga Portugal 3,id103490051812841,Amarante FC,Lank FC Vilaverdense,2024-10-27,15:00:00,pre-game
+Portugal,Liga Portugal 3,id103490051815327,Caldas SC,1 Dezembro,2024-10-27,15:00:00,pre-game
+Portugal,Liga Portugal 3,id103490051815329,Academica de Coimbra,CF Os Belenenses,2024-10-27,17:30:00,pre-game
+Portugal,Liga Portugal 3,id103490051815331,Sporting Lisbon B,SC Lusitania Angra,2024-10-28,10:30:00,pre-game
+Qatar,Stars League,id100082553179145,AL Wakrah,Al-Sadd SC,2024-10-27,14:30:00,pre-game
+Qatar,Stars League,id100082553179149,AL Duhail,Al-Gharafa SC,2024-10-27,16:30:00,pre-game
+Qatar,Stars League,id100082553179151,Al Arabi Doha SC,Qatar SC,2024-10-27,16:30:00,pre-game
+Romania,Superliga,id100015251207827,FC Otelul Galati,FC Unirea 2004 Slobozia,2024-10-27,14:00:00,pre-game
+Romania,Superliga,id100015251207821,FCSB,Rapid Bucuresti,2024-10-27,19:00:00,pre-game
+Russia,1. Liga,id100020451240847,FC Kamaz Naberezhnye Chelny,FK Sochi,2024-10-27,14:00:00,pre-game
+Russia,1. Liga,id100020451240843,FC Neftekhimik Nizhnekamsk,FC Sokol Saratov,2024-10-27,15:00:00,pre-game
+Russia,1. Liga,id100020451240841,Rodina Moscow,Torpedo Moscow,2024-10-27,16:00:00,pre-game
+Russia,"2. Liga, Division A",id104030551521173,FC Volgar Astrakhan,PFC Kuban Krasnodar,2024-10-27,14:00:00,pre-game
+Russia,"2. Liga, Division B, Group 2",id100109949133205,Luki-Energiya V.luki,Dinamo Vologda,2024-10-27,13:00:00,pre-game
+Russia,"2. Liga, Division B, Group 2",id100109949133203,Baltika-Bfu Kaliningrad,FC Chertanovo Moscow,2024-10-27,13:30:00,pre-game
+Russia,"2. Liga, Division B, Group 2",id100109949133207,Rodina-M,Dinamo Moscow Res.,2024-10-28,12:00:00,pre-game
+Russia,"2. Liga, Division B, Group 3",id100109549135407,FC Khimki-M,FK Ryazan,2024-10-28,09:00:00,pre-game
+Russia,Premier League,id100020350935869,FK Khimki,FK Dinamo Moscow,2024-10-27,13:30:00,pre-game
+Russia,Premier League,id100020350935857,FK Zenit Saint Petersburg,Lokomotiv Moscow,2024-10-27,16:30:00,pre-game
+Scotland,Premiership,id100003651115675,Hibernian FC,Heart of Midlothian FC,2024-10-27,15:00:00,pre-game
+Scotland,Premiership,id100003651115679,Rangers FC,St Mirren FC,2024-10-27,15:00:00,pre-game
+Serbia,Superliga,id100021050730173,FK Napredak Krusevac,TSC Backa Topola,2024-10-27,18:00:00,pre-game
+Serbia,Superliga,id100021050730181,FK Radnicki Nis,FK Mladost Lucani,2024-10-27,19:00:00,pre-game
+Singapore,Premier League,id100063449405397,Tanjong Pagar United,Balestier Khalsa FC,2024-10-28,11:45:00,pre-game
+Slovakia,"3. Liga, West",id104047151556001,FC Zolik Malacky,RSC Hamsik Academy Banska Bystrica,2024-10-27,12:30:00,pre-game
+Slovakia,"3. Liga, West",id104047151556023,Tatran Krasno Nad Kysucou,FKM Nove Zamky,2024-10-27,12:30:00,pre-game
+Slovakia,Superliga,id100021150938411,AS Trencin,FC Spartak Trnava,2024-10-27,14:30:00,pre-game
+Slovakia,Superliga,id100021150938407,MFk Zemplin Michalovce,MFK Skalica,2024-10-27,14:30:00,pre-game
+Slovenia,2. Liga,id100053251170963,Nd Dravinja,NK Brinje Grosuplje,2024-10-27,13:00:00,pre-game
+Slovenia,2. Liga,id100053251170953,Nd Slovan,Tabor Sezana,2024-10-27,13:00:00,pre-game
+Slovenia,PrvaLiga,id100021251170553,FC Koper,NK Bravo,2024-10-27,14:00:00,pre-game
+Slovenia,PrvaLiga,id100021251170559,Kalcer Radomlje,NK Celje,2024-10-27,16:30:00,pre-game
+Slovenia,PrvaLiga,id100021251170557,Olimpija Ljubljana,NK Domzale,2024-10-27,19:15:00,pre-game
+South Africa,Championship,id100190652888177,Pretoria University FC,Hungry Lion,2024-10-27,13:30:00,pre-game
+South Africa,Championship,id100190652888175,Kruger United,Cape Town Spurs,2024-10-27,13:30:00,pre-game
+South Africa,Premiership,id100035852371537,Cape Town City FC,Magesi,2024-10-27,13:00:00,pre-game
+South Africa,Premiership,id100035852371535,Polokwane City,Mamelodi Sundowns FC,2024-10-27,13:00:00,pre-game
+Spain,LaLiga,id100000850852291,CD Leganes,RC Celta de Vigo,2024-10-27,13:00:00,pre-game
+Spain,LaLiga,id100000850852281,Getafe CF,Valencia CF,2024-10-27,15:15:00,pre-game
+Spain,LaLiga,id100000850852287,Real Betis Balompie,Atletico Madrid,2024-10-27,17:30:00,pre-game
+Spain,LaLiga,id100000850852295,Real Sociedad,CA Osasuna,2024-10-27,20:00:00,pre-game
+Spain,LaLiga 2,id100005451103177,Malaga CF,Eibar,2024-10-27,13:00:00,pre-game
+Spain,LaLiga 2,id100005451103163,RC Deportivo La Coruna,Racing Santander,2024-10-27,15:15:00,pre-game
+Spain,LaLiga 2,id100005451103171,Elche CF,Burgos CF,2024-10-27,15:15:00,pre-game
+Spain,LaLiga 2,id100005451103169,SD Huesca,UD Almeria,2024-10-27,17:30:00,pre-game
+Spain,LaLiga 2,id100005451103157,Albacete Balompie,Sporting Gijon,2024-10-27,17:30:00,pre-game
+Spain,LaLiga 2,id100005451103167,Granada,Levante,2024-10-27,20:00:00,pre-game
+Spain,Primera Federacion,id103483451829543,RC Recreativo de Huelva,AD Alcorcon,2024-10-27,14:30:00,pre-game
+Spain,Primera Federacion,id103483451829081,SD Tarazona,SD Amorebieta,2024-10-27,14:30:00,pre-game
+Spain,Primera Federacion,id103483451829531,Antequera CF,Atletico Sanluqueno,2024-10-27,16:30:00,pre-game
+Spain,Primera Federacion,id103483451829071,Cultural Leonesa,SD Ponferradina,2024-10-27,16:30:00,pre-game
+Spain,Primera Federacion,id103483451829079,FC Barcelona Atletic,Barakaldo CF,2024-10-27,17:30:00,pre-game
+Spain,Primera Federacion,id103483451829547,Merida AD,CD Alcoyano,2024-10-27,18:30:00,pre-game
+Spain,Primera Federacion,id103483451829083,Zamora CF,Sestao River Club,2024-10-27,18:30:00,pre-game
+Spain,Segunda Federacion,id100054451866081,CD Calahorra,Deportivo Alaves II,2024-10-27,15:30:00,pre-game
+Spain,Segunda Federacion,id100054451869147,CDA Navalcarnero,Getafe CF B,2024-10-27,15:30:00,pre-game
+Spain,Segunda Federacion,id100054451866079,SD Logrones,Deportivo Aragon,2024-10-27,16:00:00,pre-game
+Spain,Segunda Federacion,id100054451865381,Coruxo FC,Real Valladolid Promesas,2024-10-27,16:00:00,pre-game
+Spain,Segunda Federacion,id100054451867883,Real Balompedica Linense,Juventud Torremolinos CF,2024-10-27,16:00:00,pre-game
+Spain,Segunda Federacion,id100054451866685,CE Sabadell FC,Olot,2024-10-27,17:00:00,pre-game
+Spain,Segunda Federacion,id100054452055319,Real Madrid C,CF Talavera de La Reina,2024-10-27,17:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 10",id102603653061911,CD Inter Sevilla,Coria CF,2024-10-27,18:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 13",id102604253062539,CD Cieza,UD Caravaca,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 14",id102604453063627,CF Jaraiz,CD Extremadura,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 14",id102604453063611,SP Villafranca,CD Badajoz,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 14",id102604453063617,CD Santa Amalia,CD Azuaga,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 16",id102604853065221,CA Vianes,CD Calahorra B,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 16",id102604853065229,Cdfc La Calzada,CD Agoncillo,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 16",id102604853065213,CD Varea,SD Oyonesa,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 18",id102605253066979,Manzanares CF,UD Socuellamos CF,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 18",id102605253066985,CD Toledo Sad,Calvo Sotelo Puertollano,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 2",id102602053053019,CD Colunga,Aviles Stadium CF,2024-10-27,14:45:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 2",id102602053053017,L Entregu CF,Urraca CF,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 2",id102602053053021,Caudal Deportivo,CD Lealtad de Villaviciosa,2024-10-27,16:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 3",id102602253053661,CF Vimenor,CD Elemental Atletico Mineros,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 3",id102602253053657,Tropezon,SD Gama,2024-10-27,17:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 4",id102602453054287,Urduliz Ft,Touring Ke,2024-10-27,17:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 5",id102602653055085,Cerdanyola del Valles,UE Vilassar de Mar,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 6",id102602853055945,UD Rayo Ibense,CF La Nucia,2024-10-27,15:15:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 6",id102602853055957,Ontinyent CF,CF Villarreal C,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 6",id102602853055959,Crevillente Deportivo,Atzeneta UE,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 6",id102602853055947,Atletico Saguntino,FC Jove Espanol San Vicente,2024-10-27,16:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 7",id102603053056577,CD Galapagar,AD Alcorcon B,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459345,SDA Tordesillas,CD Atletico Mansilles,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459355,CD Becerril,CD Virgen Del Camino,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459359,CD Villaralbo,CD Mojados,2024-10-27,15:30:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459351,Atletico Astorga FC,Cultural Deportiva Leonesa B,2024-10-27,15:45:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459349,Arandina CF,CD Palencia Cristo Atletico,2024-10-27,16:00:00,pre-game
+Spain Amateur,"Tercera Federacion, Group 8",id102603253459353,Palencia CF,CD Laguna de Duero,2024-10-27,16:00:00,pre-game
+Sweden,Allsvenskan,id100004046301203,IFK Varnamo,IFK Norrkoping FK,2024-10-27,13:00:00,pre-game
+Sweden,Allsvenskan,id100004046301191,AIK,IF Elfsborg,2024-10-27,13:00:00,pre-game
+Sweden,Allsvenskan,id100004046301197,BK Hacken,Halmstads BK,2024-10-27,15:30:00,pre-game
+Sweden,"Ettan, Norra",id100006747117909,IFK Stocksund,FC Stockholm Internazionale,2024-10-27,15:00:00,pre-game
+Sweden,"Ettan, Norra",id100006747118647,BK Olympic,Torslanda IK,2024-10-27,15:00:00,pre-game
+Sweden,"Ettan, Norra",id100006747117907,AFC Eskilstuna,Pitea IF,2024-10-27,15:00:00,pre-game
+Sweden,"Ettan, Sodra",id100006847117909,IFK Stocksund,FC Stockholm Internazionale,2024-10-27,15:00:00,pre-game
+Sweden,"Ettan, Sodra",id100006847118647,BK Olympic,Torslanda IK,2024-10-27,15:00:00,pre-game
+Sweden,"Ettan, Sodra",id100006847117907,AFC Eskilstuna,Pitea IF,2024-10-27,15:00:00,pre-game
+Sweden,Superettan,id100004648994069,Orebro SK,Osters IF,2024-10-27,14:00:00,pre-game
+Switzerland,Challenge League,id100021650867695,FC Wil 1900,FC Vaduz,2024-10-27,13:15:00,pre-game
+Switzerland,Challenge League,id100021650867697,FC Thun,FC Schaffhausen,2024-10-27,15:30:00,pre-game
+Switzerland,Super League,id100021550867383,FC Sion,FC St. Gallen,2024-10-27,13:15:00,pre-game
+Switzerland,Super League,id100021550867385,FC Lugano,BSC Young Boys,2024-10-27,15:30:00,pre-game
+Switzerland,Super League,id100021550867387,FC Zurich,Servette FC,2024-10-27,15:30:00,pre-game
+Tunisia,Ligue 1,id100098454676887,Stade Tunisien,AS Gabes,2024-10-27,13:30:00,pre-game
+Tunisia,Ligue 1,id100098454676889,AS Soliman,US Ben Guerdane,2024-10-27,13:30:00,pre-game
+Tunisia,Ligue 1,id100098454676897,US Monastir,Gawafel Gafsah,2024-10-27,13:30:00,pre-game
+Tunisia,Ligue 1,id100098454676891,CS Sfaxien,Esperance Sportive Zarzis,2024-10-27,13:30:00,pre-game
+Tunisia,Ligue 2,id102057854675793,Club S Hammam-Lif,Avenir S Marsa,2024-10-27,13:30:00,pre-game
+Tunisia,Ligue 2,id102057854675807,ES Rades,CS Msaken,2024-10-27,13:30:00,pre-game
+Turkiye,1. Lig,id100009851856705,Amedspor,Pendikspor,2024-10-27,13:00:00,pre-game
+Turkiye,1. Lig,id100009851856701,Buyuksehir Belediye Erzurumspor,Ankara Keciorengucu,2024-10-27,13:00:00,pre-game
+Turkiye,1. Lig,id100009851856695,Istanbulspor AS,Boluspor,2024-10-27,16:00:00,pre-game
+Turkiye,Super Lig,id100005251471975,Alanyaspor,Antalyaspor,2024-10-27,13:00:00,pre-game
+Turkiye,Super Lig,id100005251471967,Fenerbahce Istanbul,BB Bodrumspor,2024-10-27,16:00:00,pre-game
+Ukraine,Premier League,id100021851158223,Veres Rivne,FC Vorskla Poltava,2024-10-27,13:30:00,pre-game
+Ukraine,Premier League,id100021851158211,FC Dynamo Kyiv,FC Shakhtar Donetsk,2024-10-27,16:00:00,pre-game
+United Arab Emirates,Arabian Gulf League,id100097153129293,Al Bataeh,Al Nasr SC Dubai,2024-10-27,12:55:00,pre-game
+United Arab Emirates,Arabian Gulf League,id100097153129295,Shabab Al Ahli Dubai,Al Sharjah Club,2024-10-27,15:30:00,pre-game
+United Arab Emirates,First Division,id101923853824979,Fujairah FC,AL Jazira AL Hamra,2024-10-27,12:50:00,pre-game
+United Arab Emirates,First Division,id101923853824985,Gulf United,Al-Hamriyah,2024-10-27,12:55:00,pre-game
+USA,MLS,id100024254734213,Orlando City SC,Charlotte FC,2024-10-27,23:30:00,pre-game
+USA,MLS,id100024254864573,Los Angeles FC,Vancouver Whitecaps FC,2024-10-28,01:45:00,pre-game
+USA,MLS Next Pro,id103647954816681,Chicago Fire FC II,Columbus Crew 2,2024-10-27,18:00:00,pre-game
+USA,MLS Next Pro,id103647954816683,Saint Louis City SC 2,The Town FC,2024-10-27,21:00:00,pre-game
+USA,USL League One,id102816548000597,Northern Colorado Hailstorm FC,Forward Madison FC,2024-10-28,03:00:00,pre-game
+USA,USL League One,id102816548000599,Spokane Velocity FC,One Knoxville SC,2024-10-28,04:00:00,pre-game
+Venezuela,Primera Division,id100023154777811,Carabobo FC,Estudiantes de Merida,2024-10-27,21:00:00,pre-game
+Venezuela,Primera Division,id100023154777813,Deportivo La Guaira,Monagas SC,2024-10-27,23:30:00,pre-game
+Vietnam,V-League 1,id100062652621453,Nam Dinh FC,Cong An Ha Noi FC,2024-10-28,11:00:00,pre-game
+Wales,Cymru Premier,id100025450943003,Aberystwyth Town,The New Saints FC,2024-10-27,13:00:00,pre-game
+Wales,Cymru Premier,id100025450943013,Connah's Quay Nomads FC,Briton Ferry,2024-10-27,14:30:00,pre-game
+Zambia,Super League,id100214254088109,Power Dynamos,Kabwe Warriors,2024-10-27,14:00:00,pre-game
