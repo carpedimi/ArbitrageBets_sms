@@ -1,0 +1,2 @@
+# Arbitrage Bets 
+initial readme
