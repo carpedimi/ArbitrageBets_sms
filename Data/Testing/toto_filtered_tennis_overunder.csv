@@ -1,0 +1,347 @@
+,event_id,Event Name,Market Name,Outcome Name,Odds (Decimal),Price Numerator,Price Denominator,Outcome Type,Outcome SubType,sport,competition,matched_event
+9645,6628474,Andreeva M / Shnaider D vs Rakhimova K / Sorribes Tormo S,Aantal Games   Over/Under 20.5,Over,1.97,97.0,100.0,HL,1,Tennis,"Australian Open, Vrouwen Dubbelspel",
+9647,6628474,Andreeva M / Shnaider D vs Rakhimova K / Sorribes Tormo S,Aantal Games   Over/Under 20.5,Under,1.75,3.0,4.0,HL,L,Tennis,"Australian Open, Vrouwen Dubbelspel",
+9669,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 22.5,Over,2.02,51.0,50.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9671,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 22.5,Under,1.77,77.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9673,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 23.5,Under,1.62,31.0,50.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9675,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 23.5,Over,2.27,127.0,100.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9713,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 8.5,Under,3.4,12.0,5.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9715,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 8.5,Over,1.3,3.0,10.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9717,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 9.5,Under,1.9,9.0,10.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9719,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 9.5,Over,1.88,22.0,25.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9721,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 10.5,Under,1.29,29.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9723,6626321,Madison Keys vs Elina Svitolina,Set 1 Aantal Games   Over/Under 10.5,Over,3.55,51.0,20.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9725,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 21.5,Over,1.75,3.0,4.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9727,6626321,Madison Keys vs Elina Svitolina,Aantal Games   Over/Under 21.5,Under,2.05,21.0,20.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Madison Keys vs Elina Svitolina
+9807,6626827,Heliovaara H / Patten H vs Nys H / Roger Vasselin E,Aantal Games   Over/Under 23.5,Over,1.99,99.0,100.0,HL,1,Tennis,"Australian Open, Dubbelspel, Mannen",
+9809,6626827,Heliovaara H / Patten H vs Nys H / Roger Vasselin E,Aantal Games   Over/Under 23.5,Under,1.73,73.0,100.0,HL,L,Tennis,"Australian Open, Dubbelspel, Mannen",
+9823,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 18.5,Under,1.72,18.0,25.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9825,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 18.5,Over,2.09,109.0,100.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9827,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 17.5,Under,2.07,107.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9829,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 17.5,Over,1.74,37.0,50.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9831,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 9.5,Under,1.41,41.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9833,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 9.5,Over,2.85,37.0,20.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9879,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 7.5,Over,1.3,3.0,10.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9881,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 7.5,Under,3.4,12.0,5.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9883,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 8.5,Over,1.79,79.0,100.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9885,6628498,Emma Navarro vs Iga Swiatek,Set 1 Aantal Games   Over/Under 8.5,Under,1.99,99.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9887,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 16.5,Under,2.75,7.0,4.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9889,6628498,Emma Navarro vs Iga Swiatek,Aantal Games   Over/Under 16.5,Over,1.44,11.0,25.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Emma Navarro vs Iga Swiatek
+9959,6627148,Siniakova K / Townsend T vs Mladenovic K / Zhang S,Aantal Games   Over/Under 20.5,Over,1.88,22.0,25.0,HL,1,Tennis,"Australian Open, Vrouwen Dubbelspel",
+9961,6627148,Siniakova K / Townsend T vs Mladenovic K / Zhang S,Aantal Games   Over/Under 20.5,Under,1.82,41.0,50.0,HL,L,Tennis,"Australian Open, Vrouwen Dubbelspel",
+9991,6625686,Cash J / Glasspool L vs Krawietz K / Puetz T,Aantal Games   Over/Under 23.5,Under,1.8,4.0,5.0,HL,L,Tennis,"Australian Open, Dubbelspel, Mannen",
+9993,6625686,Cash J / Glasspool L vs Krawietz K / Puetz T,Aantal Games   Over/Under 23.5,Over,1.91,91.0,100.0,HL,1,Tennis,"Australian Open, Dubbelspel, Mannen",
+10019,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 42.5,Under,1.75,3.0,4.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10021,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 42.5,Over,2.04,26.0,25.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10023,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 40.5,Under,2.0,1.0,1.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10025,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 40.5,Over,1.79,79.0,100.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10027,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 41.5,Over,1.91,91.0,100.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10029,6628331,Ben Shelton vs Lorenzo Sonego,Aantal Games   Over/Under 41.5,Under,1.86,43.0,50.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10031,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 12.5,Over,2.75,7.0,4.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10033,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 12.5,Under,1.44,11.0,25.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10035,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 9.5,Over,1.45,9.0,20.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10037,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 9.5,Under,2.7,17.0,10.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10039,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 10.5,Over,2.24,31.0,25.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10041,6628331,Ben Shelton vs Lorenzo Sonego,Set 1 Aantal Games   Over/Under 10.5,Under,1.63,63.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Ben Shelton vs Lorenzo Sonego
+10147,6638072,Peers J / Gadecki O vs Venus M / Routliffe E,Aantal Games   Over/Under 19.5,Under,2.1,11.0,10.0,HL,L,Tennis,"Australian Open, Mixed Dubbelspel",
+10149,6638072,Peers J / Gadecki O vs Venus M / Routliffe E,Aantal Games   Over/Under 19.5,Over,1.66,33.0,50.0,HL,1,Tennis,"Australian Open, Mixed Dubbelspel",
+10171,6638073,Patten H / Nicholls O vs Smith J / Birrell K,Aantal Games   Over/Under 20.5,Over,2.06,53.0,50.0,HL,1,Tennis,"Australian Open, Mixed Dubbelspel",
+10173,6638073,Patten H / Nicholls O vs Smith J / Birrell K,Aantal Games   Over/Under 20.5,Under,1.68,17.0,25.0,HL,L,Tennis,"Australian Open, Mixed Dubbelspel",
+10199,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 34.5,Over,1.82,41.0,50.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10201,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 34.5,Under,1.95,19.0,20.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10203,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 35.5,Under,1.83,83.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10205,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 35.5,Over,1.95,19.0,20.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10207,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 8.5,Under,3.15,43.0,20.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10209,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 8.5,Over,1.34,17.0,50.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10239,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 10.5,Under,1.27,27.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10241,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 10.5,Over,3.65,53.0,20.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10243,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 9.5,Over,2.03,103.0,100.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10245,6629125,Jannik Sinner vs Alex De Minaur,Set 1 Aantal Games   Over/Under 9.5,Under,1.76,19.0,25.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10255,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 36.5,Under,1.74,37.0,50.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10257,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 36.5,Over,2.06,53.0,50.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+10509,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 21.5,Over,2.06,53.0,50.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10511,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 21.5,Under,1.74,37.0,50.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10513,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 19.5,Under,2.27,127.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10515,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 19.5,Over,1.61,61.0,100.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10517,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 20.5,Under,1.92,23.0,25.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10519,6637925,Aryna Sabalenka vs Paula Badosa,Aantal Games   Over/Under 20.5,Over,1.85,17.0,20.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10521,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 10.5,Under,1.23,23.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10523,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 10.5,Over,4.0,3.0,1.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10525,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 8.5,Under,2.9,19.0,10.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10527,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 8.5,Over,1.4,2.0,5.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10565,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 9.5,Under,1.73,73.0,100.0,HL,L,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10567,6637925,Aryna Sabalenka vs Paula Badosa,Set 1 Aantal Games   Over/Under 9.5,Over,2.08,27.0,25.0,HL,1,Tennis,"WTA Australian Open, Enkelspel",Aryna Sabalenka vs Paula Badosa
+10573,6638325,Goransson A / Verbeek S vs Bolelli S / Vavassori A,Aantal Games   Over/Under 23.5,Under,1.85,17.0,20.0,HL,L,Tennis,"Australian Open, Dubbelspel, Mannen",
+10575,6638325,Goransson A / Verbeek S vs Bolelli S / Vavassori A,Aantal Games   Over/Under 23.5,Over,1.85,17.0,20.0,HL,1,Tennis,"Australian Open, Dubbelspel, Mannen",
+10621,6638367,Hsieh S / Ostapenko J vs Dabrowski G / Routliffe E,Aantal Games   Over/Under 22.5,Over,1.85,17.0,20.0,HL,1,Tennis,"Australian Open, Vrouwen Dubbelspel",
+10623,6638367,Hsieh S / Ostapenko J vs Dabrowski G / Routliffe E,Aantal Games   Over/Under 22.5,Under,1.85,17.0,20.0,HL,L,Tennis,"Australian Open, Vrouwen Dubbelspel",
+10649,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 40.5,Over,1.87,87.0,100.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10651,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 40.5,Under,1.91,91.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10653,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 10.5,Over,2.6,8.0,5.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10655,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 10.5,Under,1.49,49.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10657,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 8.5,Under,5.5,9.0,2.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10659,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 8.5,Over,1.14,7.0,50.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10661,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 9.5,Under,2.39,139.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10663,6639834,Novak Djokovic vs Alexander Zverev,Set 1 Aantal Games   Over/Under 9.5,Over,1.56,14.0,25.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10701,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 41.5,Under,1.78,39.0,50.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10703,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 41.5,Over,2.01,101.0,100.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10705,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 39.5,Over,1.76,19.0,25.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+10707,6639834,Novak Djokovic vs Alexander Zverev,Aantal Games   Over/Under 39.5,Under,2.03,103.0,100.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Novak Djokovic vs Alexander Zverev
+49088,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 21.5,Over,2.11,111.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49090,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 21.5,Under,1.65,13.0,20.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49092,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 9.5,Under,1.67,67.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49094,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 9.5,Over,2.0,1.0,1.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49096,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 10.5,Over,3.6,13.0,5.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49098,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 10.5,Under,1.22,11.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49100,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 8.5,Under,2.7,17.0,10.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49102,6622178,Benoit Paire vs Harold Mayot,Set 1 Aantal Games   Over/Under 8.5,Over,1.37,37.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49132,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 20.5,Over,1.89,89.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49134,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 20.5,Under,1.82,41.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49136,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 19.5,Over,1.64,16.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49138,6622178,Benoit Paire vs Harold Mayot,Aantal Games   Over/Under 19.5,Under,2.12,28.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49148,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 9.5,Over,1.59,59.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49150,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 9.5,Under,2.12,28.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49152,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 10.5,Over,2.7,17.0,10.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49154,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 10.5,Under,1.37,37.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49156,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 23.5,Over,1.96,24.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49158,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 23.5,Under,1.76,19.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49168,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 24.5,Over,1.99,99.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49170,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 24.5,Under,1.73,73.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49180,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 22.5,Over,1.69,69.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49182,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Aantal Games   Over/Under 22.5,Under,2.04,26.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49224,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 8.5,Under,4.25,13.0,4.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49226,6622174,Alibek Kachmazov vs Aleksandar Kovacevic,Set 1 Aantal Games   Over/Under 8.5,Over,1.16,4.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49248,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 8.5,Under,3.45,49.0,20.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49250,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 8.5,Over,1.24,6.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49260,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 21.5,Over,1.67,67.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49262,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 21.5,Under,2.08,27.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49292,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 10.5,Over,3.05,41.0,20.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49294,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 10.5,Under,1.3,3.0,10.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49296,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 23.5,Over,2.16,29.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49298,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 23.5,Under,1.62,31.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49300,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 22.5,Over,1.93,93.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49302,6622176,Mattia Bellucci vs Constant Lestienne,Aantal Games   Over/Under 22.5,Under,1.78,39.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49304,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 9.5,Under,1.94,47.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49306,6622176,Mattia Bellucci vs Constant Lestienne,Set 1 Aantal Games   Over/Under 9.5,Over,1.71,71.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49328,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 22.5,Over,1.81,81.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49330,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 22.5,Under,1.89,89.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49332,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 21.5,Under,2.32,33.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49334,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 21.5,Over,1.54,27.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49336,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 23.5,Under,1.65,13.0,20.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49338,6622175,Matteo Martineau vs Jerome Kym,Aantal Games   Over/Under 23.5,Over,2.11,111.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49340,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 9.5,Over,1.58,29.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49342,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 9.5,Under,2.14,57.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49344,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 8.5,Under,4.25,13.0,4.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49346,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 8.5,Over,1.16,4.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49348,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 10.5,Under,1.38,19.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49350,6622175,Matteo Martineau vs Jerome Kym,Set 1 Aantal Games   Over/Under 10.5,Over,2.65,33.0,20.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49408,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 22.5,Under,1.84,21.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49410,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 22.5,Over,1.86,43.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49412,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 23.5,Under,1.65,13.0,20.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49414,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 23.5,Over,2.1,11.0,10.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49416,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 10.5,Over,3.05,41.0,20.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49418,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 10.5,Under,1.29,29.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49420,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 8.5,Under,3.4,12.0,5.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49422,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 8.5,Over,1.24,6.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49424,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 21.5,Over,1.62,31.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49426,6622177,Arthur Gea vs Laslo Djere,Aantal Games   Over/Under 21.5,Under,2.17,117.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49428,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 9.5,Over,1.74,37.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49430,6622177,Arthur Gea vs Laslo Djere,Set 1 Aantal Games   Over/Under 9.5,Under,1.91,91.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49488,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 23.5,Under,1.61,61.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49490,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 23.5,Over,2.19,119.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49492,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 21.5,Over,1.7,7.0,10.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49494,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 21.5,Under,2.04,26.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49496,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 22.5,Under,1.76,19.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49498,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Aantal Games   Over/Under 22.5,Over,1.95,19.0,20.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49500,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 10.5,Under,1.27,27.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49502,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 10.5,Over,3.25,9.0,4.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49504,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 8.5,Under,3.15,43.0,20.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49506,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 8.5,Over,1.28,7.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49508,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 9.5,Over,1.81,81.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49510,6622179,Adrian Mannarino vs Mackenzie Mcdonald,Set 1 Aantal Games   Over/Under 9.5,Under,1.83,83.0,100.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49552,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 22.5,Under,1.84,21.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49554,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 22.5,Over,1.86,43.0,50.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49564,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 23.5,Over,2.13,113.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49566,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 23.5,Under,1.64,16.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49576,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 21.5,Over,1.6,3.0,5.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49578,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Aantal Games   Over/Under 21.5,Under,2.2,6.0,5.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49580,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 10.5,Over,2.85,37.0,20.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49582,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 10.5,Under,1.34,17.0,50.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49584,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 8.5,Under,3.9,29.0,10.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49586,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 8.5,Over,1.19,19.0,100.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49588,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 9.5,Under,2.04,26.0,25.0,HL,L,Tennis,"ATP Challenger Quimper I, Enkelspel",
+49590,6622171,Ugo Blanchet vs Thiago Seyboth Wild,Set 1 Aantal Games   Over/Under 9.5,Over,1.64,16.0,25.0,HL,1,Tennis,"ATP Challenger Quimper I, Enkelspel",
+52380,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 20.5,Under,2.15,23.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52382,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 20.5,Over,1.6,3.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52384,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 21.5,Under,1.9,9.0,10.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52386,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 21.5,Over,1.8,4.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52388,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 22.5,Over,2.1,11.0,10.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52390,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Games   Over/Under 22.5,Under,1.65,13.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52392,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 10.5,Under,1.35,7.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52394,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 10.5,Over,2.9,19.0,10.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52430,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 9.5,Over,1.8,4.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52432,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 9.5,Under,1.9,9.0,10.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52434,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 12.5,Under,1.2,1.0,5.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52436,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 12.5,Over,4.0,3.0,1.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52438,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Sets   Over/Under 2.5,Over,2.65,33.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52440,6634196,Daniel Elahi Galan vs Maxime Chazal,Aantal Sets   Over/Under 2.5,Under,1.42,21.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52478,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 22.5,Over,1.62,31.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52480,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 22.5,Under,2.16,29.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52482,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 23.5,Under,1.81,81.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52484,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 23.5,Over,1.9,9.0,10.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52486,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 9.5,Under,2.16,29.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52488,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 9.5,Over,1.57,57.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52490,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 10.5,Over,2.55,31.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52492,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 10.5,Under,1.41,41.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52494,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 8.5,Under,4.5,7.0,2.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52496,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 8.5,Over,1.13,13.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52526,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 24.5,Over,1.92,23.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52528,6622485,Yasutaka Uchiyama vs Christopher Eubanks,Aantal Games   Over/Under 24.5,Under,1.79,79.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+52558,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 9.5,Over,1.87,87.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52560,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 9.5,Under,1.76,19.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52562,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 10.5,Over,3.35,47.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52564,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 10.5,Under,1.25,1.0,4.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52566,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 20.5,Over,1.6,3.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52568,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 20.5,Under,2.19,119.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52570,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 21.5,Over,1.76,19.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52572,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 21.5,Under,1.95,19.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52574,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 22.5,Under,1.72,18.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52576,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Aantal Games   Over/Under 22.5,Over,2.01,101.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52586,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 8.5,Under,2.95,39.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52588,6614476,Adolfo Daniel Vallejo vs Emilio Nava,Set 1 Aantal Games   Over/Under 8.5,Over,1.32,8.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52638,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 9.5,Under,1.84,21.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52640,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 9.5,Over,1.8,4.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52642,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 21.5,Over,1.76,19.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52644,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 21.5,Under,1.95,19.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52646,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 20.5,Under,2.19,119.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52648,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 20.5,Over,1.61,61.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52650,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 8.5,Under,3.15,43.0,20.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52652,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 8.5,Over,1.28,7.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52654,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 10.5,Under,1.27,27.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52656,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Set 1 Aantal Games   Over/Under 10.5,Over,3.2,11.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52658,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 22.5,Over,2.01,101.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52660,6634194,Marco Trungelliti vs Mateus De Carvalho Cardoso Alves,Aantal Games   Over/Under 22.5,Under,1.72,18.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52718,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 8.5,Over,1.3,3.0,10.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52720,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 8.5,Under,3.0,2.0,1.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52722,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 20.5,Over,1.65,13.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52724,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 20.5,Under,2.12,28.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52762,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 10.5,Under,1.25,1.0,4.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52764,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 10.5,Over,3.3,23.0,10.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52766,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 22.5,Under,1.68,17.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52768,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 22.5,Over,2.06,53.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52770,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 9.5,Under,1.79,79.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52772,6640689,Andrea Collarini vs Max Houkes,Set 1 Aantal Games   Over/Under 9.5,Over,1.85,17.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52774,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 21.5,Under,1.9,9.0,10.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52776,6640689,Andrea Collarini vs Max Houkes,Aantal Games   Over/Under 21.5,Over,1.81,81.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52826,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 20.5,Under,2.09,109.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52828,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 20.5,Over,1.66,33.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52830,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 22.5,Under,1.67,67.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52832,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 22.5,Over,2.08,27.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52834,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 8.5,Under,3.0,2.0,1.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52836,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 8.5,Over,1.31,31.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52838,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 21.5,Under,1.88,22.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52840,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Aantal Games   Over/Under 21.5,Over,1.83,83.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52842,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 10.5,Under,1.25,1.0,4.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52844,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 10.5,Over,3.35,47.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52846,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 9.5,Over,1.86,43.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52848,6614484,Marcelo Tomas Barrios Vera vs Alvaro Guillen Meza,Set 1 Aantal Games   Over/Under 9.5,Under,1.78,39.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52878,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 19.5,Under,1.94,47.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52880,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 19.5,Over,1.77,77.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52882,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 18.5,Under,2.3,13.0,10.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52884,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 18.5,Over,1.55,11.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52886,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 20.5,Under,1.71,71.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52888,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Aantal Games   Over/Under 20.5,Over,2.02,51.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52890,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 9.5,Under,1.54,27.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52892,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 9.5,Over,2.22,61.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52902,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 8.5,Under,2.29,129.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52904,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 8.5,Over,1.51,51.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52906,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 10.5,Under,1.17,17.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52908,6614480,Joaquin Aguilar Cardozo vs Facundo Mena,Set 1 Aantal Games   Over/Under 10.5,Over,4.0,3.0,1.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52958,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 21.5,Under,1.78,39.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52960,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 21.5,Over,1.93,93.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52962,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 8.5,Under,2.7,17.0,10.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52964,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 8.5,Over,1.36,9.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52966,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 22.5,Under,1.59,59.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52968,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 22.5,Over,2.21,121.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52978,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 10.5,Over,3.55,51.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52980,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 10.5,Under,1.22,11.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+52982,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 9.5,Over,1.96,24.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+52984,6634199,Franco Roncadelli vs Juan Bautista Torres,Set 1 Aantal Games   Over/Under 9.5,Under,1.69,69.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53014,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 20.5,Under,1.97,97.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53016,6634199,Franco Roncadelli vs Juan Bautista Torres,Aantal Games   Over/Under 20.5,Over,1.75,3.0,4.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53038,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 22.5,Under,1.77,77.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53040,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 22.5,Over,1.95,19.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53050,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 10.5,Over,3.25,9.0,4.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53052,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 10.5,Under,1.26,13.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53054,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 21.5,Over,1.7,7.0,10.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53056,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 21.5,Under,2.04,26.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53058,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 23.5,Under,1.61,61.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53060,6641262,Jesper De Jong vs Liam Draxl,Aantal Games   Over/Under 23.5,Over,2.17,117.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53062,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 8.5,Under,3.1,21.0,10.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53064,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 8.5,Over,1.29,29.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53094,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 9.5,Under,1.82,41.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53096,6641262,Jesper De Jong vs Liam Draxl,Set 1 Aantal Games   Over/Under 9.5,Over,1.82,41.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53118,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 21.5,Over,1.62,31.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53120,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 21.5,Under,2.17,117.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53122,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 22.5,Under,1.84,21.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53124,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 22.5,Over,1.86,43.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53126,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 23.5,Under,1.66,33.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53128,6641261,Valentin Royer vs Ignacio Buse,Aantal Games   Over/Under 23.5,Over,2.1,11.0,10.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53130,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 10.5,Under,1.29,29.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53132,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 10.5,Over,3.05,41.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53134,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 8.5,Under,3.4,12.0,5.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53136,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 8.5,Over,1.24,6.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53138,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 9.5,Over,1.74,37.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53140,6641261,Valentin Royer vs Ignacio Buse,Set 1 Aantal Games   Over/Under 9.5,Under,1.91,91.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53198,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 21.5,Over,1.64,16.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53200,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 21.5,Under,2.13,113.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53202,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 23.5,Under,1.65,13.0,20.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53204,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 23.5,Over,2.12,28.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53206,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 22.5,Over,1.89,89.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53208,6641263,Daniel Rincon vs Jurij Rodionov,Aantal Games   Over/Under 22.5,Under,1.82,41.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53218,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 8.5,Over,1.24,6.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53220,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 8.5,Under,3.4,12.0,5.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53250,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 10.5,Over,3.05,41.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53252,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 10.5,Under,1.29,29.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53254,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 9.5,Under,1.91,91.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53256,6641263,Daniel Rincon vs Jurij Rodionov,Set 1 Aantal Games   Over/Under 9.5,Over,1.74,37.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53278,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 21.5,Under,1.77,77.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53280,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 21.5,Over,1.94,47.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53282,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 10.5,Over,3.55,51.0,20.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53284,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 10.5,Under,1.22,11.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53286,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 8.5,Under,2.75,7.0,4.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53288,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 8.5,Over,1.36,9.0,25.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53290,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 9.5,Over,1.94,47.0,50.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53292,6634623,Federico Coria vs Marco Cecchinato,Set 1 Aantal Games   Over/Under 9.5,Under,1.71,71.0,100.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53294,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 20.5,Over,1.75,3.0,4.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53296,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 20.5,Under,1.96,24.0,25.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53298,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 22.5,Under,1.58,29.0,50.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",
+53300,6634623,Federico Coria vs Marco Cecchinato,Aantal Games   Over/Under 22.5,Over,2.23,123.0,100.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+53358,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 23.5,Under,1.62,31.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53360,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 23.5,Over,2.15,23.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53362,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 21.5,Under,2.08,27.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53364,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 21.5,Over,1.67,67.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53366,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 22.5,Under,1.79,79.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53368,6622480,Jaime Faria vs Marc Andrea Huesler,Aantal Games   Over/Under 22.5,Over,1.92,23.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53370,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 10.5,Under,1.28,7.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53372,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 10.5,Over,3.1,21.0,10.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53374,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 9.5,Over,1.76,19.0,25.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53376,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 9.5,Under,1.88,22.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53378,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 8.5,Over,1.25,1.0,4.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53380,6622480,Jaime Faria vs Marc Andrea Huesler,Set 1 Aantal Games   Over/Under 8.5,Under,3.3,23.0,10.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53534,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 22.5,Over,1.93,93.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53536,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 22.5,Under,1.78,39.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53538,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 21.5,Over,1.67,67.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53540,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 21.5,Under,2.07,107.0,100.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53550,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 23.5,Over,2.17,117.0,100.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53552,6641266,Henrique Rocha vs Mark Lajal,Aantal Games   Over/Under 23.5,Under,1.62,31.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53554,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 9.5,Under,1.86,43.0,50.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53556,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 9.5,Over,1.78,39.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53558,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 8.5,Under,3.25,9.0,4.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53560,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 8.5,Over,1.26,13.0,50.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53562,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 10.5,Under,1.28,7.0,25.0,HL,L,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+53564,6641266,Henrique Rocha vs Mark Lajal,Set 1 Aantal Games   Over/Under 10.5,Over,3.15,43.0,20.0,HL,1,Tennis,"ATP Challenger Oeiras 3, Enkelspel",
+81126,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 33.5,Under,2.04,26.0,25.0,HL,L,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+81128,6629125,Jannik Sinner vs Alex De Minaur,Aantal Games   Over/Under 33.5,Over,1.75,3.0,4.0,HL,1,Tennis,"ATP Australian Open, Enkelspel",Jannik Sinner vs De Alex Minaur
+128587,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 8.5,Over,1.2,1.0,5.0,HL,1,Tennis,"ATP Challenger Punta, Enkelspel",
+128589,6634196,Daniel Elahi Galan vs Maxime Chazal,Set 1 Aantal Games   Over/Under 8.5,Under,4.25,13.0,4.0,HL,L,Tennis,"ATP Challenger Punta, Enkelspel",

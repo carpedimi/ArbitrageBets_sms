@@ -1,49 +1,55 @@
 ,sports,competitions
-1400-1600,"['Snooker', 'Basketbal', 'Volleybal', 'Voetbal', 'Cricket', 'IJshockey']","['Estland-Letland Basketball League', 'Bangladesh Premier League', 'The Masters', 'Schotland Championship', 'Frankrijk Coupe de France', 'Schotland League One', 'Thailand League 1', 'Schotland League Two', 'New Zealand Super Smash, Women', 'Litouwen LKL', 'Denemarken Superisligaen', 'Vijay Hazare Trophy', 'Oostenrijk Eishockey Liga', 'South Africa SA20 League', 'ODI Series', 'ODI Series Women', 'België Liga Mannen', 'Noord-Ierland Premiership', 'Spain Primera División Vrouwen', ""PBA Commissioner's Cup"", 'Australië Twenty20 Big Bash', 'Championship League Snooker', 'Noorwegen GET-ligaen', 'Finland Korisliiga']"
-1600-1800,"['Tafeltennis', 'Wintersport', 'Basketbal', 'Badminton', 'Volleybal', 'Voetbal', 'Tennis', 'IJshockey']","['CEV Cup Vrouwen', 'Slowakije Extraliga', 'WTT Star Contender Doha, Doubles', 'Czech Liga Pro', 'Brazilië Superliga Mannen', 'Brazilië Superliga Vrouwen', 'Biatlon Vrouwen', 'Frankrijk Division 1 Vrouwen', 'Malaysia Open, Men Singles', 'TT Elite Series', 'ATP Australian Open, Enkelspel', 'Malaysia Open, Mixed Doubles', 'WTT Star Contender Doha, Women, Doubles', 'Malaysia Open, Men Doubles', 'India Super League', 'Finland Mestis', 'Zuid-Korea V-League Vrouwen', 'WTT Star Contender Doha, Mixed Doubles', 'WTT Star Contender Doha, Singles', 'Malaysia Open, Women Doubles', 'Australie NBL', 'Argentinië NBL A', 'Malaysia Open, Women Singles', 'Zuid-Korea V-League', 'India I-League']"
-1800-2000,"['Basketbal', 'Voetbal', 'Handbal', 'Cricket', 'Tennis', 'IJshockey']","['ODI Series Women', 'ODI Series', 'India Super League', 'New Zealand Super Smash, Women', 'WTA Australian Open, Enkelspel', 'Australie NBL', 'Portugal League Cup', 'Duitsland DEL', 'Australië Twenty20 Big Bash', 'Duitsland DEL 2', 'Hongarije NB I Vrouwen']"
-2000-2200,"['Cricket', 'Volleybal']","['South Africa SA20 League', 'CEV Challenge Cup Vrouwen']"
+200-400,[],[]
+400-600,"['Rugby Union', 'Volleybal', 'Voetbal', 'Boksen']","['Frankrijk Pro D2', 'Internationale Gevechten', 'Turkije 1. Lig', 'Engeland Premiership', 'Finland Mestaruusliiga Vrouwen', 'Brazilië Superliga Mannen', 'CEV Cup Vrouwen', 'Polen PlusLiga', 'Brazilië Superliga Vrouwen', 'Kroatië 1. HNL', 'Duitsland 3.Liga', 'Griekenland Super League', 'United Rugby Championship', 'Portugal Primeira Liga', 'Portugal Liga 3', 'Duitsland Bundesliga', 'Spanje LaLiga', 'Polen 1. Liga', ""Romania Men's Divizia A1"", 'Engeland Premier League', 'Champions League Vrouwen', 'Zuid-Korea V-League Vrouwen', 'Duitsland 2.Bundesliga', 'Costa Rica Primera Division', 'CEV Challenge Cup Vrouwen', 'Engeland League 1', 'Eredivisie Dames', 'Eredivisie Heren', 'Duitsland DVL 1. Bundesliga', 'Turkije Süper Lig', 'Portugal Segunda Liga', 'Zuid-Korea V-League', 'Israel Premier League', 'Roemenië Liga 1', 'Spanje Segunda Division']"
+600-800,"['Basketbal', 'Voetbal', 'Lekker Man', 'Tennis']","['Vriendschappelijk', 'Italië Serie A', 'Australian Open, Mixed Dubbelspel', 'China CBA', 'Kroatië 1. HNL', 'Azerbeidzjan Premier League', 'Australian Open, Vrouwen Dubbelspel', 'Zwitserland Challenge League', 'NBA', 'ATP Australian Open, Enkelspel', 'Italië Serie B', 'Zwitserland Super League', 'Lekker Man! (Max Bet €20)', 'Engeland Championship', 'WTA Australian Open, Enkelspel', 'Finland Liiga Cup', 'Roemenië Liga 1', 'Australian Open, Dubbelspel, Mannen', 'Engeland League 2']"
+800-1000,"['Voetbal', 'Rugby Union']","['Frankrijk Pro D2', 'Frankrijk Top 14\n', 'Frankrijk Ligue 1', 'Engeland Premiership', 'Frankrijk Ligue 2', 'Schotland League Two', 'België 1B Pro League', 'Saudi Arabië Pro League\n', 'United Rugby Championship', 'Mexico League MX Vrouwen', 'België Jupiler Pro League', 'Egypte Premier League', 'Engeland National League', 'Noord-Ierland Premiership', 'Schotland Championship', 'Australië W-League', 'Engeland National League Zuid', 'Brazil Gaucho A1', 'Brazilië Paulista A1\n', 'Schotland Premiership', 'Engeland National League Noord', 'Paraguay Primera Division', 'Frankrijk Beker', 'Brazil Campeonato Paranaense', 'Australië A-League', 'Saudi Arabië League Division 1', 'Brazilië Mineiro Modulo I', 'Mexico Liga MX', 'Schotland League One', 'Qatar Stars League']"
+1000-1200,"['IJshockey', 'Voetbal', 'Basketbal', 'Handbal', 'Tennis']","['Noorwegen Eliteserien Vrouwen', 'Frankrijk Ligue National', 'ATP Challenger Quimper I, Dubbelspel', 'Duitsland Bundesliga Vrouwen', 'Champions Hockey League', 'Nederland Eredivisie', 'Uruguayan Basketball Liga', 'Roemenië Liga Nationala Vrouwen', 'Finland SM-Liiga', 'Denemarken 1. Division', 'Wereld Kampioenschap', 'Noorwegen 1. Division Vrouwen', 'ATP Challenger Punta, Enkelspel', 'ATP Challenger Punta, Dubbelspel', 'Polen Superliga Vrouwen', 'Tsjechië Chance Liga', 'ATP Challenger Oeiras 3, Dubbelspel', 'Denmark Håndbold Ligaen Women', 'Nederland Eerste Divisie', 'Cyprus First Division', 'ATP Challenger Quimper I, Enkelspel', 'Zweden SDHL Vrouwen', 'EHF Champions League Vrouwen', 'Zuid-Afrika Premier Soccer League', 'Tsjechië Extraliga', 'ATP Challenger Oeiras 3, Enkelspel', 'Zweden SHL', 'Polish Ekstraliga', 'Hongarije NB I Vrouwen', 'Alps Hockey League', 'Cyprus Beker', 'Zweden Eliteserien Vrouwen', 'Zweden Allsvenskan']"
+1200-1400,"['IJshockey', 'Volleybal', 'Voetbal', 'Rugby Union', 'Basketbal', 'Handbal']","['Frankrijk Pro D2', 'Colombia Categoría Primera A', 'Champions League', 'BNXT League', 'CEV Cup Vrouwen', 'Polen PlusLiga', 'Roemenië Liga Nationala Vrouwen', 'Finland SM-Liiga', 'Noorwegen 1. Division Vrouwen', 'Euroleague Mannen', 'Polen Superliga Vrouwen', 'Polen 1. Liga', 'Finland Mestis', 'Champions League Vrouwen', 'CEV Challenge Cup Vrouwen', 'Finland Liiga', 'EHF Champions League Vrouwen', 'Griekenland A1 Ethniki', 'Zwitserland National League A', 'Switzerland National League B', 'Portugal Segunda Liga', 'Eurocup', 'Cyprus Beker', 'Zweden Eliteserien Vrouwen', 'Zweden Allsvenskan']"
+1400-1600,"['IJshockey', 'Volleybal', 'Voetbal', 'Basketbal', 'Rugby Union', 'Handbal', 'Cricket']","['Engeland FA Super League Vrouwen', 'T20 Series Vrouwen', 'Frankrijk Top 14\n', 'New Zealand Super Smash, Women', 'Schotland League Two', 'T20 Series', 'Roemenië Liga Nationala Vrouwen', 'Thailand League 1', 'Zweden Basketligan', 'Noord-Ierland Premiership', 'VAE Arabian Gulf League', 'India Ranji Trophy', 'Schotland Championship', 'Zuid-Korea KBL', 'Bangladesh Premier League', 'Zuid-Korea KBL Vrouwen', 'Eredivisie Dames', 'Noorwegen GET-ligaen', 'Eredivisie Heren', 'Griekenland A1 Ethniki', 'Australië Twenty20 Big Bash', 'Denemarken Superisligaen', 'Guatemala Liga Nacional', 'Duitsland DVL 1. Bundesliga', 'Alps Hockey League', 'Oostenrijk Eishockey Liga', 'T20 League', 'Test Series', 'Schotland League One', 'South Africa SA20 League']"
+1600-1800,"['IJshockey', 'Volleybal', 'Voetbal', 'Basketbal', 'Badminton', 'Tennis', 'Tafeltennis']","['Australië WNBL', 'Brazilië Superliga Mannen', 'CEV Cup Vrouwen', 'Brazilie NBB', 'Brazilië Superliga Vrouwen', 'Uruguayan Basketball Liga', 'Kroatië A1 League', 'India I-League', 'Argentinië NBL A', 'Czech Liga Pro', 'Argentinië Superliga', 'Australie NBL', 'Slowakije Extraliga', 'Indonesia Masters, Mixed Doubles', 'Indonesia Masters, Men Singles', 'India Super League', 'Zuid-Korea V-League Vrouwen', 'ATP Australian Open, Enkelspel', 'Indonesia Masters, Women Doubles', 'Frankrijk Ligue Magnus', 'TT Elite Series', 'Zuid-Korea V-League', 'Indonesia Masters, Women Singles', 'Indonesia Masters, Men Doubles']"
+1800-2000,"['IJshockey', 'Voetbal', 'Basketbal', 'Handbal', 'Tennis', 'Honkbal', 'Cricket']","['Duitsland DEL', 'T20 Series Vrouwen', 'Hongarije NB I Vrouwen', 'WTA Australian Open, Enkelspel', 'Australie NBL', 'Duitsland DEL 2', 'Mexico Liga Mexicana del Pacifico', 'New Zealand Super Smash, Women', 'Australië Twenty20 Big Bash', 'Test Series', 'T20 Series', 'India Super League']"
+2000-2200,"['Volleybal', 'Cricket', 'Tennis']","['CEV Challenge Cup Vrouwen', 'Australian Open, Vrouwen Dubbelspel', 'Australian Open, Mixed Dubbelspel', 'Australian Open, Dubbelspel, Mannen', 'South Africa SA20 League']"
 2200-2400,['Voetbal'],['India I-League']
 2400-2600,[],[]
-2600-2800,[],[]
-2800-3000,"['Waterpolo', 'Voetbal']","['Noord Ierland League Cup', ""FINA Men's Water Polo World Cup""]"
-3000-3200,['Handbal'],['Vriendschappelijk']
-3200-3400,"['Basketbal', 'Voetbal', 'IJshockey']","['Euroleague Mannen', 'Ethiopië Premier League', 'Duitsland DEL 2']"
-3400-3600,"['Basketbal', 'Voetbal', 'TOTO Specials', 'IJshockey']","['Qatar Stars League', 'Argentinië NBL A', 'Boost van de Dag', 'Combi Boost', 'Competitie Specials', 'Goalgetter Boost', 'Indonesië Liga 1', 'Ethiopië Premier League', 'Kazakhstan Pro Hockey League']"
-3600-3800,"['Basketbal', 'Voetbal', 'Tennis', 'Futsal', 'IJshockey']","['Portugal 1 Divisao', 'Egypte Second Division', 'WTA Adelaide, Dubbelspel', 'VS AHL', 'Poland Ekstraklasa', 'ATP Adelaide, Enkelspel', 'ATP Adelaide, Dubbelspel', 'Australië W-League', 'Spanje Copa del Rey', 'Australië WNBL', 'WTA Adelaide, Enkelspel', 'Oeganda Premier League']"
-3800-4000,"['Volleybal', 'Futsal', 'TOTO Specials', 'Cricket']","['Portugal 1 Divisao', 'Finland Mestarluusliiga', 'Bangladesh Premier League', 'Competitie Specials', 'Finland Mestaruusliiga Vrouwen', 'Spanje Copa del Rey']"
-4000-4200,['Voetbal'],['England FA Cup Women']
-4200-4400,"['Basketbal', 'Volleybal']","['Tunisia Basketball League', 'Denemarken Volleyligaen']"
-4400-4600,"['Waterpolo', 'Tennis', 'Futsal']","['Spanje Copa del Rey', ""FINA Men's Water Polo World Cup"", 'ATP Challenger Nottingham, Enkelspel']"
-4600-4800,['Tennis'],"['ATP Challenger Nottingham, Dubbelspel']"
+2600-2800,['Voetbal'],['Argentinië Superliga']
+2800-3000,"['Voetbal', 'Waterpolo']","['Italy Serie A1', 'Italië Coppa Italia Serie C', 'OB 1 Serie']"
+3000-3200,"['Voetbal', 'Handbal']","['Wereld Kampioenschap', 'Saudi Arabië League Division 1']"
+3200-3400,"['IJshockey', 'Voetbal', 'Basketbal']","['Euroleague Mannen', 'Mexico League MX Vrouwen', 'BNXT League', 'Duitsland DEL 2', 'UEFA Europa League', 'Tsjechië Chance Liga', 'UEFA Champions League']"
+3400-3600,"['TOTO Specials', 'Voetbal', 'Basketbal']","['Argentinië NBL A', 'Boost van de Dag', 'Competitie Specials', 'Combi Boost', 'Goalgetter Boost', 'Indonesië Liga 1', 'Qatar Stars League']"
+3600-3800,"['IJshockey', 'Voetbal', 'Basketbal', 'Futsal']","['VS AHL', 'Zuid-Korea KBL Vrouwen', 'Australië WNBL', 'Poland Ekstraklasa', 'Australië W-League']"
+3800-4000,"['Volleybal', 'Voetbal', 'Tennis', 'TOTO Specials', 'Cricket']","['T20 Series Vrouwen', 'Bangladesh Premier League', 'ATP Challenger Quimper I, Dubbelspel', 'ATP Challenger Quimper I, Enkelspel', 'Competitie Specials', 'Slovenia 1. DOL', 'Finland Mestarluusliiga', 'Finland Liiga Cup', 'Finland Mestaruusliiga Vrouwen', 'Slowakije Extraliga Vrouwen', ""Romania Men's Divizia A1"", 'Jamaica National Premier League']"
+4000-4200,['Voetbal'],"['Brazil Gaucho A1', 'Brazil Campeonato Paranaense', 'Brazilië Mineiro Modulo I']"
+4200-4400,[],[]
+4400-4600,[],[]
+4600-4800,['Tennis'],"['ATP Challenger Oeiras 3, Enkelspel', 'ATP Challenger Oeiras 3, Dubbelspel']"
 4800-5000,[],[]
 5000-5200,[],[]
 5200-5400,[],[]
-5400-5600,['Tennis'],"['ATP Challenger Nonthaburi 2, Dubbelspel', 'ATP Challenger Nonthaburi 2, Enkelspel']"
+5400-5600,[],[]
 5600-5800,[],[]
-5800-6000,['Basketbal'],"[""PBA Commissioner's Cup""]"
-6000-6200,"['Bandy', 'Volleybal']","['Elitserien', 'Superliga Femenina']"
+5800-6000,['Basketbal'],['Slovenia Liga Nova KBM']
+6000-6200,['Waterpolo'],['Italy Serie A1']
 6200-6400,[],[]
-6400-6600,['Tennis'],"['WTA Hobart , Enkelspel', 'WTA Hobart , Dubbelspel', 'ATP Auckland, Dubbelspel', 'ATP Auckland, Enkelspel']"
-6600-6800,"['Voetbal', 'Volleybal']","['Portugal Liga Revelacao U23', 'Frankrijk Coupe de France']"
+6400-6600,[],[]
+6600-6800,"['IJshockey', 'Cricket']","['Zweden SDHL Vrouwen', 'T20 League']"
 6800-7000,[],[]
 7000-7200,[],[]
-7200-7400,"['Virtual Basketbal', 'Virtual Voetbal', 'Virtual Darten', 'Virtual American Football', 'Virtual Cricket']","['Europa Super League', 'Premier League 23/24', 'WK Vrouwen', 'Nederlandse competitie', 'La Liga 23/24', 'Europees Kampioenschap', 'TOTO Globe Arena', 'Serie A 23/24', 'TOTO Dome', 'WK Voetbal', 'TOTO Palace', 'The TOTO Oval']"
-7400-7600,[],[]
+7200-7400,"['Virtual Voetbal', 'Virtual Basketbal', 'Virtual Cricket', 'Virtual Darten', 'Virtual American Football']","['WK Vrouwen', 'Nederlandse competitie', 'TOTO Dome', 'TOTO Globe Arena', 'Europees Kampioenschap', 'WK Voetbal', 'TOTO Palace', 'Premier League 23/24', 'The TOTO Oval', 'Serie A 23/24', 'Europa Super League', 'La Liga 23/24']"
+7400-7600,"['Volleybal', 'Waterpolo']","['Polen 1. Liga', 'OB 1 Serie']"
 7600-7800,['Virtual Voetbal'],['WK Vrouwen']
 7800-8000,['Tafeltennis'],"['TTStar Series', 'Czech Liga Pro']"
 8000-8200,[],[]
 8200-8400,[],[]
-8400-8600,['Virtual Voetbal'],"['Premier League 23/24', 'La Liga 23/24', 'Serie A 23/24']"
+8400-8600,['Virtual Voetbal'],"['Serie A 23/24', 'Premier League 23/24', 'La Liga 23/24']"
 8600-8800,[],[]
-8800-9000,"['Wintersport', 'Basketbal', 'Floorball', 'Cricket', 'IJshockey']","['France Coupe de France', 'Switzerland National League B', 'Europe Cup', 'Sweden Superligan', 'ODI Series Women', 'Tsjechië Extraliga', 'Biatlon Mannen', 'Switzerland Unihockey Prime League', 'Erste Liga']"
-9000-9200,"['Snooker', 'Wintersport', 'Basketbal', 'Volleybal', 'Darten']","['Brazilië Superliga Vrouwen', 'Biatlon Vrouwen', 'Modus Darts Online Live League', 'Tunisia Basketball League', 'The Masters']"
-9200-9400,"['Cricket', 'Voetbal', 'Futsal', 'IJshockey']","['Portugal Liga 3', 'Vijay Hazare Trophy', 'Poland Ekstraklasa', 'Zwitserland National League A', 'Oostenrijk Eishockey Liga']"
-9400-9600,"['Tafeltennis', 'Badminton', 'Voetbal', 'Handbal', 'Cricket', 'Tennis']","['Vriendschappelijk', 'Malaysia Open, Men Doubles', 'South Africa SA20 League', 'Malaysia Open, Women Doubles', 'New Zealand Super Smash, Women', 'ATP Challenger Oeiras 1, Enkelspel', 'Malaysia Open, Women Singles', 'Malaysia Open, Men Singles', 'WTT Star Contender Doha, Mixed Doubles', 'WTT Star Contender Doha, Women Singles', 'WTT Star Contender Doha, Doubles', 'TT Elite Series', 'WTT Star Contender Doha, Singles', 'Supercopa', 'ATP Challenger Oeiras 1, Dubbelspel', 'Malaysia Open, Mixed Doubles', 'WTT Star Contender Doha, Women, Doubles']"
-9600-9800,[],[]
+8800-9000,"['IJshockey', 'Volleybal', 'Bowls', 'Floorball', 'Wintersport']","['Switzerland National League B', 'World Indoor Bowls Championship, Women', 'Zweden Superligan Vrouwen', 'World Indoor Bowls Championship', 'Eredivisie Heren', 'Biatlon Mannen']"
+9000-9200,"['Volleybal', 'Voetbal', 'Rugby Union', 'Honkbal', 'Wintersport', 'Cricket', 'Darten']","['Modus Darts Online Live League', 'Slovenia 1. DOL', 'Spanje Primera Division RFEF', 'United Rugby Championship', 'Biatlon Vrouwen', 'Mexico Liga Mexicana del Pacifico', 'Brazilië Superliga Vrouwen', 'T20 League', 'Dominican Professional Baseball League']"
+9200-9400,"['IJshockey', 'Voetbal', 'Futsal']","['Italy Serie C', 'Oostenrijk Eishockey Liga', 'Portugal Liga 3', 'Zwitserland National League A', 'Poland Ekstraklasa']"
+9400-9600,"['Tafeltennis', 'Cricket', 'Tennis']","['TT Elite Series', 'ATP Challenger Punta, Enkelspel', 'New Zealand Super Smash, Women', 'India Ranji Trophy', 'South Africa SA20 League']"
+9600-9800,"['Voetbal', 'Badminton', 'Tennis']","['Indonesia Masters, Women Doubles', ""England FA Women's Premier League Cup"", 'Indonesia Masters, Men Doubles', 'Indonesia Masters, Women Singles', 'ATP Challenger Punta, Dubbelspel', 'Indonesia Masters, Mixed Doubles', 'Indonesia Masters, Men Singles']"
 9800-10000,[],[]
-10000-10200,[],[]
-10200-10400,['TOTO Specials'],['Goalgetter Boost']
+10000-10200,['Basketbal'],['Serbia KLS 1st Division']
+10200-10400,"['TOTO Specials', 'Volleybal']","['Goalgetter Boost', ""Romania Men's Divizia A1""]"
 10400-10600,[],[]
 10600-10800,[],[]
 10800-11000,[],[]
@@ -52,12 +58,53 @@
 11400-11600,['Tafeltennis'],['TTStar Series']
 11600-11800,[],[]
 11800-12000,[],[]
-12000-12200,"['IJshockey', 'Tafeltennis', 'Boksen']","['Finland Liiga', 'Internationale Gevechten', 'Zweden SHL', 'Czech Liga Pro']"
+12000-12200,"['IJshockey', 'Tafeltennis', 'Voetbal', 'Boksen']","['Vriendschappelijk', 'Czech Liga Pro', 'Internationale Gevechten', 'Finland Liiga', 'Zweden SHL']"
 12200-12400,[],[]
 12400-12600,[],[]
-12600-12800,"['Waterpolo', 'Snooker', 'Mixed Martial Arts', 'IJshockey']","['Champions Hockey League', 'UFC Fight Night: Dern vs. Ribas 2', ""FINA Men's Water Polo World Cup"", 'Championship League Snooker']"
-12800-13000,[],[]
+12600-12800,"['IJshockey', 'Handbal']","['Champions Hockey League', 'Wereld Kampioenschap']"
+12800-13000,['Bowls'],"['World Indoor Bowls Championship', 'World Indoor Bowls Championship, Women']"
 13000-13200,[],[]
 13200-13400,[],[]
 13400-13600,[],[]
 13600-13800,[],[]
+13800-14000,[],[]
+14000-14200,[],[]
+14200-14400,[],[]
+14400-14600,[],[]
+14600-14800,[],[]
+14800-15000,[],[]
+15000-15200,[],[]
+15200-15400,[],[]
+15400-15600,[],[]
+15600-15800,[],[]
+15800-16000,[],[]
+16000-16200,[],[]
+16200-16400,[],[]
+16400-16600,[],[]
+16600-16800,[],[]
+16800-17000,[],[]
+17000-17200,[],[]
+17200-17400,[],[]
+17400-17600,[],[]
+17600-17800,[],[]
+17800-18000,[],[]
+18000-18200,[],[]
+18200-18400,[],[]
+18400-18600,[],[]
+18600-18800,[],[]
+18800-19000,[],[]
+19000-19200,[],[]
+19200-19400,[],[]
+19400-19600,[],[]
+19600-19800,[],[]
+19800-20000,[],[]
+20000-20200,[],[]
+20200-20400,[],[]
+20400-20600,[],[]
+20600-20800,[],[]
+20800-21000,[],[]
+21000-21200,[],[]
+21200-21400,[],[]
+21400-21600,[],[]
+21600-21800,[],[]
+21800-22000,[],[]
