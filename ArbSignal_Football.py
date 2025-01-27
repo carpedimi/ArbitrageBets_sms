@@ -1,7 +1,25 @@
+import os
 import pandas as pd
 from fuzzywuzzy import process, fuzz
-
+from datetime import datetime
 import pandas as pd
+
+def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
+    """
+    Get the latest file in a directory based on the modification time.
+
+    Args:
+    directory (str): The directory path to search for files.
+    file_extension (str): The file extension filter (default is "*.csv").
+
+    Returns:
+    str: The path to the latest file.
+    """
+    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('toto') or file.startswith('unibet'))]
+    if not files:
+        raise FileNotFoundError(f"No files found in {directory} with extension {file_extension}")
+    latest_file = max(files, key=os.path.getmtime)
+    return latest_file
 
 def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
     """
@@ -357,18 +375,24 @@ def process_football_betting_data(toto_filtered_football, kambi_filtered_footbal
     
     return result
 
-toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
-kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
+# toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
+# kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
 
-toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_file, kambi_file)
+toto_directory = "Data/scrapers/Toto/"
+kambi_directory = "Data/scrapers/unibet/"
 
-# # Now, `merged_df_winnaar` contains the processed and filtered merged data
-# merged_df_winnaar = create_merged_df_winnaar(toto_filtered_football, kambi_filtered_football)
-# # Now, `merged_football_overunder` contains the processed and filtered merged data
-# merged_football_overunder = create_merged_football_overunder(kambi_filtered_football, toto_filtered_football)
-# # Now, `merged_football_yesno` contains the processed and filtered merged data
-# merged_football_yesno = create_merged_football_yesno(toto_filtered_football, kambi_filtered_football)
+toto_file_path = get_latest_file(toto_directory)
+kambi_file_path = get_latest_file(kambi_directory)
+
+print(f"Latest Toto file: {toto_file_path}")
+print(f"Latest Kambi file: {kambi_file_path}")
+
+# Process the files
+toto_filtered, kambi_filtered = preprocess_football_data(toto_file_path, kambi_file_path)
+
+toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_file_path, kambi_file_path)
+
 
 # Perform the stacked union
 total_football_results = process_football_betting_data(toto_filtered_football, kambi_filtered_football)
-total_football_results.to_csv('test_total_merge_Football_2601.csv')
+total_football_results.to_csv(f'test_total_merge_Football_{datetime.utcnow()}.csv')

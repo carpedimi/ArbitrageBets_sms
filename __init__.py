@@ -2,26 +2,26 @@ import os
 import subprocess
 from threading import Thread
 
-# Paths to the notebooks
+# Paths to the Python scripts
 BASE_DIR = "/Users/ddeboe01/Downloads/ArbitrageBets"
-UNIBET_NOTEBOOK = os.path.join(BASE_DIR, "Data/scrapers/unibet/unibetAllSport.ipynb")
-TOTO_NOTEBOOK = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoAllSport.ipynb")
-ARBSIGNAL_NOTEBOOK = os.path.join(BASE_DIR, "ArbSignal_Football_dev.ipynb")
+UNIBET_PY = os.path.join(BASE_DIR, "Data/scrapers/unibet/unibetAllSport.py")
+TOTO_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoAllSport.py")
+ARBSIGNAL_PY = os.path.join(BASE_DIR, "ArbSignal_Football.py")
 
-JUPYTER_PATH = "/Users/ddeboe01/Library/Python/3.11/bin/jupyter"
 
-def run_notebook(notebook_path):
-    subprocess.run(
-        [JUPYTER_PATH, 'nbconvert', '--to', 'notebook', '--execute', notebook_path],
-        check=True
-    )
+def run_py(script_path):
+    """
+    Executes a Python script using subprocess.
+    """
+    subprocess.run(['python3', script_path], check=True)
+
 
 def main():
     os.chdir(BASE_DIR)  # Set the working directory
 
-    # Threads for parallel execution of the first two notebooks
-    unibet_thread = Thread(target=run_notebook, args=(UNIBET_NOTEBOOK,))
-    toto_thread = Thread(target=run_notebook, args=(TOTO_NOTEBOOK,))
+    # Threads for parallel execution of the first two scripts
+    unibet_thread = Thread(target=run_py, args=(UNIBET_PY,))
+    toto_thread = Thread(target=run_py, args=(TOTO_PY,))
 
     # Start the threads
     unibet_thread.start()
@@ -31,8 +31,9 @@ def main():
     unibet_thread.join()
     toto_thread.join()
 
-    # Run the final notebook
-    run_notebook(ARBSIGNAL_NOTEBOOK)
+    # Run the final script
+    run_py(ARBSIGNAL_PY)
+
 
 if __name__ == "__main__":
     main()

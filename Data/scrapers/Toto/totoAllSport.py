@@ -1,6 +1,7 @@
 import requests
 import json
 import pandas as pd
+import regex as re
 import time
 import random
 from datetime import datetime, timedelta
@@ -148,34 +149,65 @@ class DataFetcher:
         for event in data.get('data', {}).get('events', []):
             for market in event.get('markets', []):
                 for outcome in market.get('outcomes', []):
-                    parsed_data['event_id'].append(event['id'])
-                    parsed_data['Event Name'].append(event['name'])
-                    parsed_data['Market Name'].append(market['name'])
-                    parsed_data['Outcome Name'].append(outcome['name'])
-                    parsed_data['Odds (Decimal)'].append(outcome['prices'][0]['decimal'])
-                    parsed_data['Price Numerator'].append(outcome['prices'][0]['numerator'])
-                    parsed_data['Price Denominator'].append(outcome['prices'][0]['denominator'])
-                    parsed_data['Outcome Type'].append(outcome['type'])
-                    parsed_data['Outcome SubType'].append(outcome['subType'])
+                    parsed_data['event_id'].append(event.get('id'))
+                    parsed_data['Event Name'].append(event.get('name'))
+                    parsed_data['Market Name'].append(market.get('name'))
+                    parsed_data['Outcome Name'].append(outcome.get('name'))
+                    
+                    # Safely access prices
+                    prices = outcome.get('prices', [])
+                    if prices:  # Check if prices list is not empty
+                        price = prices[0]
+                        parsed_data['Odds (Decimal)'].append(price.get('decimal'))
+                        parsed_data['Price Numerator'].append(price.get('numerator'))
+                        parsed_data['Price Denominator'].append(price.get('denominator'))
+                    else:
+                        # Append None if prices are missing
+                        parsed_data['Odds (Decimal)'].append(None)
+                        parsed_data['Price Numerator'].append(None)
+                        parsed_data['Price Denominator'].append(None)
+                    
+                    parsed_data['Outcome Type'].append(outcome.get('type'))
+                    parsed_data['Outcome SubType'].append(outcome.get('subType'))
         
         return pd.DataFrame(parsed_data)
 
 def main():
     # Initialize fetcher
     fetcher = DataFetcher()
-    
+
     # Fetch matches
     print("Fetching matches...")
     matches_df = fetcher.fetch_matches()
     print(f"Found {len(matches_df)} matches")
-    
+
     # Fetch detailed odds
     print("Fetching detailed odds...")
-    final_df = fetcher.fetch_detailed_odds(matches_df)
-    print(f"Processed {len(final_df)} odds entries")
-    
+    detailed_odds_df = fetcher.fetch_detailed_odds(matches_df)
+    print(f"Processed {len(detailed_odds_df)} odds entries")
+
+    # Perform the join on 'event_id' to get 'sport', 'competition', etc.
+    print("Merging matches and odds data...")
+    final_df = detailed_odds_df.merge(
+        matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team']],
+        on='event_id',
+        how='left'
+    ).drop_duplicates()
+
+    # Clean up column names and handle replacements
+    final_df = final_df[[col for col in final_df.columns if not col.endswith('_x')]]  # Remove '_x' columns
+    final_df.columns = final_df.columns.str.replace('_y', '', regex=False)  # Remove '_y' suffix from column names
+
+    # Replace 'A' with '2' and 'H' with '1' in 'Outcome SubType' column
+    if 'Outcome SubType' in final_df.columns:
+        final_df['Outcome SubType'] = final_df['Outcome SubType'].replace({'A': '2', 'H': '1'})
+
+    # Save the final DataFrame to CSV
+    csv_filename = f"Data/scrapers/Toto/totoAllSport{fetcher.now}.csv"
+    final_df.to_csv(csv_filename, index=False)
+    print(f"Data saved to {csv_filename}")
+
     return final_df
 
 if __name__ == "__main__":
     final_df = main()
-    print(final_df)

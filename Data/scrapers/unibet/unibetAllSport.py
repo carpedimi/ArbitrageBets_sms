@@ -1,10 +1,24 @@
 # betting_data_fetcher.py
-
 import pandas as pd
 import requests
+import regex as re
+from datetime import datetime, timedelta
 
 class BettingDataFetcher:
     def __init__(self):
+        self.now = datetime.utcnow()
+        # Round down to the current hour
+        start_datetime = self.now.replace(minute=0, second=0, microsecond=0)
+        self.start_time = start_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
+        
+        # Round up to end of day in two weeks
+        end_datetime = (self.now + timedelta(weeks=2)).replace(
+            hour=23,
+            minute=59,
+            second=59,
+            microsecond=0
+        )
+        self.end_time = end_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
         self.base_group_url = "https://eu-offering-api.kambicdn.com/offering/v2018/ubnl/group/highlight.json"
         self.event_url = "https://www.unibet.nl/sportsbook-feeds/views/filter/{}/all/matches"
         self.bet_offer_url = "https://eu-offering-api.kambicdn.com/offering/v2018/ubnl/betoffer/event/{event_id}.json"
@@ -85,15 +99,31 @@ class BettingDataFetcher:
                 for offer in data.get("betOffers", []):
                     for outcome in offer.get("outcomes", []):
                         all_rows.append({
-                            "bet_offer_id": offer["id"],
-                            "criterion_id": offer["criterion"]["id"],
-                            "criterion_label": offer["criterion"]["label"],
-                            "event_id": offer["eventId"],
-                            "outcome_id": outcome["id"],
-                            "outcome_label": outcome["label"],
-                            "odds": outcome.get("odds", None),
-                            "status": outcome["status"]
-                        })
+                        'bet_offer_id': offer['id'],
+                        'criterion_id': offer['criterion']['id'],
+                        'criterion_label': offer['criterion']['label'],
+                        'criterion_english_label': offer['criterion'].get('englishLabel', None),  # Safe access
+                        'occurrence_type': offer['criterion'].get('occurrenceType', None),  # Safe access
+                        'lifetime': offer['criterion'].get('lifetime', None),  # Safe access
+                        'bet_offer_type_id': offer['betOfferType']['id'],
+                        'bet_offer_type_name': offer['betOfferType']['name'],
+                        'bet_offer_type_english_name': offer['betOfferType']['englishName'],
+                        'event_id': offer['eventId'],
+                        'outcome_id': outcome['id'],
+                        'outcome_label': outcome['label'],
+                        'outcome_english_label': outcome['englishLabel'],
+                        'odds': outcome.get('odds', None),  # Safe access
+                        'line': outcome.get('line', None),  # New field added
+                        'participant': outcome.get('participant', None),  # New field added
+                        'type': outcome['type'],
+                        'changed_date': outcome['changedDate'],
+                        'odds_fractional': outcome.get('oddsFractional', None),  # Safe access
+                        'odds_american': outcome.get('oddsAmerican', None),  # Safe access
+                        'status': outcome['status'],
+                        'cash_out_status': outcome['cashOutStatus'],
+                        'home_score': outcome.get('homeScore', None),  # Safe access
+                        'away_score': outcome.get('awayScore', None)   # Safe access
+                    })
             else:
                 print(f"Failed to fetch bet offers for event ID {event_id}: {response.status_code}")
         return pd.DataFrame(all_rows)
@@ -163,7 +193,36 @@ class BettingDataFetcher:
         print(f"Fetched {len(events_df)} events.")
 
         print("Fetching bet offers...")
-        final_df = self.fetch_bet_offers(events_df["event_id"].unique())
+        offers_df = self.fetch_bet_offers(events_df["event_id"].unique())
+
+        final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name']], on="event_id", how="left")
+        # Function to reformat names from "Last, First" to "First Last"
+        def reformat_name(match_name):
+            # Use regex to match "Last, First - Last, First" format
+            formatted_names = re.sub(r"(\w+), (\w+)", r"\2 \1", match_name)
+            formatted_names = formatted_names.replace(" - ", " vs ")
+            return formatted_names
+
+        # Apply the function to the 'event_name' column
+        final_df['event_name'] = final_df['event_name'].apply(reformat_name)
+
+        # Define a function to swap and reformat the criterion_label for tennis
+        def swap_name_format(row):
+            if row['sport'] == 'TENNIS':
+                # Use regex to capture "Last name, First name" pattern and rearrange
+                match = re.search(r"(\w+), (\w+) wint minstens één set", row['criterion_label'])
+                if match:
+                    last_name, first_name = match.groups()
+                    # Reformat to "First name Last name Wint een Set"
+                    return f"{first_name} {last_name} Wint een Set"
+            # Return the original criterion_label if conditions are not met
+            return row['criterion_label']
+
+        # Apply the function to the criterion_label column
+        final_df['criterion_label'] = final_df.apply(swap_name_format, axis=1)
+
+        # Replace values in the 'type' column
+        final_df['type'] = final_df['type'].replace({'OT_ONE': '1', 'OT_TWO': '2'})
         print(f"Fetched {len(final_df)} bet offers.")
         
         return final_df
@@ -172,4 +231,4 @@ class BettingDataFetcher:
 if __name__ == "__main__":
     fetcher = BettingDataFetcher()
     final_df = fetcher.run()
-    print(final_df)
+    final_df.to_csv(f'Data/scrapers/unibet/unibetAllSport{fetcher.now}.csv')
