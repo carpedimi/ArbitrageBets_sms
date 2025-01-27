@@ -1,6 +1,6 @@
 import pandas as pd
 from fuzzywuzzy import process, fuzz
-
+from datetime import datetime
 import pandas as pd
 
 def preprocess_tennis_data(toto_file_path: str, kambi_file_path: str):
@@ -406,4 +406,4 @@ toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file, 
 
 # Perform the stacked union
 total_tennis_results = process_tennis_betting_data(toto_filtered_tennis, kambi_filtered_tennis)
-total_tennis_results.to_csv('test_total_merge_2601.csv')
+total_tennis_results.to_csv(f'test_total_merge_Tennis_{datetime.utcnow()}.csv')

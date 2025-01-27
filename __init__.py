@@ -6,7 +6,8 @@ from threading import Thread
 BASE_DIR = "/Users/ddeboe01/Downloads/ArbitrageBets"
 UNIBET_PY = os.path.join(BASE_DIR, "Data/scrapers/unibet/unibetAllSport.py")
 TOTO_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoAllSport.py")
-ARBSIGNAL_PY = os.path.join(BASE_DIR, "ArbSignal_Football.py")
+ARBSIGNAL_PY_FOOTBALL = os.path.join(BASE_DIR, "ArbSignal_Football.py")
+ARBSIGNAL_PY_TENNIS = os.path.join(BASE_DIR, "ArbSignal_Tennis.py")
 
 
 def run_py(script_path):
@@ -32,7 +33,8 @@ def main():
     toto_thread.join()
 
     # Run the final script
-    run_py(ARBSIGNAL_PY)
+    run_py(ARBSIGNAL_PY_FOOTBALL)
+    run_py(ARBSIGNAL_PY_TENNIS)
 
 
 if __name__ == "__main__":
