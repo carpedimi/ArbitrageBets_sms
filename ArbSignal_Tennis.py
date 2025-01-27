@@ -392,8 +392,8 @@ def process_tennis_betting_data(toto_filtered_tennis, kambi_filtered_tennis):
     
     return result
 
-toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-21T18:05:01Z.csv'
-kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-21T16:02:20Z.csv'
+toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
+kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
 
 toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file, kambi_file)
 
@@ -406,4 +406,4 @@ toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file, 
 
 # Perform the stacked union
 total_tennis_results = process_tennis_betting_data(toto_filtered_tennis, kambi_filtered_tennis)
-total_tennis_results.to_csv('test_total_merge.csv')
+total_tennis_results.to_csv('test_total_merge_2601.csv')

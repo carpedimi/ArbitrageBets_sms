@@ -25,6 +25,29 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
     # Adjust odds and line in Kambi data
     kambi_raw_football['line'] = kambi_raw_football['line'] / 1000
     kambi_raw_football['odds'] = kambi_raw_football['odds'] / 1000
+
+    # List of women's competitions
+    women_competitions_toto = [
+        'Portugal Campeonato Nacional, Vrouwen', 'Mexico League MX Vrouwen', 'Australië W-League',
+        'Scotland Women\'s Premier League', 'Nederland Eredivisie Vrouwen', 'Engeland FA Super League Vrouwen',
+        'Spain Primera División Vrouwen'
+    ]
+
+    # Create 'sex' column based on the competition
+    toto_raw_football['sex'] = toto_raw_football['competition'].apply(
+        lambda x: 'W' if x in women_competitions_toto else 'M'
+    )
+
+    # List of women's football competitions
+    women_competitions_kambi = [
+        'A-League (D)', 'Premier League Dames', 'Campeonato Nacional Feminino', 'Liga MX Femenil (D)', 
+        'Frauen-Bundesliga', 'Super League (D)', 'Primera División (D)'
+    ]
+
+    # Create 'sex' column
+    kambi_raw_football['sex'] = kambi_raw_football['group_name'].apply(
+        lambda x: 'W' if x in women_competitions_kambi else 'M'
+    )
     
     # Filter Kambi for suitable betting opportunities
     kambi_filtered_football = kambi_raw_football[
@@ -88,19 +111,54 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
     filtered_kambi_winnaar['event_name'] = filtered_kambi_winnaar['event_name'].apply(preprocess_text)
     filtered_toto_winnaar['Event Name'] = filtered_toto_winnaar['Event Name'].apply(preprocess_text)
 
+    # Create 'Team1' and 'Team2'
+    filtered_kambi_winnaar[['Team1', 'Team2']] = filtered_kambi_winnaar['event_name'].str.split(' vs ', expand=True)
+    filtered_toto_winnaar[['Team1', 'Team2']] = filtered_toto_winnaar['Event Name'].str.split(' vs ', expand=True)
+
     # Create a list of Kambi event names
     kambi_events = filtered_kambi_winnaar['event_name'].tolist()
 
-    # Function to find the best match for an event name
+    # Function to find the best match based on Team1 and Team2 fuzzy matching
     def find_best_match(event_name):
-        result = process.extractOne(event_name, kambi_events, scorer=fuzz.token_set_ratio, score_cutoff=90)
-        if result is None:
-            return None
-        match, score, _ = result
-        return match
+        # Extract Team1 and Team2 from the event_name
+        parts = event_name.split(' vs ')
+        if len(parts) == 2:
+            team1 = parts[0].strip()#.replace('Athletic', '')
+            team2 = parts[1].strip()#.replace('Athletic', '')
 
-    # Apply matching function to Toto data
-    filtered_toto_winnaar['matched_event'] = filtered_toto_winnaar['Event Name'].apply(find_best_match)
+            # Perform fuzzy matching for Team1 and Team2 with all kambi events
+            def match_teams(team, kambi_team):
+                return fuzz.token_set_ratio(team, kambi_team)
+
+            # Perform fuzzy matching for both Team1 and Team2
+            kambi_matches = filtered_kambi_winnaar[
+                (filtered_kambi_winnaar['Team1'].apply(lambda x: match_teams(team1, x) >= 65)) &
+                (filtered_kambi_winnaar['Team2'].apply(lambda x: match_teams(team2, x) >= 65))
+            ]
+            
+            # If there is a match, return the matched event_name and fuzzy match score
+            if not kambi_matches.empty:
+                # Get the best match score
+                best_score_team1 = kambi_matches['Team1'].apply(lambda x: match_teams(team1, x)).max()
+                best_score_team2 = kambi_matches['Team2'].apply(lambda x: match_teams(team2, x)).max()
+
+                # Calculate the average score (or you can choose to return another metric)
+                average_score = (best_score_team1 + best_score_team2) / 2
+
+                # Get the matched event name
+                matched_event_name = kambi_matches['event_name'].iloc[0]
+
+                return matched_event_name, average_score  # Return the matched event and score
+
+        return None, None  # Return None if no match found
+
+    # Apply matching function to toto_filtered_football
+    filtered_toto_winnaar[['matched_event', 'fuzzy_score']] = filtered_toto_winnaar['Event Name'].apply(
+        lambda x: pd.Series(find_best_match(x))
+    )
+
+    # Get unique records from 'Event Name' and 'matched_event'
+    matched_events = filtered_toto_winnaar[['Event Name', 'matched_event', 'fuzzy_score']].drop_duplicates()
 
     # Define a transformation function for standardization
     def standardize_draw_no_bet(value):
@@ -121,8 +179,8 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
     merged_df_winnaar = pd.merge(
         filtered_toto_winnaar,
         filtered_kambi_winnaar,
-        left_on=['matched_event', 'standardized_label'], 
-        right_on=['event_name', 'standardized_label'], 
+        left_on=['matched_event', 'standardized_label', 'sex'], 
+        right_on=['event_name', 'standardized_label', 'sex'], 
         how='inner'  # Perform an inner join
 )
 
@@ -132,10 +190,10 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
         (merged_df_winnaar['Outcome SubType'] != merged_df_winnaar['type'])
     ]
 
-    return merged_df_winnaar
+    return merged_df_winnaar, matched_events
 
 
-def create_merged_football_overunder(kambi_filtered_football, toto_filtered_football):
+def create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events):
     """
     Preprocess, match, and merge football betting data from Toto and Kambi for "Over/Under" events.
 
@@ -172,16 +230,20 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
     # Get event names for matching
     kambi_events = kambi_filtered_football_overunder['event_name'].tolist()
 
-    # Function to find the best match
-    def find_best_match(event_name):
-        result = process.extractOne(event_name, kambi_events, scorer=fuzz.token_set_ratio, score_cutoff=90)
-        if result is None:
-            return None
-        match, _, _ = result
-        return match
+    # # Function to find the best match
+    # def find_best_match(event_name):
+    #     result = process.extractOne(event_name, kambi_events, scorer=fuzz.token_set_ratio, score_cutoff=90)
+    #     if result is None:
+    #         return None
+    #     match, _, _ = result
+    #     return match
 
-    # Apply matching
-    toto_filtered_football_overunder['matched_event'] = toto_filtered_football_overunder['Event Name'].apply(find_best_match)
+    # Perform a left join to bring in 'matched_event' and 'fuzzy_score' from matched_events
+    toto_filtered_football_overunder = toto_filtered_football_overunder.merge(
+        matched_events,
+        on='Event Name',  # Join on the 'Event Name' column
+        how='left'  # Ensure all rows in toto_filtered_football_overunder are retained
+    )
 
     # Define OverUnderType
     def determine_over_under_type(label):
@@ -246,8 +308,8 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
     merged_football_overunder = pd.merge(
         toto_filtered_football_overunder,
         kambi_filtered_football_overunder,
-        left_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'matched_event'],
-        right_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'event_name'],
+        left_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'matched_event', 'sex'],
+        right_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'event_name', 'sex'],
         how='inner'
     )
 
@@ -261,8 +323,8 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
 
 def process_football_betting_data(toto_filtered_football, kambi_filtered_football):
     # Call the specific functions to process different bet types
-    merged_df_winnaar = create_merged_df_winnaar(toto_filtered_football, kambi_filtered_football)
-    merged_football_overunder = create_merged_football_overunder(kambi_filtered_football, toto_filtered_football)
+    merged_df_winnaar, matched_events = create_merged_df_winnaar(toto_filtered_football, kambi_filtered_football)
+    merged_football_overunder = create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events)
 
     # Perform the stacked union
     total_football = pd.concat([merged_football_overunder, merged_df_winnaar], ignore_index=True, sort=True)
@@ -295,8 +357,8 @@ def process_football_betting_data(toto_filtered_football, kambi_filtered_footbal
     
     return result
 
-toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-21T18:05:01Z.csv'
-kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-21T16:02:20Z.csv'
+toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
+kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
 
 toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_file, kambi_file)
 
@@ -309,4 +371,4 @@ toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_
 
 # Perform the stacked union
 total_football_results = process_football_betting_data(toto_filtered_football, kambi_filtered_football)
-total_football_results.to_csv('test_total_merge_Football.csv')
+total_football_results.to_csv('test_total_merge_Football_2601.csv')
