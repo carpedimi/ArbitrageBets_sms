@@ -49,42 +49,101 @@ class DataFetcher:
             print(f"{error_msg}: {str(e)}")
             return {}
 
+    # def fetch_matches(self) -> pd.DataFrame:
+    #     """Fetch initial matches data"""
+    #     all_matches = []
+        
+    #     for start in range(200, self.config.MAX_DRILLDOWN_ID, self.config.DRILLDOWN_BATCH_SIZE):
+    #         drilldown_ids = ','.join(str(i) for i in range(start, start + self.config.DRILLDOWN_BATCH_SIZE))
+            
+    #         url = (
+    #             f"{self.config.BASE_URL}/event-list?"
+    #             f"startTimeFrom={self.start_time}&"
+    #             f"startTimeTo={self.end_time}&"
+    #             "liveNow=false&"
+    #             "maxEvents=190&"
+    #             "orderEventsBy=popularity&"
+    #             "orderMarketsBy=displayOrder&"
+    #             "marketSortsIncluded=--,CS,DC,DN,HH,HL,MH,MR,WH&"
+    #             "marketGroupTypesIncluded=CUSTOM_GROUP,DOUBLE_CHANCE,DRAW_NO_BET,MATCH_RESULT,"
+    #             "MATCH_WINNER,MONEYLINE,ROLLING_SPREAD,ROLLING_TOTAL,STATIC_SPREAD,STATIC_TOTAL&"
+    #             "eventSortsIncluded=MTCH&"
+    #             "includeChildMarkets=true&"
+    #             "prioritisePrimaryMarkets=true&"
+    #             "includeCommentary=true&"
+    #             "includeMedia=true&"
+    #             f"drilldownTagIds={drilldown_ids}&"
+    #             "lang=nl-NL&"
+    #             "channel=I"
+    #         )
+
+    #         data = self._make_request(url, f"Error fetching matches for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}")
+            
+    #         if not data:
+    #             continue
+
+    #         matches = self._parse_matches(data)
+    #         all_matches.extend(matches)
+
+    #     return pd.DataFrame(all_matches)
     def fetch_matches(self) -> pd.DataFrame:
         """Fetch initial matches data"""
         all_matches = []
         
         for start in range(200, self.config.MAX_DRILLDOWN_ID, self.config.DRILLDOWN_BATCH_SIZE):
-            drilldown_ids = ','.join(str(i) for i in range(start, start + self.config.DRILLDOWN_BATCH_SIZE))
-            
-            url = (
-                f"{self.config.BASE_URL}/event-list?"
-                f"startTimeFrom={self.start_time}&"
-                f"startTimeTo={self.end_time}&"
-                "liveNow=false&"
-                "maxEvents=190&"
-                "orderEventsBy=popularity&"
-                "orderMarketsBy=displayOrder&"
-                "marketSortsIncluded=--,CS,DC,DN,HH,HL,MH,MR,WH&"
-                "marketGroupTypesIncluded=CUSTOM_GROUP,DOUBLE_CHANCE,DRAW_NO_BET,MATCH_RESULT,"
-                "MATCH_WINNER,MONEYLINE,ROLLING_SPREAD,ROLLING_TOTAL,STATIC_SPREAD,STATIC_TOTAL&"
-                "eventSortsIncluded=MTCH&"
-                "includeChildMarkets=true&"
-                "prioritisePrimaryMarkets=true&"
-                "includeCommentary=true&"
-                "includeMedia=true&"
-                f"drilldownTagIds={drilldown_ids}&"
-                "lang=nl-NL&"
-                "channel=I"
-            )
+            try:
+                drilldown_ids = ','.join(str(i) for i in range(start, start + self.config.DRILLDOWN_BATCH_SIZE))
+                
+                url = (
+                    f"{self.config.BASE_URL}/event-list?"
+                    f"startTimeFrom={self.start_time}&"
+                    f"startTimeTo={self.end_time}&"
+                    "liveNow=false&"
+                    "maxEvents=190&"
+                    "orderEventsBy=popularity&"
+                    "orderMarketsBy=displayOrder&"
+                    "marketSortsIncluded=--,CS,DC,DN,HH,HL,MH,MR,WH&"
+                    "marketGroupTypesIncluded=CUSTOM_GROUP,DOUBLE_CHANCE,DRAW_NO_BET,MATCH_RESULT,"
+                    "MATCH_WINNER,MONEYLINE,ROLLING_SPREAD,ROLLING_TOTAL,STATIC_SPREAD,STATIC_TOTAL&"
+                    "eventSortsIncluded=MTCH&"
+                    "includeChildMarkets=true&"
+                    "prioritisePrimaryMarkets=true&"
+                    "includeCommentary=true&"
+                    "includeMedia=true&"
+                    f"drilldownTagIds={drilldown_ids}&"
+                    "lang=nl-NL&"
+                    "channel=I"
+                )
 
-            data = self._make_request(url, f"Error fetching matches for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}")
-            
-            if not data:
+                response = requests.get(url, headers=self.config.HEADERS)
+                response.raise_for_status()
+                
+                if not response.content:
+                    print(f"Empty response for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}")
+                    continue
+                    
+                data = response.json()
+                if not data or 'data' not in data:
+                    print(f"Invalid data structure for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}")
+                    continue
+
+                matches = self._parse_matches(data)
+                all_matches.extend(matches)
+
+                # Optional rate limiting
+                time.sleep(random.uniform(0.02, 1.81))
+
+            except requests.exceptions.RequestException as e:
+                print(f"Request failed for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}: {e}")
+                continue
+            except Exception as e:
+                print(f"Unexpected error for drilldown IDs {start}-{start + self.config.DRILLDOWN_BATCH_SIZE}: {e}")
                 continue
 
-            matches = self._parse_matches(data)
-            all_matches.extend(matches)
-
+        if not all_matches:
+            print("Warning: No matches were found")
+            return pd.DataFrame()  # Return empty DataFrame instead of failing
+            
         return pd.DataFrame(all_matches)
 
     def _parse_matches(self, data: dict) -> List[dict]:

@@ -9,6 +9,33 @@ TOTO_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoAllSport.py")
 ARBSIGNAL_PY_FOOTBALL = os.path.join(BASE_DIR, "ArbSignal_Football.py")
 ARBSIGNAL_PY_TENNIS = os.path.join(BASE_DIR, "ArbSignal_Tennis.py")
 
+import os
+
+def get_latest_file(sport: str, file_extension: str = "*.csv", directory: str = None) -> str:
+    """
+    Get the latest file in a directory based on the modification time.
+
+    Args:
+        sport (str): Sport name to filter files.
+        file_extension (str): The file extension filter (default is "*.csv").
+        directory (str): The directory path to search for files (default is current working directory).
+
+    Returns:
+        str: The path to the latest file.
+    """
+    if directory is None:
+        directory = os.getcwd()
+        
+    files = [os.path.join(directory, file) 
+            for file in os.listdir(directory) 
+            if file.endswith(file_extension.split('.')[-1]) and sport in file]
+    
+    if not files:
+        raise FileNotFoundError(f"No files found in {directory} with extension {file_extension} with {sport} in the name")
+    
+    latest_file = max(files, key=os.path.getmtime)
+    return latest_file
+
 
 def run_py(script_path):
     """
@@ -32,10 +59,13 @@ def main():
     unibet_thread.join()
     toto_thread.join()
 
-    # Run the final script
-    run_py(ARBSIGNAL_PY_FOOTBALL)
-    run_py(ARBSIGNAL_PY_TENNIS)
+    # Threads for parallel execution of the first two scripts
+    arbsignal_football_thread = Thread(target=run_py, args=(ARBSIGNAL_PY_FOOTBALL,))
+    arbsignal_tennis_thread = Thread(target=run_py, args=(ARBSIGNAL_PY_TENNIS,))
 
+    # Start the threads
+    arbsignal_football_thread.start()
+    arbsignal_tennis_thread.start()
 
 if __name__ == "__main__":
     main()

@@ -381,6 +381,7 @@ def process_football_betting_data(toto_filtered_football, kambi_filtered_footbal
 
 toto_directory = "Data/scrapers/Toto/"
 kambi_directory = "Data/scrapers/unibet/"
+start_time = datetime.utcnow()
 
 toto_file_path = get_latest_file(toto_directory)
 kambi_file_path = get_latest_file(kambi_directory)
@@ -390,10 +391,25 @@ print(f"Latest Kambi file: {kambi_file_path}")
 
 # Process the files
 toto_filtered, kambi_filtered = preprocess_football_data(toto_file_path, kambi_file_path)
-
 toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_file_path, kambi_file_path)
-
 
 # Perform the stacked union
 total_football_results = process_football_betting_data(toto_filtered_football, kambi_filtered_football)
-total_football_results.to_csv(f'test_total_merge_Football_{datetime.utcnow()}.csv')
+total_football_results.to_csv(f'test_total_merge_Football_{start_time}.csv')
+
+# Check if latest output file contains Arbitrage opportunities
+try:
+    arbitrage_found = False
+    arbitrage_messages = []
+    
+    if total_football_results["Is Arbitrage"].any():
+        arbitrage_messages.append(f"Arbitrage opportunity found in Football: test_total_merge_Football_{start_time}.csv")
+        arbitrage_found = True
+        
+    if arbitrage_found:
+        print("\n".join(arbitrage_messages))
+    else:
+        print("Football: No arbitrage opportunities found.")
+        
+except Exception as e:
+    print(f"Football: Error checking for arbitrage opportunities: {str(e)}")
