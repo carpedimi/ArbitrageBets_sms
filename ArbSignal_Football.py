@@ -46,9 +46,9 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
 
     # List of women's competitions
     women_competitions_toto = [
-        'Portugal Campeonato Nacional, Vrouwen', 'Mexico League MX Vrouwen', 'Australië W-League',
-        'Scotland Women\'s Premier League', 'Nederland Eredivisie Vrouwen', 'Engeland FA Super League Vrouwen',
-        'Spain Primera División Vrouwen'
+    'Portugal Campeonato Nacional, Vrouwen', 'Mexico League MX Vrouwen', 'Australië W-League', 'Italië Coppa Italia Vrouwen',
+    'Scotland Women\'s Premier League', 'Nederland Eredivisie Vrouwen', 'England FA Cup Women', 'Engeland FA Super League Vrouwen',
+    'Spain Primera División Vrouwen'
     ]
 
     # Create 'sex' column based on the competition
@@ -58,8 +58,8 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
 
     # List of women's football competitions
     women_competitions_kambi = [
-        'A-League (D)', 'Premier League Dames', 'Campeonato Nacional Feminino', 'Liga MX Femenil (D)', 
-        'Frauen-Bundesliga', 'Super League (D)', 'Primera División (D)'
+    'A-League (D)', 'Premier League Dames', 'Campeonato Nacional Feminino', 'Liga MX Femenil (D)', 
+    'Frauen-Bundesliga', 'Super League (D)', 'Primera División (D)', 'Coppa Italia (D)', 'Liga MX Femenil'
     ]
 
     # Create 'sex' column

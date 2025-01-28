@@ -43,7 +43,7 @@ class DataFetcher:
         try:
             response = requests.get(url, headers=self.config.HEADERS)
             response.raise_for_status()
-            # time.sleep(random.uniform(0.02, 1.81))  # Rate limiting
+            time.sleep(random.uniform(0.02, 1.81))  # Rate limiting
             return response.json()
         except Exception as e:
             print(f"{error_msg}: {str(e)}")
@@ -58,7 +58,7 @@ class DataFetcher:
             
             url = (
                 f"{self.config.BASE_URL}/event-list?"
-                f"startTimeFrom={self.start_time}&"
+                f"startTimeFrom=2025-01-28T16:00:00Z&"
                 f"startTimeTo={self.end_time}&"
                 "liveNow=false&"
                 "maxEvents=190&"
