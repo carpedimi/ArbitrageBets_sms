@@ -58,7 +58,7 @@ class DataFetcher:
             
             url = (
                 f"{self.config.BASE_URL}/event-list?"
-                f"startTimeFrom=2025-01-28T16:00:00Z&"
+                f"startTimeFrom={self.start_time}&"
                 f"startTimeTo={self.end_time}&"
                 "liveNow=false&"
                 "maxEvents=190&"
@@ -177,17 +177,17 @@ def main():
     fetcher = DataFetcher()
 
     # Fetch matches
-    print("Fetching matches...")
+    print("Toto: Fetching matches...")
     matches_df = fetcher.fetch_matches()
-    print(f"Found {len(matches_df)} matches")
+    print(f"Toto: Found {len(matches_df)} matches")
 
     # Fetch detailed odds
-    print("Fetching detailed odds...")
+    print("Toto: Fetching detailed odds...")
     detailed_odds_df = fetcher.fetch_detailed_odds(matches_df)
-    print(f"Processed {len(detailed_odds_df)} odds entries")
+    print(f"Toto: Processed {len(detailed_odds_df)} odds entries")
 
     # Perform the join on 'event_id' to get 'sport', 'competition', etc.
-    print("Merging matches and odds data...")
+    print("Toto: Merging matches and odds data...")
     final_df = detailed_odds_df.merge(
         matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team']],
         on='event_id',
@@ -205,7 +205,7 @@ def main():
     # Save the final DataFrame to CSV
     csv_filename = f"Data/scrapers/Toto/totoAllSport{fetcher.now}.csv"
     final_df.to_csv(csv_filename, index=False)
-    print(f"Data saved to {csv_filename}")
+    print(f"Toto: Data saved to {csv_filename}")
 
     return final_df
 

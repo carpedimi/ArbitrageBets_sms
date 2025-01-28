@@ -85,7 +85,7 @@ class BettingDataFetcher:
                                         "group_name": group.get("name", "N/A")
                                     })
                 except Exception as e:
-                    print(f"Error processing pathTermId {path_term_id}: {e}")
+                    print(f"Kambi: Error processing pathTermId {path_term_id}: {e}")
         return pd.DataFrame(all_events_data)
 
     def fetch_bet_offers(self, event_ids):
@@ -125,7 +125,7 @@ class BettingDataFetcher:
                         'away_score': outcome.get('awayScore', None)   # Safe access
                     })
             else:
-                print(f"Failed to fetch bet offers for event ID {event_id}: {response.status_code}")
+                print(f"Kambi: Failed to fetch bet offers for event ID {event_id}: {response.status_code}")
         return pd.DataFrame(all_rows)
 
     def run(self):
@@ -186,13 +186,13 @@ class BettingDataFetcher:
             '/football/netherlands',
             '/football/cyprus',
             '/football/world_cup_qualifying_-_europe']
-        print(f"Fetched {len(groups_df)} groups.")
+        print(f"Kambi: Fetched {len(groups_df)} groups.")
 
-        print("Fetching events...")
+        print("Kambi: Fetching events...")
         events_df = self.fetch_events(groups_df["pathTermId"], sport_list)
-        print(f"Fetched {len(events_df)} events.")
+        print(f"Kambi: Fetched {len(events_df)} events.")
 
-        print("Fetching bet offers...")
+        print("Kambi: Fetching bet offers...")
         offers_df = self.fetch_bet_offers(events_df["event_id"].unique())
 
         final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name']], on="event_id", how="left")
@@ -223,7 +223,7 @@ class BettingDataFetcher:
 
         # Replace values in the 'type' column
         final_df['type'] = final_df['type'].replace({'OT_ONE': '1', 'OT_TWO': '2'})
-        print(f"Fetched {len(final_df)} bet offers.")
+        print(f"Kambi: Fetched {len(final_df)} bet offers.")
         
         return final_df
 
