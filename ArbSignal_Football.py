@@ -141,8 +141,9 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
         # Extract Team1 and Team2 from the event_name
         parts = event_name.split(' vs ')
         if len(parts) == 2:
-            team1 = parts[0].strip()#.replace('Athletic', '')
-            team2 = parts[1].strip()#.replace('Athletic', '')
+            # Remove parts that otherwise result in 100% score in fuzzymatching
+            team1 = parts[0].strip().replace('Athletic', '').replace('Atletico', '')
+            team2 = parts[1].strip().replace('Athletic', '').replace('Atletico', '')
 
             # Perform fuzzy matching for Team1 and Team2 with all kambi events
             def match_teams(team, kambi_team):

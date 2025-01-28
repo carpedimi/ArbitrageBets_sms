@@ -1,145 +1,146 @@
 event_id,Event Name,matched_event,fuzzy_score
 6667819,Bolton Wanderers vs Northampton Town,Bolton vs Northampton Town,100.0
-6679606,Hibernian vs Aberdeen,Hibernian vs Aberdeen,100.0
-6518609,Associacao Portuguesa De Desportos SP vs Sao Paulo,Portuguesa SP vs Sao Paulo SP,100.0
-6518587,Botafogo vs EC Agua Santa SP,Botafogo SP vs Agua Santa SP,100.0
-6681586,Barnet FC vs Hartlepool United FC,Barnet vs Hartlepool United,100.0
-6687734,Alfreton Town FC vs Leamington FC,Alfreton Town vs Leamington,100.0
-6679605,Motherwell vs Celtic,Motherwell vs Celtic,100.0
-6679607,Kilmarnock vs Dundee United,Kilmarnock vs Dundee United,100.0
-6679629,St. Mirren vs St. Johnstone FC,St Mirren vs St Johnstone,100.0
-5939341,Perth Glory FC vs Melbourne Victory FC,Perth Glory vs Melbourne Victory,100.0
-6440019,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo RJ vs Flamengo RJ,100.0
-5936685,Sydney FC vs Adelaide United FC,Sydney FC vs Adelaide United,100.0
 5936683,Auckland FC vs Macarthur FC,Auckland FC vs Macarthur FC,100.0
+6361164,KV Kortrijk vs KVC Westerlo,Kortrijk vs Westerlo,100.0
+6679605,Motherwell vs Celtic,Motherwell vs Celtic,100.0
+6351970,KRC Genk vs Beerschot VA,KRC Genk vs Beerschot,100.0
+6679607,Kilmarnock vs Dundee United,Kilmarnock vs Dundee United,100.0
+6679606,Hibernian vs Aberdeen,Hibernian vs Aberdeen,100.0
+5939341,Perth Glory FC vs Melbourne Victory FC,Perth Glory vs Melbourne Victory,100.0
+5936685,Sydney FC vs Adelaide United FC,Sydney FC vs Adelaide United,100.0
+6580510,Al Hilal (Ksa) vs Al Akhdood,Al Hilal vs Al Akhdood,100.0
+6518609,Associacao Portuguesa De Desportos SP vs Sao Paulo,Portuguesa SP vs Sao Paulo SP,100.0
 5926961,Brisbane Roar FC vs Western Sydney Wanderers FC,Brisbane Roar vs Western Sydney Wanderers,100.0
 6383767,Al Raed FC vs Al Nassr FC,Al Raed vs Al Nassr,100.0
 5906403,Western United FC vs Central Coast Mariners FC,Western United FC vs Central Coast Mariners,100.0
 6692300,Angers SCO vs Olympique Marseille,Angers vs Marseille,100.0
 6692297,Strasbourg vs Montpellier Hsc,Strasbourg vs Montpellier,100.0
-6619692,Atlas vs Monterrey,Club Atlas vs CF Monterrey,100.0
-6690198,Atletico San Luis vs Pumas UNAM,Atletico San Luis vs Pumas UNAM,100.0
-6508811,Gremio Novorizontino SP vs AE Velo Clube SP,Novorizontino SP vs Velo Clube SP,100.0
-6686038,Central Coast Mariners vs Newcastle Jets,Central Coast Mariners vs Newcastle Jets FC,100.0
-6678063,Hamilton Academical vs Raith Rovers FC,Hamilton Academical vs Raith Rovers,100.0
-6687732,Farsley Celtic FC vs Marine FC,Farsley Celtic vs Marine,100.0
-6688276,Enfield Town vs Eastbourne Borough,Enfield Town vs Eastbourne Borough,100.0
-6627230,Brisbane Roar FC vs Wellington Phoenix,Brisbane Roar FC (W) vs Wellington Phoenix FC (W),100.0
-6690199,Deportivo Toluca vs Tigres Uanl,Deportivo Toluca FC vs Tigres UANL,100.0
-6351943,EA Guingamp vs Paris,Guingamp vs Paris FC,100.0
-6681334,Braintree Town FC vs Hartlepool United FC,Braintree Town vs Hartlepool United,100.0
-6690195,Club Tijuana De Caliente vs Cruz Azul,Club Tijuana vs Cruz Azul,100.0
-6687736,Brackley Town FC vs Kidderminster Harriers FC,Brackley Town vs Kidderminster Harriers,100.0
-6351952,Clermont Foot vs AC Ajaccio,Clermont vs AC Ajaccio,100.0
-6692885,Club Guarani vs Club General Caballero JLM,Club Guarani vs Club General Caballero JLM ,100.0
-6619688,Club Leon vs Guadalajara Chivas,Club Leon vs Chivas Guadalajara,100.0
-6684025,CA Tembetary vs Sportivo Trinidense,CA Tembetary vs Sportivo Trinidense,100.0
-6688275,Dorking Wanderers vs Aveley FC,Dorking Wanderers FC vs Aveley,100.0
-6687741,Darlington FC vs Buxton FC,Darlington FC vs Buxton FC,100.0
-6688277,Chippenham Town FC vs Torquay United,Chippenham Town vs Torquay United,100.0
 6692296,Aj Auxerre vs Toulouse FC,Auxerre vs Toulouse,100.0
 6555223,Olympique Lyon vs Stade Reims,Lyon vs Reims,100.0
+5983420,Wellington Phoenix FC vs Brisbane Roar FC,Wellington Phoenix vs Brisbane Roar,100.0
+6619692,Atlas vs Monterrey,Club Atlas vs CF Monterrey,100.0
+6692299,Nantes vs Stade Brest,Nantes vs Brest,100.0
+6690195,Club Tijuana De Caliente vs Cruz Azul,Club Tijuana vs Cruz Azul,100.0
+6678063,Hamilton Academical vs Raith Rovers FC,Hamilton Academical vs Raith Rovers,100.0
+6687732,Farsley Celtic FC vs Marine FC,Farsley Celtic vs Marine,100.0
+6440019,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo RJ vs Flamengo RJ,100.0
+6627230,Brisbane Roar FC vs Wellington Phoenix,Brisbane Roar FC (W) vs Wellington Phoenix FC (W),100.0
+6690199,Deportivo Toluca vs Tigres Uanl,Deportivo Toluca FC vs Tigres UANL,100.0
+6681334,Braintree Town FC vs Hartlepool United FC,Braintree Town vs Hartlepool United,100.0
+6686038,Central Coast Mariners vs Newcastle Jets,Central Coast Mariners vs Newcastle Jets FC,100.0
+6351952,Clermont Foot vs AC Ajaccio,Clermont vs AC Ajaccio,100.0
+6679629,St. Mirren vs St. Johnstone FC,St Mirren vs St Johnstone,100.0
+6692885,Club Guarani vs Club General Caballero JLM,Club Guarani vs Club General Caballero JLM ,100.0
+6518587,Botafogo vs EC Agua Santa SP,Botafogo SP vs Agua Santa SP,100.0
+6518614,CA Juventus SP vs Oeste,Juventus SP vs Oeste SP,100.0
+6619688,Club Leon vs Guadalajara Chivas,Club Leon vs Chivas Guadalajara,100.0
+6684025,CA Tembetary vs Sportivo Trinidense,CA Tembetary vs Sportivo Trinidense,100.0
+6687741,Darlington FC vs Buxton FC,Darlington FC vs Buxton FC,100.0
+6690198,Atletico San Luis vs Pumas UNAM,Atletico San Luis vs Pumas UNAM,100.0
 6612005,AS Saint Etienne vs Stade Rennes,Saint Etienne vs Rennes,100.0
-6685660,FC Sudtirol vs AC Reggiana 1919,Sudtirol vs Reggiana,100.0
-6681307,Port Vale vs Accrington Stanley,Port Vale vs Accrington Stanley,100.0
-6681300,Newport County AFC vs Barrow AFC,Newport County vs Barrow,100.0
+6692298,LOSC Lille vs Le Havre,Lille vs Le Havre,100.0
+6508811,Gremio Novorizontino SP vs AE Velo Clube SP,Novorizontino SP vs Velo Clube SP,100.0
+6690614,Modena FC vs Mantova 1911,Modena vs Mantova,100.0
 6684020,US Catanzaro 1929 vs Cesena FC,Catanzaro vs Cesena,100.0
 6680003,Sassuolo vs SS Juve Stabia,Sassuolo vs Juve Stabia,100.0
 6681224,Sampdoria vs Cosenza,Sampdoria vs Cosenza,100.0
 6451009,Palermo vs AC Pisa 1909,Palermo vs Pisa,100.0
-6667930,Swindon Town vs Tranmere Rovers,Swindon Town vs Tranmere Rovers,100.0
-6690614,Modena FC vs Mantova 1911,Modena vs Mantova,100.0
-6692299,Nantes vs Stade Brest,Nantes vs Brest,100.0
+6681225,Rochdale AFC vs Boston United FC,Rochdale vs Boston United,100.0
+6681586,Barnet FC vs Hartlepool United FC,Barnet vs Hartlepool United,100.0
+6685660,FC Sudtirol vs AC Reggiana 1919,Sudtirol vs Reggiana,100.0
 6681295,Harrogate Town FC vs Crewe Alexandra,Harrogate Town vs Crewe Alexandra,100.0
+6667820,Burton Albion vs Reading,Burton Albion vs Reading,100.0
+6681311,Doncaster Rovers vs Milton Keynes Dons,Doncaster Rovers vs Milton Keynes Dons,100.0
 6681303,Gillingham FC vs Notts County,Gillingham vs Notts County,100.0
-6680732,Milton Keynes Dons vs Harrogate Town FC,Milton Keynes Dons vs Harrogate Town,100.0
 6680737,Grimsby Town vs Gillingham FC,Grimsby Town vs Gillingham,100.0
 6689672,Carrarese Calcio 1908 vs Brescia,Carrarese vs Brescia,100.0
-6681311,Doncaster Rovers vs Milton Keynes Dons,Doncaster Rovers vs Milton Keynes Dons,100.0
 6681310,Carlisle United vs Swindon Town,Carlisle vs Swindon Town,100.0
+6681313,Bromley FC vs Grimsby Town,Bromley FC vs Grimsby Town,100.0
+6681315,AFC Wimbledon vs Bradford City FC,AFC Wimbledon vs Bradford City,100.0
+6681300,Newport County AFC vs Barrow AFC,Newport County vs Barrow,100.0
 6681308,Tranmere Rovers vs Colchester United,Tranmere Rovers vs Colchester United,100.0
-6681306,Walsall vs Salford City FC,Walsall vs Salford City FC,100.0
-6667822,Charlton Athletic vs Bristol Rovers,Charlton Athletic vs Bristol Rovers,100.0
-6351967,Universitatea Craiova 1948 Cs vs CSM Politehnica Iasi,Universitatea Craiova vs Politehnica Iasi,100.0
-6692298,LOSC Lille vs Le Havre,Lille vs Le Havre,100.0
 6692259,OGC Nice vs RC Lens,Nice vs Lens,100.0
+6590094,AS Monaco vs Aj Auxerre,AS Monaco vs Auxerre,100.0
 6572531,Olympique Marseille vs Olympique Lyon,Marseille vs Lyon,100.0
-6361164,KV Kortrijk vs KVC Westerlo,Kortrijk vs Westerlo,100.0
 6590092,Stade Rennes vs Strasbourg,Rennes vs Strasbourg,100.0
 6590093,Stade Reims vs Nantes,Reims vs Nantes,100.0
+6590095,Angers SCO vs Le Havre,Angers vs Le Havre,100.0
 6590090,Toulouse FC vs OGC Nice,Toulouse vs Nice,100.0
 6361163,Royal Antwerp FC vs Club Brugge,Royal Antwerp FC vs Club Brugge,100.0
 6590091,LOSC Lille vs AS Saint Etienne,Lille vs Saint Etienne,100.0
-6351970,KRC Genk vs Beerschot VA,KRC Genk vs Beerschot,100.0
-6590094,AS Monaco vs Aj Auxerre,AS Monaco vs Auxerre,100.0
 6590096,Montpellier Hsc vs RC Lens,Montpellier vs Lens,100.0
-6580510,Al Hilal (Ksa) vs Al Akhdood,Al Hilal vs Al Akhdood,100.0
+6681306,Walsall vs Salford City FC,Walsall vs Salford City FC,100.0
+6508810,SE Palmeiras SP vs Bragantino,Palmeiras SP vs RB Bragantino SP,100.0
+6681320,Southend United vs AFC Fylde,Southend vs AFC Fylde,100.0
+6687745,Scunthorpe United vs Needham Market FC,Scunthorpe United vs Needham Market,100.0
+6688275,Dorking Wanderers vs Aveley FC,Dorking Wanderers FC vs Aveley,100.0
 6682001,SSC Bari vs Frosinone,Bari vs Frosinone,100.0
-6590095,Angers SCO vs Le Havre,Angers vs Le Havre,100.0
+6351967,Universitatea Craiova 1948 Cs vs CSM Politehnica Iasi,Universitatea Craiova vs Politehnica Iasi,100.0
+6690613,Unione Sportiva Salernitana 1919 vs Cremonese,Salernitana vs Cremonese,100.0
 6688278,Hampton & Richmond Borough FC vs Weymouth FC,Hampton & Richmond vs Weymouth,100.0
-6619714,Juarez vs Santos Laguna,FC Juarez vs Santos Laguna,100.0
-6681315,AFC Wimbledon vs Bradford City FC,AFC Wimbledon vs Bradford City,100.0
-6636750,Magesi FC vs Supersport United,Magesi vs Supersport United,100.0
-6690071,Everton FC vs Leicester City Ladies FC,Everton vs Leicester City,100.0
-6583668,Fortaleza FC vs Envigado FC,Fortaleza FC vs Envigado FC,100.0
+6518613,EC Santo Andre SP vs CA Votuporanguense SP,Santo Andre SP vs Votuporanguense SP,100.0
+6681314,Cheltenham Town vs Chesterfield FC,Cheltenham vs Chesterfield,100.0
 6370281,Polokwane City vs Chippa United,Polokwane City FC vs Chippa United,100.0
-6693985,Stellenbosch vs Sekhukhune United,Stellenbosch F.C. vs Sekhukhune United,100.0
-6351969,Orlando Pirates vs Kaizer Chiefs,Orlando Pirates vs Kaizer Chiefs,100.0
-6695690,Richards Bay FC vs Magesi FC,Richards Bay FC vs Magesi,100.0
-6697699,Stellenbosch vs Kruger United,Stellenbosch F.C. vs Kruger United FC,100.0
-6696496,Amazulu vs Supersport United,Amazulu FC vs Supersport United,100.0
+6664158,Club Atletico Rosario Central vs Atletico Lanus,Rosario Central vs Lanus,100.0
 6673754,CA Sarmiento vs CD Godoy Cruz,Sarmiento vs Godoy Cruz,100.0
-6698020,Amazulu vs Mighty Eagles,Amazulu FC vs Mighty Eagles FC,100.0
+6675121,Deportivo Riestra Afbc vs San Martin De San Juan,Deportivo Riestra vs San Martin de San Juan,100.0
+6690071,Everton FC vs Leicester City Ladies FC,Everton vs Leicester City,100.0
+6675359,Independiente Medellin vs Boyaca Chico FC,Independiente Medellin vs Boyaca Chico,100.0
+6583668,Fortaleza FC vs Envigado FC,Fortaleza FC vs Envigado FC,100.0
+6690915,CS Deportivo Pereira vs Alianza FC Valledupar,Deportivo Pereira vs Alianza FC,100.0
+6693985,Stellenbosch vs Sekhukhune United,Stellenbosch F.C. vs Sekhukhune United,100.0
+6675123,Velez Sarsfield vs CA Platense,Club Atletico Velez Sarsfield vs Platense,100.0
+6695690,Richards Bay FC vs Magesi FC,Richards Bay FC vs Magesi,100.0
+6351969,Orlando Pirates vs Kaizer Chiefs,Orlando Pirates vs Kaizer Chiefs,100.0
+6696496,Amazulu vs Supersport United,Amazulu FC vs Supersport United,100.0
 6517346,Liverpool vs Tottenham Hotspur,Liverpool vs Tottenham,100.0
 6512573,Newcastle United vs Arsenal,Newcastle United vs Arsenal,100.0
-6698003,Jong FC Utrecht vs Jong Ajax,Jong FC Utrecht vs Jong Ajax,100.0
-6690541,Top Oss vs Helmond Sport,TOP Oss vs Helmond Sport,100.0
 6681747,MVV vs Roda Jc Kerkrade,MVV Maastricht vs Roda JC Kerkrade,100.0
 6697840,FC Emmen vs Jong PSV,FC Emmen vs Jong PSV Eindhoven,100.0
-6675121,Deportivo Riestra Afbc vs San Martin De San Juan,Deportivo Riestra vs San Martin de San Juan,100.0
-6664158,Club Atletico Rosario Central vs Atletico Lanus,Rosario Central vs Lanus,100.0
-6531345,Itabirito FC MG vs Cruzeiro,Itabirito FC MG vs Cruzeiro MG,100.0
-6690385,San Martin De San Juan vs Club Atletico Rosario Central,San Martin de San Juan vs Rosario Central,100.0
+6672641,Independiente Rivadavia De Mendoza vs CA Barracas Central,Independiente Rivadavia vs Barracas Central,100.0
+6675122,CA Talleres De Cordoba vs CA Independiente,Talleres vs Independiente,100.0
+6361145,Willem II vs AZ,Willem II vs AZ Alkmaar,100.0
+6690382,Boca Juniors vs CA Huracan,Boca Juniors vs Huracan,100.0
+6589758,SC Aymores MG vs Uberlandia EC MG,SC Aymores vs Uberlandia MG,100.0
 6589776,Tombense FC MG vs Pouso Alegre MG,Tombense MG vs Pouso Alegre MG,100.0
+6518615,Rio Claro FC SP vs Capivariano FC SP,Rio Claro SP vs Capivariano SP,100.0
 6676306,Sydney FC vs Adelaide United,Sydney FC vs Adelaide United,100.0
+6690389,Instituto AC Cordoba vs Velez Sarsfield,Instituto vs Club Atletico Velez Sarsfield,100.0
 6690399,Atletico Lanus vs CA Sarmiento,Lanus vs Sarmiento,100.0
 6675162,CA Central Cordoba SE vs Atletico Tucuman,Central Cordoba vs Club Atletico Tucuman,100.0
-6690382,Boca Juniors vs CA Huracan,Boca Juniors vs Huracan,100.0
 6690395,CA San Lorenzo Almagro vs CA River Plate,San Lorenzo vs River Plate,100.0
+6675126,CA Huracan vs Estudiantes De La Plata,Huracan vs Estudiantes de La Plata,100.0
 6692203,Tottenham Hotspur FC vs Manchester United WFC,Tottenham vs Manchester United,100.0
+6690385,San Martin De San Juan vs Club Atletico Rosario Central,San Martin de San Juan vs Rosario Central,100.0
 6690380,CA Barracas Central vs CA Banfield,Barracas Central vs Banfield,100.0
-6672641,Independiente Rivadavia De Mendoza vs CA Barracas Central,Independiente Rivadavia vs Barracas Central,100.0
 6674223,Racing Club Avellaneda vs Belgrano De Cordoba,Racing Club vs Belgrano,100.0
 6675140,CA Aldosivi vs Defensa Y Justicia,Aldosivi vs Defensa y Justicia,100.0
 6675127,CA River Plate vs Instituto AC Cordoba,River Plate vs Instituto,100.0
 6675125,Union De Santa Fe vs Boca Juniors,Union de Santa Fe vs Boca Juniors,100.0
-6675126,CA Huracan vs Estudiantes De La Plata,Huracan vs Estudiantes de La Plata,100.0
-6675122,CA Talleres De Cordoba vs CA Independiente,Talleres vs Independiente,100.0
-6675123,Velez Sarsfield vs CA Platense,Club Atletico Velez Sarsfield vs Platense,100.0
-6672089,FC Dordrecht vs De Graafschap,FC Dordrecht vs De Graafschap,100.0
-6697841,FC Den Bosch vs FC Volendam,FC Den Bosch vs FC Volendam,100.0
-6361145,Willem II vs AZ,Willem II vs AZ Alkmaar,100.0
-6619690,Necaxa vs Cruz Azul,Club Necaxa vs Cruz Azul,100.0
-6351946,Pau vs Stade Lavallois Mayenne FC,Pau vs Stade Lavallois,100.0
-6619715,Pumas UNAM vs Deportivo Toluca,Pumas UNAM vs Deportivo Toluca FC,100.0
-6619693,Queretaro vs Pachuca,Queretaro FC vs CF Pachuca,100.0
-6691725,Nacional Asuncion vs Libertad Asuncion,Nacional Asuncion (PAR) vs Libertad Asuncion,100.0
-6518608,Ponte Preta vs Corinthians,Ponte Preta SP vs Corinthians SP,100.0
+6698003,Jong FC Utrecht vs Jong Ajax,Jong FC Utrecht vs Jong Ajax,100.0
+6361146,Sparta vs FC Groningen,Sparta Rotterdam vs FC Groningen,100.0
+6518618,Ferroviaria SP vs EC Taubate SP,Ferroviaria SP vs Taubate SP,100.0
+6690194,Guadalajara Chivas vs Queretaro,Chivas Guadalajara vs Queretaro FC,100.0
+6531327,Parana vs FC Cascavel PR,Parana Clube PR vs Cascavel PR,100.0
+6631091,Maringa FC PR vs Rio Branco SC PR,Maringa PR vs Rio Branco PR,100.0
 6518611,Mirassol FC SP vs Guarani,Mirassol SP vs Guarani SP,100.0
 6656949,Lommel SK vs Royal Francs Borains,Lommel SK vs Francs Borains,100.0
+6619690,Necaxa vs Cruz Azul,Club Necaxa vs Cruz Azul,100.0
 6531317,Paranaense vs Cianorte FC PR,Athletico Paranaense PR vs Cianorte PR,100.0
-6361146,Sparta vs FC Groningen,Sparta Rotterdam vs FC Groningen,100.0
 6687735,Oxford City vs Curzon Ashton FC,Oxford City vs Curzon Ashton,100.0
-6690194,Guadalajara Chivas vs Queretaro,Chivas Guadalajara vs Queretaro FC,100.0
+6351943,EA Guingamp vs Paris,Guingamp vs Paris FC,100.0
+6619714,Juarez vs Santos Laguna,FC Juarez vs Santos Laguna,100.0
 6678062,Hamilton Academical vs Ayr United FC,Hamilton Academical vs Ayr United,100.0
 6681316,Halifax Town vs Ebbsfleet United FC,Halifax Town vs Ebbsfleet United,100.0
 6351953,ES Troyes AC vs SM Caen,Troyes vs Caen,100.0
 6451010,Falkirk FC vs Livingston,Falkirk vs Livingston,100.0
 6351945,Grenoble vs Rodez Aveyron,Grenoble vs Rodez,100.0
-6678061,Partick Thistle FC vs Greenock Morton FC,Partick Thistle vs Greenock Morton,100.0
-6690200,Pachuca vs Atlas,CF Pachuca vs Club Atlas,100.0
-6690193,Monterrey vs Necaxa,CF Monterrey vs Club Necaxa,100.0
-6361162,RAAL La Louviere vs SV Zulte Waregem,RAAL La Louviere vs Zulte Waregem,100.0
+6531345,Itabirito FC MG vs Cruzeiro,Itabirito FC MG vs Cruzeiro MG,100.0
+6518617,EC Sao Bento SP vs Ituano FC SP,Sao Bento SP vs Ituano SP,100.0
+6691725,Nacional Asuncion vs Libertad Asuncion,Nacional Asuncion (PAR) vs Libertad Asuncion,100.0
+6351946,Pau vs Stade Lavallois Mayenne FC,Pau vs Stade Lavallois,100.0
+6690541,Top Oss vs Helmond Sport,TOP Oss vs Helmond Sport,100.0
+6672089,FC Dordrecht vs De Graafschap,FC Dordrecht vs De Graafschap,100.0
 6361148,Go Ahead Eagles vs FC Twente,Go Ahead Eagles vs FC Twente,100.0
 6361147,Ajax vs Feyenoord,Ajax vs Feyenoord,100.0
 6361144,Almere City vs RKC,Almere City vs RKC Waalwijk,100.0
@@ -147,210 +148,215 @@ event_id,Event Name,matched_event,fuzzy_score
 6351956,SC Heerenveen vs Fortuna Sittard,SC Heerenveen vs Fortuna Sittard,100.0
 6351957,PEC Zwolle vs FC Utrecht,PEC Zwolle vs FC Utrecht,100.0
 6688573,Excelsior vs Vitesse,Excelsior Rotterdam vs Vitesse,100.0
-6351947,Red Star FC vs Lorient,Red Star FC vs Lorient,100.0
-6351950,SC Bastia vs Metz,SC Bastia vs Metz,100.0
 6342706,NAC vs Heracles Almelo,NAC Breda vs Heracles Almelo,100.0
+6678061,Partick Thistle FC vs Greenock Morton FC,Partick Thistle vs Greenock Morton,100.0
+6697841,FC Den Bosch vs FC Volendam,FC Den Bosch vs FC Volendam,100.0
 6688572,ADO Den Haag vs FC Eindhoven,ADO Den Haag vs FC Eindhoven,100.0
-6589758,SC Aymores MG vs Uberlandia EC MG,SC Aymores vs Uberlandia MG,100.0
-6681225,Rochdale AFC vs Boston United FC,Rochdale vs Boston United,100.0
-6687739,Radcliffe FC vs Chester FC,Radcliffe FC vs Chester FC,100.0
-6609757,Omonia Nicosia vs Ael Limassol,Omonia Nicosia vs AEL Limassol,100.0
-6681313,Bromley FC vs Grimsby Town,Bromley FC vs Grimsby Town,100.0
-6690613,Unione Sportiva Salernitana 1919 vs Cremonese,Salernitana vs Cremonese,100.0
+6619715,Pumas UNAM vs Deportivo Toluca,Pumas UNAM vs Deportivo Toluca FC,100.0
+6619693,Queretaro vs Pachuca,Queretaro FC vs CF Pachuca,100.0
+6518608,Ponte Preta vs Corinthians,Ponte Preta SP vs Corinthians SP,100.0
+6690193,Monterrey vs Necaxa,CF Monterrey vs Club Necaxa,100.0
+6690200,Pachuca vs Atlas,CF Pachuca vs Club Atlas,100.0
 6680002,AS Cittadella vs Spezia,Cittadella vs Spezia,100.0
-6559681,Aston Villa FC vs Tottenham Hotspur,Aston Villa vs Tottenham,100.0
+6681307,Port Vale vs Accrington Stanley,Port Vale vs Accrington Stanley,100.0
+6667897,Barrow AFC vs Doncaster Rovers,Barrow vs Doncaster Rovers,100.0
+6581514,Wigan Athletic vs Fulham,Wigan Athletic vs Fulham,100.0
+6351087,FC St. Pauli vs FC Augsburg,FC St. Pauli vs FC Augsburg,100.0
+6380219,Bayern Munchen vs Holstein Kiel,Bayern Munchen vs Holstein Kiel,100.0
+6387827,1. FC Heidenheim 1846 vs Borussia Dortmund,1. FC Heidenheim vs Borussia Dortmund,100.0
 5951245,Kayserispor vs Trabzonspor,Kayserispor vs Trabzonspor A.S.,100.0
-5951251,Hatayspor vs Antalyaspor,Hatayspor vs Antalyaspor A.S.,100.0
 6491234,Boavista vs Famalicao,Boavista vs Famalicao,100.0
-5951250,Konyaspor Club vs Bodrum Belediyesi Bodrumspor,Konyaspor vs Bodrumspor,100.0
 5951254,Eyupspor vs Sivasspor,Eyupspor vs Sivasspor,100.0
 6019541,Real Mallorca vs Osasuna,Mallorca vs Osasuna,100.0
-6019540,Sevilla FC vs Barcelona,Sevilla vs FC Barcelona,100.0
+6559681,Aston Villa FC vs Tottenham Hotspur,Aston Villa vs Tottenham,100.0
 6019542,Real Sociedad vs Espanyol,Real Sociedad vs Espanyol,100.0
-6351084,VfB Stuttgart vs Borussia Monchengladbach,VfB Stuttgart vs Borussia Monchengladbach,100.0
 6019549,Valencia vs Leganes,Valencia vs Leganes,100.0
+6019534,Deportivo Alaves vs Getafe CF,Alaves vs Getafe,100.0
 6559713,Brighton And Hove Albion FC vs Chelsea,Brighton vs Chelsea,100.0
 6019544,Real Madrid vs Atletico Madrid,Real Madrid vs Atletico Madrid,100.0
 6559731,Birmingham City vs Newcastle United,Birmingham vs Newcastle United,100.0
 6019550,Las Palmas vs Villarreal,UD Las Palmas vs Villarreal,100.0
 6019538,Athletic Bilbao vs Girona,Athletic Bilbao vs Girona,100.0
 6559714,Stoke City vs Cardiff City,Stoke City vs Cardiff City,100.0
-6351087,FC St. Pauli vs FC Augsburg,FC St. Pauli vs FC Augsburg,100.0
+6351084,VfB Stuttgart vs Borussia Monchengladbach,VfB Stuttgart vs Borussia Monchengladbach,100.0
 6491228,Santa Clara vs Casa Pia AC,Santa Clara vs Casa Pia,100.0
-6684021,Almeria vs Real Oviedo,Almeria vs Real Oviedo,100.0
-6480954,VfL Wolfsburg vs Bayer Leverkusen,VfL Wolfsburg vs Bayer Leverkusen,100.0
-6620180,Kallithea vs Aris Thessaloniki,Kallithea vs Aris Thessaloniki,100.0
-6351791,Cracovia Krakow vs Rakow Czestochowa,Cracovia Krakow vs Rakow Czestochowa,100.0
-6351792,Motor Lublin vs Lechia Gdansk,Motor Lublin vs Lechia Gdansk,100.0
-6681314,Cheltenham Town vs Chesterfield FC,Cheltenham vs Chesterfield,100.0
-6424928,RB Leipzig vs FC St. Pauli,RB Leipzig vs FC St. Pauli,100.0
-6415640,Borussia Monchengladbach vs Eintracht Frankfurt,Borussia Monchengladbach vs Eintracht Frankfurt,100.0
-6645836,SC Freiburg vs 1. FC Heidenheim 1846,SC Freiburg vs 1. FC Heidenheim,100.0
-6406230,Bayern Munchen vs Werder Bremen,Bayern Munchen vs Werder Bremen,100.0
 6491231,Nacional De Madeira vs Arouca,Nacional Madeira vs Arouca,100.0
+6480954,VfL Wolfsburg vs Bayer Leverkusen,VfL Wolfsburg vs Bayer Leverkusen,100.0
+5951251,Hatayspor vs Antalyaspor,Hatayspor vs Antalyaspor A.S.,100.0
+6342488,GKS Katowice vs Stal Mielec,GKS Katowice vs Stal Mielec,100.0
+5951250,Konyaspor Club vs Bodrum Belediyesi Bodrumspor,Konyaspor vs Bodrumspor,100.0
+6019540,Sevilla FC vs Barcelona,Sevilla vs FC Barcelona,100.0
+6424928,RB Leipzig vs FC St. Pauli,RB Leipzig vs FC St. Pauli,100.0
+6680736,Crewe Alexandra vs AFC Wimbledon,Crewe Alexandra vs AFC Wimbledon,100.0
+6645836,SC Freiburg vs 1. FC Heidenheim 1846,SC Freiburg vs 1. FC Heidenheim,100.0
+6415637,Borussia Dortmund vs VfB Stuttgart,Borussia Dortmund vs VfB Stuttgart,100.0
+6491230,Gil Vicente vs Estoril Praia,Gil Vicente vs Estoril,100.0
+6406230,Bayern Munchen vs Werder Bremen,Bayern Munchen vs Werder Bremen,100.0
+6296285,VfB Stuttgart vs FC Augsburg,VfB Stuttgart vs FC Augsburg,100.0
 6491227,Rio Ave vs FC Porto,Rio Ave vs FC Porto,100.0
-6619313,Asteras Tripolis vs Lamia 1964,Asteras Tripolis vs Lamia 1964,100.0
 6491226,CF Estrela vs Benfica,CF Estrela vs Benfica,100.0
-5951247,Fenerbahce vs Caykur Rizespor,Fenerbahce vs Caykur Rizespor,100.0
+6369442,Bayer Leverkusen vs TSG Hoffenheim,Bayer Leverkusen vs TSG Hoffenheim,100.0
 6360267,Eintracht Frankfurt vs VfL Wolfsburg,Eintracht Frankfurt vs VfL Wolfsburg,100.0
 6491235,Vitoria Guimaraes vs Avs Futebol Sad,Vitoria Guimaraes vs AVS Futebol Sad,100.0
-6491230,Gil Vicente vs Estoril Praia,Gil Vicente vs Estoril,100.0
 6581515,Preston North End vs Wycombe Wanderers,Preston North End vs Wycombe Wanderers,100.0
-6581514,Wigan Athletic vs Fulham,Wigan Athletic vs Fulham,100.0
 6559718,Southampton vs Burnley,Southampton vs Burnley,100.0
-6611727,Ipswich Town vs Southampton,Ipswich Town vs Southampton,100.0
-6611771,Brentford vs Tottenham Hotspur,Brentford vs Tottenham,100.0
-6611707,Manchester United vs Crystal Palace,Manchester United vs Crystal Palace,100.0
-5951294,Barcelona vs Deportivo Alaves,FC Barcelona vs Alaves,100.0
-5951243,Espanyol vs Real Madrid,Espanyol vs Real Madrid,100.0
-6351085,Union Berlin vs RB Leipzig,1. FC Union Berlin vs RB Leipzig,100.0
-5951244,Atletico Madrid vs Real Mallorca,Atletico Madrid vs Mallorca,100.0
-6611769,Newcastle United vs Fulham,Newcastle United vs Fulham,100.0
-6611755,Everton vs Leicester City,Everton vs Leicester City,100.0
+6351791,Cracovia Krakow vs Rakow Czestochowa,Cracovia Krakow vs Rakow Czestochowa,100.0
 6559940,Everton vs Bournemouth,Everton vs Bournemouth,100.0
+6351085,Union Berlin vs RB Leipzig,1. FC Union Berlin vs RB Leipzig,100.0
+6611769,Newcastle United vs Fulham,Newcastle United vs Fulham,100.0
+6611727,Ipswich Town vs Southampton,Ipswich Town vs Southampton,100.0
+6611755,Everton vs Leicester City,Everton vs Leicester City,100.0
 6611770,Bournemouth vs Liverpool,Bournemouth vs Liverpool,100.0
 6351086,VfL Bochum vs SC Freiburg,VfL Bochum vs SC Freiburg,100.0
 6611768,Nottingham Forest vs Brighton And Hove Albion FC,Nottingham Forest vs Brighton,100.0
+6667894,Huddersfield Town vs Birmingham City,Huddersfield Town vs Birmingham,100.0
 6667893,Wycombe Wanderers vs Barnsley FC,Wycombe Wanderers vs Barnsley,100.0
 6667895,Wrexham AFC vs Stevenage FC,Wrexham vs Stevenage FC,100.0
 6667889,Stockport County FC vs Shrewsbury Town,Stockport County vs Shrewsbury Town,100.0
+6667896,Rotherham United vs Cambridge United,Rotherham United vs Cambridge United,100.0
+6667887,Peterborough United vs Wigan Athletic,Peterborough United vs Wigan Athletic,100.0
 6667866,Mansfield Town vs Crawley Town,Mansfield Town vs Crawley Town,100.0
-6611773,Arsenal vs Manchester City,Arsenal vs Manchester City,100.0
-6369442,Bayer Leverkusen vs TSG Hoffenheim,Bayer Leverkusen vs TSG Hoffenheim,100.0
-5951240,Real Betis vs Athletic Bilbao,Real Betis vs Athletic Bilbao,100.0
-6611772,Chelsea vs West Ham United,Chelsea vs West Ham,100.0
-6415637,Borussia Dortmund vs VfB Stuttgart,Borussia Dortmund vs VfB Stuttgart,100.0
+6667845,Lincoln City vs Blackpool FC,Lincoln City vs Blackpool,100.0
+6667840,Exeter City vs Leyton Orient FC,Exeter vs Leyton Orient,100.0
+6667822,Charlton Athletic vs Bristol Rovers,Charlton Athletic vs Bristol Rovers,100.0
+5951243,Espanyol vs Real Madrid,Espanyol vs Real Madrid,100.0
+5951294,Barcelona vs Deportivo Alaves,FC Barcelona vs Alaves,100.0
+6611707,Manchester United vs Crystal Palace,Manchester United vs Crystal Palace,100.0
+5951293,Valencia vs Celta De Vigo,Valencia vs Celta Vigo,100.0
+6019547,Celta De Vigo vs Real Betis,Celta Vigo vs Real Betis,100.0
 6580693,Leeds United vs Millwall,Leeds United vs Millwall,100.0
 6019552,Rayo Vallecano vs Real Valladolid,Rayo Vallecano vs Valladolid,100.0
 6559732,Manchester United vs Leicester City,Manchester United vs Leicester City,100.0
 5951242,Girona vs Las Palmas,Girona vs UD Las Palmas,100.0
+5951240,Real Betis vs Athletic Bilbao,Real Betis vs Athletic Bilbao,100.0
 5951253,Osasuna vs Real Sociedad,Osasuna vs Real Sociedad,100.0
-5951293,Valencia vs Celta De Vigo,Valencia vs Celta Vigo,100.0
+5951244,Atletico Madrid vs Real Mallorca,Atletico Madrid vs Mallorca,100.0
+6611771,Brentford vs Tottenham Hotspur,Brentford vs Tottenham,100.0
 5951248,Villarreal vs Real Valladolid,Villarreal vs Valladolid,100.0
-6380219,Bayern Munchen vs Holstein Kiel,Bayern Munchen vs Holstein Kiel,100.0
-6387827,1. FC Heidenheim 1846 vs Borussia Dortmund,1. FC Heidenheim vs Borussia Dortmund,100.0
 5951292,Getafe CF vs Sevilla FC,Getafe vs Sevilla,100.0
 5951246,Leganes vs Rayo Vallecano,Leganes vs Rayo Vallecano,100.0
 6560542,Coventry City vs Ipswich Town,Coventry City vs Ipswich Town,100.0
 6296228,Bayer Leverkusen vs 1. FC Koln,Bayer Leverkusen vs 1. FC Koln,100.0
-6296285,VfB Stuttgart vs FC Augsburg,VfB Stuttgart vs FC Augsburg,100.0
-6590210,CD Eldense vs Granada,CD Eldense vs Granada,100.0
-6342488,GKS Katowice vs Stal Mielec,GKS Katowice vs Stal Mielec,100.0
-6682000,FC Cartagena vs Cordoba CF,FC Cartagena vs Cordoba CF,100.0
-6623255,Juventus vs Empoli,Juventus vs Empoli,100.0
-6689684,Hellas Verona vs Atalanta,Hellas Verona vs Atalanta,100.0
-6689682,Empoli vs AC Milan,Empoli vs AC Milan,100.0
-6689683,Como 1907 vs Juventus,Como vs Juventus,100.0
-6689686,Cagliari vs Parma Calcio,Cagliari vs Parma,100.0
+6611772,Chelsea vs West Ham United,Chelsea vs West Ham,100.0
+6611773,Arsenal vs Manchester City,Arsenal vs Manchester City,100.0
+6351792,Motor Lublin vs Lechia Gdansk,Motor Lublin vs Lechia Gdansk,100.0
+6415640,Borussia Monchengladbach vs Eintracht Frankfurt,Borussia Monchengladbach vs Eintracht Frankfurt,100.0
+6681133,Sheffield Wednesday vs Luton Town,Sheffield Wednesday vs Luton Town,100.0
+6681132,Middlesbrough vs Sunderland AFC,Middlesbrough vs Sunderland,100.0
+6684021,Almeria vs Real Oviedo,Almeria vs Real Oviedo,100.0
+6689678,Lecce vs Bologna,Lecce vs Bologna,100.0
 6514423,Cagliari vs Lazio Roma,Cagliari vs Lazio,100.0
 6620476,AS Roma vs Napoli,Roma vs Napoli,100.0
 6620480,AC Milan vs Inter Milan,AC Milan vs Inter,100.0
-6681292,Bristol Rovers vs Peterborough United,Bristol Rovers vs Peterborough United,100.0
+6684022,Racing De Santander vs Malaga,Racing Santander vs Malaga,100.0
 6620478,Fiorentina vs Genoa,Fiorentina vs Genoa,100.0
-6620477,Bologna vs Como 1907,Bologna vs Como,100.0
-6693658,CD Tenerife vs Albacete,CD Tenerife vs Albacete Balompie,100.0
-6620479,Atalanta vs Torino,Atalanta vs Torino,100.0
-6572860,Udinese vs Venezia,Udinese vs Venezia,100.0
-6572859,AC Monza vs Hellas Verona,Monza vs Hellas Verona,100.0
-6492670,Parma Calcio vs Lecce,Parma vs Lecce,100.0
-6680735,Notts County vs Carlisle United,Notts County vs Carlisle,100.0
-6680739,Fleetwood Town vs Walsall,Fleetwood Town vs Walsall,100.0
-6667820,Burton Albion vs Reading,Burton Albion vs Reading,100.0
-6680731,Bradford City FC vs Morecambe FC,Bradford City vs Morecambe,100.0
-6667818,Portsmouth vs Millwall,Portsmouth vs Millwall,100.0
-6689685,Inter Milan vs Fiorentina,Inter vs Fiorentina,100.0
+6682000,FC Cartagena vs Cordoba CF,FC Cartagena vs Cordoba CF,100.0
+6693657,Real Zaragoza vs Cadiz,Real Zaragoza vs Cadiz,100.0
 6689681,Lazio Roma vs AC Monza,Lazio vs Monza,100.0
-6689678,Lecce vs Bologna,Lecce vs Bologna,100.0
-6689679,Napoli vs Udinese,Napoli vs Udinese,100.0
-6667897,Barrow AFC vs Doncaster Rovers,Barrow vs Doncaster Rovers,100.0
-6680736,Crewe Alexandra vs AFC Wimbledon,Crewe Alexandra vs AFC Wimbledon,100.0
-6667947,Colchester United vs Port Vale,Colchester United vs Port Vale,100.0
-6680738,Chesterfield FC vs Bromley FC,Chesterfield vs Bromley FC,100.0
-6680733,Accrington Stanley vs Cheltenham Town,Accrington Stanley vs Cheltenham,100.0
-6681132,Middlesbrough vs Sunderland AFC,Middlesbrough vs Sunderland,100.0
+6351964,FCSB vs CFR Cluj,FCSB vs CFR Cluj,100.0
+6693658,CD Tenerife vs Albacete,CD Tenerife vs Albacete Balompie,100.0
+6692173,Levante vs Racing Club De Ferrol,Levante vs Racing Club Ferrol,100.0
+6667818,Portsmouth vs Millwall,Portsmouth vs Millwall,100.0
+6680731,Bradford City FC vs Morecambe FC,Bradford City vs Morecambe,100.0
+6623255,Juventus vs Empoli,Juventus vs Empoli,100.0
 6681135,Swansea City vs Coventry City,Swansea City vs Coventry City,100.0
-6681133,Sheffield Wednesday vs Luton Town,Sheffield Wednesday vs Luton Town,100.0
+6680738,Chesterfield FC vs Bromley FC,Chesterfield vs Bromley FC,100.0
+6680739,Fleetwood Town vs Walsall,Fleetwood Town vs Walsall,100.0
+6680732,Milton Keynes Dons vs Harrogate Town FC,Milton Keynes Dons vs Harrogate Town,100.0
+6680735,Notts County vs Carlisle United,Notts County vs Carlisle,100.0
+6680734,Salford City FC vs Newport County AFC,Salford City FC vs Newport County,100.0
+6667930,Swindon Town vs Tranmere Rovers,Swindon Town vs Tranmere Rovers,100.0
+6620477,Bologna vs Como 1907,Bologna vs Como,100.0
+6620479,Atalanta vs Torino,Atalanta vs Torino,100.0
+6492670,Parma Calcio vs Lecce,Parma vs Lecce,100.0
+6572859,AC Monza vs Hellas Verona,Monza vs Hellas Verona,100.0
+6689686,Cagliari vs Parma Calcio,Cagliari vs Parma,100.0
+6689685,Inter Milan vs Fiorentina,Inter vs Fiorentina,100.0
+6689683,Como 1907 vs Juventus,Como vs Juventus,100.0
+6667484,Blackburn Rovers vs Preston North End,Blackburn Rovers vs Preston North End,100.0
 6681130,Portsmouth vs Burnley,Portsmouth vs Burnley,100.0
 6681134,Millwall vs Queens Park Rangers,Millwall vs Queens Park Rangers,100.0
 6681129,Leeds United vs Cardiff City,Leeds United vs Cardiff City,100.0
+6680733,Accrington Stanley vs Cheltenham Town,Accrington Stanley vs Cheltenham,100.0
 6679439,Hull City vs Stoke City,Hull City vs Stoke City,100.0
+6620180,Kallithea vs Aris Thessaloniki,Kallithea vs Aris Thessaloniki,100.0
+5951247,Fenerbahce vs Caykur Rizespor,Fenerbahce vs Caykur Rizespor,100.0
 6681136,Derby County vs Sheffield United,Derby County vs Sheffield United,100.0
 6681127,Watford vs Norwich City FC,Watford vs Norwich City,100.0
 6681126,Plymouth Argyle vs West Bromwich Albion,Plymouth Argyle vs West Bromwich,100.0
+6590210,CD Eldense vs Granada,CD Eldense vs Granada,100.0
 6681125,Oxford United vs Bristol City,Oxford United vs Bristol City,100.0
-6667484,Blackburn Rovers vs Preston North End,Blackburn Rovers vs Preston North End,100.0
-6689680,Venezia vs AS Roma,Venezia vs Roma,100.0
+6689684,Hellas Verona vs Atalanta,Hellas Verona vs Atalanta,100.0
 6689677,Torino vs Genoa,Torino vs Genoa,100.0
-6692173,Levante vs Racing Club De Ferrol,Levante vs Racing Club Ferrol,100.0
-6680734,Salford City FC vs Newport County AFC,Salford City FC vs Newport County,100.0
-6351964,FCSB vs CFR Cluj,FCSB vs CFR Cluj,100.0
-6684022,Racing De Santander vs Malaga,Racing Santander vs Malaga,100.0
-6693657,Real Zaragoza vs Cadiz,Real Zaragoza vs Cadiz,100.0
-6656863,AD Guanacasteca vs Puntarenas FC,Guanacasteca vs FC Puntarenas,100.0
-6703766,AD San Carlos vs Ld Alajuelense,AD San Carlos vs LD Alajuelense,100.0
-6681298,Barnsley FC vs Burton Albion,Barnsley vs Burton Albion,100.0
-6681291,Birmingham City vs Rotherham United,Birmingham vs Rotherham United,100.0
-6681288,Blackpool FC vs Charlton Athletic,Blackpool vs Charlton Athletic,100.0
-6238394,AS Roma vs SSD Napoli Femminile,Roma vs Napoli,100.0
+6689682,Empoli vs AC Milan,Empoli vs AC Milan,100.0
+6619313,Asteras Tripolis vs Lamia 1964,Asteras Tripolis vs Lamia 1964,100.0
+6689679,Napoli vs Udinese,Napoli vs Udinese,100.0
+6689680,Venezia vs AS Roma,Venezia vs Roma,100.0
+6572860,Udinese vs Venezia,Udinese vs Venezia,100.0
 6351961,FC Botosani vs ACS Sepsi Osk Sfantu Gheorghe,FC Botosani vs ACS Sepsi OSK Sfantul Gheorghe,99.0
 6690381,Newells Old Boys vs CA Aldosivi,Newell's Old Boys vs Aldosivi,98.5
 6351965,AFC Hermannstadt vs FC Uta Arad,AFC Hermannstadt vs AFC UTA Arad,98.0
-6690069,Manchester City WFC vs Arsenal,Leicester City vs Arsenal,97.0
+6360994,Gornik Zabrze vs Puszcza Niepolomice,Gornik Zabrze vs Puszcza Niepołomice,97.5
+6360993,Jagiellonia Bialystok vs Radomiak Radom,Jagiellonia Białystok vs Radomiak Radom,97.5
 6687280,Canberra United FC vs Perth Glory,Canberra United (W) vs Perth Glory (W),97.0
+6690069,Manchester City WFC vs Arsenal,Leicester City vs Arsenal,97.0
 6656948,KSC Lokeren Temse vs Kas Eupen,KSC Lokeren Temse vs AS Eupen,97.0
+6676492,Western United FC vs Western Sydney Wanderers,Western United (W) vs Western Sydney Wanderers (W),96.5
 5936684,Central Coast Mariners FC vs Newcastle United Jets,Central Coast Mariners vs Newcastle Jets FC,96.5
 6690496,Aston Villa WFC vs Chelsea,Aston Villa (W) vs Chelsea (W),96.5
 6677558,Melbourne City FC vs Melbourne Victory,Melbourne City (W) vs Melbourne Victory (W),96.5
-6676492,Western United FC vs Western Sydney Wanderers,Western United (W) vs Western Sydney Wanderers (W),96.5
 6361159,KAA Gent vs RSC Anderlecht,AA Gent vs Anderlecht,96.5
 6675124,Gimnasia Y Esgrima La Plata vs CA San Lorenzo Almagro,Gimnasia de La Plata vs San Lorenzo,96.0
+6690388,CA Independiente vs Gimnasia Y Esgrima La Plata,Independiente vs Gimnasia de La Plata,96.0
 6370101,Slask Wroclaw vs Piast Gliwice,Slask Wrocław vs Piast Gliwice,96.0
 6342489,Lech Poznan vs Widzew Lodz,Lech Poznan vs Widzew Łodz,95.5
 6620178,PAOK Thessaloniki vs AEK Athene,PAOK Thessaloniki vs AEK Athens,95.0
-6657496,US Sassuolo Calcio Femminile vs Inter Milan,Sassuolo (W) vs Inter Milan (W),94.5
 5951249,Adana Demirspor vs Kasimpasa,Adana Demirspor vs Kasımpasa,94.5
-6675141,Argentinos Juniors vs CA Tigre,Argentinos Jrs vs Tigre,94.0
 6351963,FC Unirea 2004 Slobozia vs FC Dinamo Bucuresti 1948,CSM Unirea Slobozia vs Dinamo Bucuresti,94.0
-6688279,Farnborough FC vs AFC Hornchurch,Farnborough Town vs AFC Hornchurch,94.0
-6687737,Rushall Olympic vs Kings Lynn Town,Rushall Olympic vs King's Lynn Town FC,94.0
+6676127,CA Bucaramanga vs America De Cali,Atletico Bucaramanga vs America de Cali,94.0
+6580792,GD Prudente SP vs EC Primavera SP ,Gremio Prudente SP vs Primavera SP,94.0
 6678127,Dunfermline Athletic FC vs Raith Rovers FC,Dunfermline Athletic vs Raith Rovers,94.0
-5951255,Basaksehir FK vs Samsunspor,Istanbul Basaksehir vs Samsunspor,93.5
+6675141,Argentinos Juniors vs CA Tigre,Argentinos Jrs vs Tigre,94.0
 6392865,Al Ettifaq FC vs Al Shabab FC (Ksa),Al Ettifaq (KSA) vs Al Shabab,93.5
-6472425,Linfield FC vs Crusaders FC,Linfield vs Crusaders Belfast,93.0
+5951255,Basaksehir FK vs Samsunspor,Istanbul Basaksehir vs Samsunspor,93.5
 5951252,Goztepe SK vs Alanyaspor,Goztepe A.S. vs Alanyaspor,93.0
-6620177,Panseraikos FC vs Volos NPS,Panserraikos vs Volos NPS,92.5
-6441760,Al Fateh SC vs Al Qadisiyah FC,Al Fateh vs Al Qadisiya,92.5
-6678060,Airdrieonians FC vs Queens Park FC,Airdrieonians vs Queen's Park,92.5
+6472425,Linfield FC vs Crusaders FC,Linfield vs Crusaders Belfast,93.0
 6360273,1. FC Kaiserslautern vs SC Preussen Munster,1. FC Kaiserslautern vs Preußen Munster,92.5
+6678060,Airdrieonians FC vs Queens Park FC,Airdrieonians vs Queen's Park,92.5
+6441760,Al Fateh SC vs Al Qadisiyah FC,Al Fateh vs Al Qadisiya,92.5
+6620177,Panseraikos FC vs Volos NPS,Panserraikos vs Volos NPS,92.5
+6690070,Liverpool LFC vs West Ham United FC,Liverpool (W) vs West Ham United (W),92.0
+6684019,CD Recoleta vs CS 2 De Mayo,Deportivo Recoleta vs 2 de Mayo,92.0
 6687738,Peterborough Sports FC vs Hereford FC,Peterborough Sports FC vs Hereford United,92.0
 6491229,Sporting Cp vs Sporting Farense,Sporting Lisbon vs Farense,92.0
-6684019,CD Recoleta vs CS 2 De Mayo,Deportivo Recoleta vs 2 de Mayo,92.0
-6690070,Liverpool LFC vs West Ham United FC,Liverpool (W) vs West Ham United (W),92.0
+6691730,Brighton And Hove Albion WFC vs Crystal Palace Ladies,Brighton (W) vs Crystal Palace (W),91.0
+6681228,SC Cambuur vs Telstar,Cambuur Leeuwarden vs SC Telstar,91.0
 6690196,CF America vs Juarez,Club America vs FC Juarez,91.0
 6619687,CF America vs Atletico San Luis,Club America vs Atletico San Luis,91.0
-6691730,Brighton And Hove Albion WFC vs Crystal Palace Ladies,Brighton (W) vs Crystal Palace (W),91.0
 6491232,Moreirense vs SC Braga,Moreirense vs S.C. Braga,91.0
 6531376,Atletico Mineiro vs America FC,Atletico Mineiro MG vs America MG,91.0
-6681228,SC Cambuur vs Telstar,Cambuur Leeuwarden vs SC Telstar,91.0
 5951241,Gaziantep FK vs Galatasaray SK,Gaziantep B.B. vs Galatasaray A.S.,90.0
+6675361,Independiente Santa Fe vs CD Tolima,Independiente Santa Fe vs Deportes Tolima,90.0
 6342717,Oud Heverlee Leuven vs Yellow Red Kv Mechelen,OH Leuven vs KV Mechelen,90.0
+6360995,Legia Warschau vs Korona Kielce,Legia Warszawa vs Korona Kielce,89.5
 6351793,Pogon Szczecin vs Kghm Zaglebie Lubin,Pogon Szczecin vs Zagłebie Lubin,89.5
 6441762,Al Ittihad Jeddah vs Al Khlood,Al Ittihad (KSA) vs Al Kholood,89.0
+6690201,Mazatla vs Club Leon,Mazatlan FC vs Club Leon,89.0
 6618297,Panathinaikos vs OFI Kreta,Panathinaikos vs OFI Crete,89.0
 6619686,Puebla vs Mazatla,Puebla FC vs Mazatlan FC,89.0
-6690201,Mazatla vs Club Leon,Mazatlan FC vs Club Leon,89.0
-6341771,Werder Bremen vs FSV Mainz,Werder Bremen vs Mainz 05,88.5
-6692295,Paris Saint Germain FC vs AS Monaco,Paris SG vs AS Monaco,88.5
 6351960,ASC Otelul Galati vs SCM Gloria Buzau,Otelul Galati vs FC Buzau,88.5
-6415638,FSV Mainz vs FC Augsburg,Mainz 05 vs FC Augsburg,88.5
+6692295,Paris Saint Germain FC vs AS Monaco,Paris SG vs AS Monaco,88.5
+6675360,AD Pasto vs Millonarios FC,Deportivo Pasto vs Millonarios FC,88.5
 6598471,Stade Brest vs Paris Saint Germain FC,Brest vs Paris SG,88.5
+6341771,Werder Bremen vs FSV Mainz,Werder Bremen vs Mainz 05,88.5
+6415638,FSV Mainz vs FC Augsburg,Mainz 05 vs FC Augsburg,88.5
 6351971,Cercle Brugge vs Standard Luik,Cercle Brugge vs Standard de Liege,88.0
-6341772,1. FC Nuremberg vs SV Darmstadt 1898,1. FC Nurnberg vs Darmstadt 98,87.5
 6351974,Royal Charleroi vs FCV Dender EH,Sporting de Charleroi vs FCV Dender EH,87.5
-6631092,Athletic Club Sjdr MG vs Villa Nova AC MG,Athletic Club MG vs Villa Nova MG,87.0
-6518610,EC Noroeste SP vs AA Internacional Limeira SP,Noroeste SP vs Inter de Limeira SP,87.0
-6531400,Fiorentina FC vs AC Milan,Fiorentina (W) vs Milan (W),87.0
+6341772,1. FC Nuremberg vs SV Darmstadt 1898,1. FC Nurnberg vs Darmstadt 98,87.5
 6361160,Union Saint Gilloise vs St. Truidense VV,Union Saint Gilloise vs Sint Truiden,87.0
+6518610,EC Noroeste SP vs AA Internacional Limeira SP,Noroeste SP vs Inter de Limeira SP,87.0
+6631092,Athletic Club Sjdr MG vs Villa Nova AC MG,Athletic Club MG vs Villa Nova MG,87.0
+6531400,Fiorentina FC vs AC Milan,Fiorentina (W) vs Milan (W),87.0
 6656950,RFC Seraing United vs Lierse,R.F.C. Seraing vs KSK Lierse Kempenzonen,85.0
 6599529,Betim Futebol vs EC Democrata MG,Betim MG vs Democrata GV MG,83.0
 6620179,APO Levadeiakos FC vs Olympiacos Piraeus,Levadiakos vs Olympiakos Piraeus,82.5
