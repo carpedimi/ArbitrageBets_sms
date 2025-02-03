@@ -2,7 +2,25 @@ import pandas as pd
 from fuzzywuzzy import process, fuzz
 from datetime import datetime
 import pandas as pd
+import os
 pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
+
+def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
+    """
+    Get the latest file in a directory based on the modification time.
+
+    Args:
+    directory (str): The directory path to search for files.
+    file_extension (str): The file extension filter (default is "*.csv").
+
+    Returns:
+    str: The path to the latest file.
+    """
+    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('totoTennis') or file.startswith('unibet'))]
+    if not files:
+        raise FileNotFoundError(f"No files found in {directory} with extension {file_extension}")
+    latest_file = max(files, key=os.path.getmtime)
+    return latest_file
 
 def preprocess_tennis_data(toto_file_path: str, kambi_file_path: str):
     """
@@ -295,7 +313,8 @@ def create_merged_tennis_yesno(toto_filtered_tennis: pd.DataFrame, kambi_filtere
 
     # Create 'YesNoType' column
     kambi_filtered_tennis_yesno['YesNoType'] = kambi_filtered_tennis_yesno['criterion_label'].apply(
-        lambda x: 'Set winst' if 'Wint een Set' in x else None
+    lambda x: 'Set winst' if ('wint minstens een set' in x or 'Wint een Set' in x)
+    else None  # Default case if none of the conditions match
     )
 
     # Create 'OverUnderTime' column
@@ -393,11 +412,16 @@ def process_tennis_betting_data(toto_filtered_tennis, kambi_filtered_tennis):
     
     return result
 
-toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
-kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
+toto_directory = "Data/scrapers/Toto/"
+kambi_directory = "Data/scrapers/unibet/"
 start_time = datetime.utcnow()
 
-toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file, kambi_file)
+toto_file_path = get_latest_file(toto_directory)
+kambi_file_path = get_latest_file(kambi_directory)
+
+start_time = datetime.utcnow()
+
+toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file_path, kambi_file_path)
 
 # # Now, `merged_df_winnaar` contains the processed and filtered merged data
 # merged_df_winnaar = create_merged_df_winnaar(toto_filtered_tennis, kambi_filtered_tennis)

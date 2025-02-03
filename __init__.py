@@ -5,7 +5,8 @@ from threading import Thread
 # Paths to the Python scripts
 BASE_DIR = "/Users/ddeboe01/Downloads/ArbitrageBets"
 UNIBET_PY = os.path.join(BASE_DIR, "Data/scrapers/unibet/unibetAllSport.py")
-TOTO_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoAllSport.py")
+TOTO_Football_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoFootball.py")
+TOTO_Tennis_PY = os.path.join(BASE_DIR, "Data/scrapers/Toto/totoTennis.py")
 ARBSIGNAL_PY_FOOTBALL = os.path.join(BASE_DIR, "ArbSignal_Football.py")
 ARBSIGNAL_PY_TENNIS = os.path.join(BASE_DIR, "ArbSignal_Tennis.py")
 
@@ -49,15 +50,18 @@ def main():
 
     # Threads for parallel execution of the first two scripts
     unibet_thread = Thread(target=run_py, args=(UNIBET_PY,))
-    toto_thread = Thread(target=run_py, args=(TOTO_PY,))
+    toto_Football_thread = Thread(target=run_py, args=(TOTO_Football_PY,))
+    toto_Tennis_thread = Thread(target=run_py, args=(TOTO_Tennis_PY,))
 
     # Start the threads
     unibet_thread.start()
-    toto_thread.start()
+    toto_Football_thread.start()
+    toto_Tennis_thread.start()
 
     # Wait for both threads to finish
     unibet_thread.join()
-    toto_thread.join()
+    toto_Football_thread.join()
+    toto_Tennis_thread.join()
 
     # Threads for parallel execution of the first two scripts
     arbsignal_football_thread = Thread(target=run_py, args=(ARBSIGNAL_PY_FOOTBALL,))

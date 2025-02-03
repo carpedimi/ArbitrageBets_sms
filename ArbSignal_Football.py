@@ -16,7 +16,7 @@ def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
     Returns:
     str: The path to the latest file.
     """
-    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('toto') or file.startswith('unibet'))]
+    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('totoFootball') or file.startswith('unibet'))]
     if not files:
         raise FileNotFoundError(f"No files found in {directory} with extension {file_extension}")
     latest_file = max(files, key=os.path.getmtime)

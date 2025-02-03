@@ -1,0 +1,321 @@
+,Event Name,Market Name,Outcome Name,outcome_label,Odds (Decimal),odds,Arbitrage Percentage,Is Arbitrage,Stake A,Stake B
+0,Stan Wawrinka vs Daniil Medvedev,Aantal Games   Over/Under 21.5,Over,Minder dan,1.94,1.86,105.30983261279236,False,0,0
+1,Stan Wawrinka vs Daniil Medvedev,Aantal Games   Over/Under 21.5,Under,Meer dan,1.84,1.92,106.43115942028984,False,0,0
+2,Mattia Bellucci vs Mees Rottgering,Aantal Games   Over/Under 17.5,Under,Meer dan,2.65,1.42,108.15838426787138,False,0,0
+3,Mattia Bellucci vs Mees Rottgering,Aantal Games   Over/Under 17.5,Over,Minder dan,1.47,2.75,104.39084724799011,False,0,0
+4,Alexander Bublik vs Jakub Mensik,Aantal Games   Over/Under 23.5,Over,Minder dan,2.1,1.68,107.14285714285714,False,0,0
+5,Alexander Bublik vs Jakub Mensik,Aantal Games   Over/Under 23.5,Under,Meer dan,1.71,2.14,105.20850412635951,False,0,0
+6,Matteo Berrettini vs Tallon Griekspoor,Aantal Games   Over/Under 24.5,Under,Meer dan,1.89,1.83,107.5548616532223,False,0,0
+7,Matteo Berrettini vs Tallon Griekspoor,Aantal Games   Over/Under 24.5,Over,Minder dan,1.88,1.95,104.47354064375341,False,0,0
+8,Alejandro Davidovich Fokina vs Brandon Holt,Aantal Games   Over/Under 22.5,Under,Meer dan,1.81,1.92,107.33195211786372,False,0,0
+9,Alejandro Davidovich Fokina vs Brandon Holt,Aantal Games   Over/Under 22.5,Over,Minder dan,1.97,1.87,104.23735714867395,False,0,0
+10,Alejandro Davidovich Fokina vs Brandon Holt,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.91,1.68,111.8798304662179,False,0,0
+11,Alejandro Davidovich Fokina vs Brandon Holt,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.87,2.12,100.6457471496317,False,0,0
+12,Matteo Arnaldi vs Christopher Eubanks,Aantal Games   Over/Under 24.5,Under,Meer dan,1.81,1.87,108.72455461340738,False,0,0
+13,Matteo Arnaldi vs Christopher Eubanks,Aantal Games   Over/Under 24.5,Over,Minder dan,1.97,1.91,103.11744226220534,False,0,0
+14,Matteo Arnaldi vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 10.5,Over,Minder dan,2.54,1.55,103.88620777241555,False,0,0
+15,Matteo Arnaldi vs Christopher Eubanks,Set 1 Aantal Games   Over/Under 10.5,Under,Meer dan,1.5,2.35,109.21985815602837,False,0,0
+16,Rinky Hijikata vs Adrian Mannarino,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.85,2.1,101.67310167310166,False,0,0
+17,Rinky Hijikata vs Adrian Mannarino,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.92,1.71,110.56286549707602,False,0,0
+18,Frances Tiafoe vs Taro Daniel,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.76,2.08,104.8951048951049,False,0,0
+19,Frances Tiafoe vs Taro Daniel,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.03,1.71,107.74061590758505,False,0,0
+20,Andrey Rublev vs Zhizhen Zhang,Aantal Games   Over/Under 22.5,Over,Minder dan,1.95,1.82,106.22710622710623,False,0,0
+21,Andrey Rublev vs Zhizhen Zhang,Aantal Games   Over/Under 22.5,Under,Meer dan,1.83,1.97,105.40623006296634,False,0,0
+22,David Goffin vs Alex De Minaur,Aantal Games   Over/Under 20.5,Under,Meer dan,1.6,2.28,106.35964912280701,False,0,0
+23,David Goffin vs Alex De Minaur,Aantal Games   Over/Under 20.5,Over,Minder dan,2.29,1.61,105.77992351297839,False,0,0
+24,Jan Lennard Struff vs Fabian Marozsan,Aantal Games   Over/Under 23.5,Under,Meer dan,1.75,2.04,106.1624649859944,False,0,0
+25,Jan Lennard Struff vs Fabian Marozsan,Aantal Games   Over/Under 23.5,Over,Minder dan,2.04,1.75,106.1624649859944,False,0,0
+26,Jiri Lehecka vs Alexei Popyrin,Aantal Games   Over/Under 22.5,Over,Minder dan,1.83,2.0,104.64480874316939,False,0,0
+27,Jiri Lehecka vs Alexei Popyrin,Aantal Games   Over/Under 22.5,Under,Meer dan,1.94,1.79,107.41231354028682,False,0,0
+28,Lorenzo Sonego vs Holger  Rune,Aantal Games   Over/Under 22.5,Over,Minder dan,1.74,2.04,106.49087221095334,False,0,0
+29,Lorenzo Sonego vs Holger  Rune,Aantal Games   Over/Under 22.5,Under,Meer dan,2.06,1.76,105.36187113857017,False,0,0
+30,Pedro Martinez vs Roberto Bautista Agut,Aantal Games   Over/Under 22.5,Under,Meer dan,1.82,1.97,105.7064762648519,False,0,0
+31,Pedro Martinez vs Roberto Bautista Agut,Aantal Games   Over/Under 22.5,Over,Minder dan,1.96,1.81,106.2690269477957,False,0,0
+32,Aleksandar Vukic vs Ben Shelton,Aantal Games   Over/Under 21.5,Under,Meer dan,2.49,1.5,106.82730923694778,False,0,0
+33,Aleksandar Vukic vs Ben Shelton,Aantal Games   Over/Under 21.5,Over,Minder dan,1.52,2.5,105.78947368421052,False,0,0
+34,Aleksandar Vukic vs Ben Shelton,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.51,1.53,105.20011457438221,False,0,0
+35,Aleksandar Vukic vs Ben Shelton,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.51,2.4,107.89183222958059,False,0,0
+36,Jaume Munar vs Bu Yunchaokete,Aantal Games   Over/Under 22.5,Over,Minder dan,1.88,1.85,107.24554341575616,False,0,0
+37,Jaume Munar vs Bu Yunchaokete,Aantal Games   Over/Under 22.5,Under,Meer dan,1.89,1.93,104.72352441264361,False,0,0
+38,Jaume Munar vs Bu Yunchaokete,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.16,1.77,102.79347143753922,False,0,0
+39,Jaume Munar vs Bu Yunchaokete,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.67,2.02,109.3851900160076,False,0,0
+40,Jaume Munar vs Bu Yunchaokete,Bu Yunchaokete Aantal Games   Over/Under 12.5,Over,Minder dan,1.73,2.0,107.80346820809248,False,0,0
+41,Jaume Munar vs Bu Yunchaokete,Bu Yunchaokete Aantal Games   Over/Under 12.5,Under,Meer dan,2.03,1.79,105.12700553155186,False,0,0
+42,Reilly Opelka vs Alexander Shevchenko,Aantal Games   Over/Under 23.5,Over,Minder dan,1.86,1.94,105.30983261279236,False,0,0
+43,Reilly Opelka vs Alexander Shevchenko,Aantal Games   Over/Under 23.5,Under,Meer dan,1.91,1.84,106.70384702936491,False,0,0
+44,Reilly Opelka vs Alexander Shevchenko,Set 1 Aantal Games   Over/Under 10.5,Under,Meer dan,1.7,2.02,108.32847990681422,False,0,0
+45,Reilly Opelka vs Alexander Shevchenko,Set 1 Aantal Games   Over/Under 10.5,Over,Minder dan,2.12,1.76,103.98799313893655,False,0,0
+46,Yoshihito Nishioka vs Brandon Nakashima,Aantal Games   Over/Under 22.5,Over,Minder dan,1.76,2.04,105.83778966131906,False,0,0
+47,Yoshihito Nishioka vs Brandon Nakashima,Aantal Games   Over/Under 22.5,Under,Meer dan,2.03,1.76,106.07926556202418,False,0,0
+48,Yoshihito Nishioka vs Brandon Nakashima,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.67,2.18,105.7517991539856,False,0,0
+49,Yoshihito Nishioka vs Brandon Nakashima,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.17,1.65,106.68900991481638,False,0,0
+50,Cameron Norrie vs Alex Michelsen,Aantal Games   Over/Under 22.5,Under,Meer dan,1.88,1.81,108.4401081462325,False,0,0
+51,Cameron Norrie vs Alex Michelsen,Aantal Games   Over/Under 22.5,Over,Minder dan,1.9,1.98,103.13662945241893,False,0,0
+52,Cameron Norrie vs Alex Michelsen,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.0,1.68,109.52380952380953,False,0,0
+53,Cameron Norrie vs Alex Michelsen,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.79,2.12,103.03573310846421,False,0,0
+54,Miomir Kecmanovic vs Denis Shapovalov,Aantal Games   Over/Under 22.5,Over,Minder dan,1.74,2.04,106.49087221095334,False,0,0
+55,Miomir Kecmanovic vs Denis Shapovalov,Aantal Games   Over/Under 22.5,Under,Meer dan,2.07,1.76,105.12736056214318,False,0,0
+56,Miomir Kecmanovic vs Denis Shapovalov,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.15,1.6,109.01162790697674,False,0,0
+57,Miomir Kecmanovic vs Denis Shapovalov,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.68,2.28,103.38345864661656,False,0,0
+58,Taylor Fritz vs Arthur Rinderknech,Aantal Games   Over/Under 20.5,Under,Meer dan,2.15,1.61,108.62342914921277,False,0,0
+59,Taylor Fritz vs Arthur Rinderknech,Aantal Games   Over/Under 20.5,Over,Minder dan,1.68,2.28,103.38345864661656,False,0,0
+60,Taylor Fritz vs Arthur Rinderknech,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.87,1.87,106.951871657754,False,0,0
+61,Taylor Fritz vs Arthur Rinderknech,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.9,1.91,104.98759988977679,False,0,0
+62,Tommy Paul vs Jenson Brooksby,Aantal Games   Over/Under 19.5,Over,Minder dan,1.72,1.95,109.42158616577223,False,0,0
+63,Tommy Paul vs Jenson Brooksby,Aantal Games   Over/Under 19.5,Under,Meer dan,2.09,1.83,102.49169869532251,False,0,0
+64,Tommy Paul vs Jenson Brooksby,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.76,2.1,104.43722943722943,False,0,0
+65,Tommy Paul vs Jenson Brooksby,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.04,1.7,107.84313725490196,False,0,0
+66,Kei Nishikori vs Tomas Machac,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.15,1.71,104.99116007071943,False,0,0
+67,Kei Nishikori vs Tomas Machac,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.68,2.1,107.14285714285714,False,0,0
+68,Marcos Giron vs Casper Ruud,Aantal Games   Over/Under 22.5,Over,Minder dan,1.79,2.0,105.86592178770951,False,0,0
+69,Marcos Giron vs Casper Ruud,Aantal Games   Over/Under 22.5,Under,Meer dan,2.0,1.79,105.86592178770951,False,0,0
+70,Marcos Giron vs Casper Ruud,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.71,2.15,104.99116007071943,False,0,0
+71,Marcos Giron vs Casper Ruud,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,2.11,1.67,107.27360444986805,False,0,0
+72,Anhelina Kalinina vs Elena Gabriela Ruse,Aantal Games   Over/Under 21.5,Under,Meer dan,1.88,1.9,105.82306830907054,False,0,0
+73,Anhelina Kalinina vs Elena Gabriela Ruse,Aantal Games   Over/Under 21.5,Over,Minder dan,1.9,1.88,105.82306830907054,False,0,0
+74,Anhelina Kalinina vs Elena Gabriela Ruse,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.73,2.08,105.88039128501556,False,0,0
+75,Anhelina Kalinina vs Elena Gabriela Ruse,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.08,1.72,106.21645796064401,False,0,0
+76,Sorana Cirstea vs Marina Stakusic,Aantal Games   Over/Under 21.5,Under,Meer dan,1.86,1.92,105.8467741935484,False,0,0
+77,Sorana Cirstea vs Marina Stakusic,Aantal Games   Over/Under 21.5,Over,Minder dan,1.92,1.86,105.8467741935484,False,0,0
+78,Sorana Cirstea vs Marina Stakusic,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.02,1.72,107.64448537877045,False,0,0
+79,Sorana Cirstea vs Marina Stakusic,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.77,2.08,104.57409821816601,False,0,0
+80,Magdalena Frech vs Linda Noskova,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.78,1.92,108.26310861423222,False,0,0
+81,Magdalena Frech vs Linda Noskova,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.01,1.86,103.51468464130957,False,0,0
+82,Magdalena Frech vs Linda Noskova,Aantal Games   Over/Under 21.5,Under,Meer dan,1.96,1.76,107.83858998144713,False,0,0
+83,Magdalena Frech vs Linda Noskova,Aantal Games   Over/Under 21.5,Over,Minder dan,1.82,2.02,104.45000544010443,False,0,0
+84,Anastasia Potapova vs Julia Grabher,Aantal Games   Over/Under 16.5,Over,Minder dan,1.52,2.4,107.4561403508772,False,0,0
+85,Anastasia Potapova vs Julia Grabher,Aantal Games   Over/Under 16.5,Under,Meer dan,2.48,1.54,105.25764558022624,False,0,0
+86,Anastasia Potapova vs Julia Grabher,Set 1 Aantal Games   Over/Under 8.5,Under,Meer dan,1.8,1.88,108.74704491725768,False,0,0
+87,Anastasia Potapova vs Julia Grabher,Set 1 Aantal Games   Over/Under 8.5,Over,Minder dan,1.99,1.9,102.88283522877543,False,0,0
+88,Arantxa Rus vs Viktorija Golubic,Aantal Games   Over/Under 21.5,Under,Meer dan,1.83,1.97,105.40623006296634,False,0,0
+89,Arantxa Rus vs Viktorija Golubic,Aantal Games   Over/Under 21.5,Over,Minder dan,1.95,1.82,106.22710622710623,False,0,0
+90,Arantxa Rus vs Viktorija Golubic,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.73,2.17,103.88641751684827,False,0,0
+91,Arantxa Rus vs Viktorija Golubic,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.08,1.66,108.31788693234476,False,0,0
+92,Ella Seidel vs Jaqueline Adina Cristian,Aantal Games   Over/Under 21.5,Over,Minder dan,1.87,1.94,105.0223275814543,False,0,0
+93,Ella Seidel vs Jaqueline Adina Cristian,Aantal Games   Over/Under 21.5,Under,Meer dan,1.9,1.84,106.97940503432494,False,0,0
+94,Ella Seidel vs Jaqueline Adina Cristian,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.75,2.0,107.14285714285714,False,0,0
+95,Ella Seidel vs Jaqueline Adina Cristian,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.04,1.78,105.19938312403613,False,0,0
+96,Katerina Siniakova vs Francesca Jones,Aantal Games   Over/Under 20.5,Under,Meer dan,1.88,1.86,106.95493022191718,False,0,0
+97,Katerina Siniakova vs Francesca Jones,Aantal Games   Over/Under 20.5,Over,Minder dan,1.89,1.92,104.99338624338625,False,0,0
+98,Katerina Siniakova vs Francesca Jones,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.71,2.14,105.20850412635951,False,0,0
+99,Katerina Siniakova vs Francesca Jones,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.11,1.68,106.9171744527195,False,0,0
+100,Belinda Bencic vs Rebecca Sramkova,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.22,1.62,106.77344010677344,False,0,0
+101,Belinda Bencic vs Rebecca Sramkova,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.64,2.23,105.81865908345182,False,0,0
+102,Belinda Bencic vs Rebecca Sramkova,Aantal Games   Over/Under 20.5,Under,Meer dan,1.79,2.02,105.37087228275901,False,0,0
+103,Belinda Bencic vs Rebecca Sramkova,Aantal Games   Over/Under 20.5,Over,Minder dan,1.99,1.76,107.06943809958887,False,0,0
+104,Renata Zarazua vs Magda Linette,Aantal Games   Over/Under 21.5,Under,Meer dan,1.97,1.81,106.01004010432735,False,0,0
+105,Renata Zarazua vs Magda Linette,Aantal Games   Over/Under 21.5,Over,Minder dan,1.81,1.97,106.01004010432735,False,0,0
+106,Renata Zarazua vs Magda Linette,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.99,1.79,106.11717806911653,False,0,0
+107,Renata Zarazua vs Magda Linette,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.79,2.0,105.86592178770951,False,0,0
+108,Alycia Parks vs Olga Danilovic,Aantal Games   Over/Under 21.5,Over,Minder dan,1.87,1.98,103.98098633392752,False,0,0
+109,Alycia Parks vs Olga Danilovic,Aantal Games   Over/Under 21.5,Under,Meer dan,1.91,1.81,107.60463972693877,False,0,0
+110,Alycia Parks vs Olga Danilovic,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.94,1.83,106.19120049574673,False,0,0
+111,Alycia Parks vs Olga Danilovic,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.84,1.96,105.36823425022183,False,0,0
+112,Laura Siegemund vs Jessica Bouzas Maneiro,Aantal Games   Over/Under 21.5,Over,Minder dan,1.9,1.92,104.71491228070175,False,0,0
+113,Laura Siegemund vs Jessica Bouzas Maneiro,Aantal Games   Over/Under 21.5,Under,Meer dan,1.87,1.86,107.23937668909204,False,0,0
+114,Laura Siegemund vs Jessica Bouzas Maneiro,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.05,1.77,105.277662946121,False,0,0
+115,Laura Siegemund vs Jessica Bouzas Maneiro,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.75,2.02,106.64780763790664,False,0,0
+116,Anastasia Pavlyuchenkova vs Sofia Kenin,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.98,1.77,107.00222564629345,False,0,0
+117,Anastasia Pavlyuchenkova vs Sofia Kenin,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.8,2.02,105.06050605060506,False,0,0
+118,Sara Sorribes Tormo vs Anna Blinkova,Aantal Games   Over/Under 21.5,Over,Minder dan,1.89,1.88,106.10154227175505,False,0,0
+119,Sara Sorribes Tormo vs Anna Blinkova,Aantal Games   Over/Under 21.5,Under,Meer dan,1.88,1.9,105.82306830907054,False,0,0
+120,Sara Sorribes Tormo vs Anna Blinkova,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.76,2.12,103.98799313893655,False,0,0
+121,Sara Sorribes Tormo vs Anna Blinkova,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.04,1.7,107.84313725490196,False,0,0
+122,Varvara Gracheva vs Peyton Stearns,Aantal Games   Over/Under 20.5,Over,Minder dan,1.94,1.87,105.0223275814543,False,0,0
+123,Varvara Gracheva vs Peyton Stearns,Aantal Games   Over/Under 20.5,Under,Meer dan,1.84,1.91,106.70384702936491,False,0,0
+124,Varvara Gracheva vs Peyton Stearns,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.17,1.65,106.68900991481638,False,0,0
+125,Varvara Gracheva vs Peyton Stearns,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.67,2.18,105.7517991539856,False,0,0
+126,Marketa Vondrousova vs Emma Raducanu,Aantal Games   Over/Under 21.5,Over,Minder dan,1.82,1.9,107.57663389242336,False,0,0
+127,Marketa Vondrousova vs Emma Raducanu,Aantal Games   Over/Under 21.5,Under,Meer dan,1.96,1.88,104.21189752496743,False,0,0
+128,Marketa Vondrousova vs Emma Raducanu,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.97,1.75,107.90427846265409,False,0,0
+129,Marketa Vondrousova vs Emma Raducanu,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.81,2.04,104.26822662766764,False,0,0
+130,Elisabetta Cocciaretto vs Irina Camelia Begu,Aantal Games   Over/Under 21.5,Over,Minder dan,1.88,1.9,105.82306830907054,False,0,0
+131,Elisabetta Cocciaretto vs Irina Camelia Begu,Aantal Games   Over/Under 21.5,Under,Meer dan,1.89,1.88,106.10154227175505,False,0,0
+132,Elisabetta Cocciaretto vs Irina Camelia Begu,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.77,2.06,105.04086446163127,False,0,0
+133,Elisabetta Cocciaretto vs Irina Camelia Begu,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.01,1.74,107.2225081489106,False,0,0
+134,Ons Jabeur vs Jelena Ostapenko,Aantal Games   Over/Under 21.5,Under,Meer dan,1.89,1.88,106.10154227175505,False,0,0
+135,Ons Jabeur vs Jelena Ostapenko,Aantal Games   Over/Under 21.5,Over,Minder dan,1.89,1.9,105.54163185742134,False,0,0
+136,Ons Jabeur vs Jelena Ostapenko,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.77,1.98,107.00222564629345,False,0,0
+137,Ons Jabeur vs Jelena Ostapenko,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,2.03,1.8,104.81663929939793,False,0,0
+138,Ana Bogdan vs Jodie Anna Burrage,Aantal Games   Over/Under 21.5,Over,Minder dan,1.88,1.93,105.00496086429281,False,0,0
+139,Ana Bogdan vs Jodie Anna Burrage,Aantal Games   Over/Under 21.5,Under,Meer dan,1.89,1.85,106.96410696410696,False,0,0
+140,Ana Bogdan vs Jodie Anna Burrage,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.97,1.76,107.57960313797876,False,0,0
+141,Ana Bogdan vs Jodie Anna Burrage,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.81,2.02,104.75356927957988,False,0,0
+142,Simona Halep vs Lucia Bronzetti,Aantal Games   Over/Under 21.5,Over,Minder dan,1.9,1.91,104.98759988977679,False,0,0
+143,Simona Halep vs Lucia Bronzetti,Aantal Games   Over/Under 21.5,Under,Meer dan,1.88,1.87,106.66742519057912,False,0,0
+144,Simona Halep vs Lucia Bronzetti,Set 1 Aantal Games   Over/Under 9.5,Under,Meer dan,1.79,2.04,104.88552963084675,False,0,0
+145,Simona Halep vs Lucia Bronzetti,Set 1 Aantal Games   Over/Under 9.5,Over,Minder dan,1.99,1.75,107.39411342426418,False,0,0
+146,Dominik Koepfer vs Bernabe Zapata Miralles,Wedstrijd,Bernabe Zapata Miralles,"Koepfer, Dominik",4.25,1.2,106.86274509803921,False,0,0
+147,Dominik Koepfer vs Bernabe Zapata Miralles,Wedstrijd,Dominik Koepfer,"Zapata Miralles, Bernabe",1.22,4.35,104.95571886188053,False,0,0
+148,Clement Chidekh vs Lucas Pouille,Wedstrijd,Lucas Pouille,"Chidekh, Clement",1.42,2.75,106.78617157490397,False,0,0
+149,Clement Chidekh vs Lucas Pouille,Wedstrijd,Clement Chidekh,"Pouille, Lucas",2.8,1.4,107.14285714285714,False,0,0
+150,Hugo Grenier vs Terence Atmane,Wedstrijd,Hugo Grenier,"Atmane, Terence",1.89,1.85,106.96410696410696,False,0,0
+151,Hugo Grenier vs Terence Atmane,Wedstrijd,Terence Atmane,"Grenier, Hugo",1.89,1.85,106.96410696410696,False,0,0
+152,Aslan Karatsev vs Corentin Denolly,Wedstrijd,Aslan Karatsev,"Denolly, Corentin",1.12,6.0,105.95238095238095,False,0,0
+153,Aslan Karatsev vs Corentin Denolly,Wedstrijd,Corentin Denolly,"Karatsev, Aslan",6.0,1.12,105.95238095238095,False,0,0
+154,Duje Ajdukovic vs Elias Ymer,Wedstrijd,Duje Ajdukovic,"Ymer, Elias",1.42,2.75,106.78617157490397,False,0,0
+155,Duje Ajdukovic vs Elias Ymer,Wedstrijd,Elias Ymer,"Ajdukovic, Duje",2.8,1.4,107.14285714285714,False,0,0
+156,Jay Clarke vs Ramkumar Ramanathan,Wedstrijd,Ramkumar Ramanathan,"Clarke, Jay",2.51,1.5,106.50730411686587,False,0,0
+157,Jay Clarke vs Ramkumar Ramanathan,Wedstrijd,Jay Clarke,"Ramanathan, Ramkumar",1.51,2.5,106.22516556291393,False,0,0
+158,Hynek Barton vs Timofey Skatov,Wedstrijd,Timofey Skatov,"Barton, Hynek",1.98,1.75,107.64790764790763,False,0,0
+159,Hynek Barton vs Timofey Skatov,Wedstrijd,Hynek Barton,"Skatov, Timofei",1.8,2.03,104.81663929939793,False,0,0
+160,Alexander Blockx vs Aziz Dougaz,Wedstrijd,Aziz Dougaz,"Blockx, Alexander",3.8,1.25,106.3157894736842,False,0,0
+161,Alexander Blockx vs Aziz Dougaz,Wedstrijd,Alexander Blockx,"Dougaz, Aziz",1.26,3.75,106.03174603174604,False,0,0
+162,Alexey Zakharov vs Sasikumar Mukund,Wedstrijd,Alexey Zakharov,"Sasikumar, Mukund",1.57,2.4,105.36093418259023,False,0,0
+163,Alexey Zakharov vs Sasikumar Mukund,Wedstrijd,Sasikumar Mukund,"Zakharov, Alexey",2.37,1.53,107.55356995118723,False,0,0
+164,Arthur Gea vs Maximilian Marterer,Wedstrijd,Maximilian Marterer,"Gea, Arthur",2.03,1.73,107.06455195193487,False,0,0
+165,Arthur Gea vs Maximilian Marterer,Wedstrijd,Arthur Gea,"Marterer, Maximilian",1.76,2.0,106.81818181818184,False,0,0
+166,Benjamin Bonzi vs Pierre Hugues Herbert,Wedstrijd,Pierre-Hugues Herbert,"Bonzi, Benjamin",3.05,1.36,106.31629701060751,False,0,0
+167,Benjamin Bonzi vs Pierre Hugues Herbert,Wedstrijd,Benjamin Bonzi,"Herbert, Pierre-Hugues",1.37,3.0,106.32603406326034,False,0,0
+168,Filip Cristian Jianu vs Alibek Kachmazov,Wedstrijd,Alibek Kachmazov,"Jianu, Filip Cristian",1.14,5.5,105.90111642743223,False,0,0
+169,Filip Cristian Jianu vs Alibek Kachmazov,Wedstrijd,Filip Cristian Jianu,"Kachmazov, Alibek",5.5,1.14,105.90111642743223,False,0,0
+170,Francesco Maestrelli vs Edas Butvilas,Wedstrijd,Francesco Maestrelli,"Butvilas, Edas",2.08,1.73,105.88039128501556,False,0,0
+171,Francesco Maestrelli vs Edas Butvilas,Wedstrijd,Edas Butvilas,"Maestrelli, Francesco",1.73,2.0,107.80346820809248,False,0,0
+172,Giulio Zeppieri vs Vilius Gaubas,Wedstrijd,Giulio Zeppieri,"Gaubas, Vilius",1.51,2.5,106.22516556291393,False,0,0
+173,Giulio Zeppieri vs Vilius Gaubas,Wedstrijd,Vilius Gaubas,"Zeppieri, Giulio",2.51,1.5,106.50730411686587,False,0,0
+174,Gregoire Barrere vs Henri Squire,Wedstrijd,Gregoire Barrere,"Squire, Henri",1.6,2.25,106.94444444444444,False,0,0
+175,Gregoire Barrere vs Henri Squire,Wedstrijd,Henri Squire,"Barrere, Gregoire",2.31,1.57,106.98431080596684,False,0,0
+176,Ignacio Buse vs Abedallah Shelbayh,Wedstrijd,Abedallah Shelbayh,"Buse, Ignacio",1.86,1.85,107.81749491426909,False,0,0
+177,Ignacio Buse vs Abedallah Shelbayh,Wedstrijd,Ignacio Buse,"Shelbayh, Abedallah",1.91,1.85,106.41007499646243,False,0,0
+178,Andres Andrade vs Pablo Llamas Ruiz,Wedstrijd,Pablo Llamas Ruiz,"Andrade, Andres",1.7,2.1,106.44257703081233,False,0,0
+179,Andres Andrade vs Pablo Llamas Ruiz,Wedstrijd,Andres Andrade,"Llamas Ruiz, Pablo",2.13,1.67,106.82859632846981,False,0,0
+180,Benjamin Hassan vs Rei Sakamoto,Wedstrijd,Rei Sakamoto,"Hassan, Benjamin",1.7,2.1,106.44257703081233,False,0,0
+181,Benjamin Hassan vs Rei Sakamoto,Wedstrijd,Benjamin Hassan,"Sakamoto, Rei",2.12,1.67,107.05005084171279,False,0,0
+182,Javier Barranco Cosano vs Lukas Neumayer,Wedstrijd,Lukas Neumayer,"Barranco Cosano, Javier",1.68,2.1,107.14285714285714,False,0,0
+183,Javier Barranco Cosano vs Lukas Neumayer,Wedstrijd,Javier Barranco Cosano,"Neumayer, Lukas",2.15,1.67,106.39186742793483,False,0,0
+184,Ergi Kirkin vs Jiri Vesely,Wedstrijd,Jiri Vesely,"Kirkin, Ergi",1.52,2.5,105.78947368421052,False,0,0
+185,Ergi Kirkin vs Jiri Vesely,Wedstrijd,Ergi Kirkin,"Vesely, Jiri",2.49,1.5,106.82730923694778,False,0,0
+186,Adam Walton vs Govind Nanda,Wedstrijd,Adam Walton,"Nanda, Govind",1.22,4.35,104.95571886188053,False,0,0
+187,Adam Walton vs Govind Nanda,Wedstrijd,Govind Nanda,"Walton, Adam",4.25,1.2,106.86274509803921,False,0,0
+188,Blake Ellis vs Omar Jasika,Wedstrijd,Omar Jasika,"Ellis, Blake",1.62,2.3,105.20665593129361,False,0,0
+189,Blake Ellis vs Omar Jasika,Wedstrijd,Blake Ellis,"Jasika, Omar",2.26,1.62,105.97618267234785,False,0,0
+190,Kyrian Jacquet vs Karan Singh,Wedstrijd,Kyrian Jacquet,"Singh, Karan",1.13,5.2,107.72634445200818,False,0,0
+191,Kyrian Jacquet vs Karan Singh,Wedstrijd,Karan Singh,"Jacquet, Kyrian",5.5,1.15,105.13833992094862,False,0,0
+192,Kimmer Coppejans vs Rio Noguchi,Wedstrijd,Rio Noguchi,"Coppejans, Kimmer",2.52,1.5,106.34920634920636,False,0,0
+193,Kimmer Coppejans vs Rio Noguchi,Wedstrijd,Kimmer Coppejans,"Noguchi, Rio",1.51,2.52,105.90770524545358,False,0,0
+194,Michael Geerts vs Maxim Zhukov,Wedstrijd,Maxim Zhukov,"Geerts, Michael",3.1,1.33,107.44603444094105,False,0,0
+195,Michael Geerts vs Maxim Zhukov,Wedstrijd,Michael Geerts,"Zhukov, Maxim",1.36,3.2,104.77941176470588,False,0,0
+196,Johannus Monday vs Eliot Spizzirri,Wedstrijd,Eliot Spizzirri,"Monday, Johannus",2.14,1.67,106.60921148357491,False,0,0
+197,Johannus Monday vs Eliot Spizzirri,Wedstrijd,Johannus Monday,"Spizzirri, Eliot",1.69,2.1,106.79064525218371,False,0,0
+198,Kamil Majchrzak vs Luca Van Assche,Wedstrijd,Luca Van Assche,"Majchrzak, Kamil",1.95,1.82,106.22710622710623,False,0,0
+199,Kamil Majchrzak vs Luca Van Assche,Wedstrijd,Kamil Majchrzak,"Van Assche, Luca",1.83,1.92,106.72814207650272,False,0,0
+200,Maks Kasnikowski vs Valentin Royer,Wedstrijd,Maks Kasnikowski,"Royer, Valentin",2.31,1.57,106.98431080596684,False,0,0
+201,Maks Kasnikowski vs Valentin Royer,Wedstrijd,Valentin Royer,"Kasnikowski, Maks",1.6,2.25,106.94444444444444,False,0,0
+202,Zsombor Piros vs Oleksandr Ovcharenko,Wedstrijd,Zsombor Piros,"Ovcharenko, Oleksandr",1.29,3.25,108.288610614192,False,0,0
+203,Zsombor Piros vs Oleksandr Ovcharenko,Wedstrijd,Oleksandr Ovcharenko,"Piros, Zsombor",3.5,1.33,103.7593984962406,False,0,0
+204,Moerani Bouzige vs Yu Hsiou Hsu,Wedstrijd,Yu Hsiou Hsu,"Bouzige, Moerani",1.44,2.8,105.15873015873017,False,0,0
+205,Moerani Bouzige vs Yu Hsiou Hsu,Wedstrijd,Moerani Bouzige,Yu Hsiou Hsu,2.7,1.42,107.45957224830465,False,0,0
+206,Naoki Nakagawa vs Kosuke Ogura,Wedstrijd,Naoki Nakagawa,"Ogura, Kosuke",1.25,3.8,106.3157894736842,False,0,0
+207,Naoki Nakagawa vs Kosuke Ogura,Wedstrijd,Kosuke Ogura,"Nakagawa, Naoki",3.85,1.25,105.97402597402596,False,0,0
+208,Jason Kubler vs Tristan Schoolkate,Wedstrijd,Tristan Schoolkate,"Kubler, Jason",1.68,2.0,109.52380952380953,False,0,0
+209,Jason Kubler vs Tristan Schoolkate,Wedstrijd,Jason Kubler,"Schoolkate, Tristan",2.15,1.8,102.0671834625323,False,0,0
+210,Matthew Hulme vs Yi Zhou,Wedstrijd,Matthew Hulme,Yi Zhou,3.75,1.25,106.66666666666667,False,0,0
+211,Matthew Hulme vs Yi Zhou,Wedstrijd,Yi Zhou,"Hulme, Matt",1.26,3.8,105.68086883876357,False,0,0
+212,Masamichi Imamura vs Bernard Tomic,Wedstrijd,Bernard Tomic,"Imamura, Masamichi",1.41,2.65,108.65783487220662,False,0,0
+213,Masamichi Imamura vs Bernard Tomic,Wedstrijd,Masamichi Imamura,"Tomic, Bernard",2.85,1.45,104.05323653962493,False,0,0
+214,Hiroki Moriya vs Arthur Weber,Wedstrijd,Arthur Weber,"Moriya, Hiroki",2.02,1.77,106.00212563629245,False,0,0
+215,Hiroki Moriya vs Arthur Weber,Wedstrijd,Hiroki Moriya,"Weber, Arthur",1.77,2.0,106.49717514124295,False,0,0
+216,Pavle Marinkov vs Jake Delaney,Wedstrijd,Jake Delaney,"Marinkov, Pavle",1.81,2.0,105.24861878453038,False,0,0
+217,Pavle Marinkov vs Jake Delaney,Wedstrijd,Pavle Marinkov,"Delaney, Jake",1.97,1.77,107.25859646103987,False,0,0
+218,Keisuke Saitoh vs Andre Ilagan,Wedstrijd,Andre Ilagan,"Saitoh, Keisuke",1.38,3.0,105.79710144927536,False,0,0
+219,Keisuke Saitoh vs Andre Ilagan,Wedstrijd,Keisuke Saitoh,"Ilagan, Andre",3.0,1.37,106.32603406326034,False,0,0
+220,Li Tu vs Hikaru Shiraishi,Wedstrijd,Hikaru Shiraishi,"Tu, Li",7.5,1.07,106.79127725856699,False,0,0
+221,Li Tu vs Hikaru Shiraishi,Wedstrijd,Li Tu,"Shiraishi, Hikaru",1.08,8.0,105.09259259259258,False,0,0
+222,Marek Gengel vs Charles Broom,Wedstrijd,Marek Gengel,"Broom, Charles",1.52,2.5,105.78947368421052,False,0,0
+223,Marek Gengel vs Charles Broom,Wedstrijd,Charles Broom,"Gengel, Marek",2.48,1.5,106.98924731182795,False,0,0
+224,Stan Wawrinka vs Daniil Medvedev,Wedstrijd,Stan Wawrinka,"Medvedev, Daniil",5.5,1.15,105.13833992094862,False,0,0
+225,Stan Wawrinka vs Daniil Medvedev,Wedstrijd,Daniil Medvedev,"Wawrinka, Stanislas",1.17,5.5,103.65190365190367,False,0,0
+226,Mattia Bellucci vs Mees Rottgering,Wedstrijd,Mees Rottgering,"Bellucci, Mattia",10.0,1.07,103.45794392523364,False,0,0
+227,Mattia Bellucci vs Mees Rottgering,Wedstrijd,Mattia Bellucci,"Rottgering, Mees",1.06,9.0,105.45073375262052,False,0,0
+228,Yuta Shimizu vs Hayato Matsuoka,Wedstrijd,Hayato Matsuoka,"Shimizu, Yuta",4.5,1.2,105.55555555555556,False,0,0
+229,Yuta Shimizu vs Hayato Matsuoka,Wedstrijd,Yuta Shimizu,"Matsuoka, Hayato",1.2,4.35,106.32183908045978,False,0,0
+230,Carlos Alcaraz vs Botic Van de Zandschulp,Wedstrijd,Carlos Alcaraz,"van de Zandschulp, Botic",1.07,8.0,105.95794392523365,False,0,0
+231,Carlos Alcaraz vs Botic Van de Zandschulp,Wedstrijd,Botic Van de Zandschulp,"Alcaraz, Carlos",9.25,1.08,103.40340340340339,False,0,0
+232,Aleksandar Kovacevic vs Giovanni Mpetshi Perricard,Wedstrijd,Aleksandar Kovacevic,"Mpetshi Perricard, Giovanni",2.8,1.45,104.67980295566504,False,0,0
+233,Aleksandar Kovacevic vs Giovanni Mpetshi Perricard,Wedstrijd,Giovanni Mpetshi Perricard,"Kovacevic, Aleksandar",1.46,2.7,105.53018772196853,False,0,0
+234,Alexander Bublik vs Jakub Mensik,Wedstrijd,Jakub Mensik,"Bublik, Alexander",1.42,3.0,103.75586854460094,False,0,0
+235,Alexander Bublik vs Jakub Mensik,Wedstrijd,Alexander Bublik,"Mensik, Jakub",2.95,1.4,105.3268765133172,False,0,0
+236,Matteo Berrettini vs Tallon Griekspoor,Wedstrijd,Tallon Griekspoor,"Berrettini, Matteo",2.29,1.67,103.54836179170044,False,0,0
+237,Matteo Berrettini vs Tallon Griekspoor,Wedstrijd,Matteo Berrettini,"Griekspoor, Tallon",1.66,2.23,105.08401318277596,False,0,0
+238,Alejandro Davidovich Fokina vs Brandon Holt,Wedstrijd,Alejandro Davidovich Fokina,"Holt, Brandon",1.41,2.95,104.82029090034861,False,0,0
+239,Alejandro Davidovich Fokina vs Brandon Holt,Wedstrijd,Brandon Holt,"Davidovich Fokina, Alejandro",3.0,1.4,104.76190476190477,False,0,0
+240,Matteo Arnaldi vs Christopher Eubanks,Wedstrijd,Matteo Arnaldi,"Eubanks, Christopher",1.85,2.0,104.05405405405403,False,0,0
+241,Matteo Arnaldi vs Christopher Eubanks,Wedstrijd,Christopher Eubanks,"Arnaldi, Matteo",2.0,1.81,105.24861878453038,False,0,0
+242,Rinky Hijikata vs Adrian Mannarino,Wedstrijd,Adrian Mannarino,"Hijikata, Rinky",2.06,1.72,106.68322420410928,False,0,0
+243,Rinky Hijikata vs Adrian Mannarino,Wedstrijd,Rinky Hijikata,"Mannarino, Adrian",1.8,2.12,102.72536687631026,False,0,0
+244,Frances Tiafoe vs Taro Daniel,Wedstrijd,Frances Tiafoe,"Daniel, Taro",1.25,4.2,103.80952380952382,False,0,0
+245,Frances Tiafoe vs Taro Daniel,Wedstrijd,Taro Daniel,"Tiafoe, Frances",4.25,1.24,104.17457305502846,False,0,0
+246,Andrea Vavassori vs Felix Auger Aliassime,Wedstrijd,Andrea Vavassori,"Auger-Aliassime, Felix",7.0,1.09,106.02883355176932,False,0,0
+247,Andrea Vavassori vs Felix Auger Aliassime,Wedstrijd,Felix Auger Aliassime,"Vavassori, Andrea",1.11,7.0,104.37580437580436,False,0,0
+248,Andrey Rublev vs Zhizhen Zhang,Wedstrijd,Zhizhen Zhang,"Rublev, Andrey",4.25,1.24,104.17457305502846,False,0,0
+249,Andrey Rublev vs Zhizhen Zhang,Wedstrijd,Andrey Rublev,Zhizhen Zhang,1.25,4.1,104.39024390243902,False,0,0
+250,Arthur Fils vs Constant Lestienne,Wedstrijd,Arthur Fils,"Lestienne, Constant",1.26,3.8,105.68086883876357,False,0,0
+251,Arthur Fils vs Constant Lestienne,Wedstrijd,Constant Lestienne,"Fils, Arthur",4.0,1.25,105.0,False,0,0
+252,David Goffin vs Alex De Minaur,Wedstrijd,David Goffin,"De Minaur, Alex",7.75,1.09,104.64634507250665,False,0,0
+253,David Goffin vs Alex De Minaur,Wedstrijd,Alex De Minaur,"Goffin, David",1.1,7.5,104.24242424242425,False,0,0
+254,Jan Lennard Struff vs Fabian Marozsan,Wedstrijd,Fabian Marozsan,"Struff, Jan-Lennard",2.4,1.58,104.95780590717298,False,0,0
+255,Jan Lennard Struff vs Fabian Marozsan,Wedstrijd,Jan-Lennard Struff,"Marozsan, Fabian",1.6,2.38,104.51680672268908,False,0,0
+256,Jiri Lehecka vs Alexei Popyrin,Wedstrijd,Jiri Lehecka,"Popyrin, Alexei",1.37,3.15,104.73873247595876,False,0,0
+257,Jiri Lehecka vs Alexei Popyrin,Wedstrijd,Alexei Popyrin,"Lehecka, Jiri",3.2,1.36,104.77941176470588,False,0,0
+258,Lorenzo Sonego vs Holger  Rune,Wedstrijd,Holger  Rune,"Sonego, Lorenzo",1.43,2.95,103.8283750148157,False,0,0
+259,Lorenzo Sonego vs Holger  Rune,Wedstrijd,Lorenzo Sonego,"Rune, Holger",2.9,1.41,105.40474443629249,False,0,0
+260,Pedro Martinez vs Roberto Bautista Agut,Wedstrijd,Roberto Bautista Agut,"Martinez, Pedro",1.55,2.45,105.3324555628703,False,0,0
+261,Pedro Martinez vs Roberto Bautista Agut,Wedstrijd,Pedro Martinez,"Bautista Agut, Roberto",2.54,1.55,103.88620777241555,False,0,0
+262,Aleksandar Vukic vs Ben Shelton,Wedstrijd,Aleksandar Vukic,"Shelton, Ben",4.5,1.22,104.18943533697633,False,0,0
+263,Aleksandar Vukic vs Ben Shelton,Wedstrijd,Ben Shelton,"Vukic, Aleksandar",1.23,4.4,104.02808573540281,False,0,0
+264,Jaume Munar vs Bu Yunchaokete,Wedstrijd,Jaume Munar,Yunchaokete Bu,2.6,1.52,104.25101214574899,False,0,0
+265,Jaume Munar vs Bu Yunchaokete,Wedstrijd,Bu Yunchaokete,"Munar, Jaume",1.52,2.55,105.00515995872033,False,0,0
+266,Reilly Opelka vs Alexander Shevchenko,Wedstrijd,Reilly Opelka,"Shevchenko, Alexander",1.44,3.1,101.70250896057347,False,0,0
+267,Reilly Opelka vs Alexander Shevchenko,Wedstrijd,Alexander Shevchenko,"Opelka, Reilly",2.9,1.37,107.47545935061666,False,0,0
+268,Yoshihito Nishioka vs Brandon Nakashima,Wedstrijd,Brandon Nakashima,"Nishioka, Yoshihito",1.52,2.55,105.00515995872033,False,0,0
+269,Yoshihito Nishioka vs Brandon Nakashima,Wedstrijd,Yoshihito Nishioka,"Nakashima, Brandon",2.6,1.52,104.25101214574899,False,0,0
+270,Cameron Norrie vs Alex Michelsen,Wedstrijd,Cameron Norrie,"Michelsen, Alex",3.0,1.4,104.76190476190477,False,0,0
+271,Cameron Norrie vs Alex Michelsen,Wedstrijd,Alex Michelsen,"Norrie, Cameron",1.42,2.95,104.32084029601336,False,0,0
+272,Miomir Kecmanovic vs Denis Shapovalov,Wedstrijd,Miomir Kecmanovic,"Shapovalov, Denis",2.37,1.62,103.92248788873259,False,0,0
+273,Miomir Kecmanovic vs Denis Shapovalov,Wedstrijd,Denis Shapovalov,"Kecmanovic, Miomir",1.62,2.3,105.20665593129361,False,0,0
+274,Taylor Fritz vs Arthur Rinderknech,Wedstrijd,Arthur Rinderknech,"Fritz, Taylor",7.25,1.11,103.88319353836594,False,0,0
+275,Taylor Fritz vs Arthur Rinderknech,Wedstrijd,Taylor Fritz,"Rinderknech, A",1.11,6.75,104.9049049049049,False,0,0
+276,Tommy Paul vs Jenson Brooksby,Wedstrijd,Jenson Brooksby,"Paul, Tommy",7.5,1.09,105.07645259938838,False,0,0
+277,Tommy Paul vs Jenson Brooksby,Wedstrijd,Tommy Paul,"Brooksby, Jenson",1.1,7.5,104.24242424242425,False,0,0
+278,Kei Nishikori vs Tomas Machac,Wedstrijd,Kei Nishikori,"Machac, Tomas",2.37,1.58,105.48523206751055,False,0,0
+279,Kei Nishikori vs Tomas Machac,Wedstrijd,Tomas Machac,"Nishikori, Kei",1.62,2.38,103.74520178441746,False,0,0
+280,Marcos Giron vs Casper Ruud,Wedstrijd,Casper Ruud,"Giron, Marcos",1.62,2.35,104.2815865510901,False,0,0
+281,Marcos Giron vs Casper Ruud,Wedstrijd,Marcos Giron,"Ruud, Casper",2.37,1.6,104.69409282700421,False,0,0
+282,Anhelina Kalinina vs Elena Gabriela Ruse,Wedstrijd,Elena-Gabriela Ruse,"Kalinina, Anhelina",1.88,1.98,103.69653986675264,False,0,0
+283,Anhelina Kalinina vs Elena Gabriela Ruse,Wedstrijd,Anhelina Kalinina,"Ruse, Elena Gabriela",1.97,1.83,105.40623006296634,False,0,0
+284,Sorana Cirstea vs Marina Stakusic,Wedstrijd,Sorana Cirstea,"Stakusic, Marina",1.85,1.98,104.55910455910455,False,0,0
+285,Sorana Cirstea vs Marina Stakusic,Wedstrijd,Marina Stakusic,"Cirstea, Sorana",2.0,1.83,104.64480874316939,False,0,0
+286,Magdalena Frech vs Linda Noskova,Wedstrijd,Linda Noskova,"Frech, Magdalena",1.63,2.33,104.26814818715606,False,0,0
+287,Magdalena Frech vs Linda Noskova,Wedstrijd,Magdalena Frech,"Noskova, Linda",2.35,1.6,105.0531914893617,False,0,0
+288,Anastasia Potapova vs Julia Grabher,Wedstrijd,Anastasia Potapova,"Grabher, Julia",1.05,10.5,104.76190476190474,False,0,0
+289,Anastasia Potapova vs Julia Grabher,Wedstrijd,Julia Grabher,"Potapova, Anastasia",11.0,1.05,104.32900432900432,False,0,0
+290,Arantxa Rus vs Viktorija Golubic,Wedstrijd,Viktorija Golubic,"Rus, Arantxa",1.47,2.65,105.76305994095752,False,0,0
+291,Arantxa Rus vs Viktorija Golubic,Wedstrijd,Arantxa Rus,"Golubic, Viktorija",2.8,1.48,103.28185328185329,False,0,0
+292,Ella Seidel vs Jaqueline Adina Cristian,Wedstrijd,Jaqueline Adina Cristian,"Seidel, Ella",1.71,2.1,106.0985797827903,False,0,0
+293,Ella Seidel vs Jaqueline Adina Cristian,Wedstrijd,Ella Seidel,"Cristian, Jaqueline Adina",2.2,1.74,102.92580982236154,False,0,0
+294,Katerina Siniakova vs Francesca Jones,Wedstrijd,Francesca Jones,"Siniakova, Katerina",3.55,1.32,103.9265898420828,False,0,0
+295,Katerina Siniakova vs Francesca Jones,Wedstrijd,Katerina Siniakova,"Jones, Francesca",1.32,3.4,105.16934046345811,False,0,0
+296,Belinda Bencic vs Rebecca Sramkova,Wedstrijd,Rebecca Sramkova,"Bencic, Belinda",4.5,1.22,104.18943533697633,False,0,0
+297,Belinda Bencic vs Rebecca Sramkova,Wedstrijd,Belinda Bencic,"Sramkova, Rebecca",1.22,4.35,104.95571886188053,False,0,0
+298,Renata Zarazua vs Magda Linette,Wedstrijd,Renata Zarazua,"Linette, Magda",1.93,1.9,104.44505044995908,False,0,0
+299,Renata Zarazua vs Magda Linette,Wedstrijd,Magda Linette,"Zarazua, Renata",1.92,1.9,104.71491228070175,False,0,0
+300,Alycia Parks vs Olga Danilovic,Wedstrijd,Alycia Parks,"Danilovic, Olga",2.36,1.66,102.6138452113539,False,0,0
+301,Alycia Parks vs Olga Danilovic,Wedstrijd,Olga Danilovic,"Parks, Alycia",1.62,2.23,106.57144438908266,False,0,0
+302,Laura Siegemund vs Jessica Bouzas Maneiro,Wedstrijd,Jessica Bouzas Maneiro,"Siegemund, Laura",1.67,2.14,106.60921148357491,False,0,0
+303,Laura Siegemund vs Jessica Bouzas Maneiro,Wedstrijd,Laura Siegemund,"Bouzas Maneiro, Jessica",2.26,1.71,102.72731977436216,False,0,0
+304,Anastasia Pavlyuchenkova vs Sofia Kenin,Wedstrijd,Anastasia Pavlyuchenkova,"Kenin, Sofia",1.68,2.25,103.96825396825395,False,0,0
+305,Anastasia Pavlyuchenkova vs Sofia Kenin,Wedstrijd,Sofia Kenin,"Pavlyuchenkova, Anastasia",2.24,1.65,105.24891774891776,False,0,0
+306,Sara Sorribes Tormo vs Anna Blinkova,Wedstrijd,Sara Sorribes Tormo,"Blinkova, Anna",2.37,1.63,103.54378607853796,False,0,0
+307,Sara Sorribes Tormo vs Anna Blinkova,Wedstrijd,Anna Blinkova,"Sorribes Tormo, Sara",1.61,2.28,105.97145036504303,False,0,0
+308,Varvara Gracheva vs Peyton Stearns,Wedstrijd,Peyton Stearns,"Gracheva, Varvara",1.33,3.55,103.35698400931908,False,0,0
+309,Varvara Gracheva vs Peyton Stearns,Wedstrijd,Varvara Gracheva,"Stearns, Peyton",3.45,1.3,105.90858416945372,False,0,0
+310,Marketa Vondrousova vs Emma Raducanu,Wedstrijd,Marketa Vondrousova,"Raducanu, Emma",1.77,2.1,104.11622276029055,False,0,0
+311,Marketa Vondrousova vs Emma Raducanu,Wedstrijd,Emma Raducanu,"Vondrousova, Marketa",2.11,1.74,104.86462929672604,False,0,0
+312,Elisabetta Cocciaretto vs Irina Camelia Begu,Wedstrijd,Irina-Camelia Begu,"Cocciaretto, Elisabetta",2.09,1.76,104.66507177033493,False,0,0
+313,Elisabetta Cocciaretto vs Irina Camelia Begu,Wedstrijd,Elisabetta Cocciaretto,"Begu, Irina-Camelia",1.78,2.06,104.72346460128723,False,0,0
+314,Ons Jabeur vs Jelena Ostapenko,Wedstrijd,Ons Jabeur,"Ostapenko, Jelena",1.54,2.55,104.15075120957474,False,0,0
+315,Ons Jabeur vs Jelena Ostapenko,Wedstrijd,Jelena Ostapenko,"Jabeur, Ons",2.55,1.52,105.00515995872033,False,0,0
+316,Ana Bogdan vs Jodie Anna Burrage,Wedstrijd,Ana Bogdan,"Burrage, Jodie",1.8,2.06,104.09924487594391,False,0,0
+317,Ana Bogdan vs Jodie Anna Burrage,Wedstrijd,Jodie Anna Burrage,"Bogdan, Ana",2.06,1.77,105.04086446163127,False,0,0
+318,Simona Halep vs Lucia Bronzetti,Wedstrijd,Lucia Bronzetti,"Halep, Simona",1.92,1.98,102.58838383838385,False,0,0
+319,Simona Halep vs Lucia Bronzetti,Wedstrijd,Simona Halep,"Bronzetti, Lucia",1.93,1.83,106.45828024576008,False,0,0
