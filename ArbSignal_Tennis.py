@@ -2,6 +2,7 @@ import pandas as pd
 from fuzzywuzzy import process, fuzz
 from datetime import datetime
 import pandas as pd
+pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
 
 def preprocess_tennis_data(toto_file_path: str, kambi_file_path: str):
     """

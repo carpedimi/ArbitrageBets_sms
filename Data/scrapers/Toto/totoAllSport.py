@@ -7,6 +7,7 @@ import random
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 from dataclasses import dataclass
+pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
 
 @dataclass
 class APIConfig:

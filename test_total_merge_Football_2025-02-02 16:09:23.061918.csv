@@ -1,0 +1,473 @@
+,Event Name,Market Name,Outcome Name,outcome_label,Odds (Decimal),odds,Arbitrage Percentage,Is Arbitrage,Stake A,Stake B
+0,SSC Bari vs Frosinone,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.23,4.5,103.5230352303523,False,0.0,0.0
+1,SSC Bari vs Frosinone,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.75,1.16,112.87356321839081,False,0.0,0.0
+2,Legia Warschau vs Korona Kielce,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.0,1.7,108.82352941176472,False,0.0,0.0
+3,Legia Warschau vs Korona Kielce,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.71,2.05,107.26001996862074,False,0.0,0.0
+4,AS Roma vs Napoli,Aantal Goals   Over/Under 4.5,Over,Minder dan,7.5,1.06,107.67295597484276,False,0.0,0.0
+5,AS Roma vs Napoli,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.08,8.5,104.35729847494552,False,0.0,0.0
+6,Cagliari vs Lazio Roma,Aantal Goals   Over/Under 4.5,Over,Minder dan,5.75,1.09,109.13442361388113,False,0.0,0.0
+7,Cagliari vs Lazio Roma,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.13,7.0,102.78128950695321,False,0.0,0.0
+8,Middlesbrough vs Sunderland AFC,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.9,1.85,106.68563300142246,False,0.0,0.0
+9,Middlesbrough vs Sunderland AFC,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.87,1.92,105.55926916221034,False,0.0,0.0
+10,Burnley vs Oxford United,Aantal Goals   Over/Under 4.5,Over,Minder dan,7.5,1.03,110.42071197411003,False,0.0,0.0
+11,Burnley vs Oxford United,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.06,10.5,103.86343216531895,False,0.0,0.0
+12,Coventry City vs Leeds United,Aantal Goals   Over/Under 0.5,Under,Meer dan,8.0,1.02,110.53921568627452,False,0.0,0.0
+13,Coventry City vs Leeds United,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.05,12.0,103.57142857142856,False,0.0,0.0
+14,Hellas Verona vs Atalanta,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.22,4.5,104.18943533697633,False,0.0,0.0
+15,Hellas Verona vs Atalanta,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.85,1.19,110.00763941940413,False,0.0,0.0
+16,Torino vs Genoa,Aantal Goals   Over/Under 0.5,Under,Meer dan,6.0,1.07,110.1246105919003,False,0.0,0.0
+17,Torino vs Genoa,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.1,8.0,103.40909090909092,False,0.0,0.0
+18,Venezia vs AS Roma,Aantal Goals   Over/Under 0.5,Under,Meer dan,8.5,1.01,110.77460687245195,False,0.0,0.0
+19,Venezia vs AS Roma,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.04,14.0,103.29670329670328,False,0.0,0.0
+20,Cagliari vs Parma Calcio,Aantal Goals   Over/Under 4.5,Over,Minder dan,4.75,1.12,110.33834586466165,False,0.0,0.0
+21,Cagliari vs Parma Calcio,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.15,6.0,103.62318840579712,False,0.0,0.0
+22,Lazio Roma vs AC Monza,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.76,2.0,106.81818181818184,False,0.0,0.0
+23,Lazio Roma vs AC Monza,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.95,1.77,107.77922642329423,False,0.0,0.0
+24,Lecce vs Bologna,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.37,3.2,104.24270072992701,False,0.0,0.0
+25,Lecce vs Bologna,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.85,1.33,110.27568922305764,False,0.0,0.0
+26,Napoli vs Udinese,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.09,8.0,104.24311926605503,False,0.0,0.0
+27,Napoli vs Udinese,Aantal Goals   Over/Under 4.5,Over,Minder dan,6.0,1.07,110.1246105919003,False,0.0,0.0
+28,Lazio Roma vs Napoli,Aantal Goals   Over/Under 4.5,Over,Minder dan,5.5,1.06,112.5214408233276,False,0.0,0.0
+29,Lazio Roma vs Napoli,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.11,8.5,101.85479597244303,False,0.0,0.0
+30,Farul Constanta vs FC Petrolul Ploiesti,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.35,1.56,106.6557555919258,False,0.0,0.0
+31,Farul Constanta vs FC Petrolul Ploiesti,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.53,2.38,107.37628384687208,False,0.0,0.0
+32,Slask Wroclaw vs Piast Gliwice,Aantal Goals   Over/Under 3.5,Over,Minder dan,4.75,1.12,110.33834586466165,False,0.0,0.0
+33,Slask Wroclaw vs Piast Gliwice,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.14,5.4,106.23781676413256,False,0.0,0.0
+34,Queens Park Rangers vs Blackburn Rovers,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.65,1.36,111.26526082130965,False,0.0,0.0
+35,Queens Park Rangers vs Blackburn Rovers,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.42,3.05,103.20942045716926,False,0.0,0.0
+36,CSM Politehnica Iasi vs FC Uta Arad,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.15,1.58,109.80276714748307,False,0.0,0.0
+37,CSM Politehnica Iasi vs FC Uta Arad,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.61,2.32,105.21524951809809,False,0.0,0.0
+38,Angers SCO vs Le Havre,Aantal Goals   Over/Under 5.5,Over,Minder dan,13.5,,,False,0.0,0.0
+39,Angers SCO vs Le Havre,Aantal Goals   Over/Under 5.5,Under,Meer dan,1.01,23.0,103.35772707705553,False,0.0,0.0
+40,Stade Reims vs Nantes,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.26,1.64,105.22339736671702,False,0.0,0.0
+41,Stade Reims vs Nantes,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.62,2.25,106.17283950617282,False,0.0,0.0
+42,Stade Rennes vs Strasbourg,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.1,7.0,105.1948051948052,False,0.0,0.0
+43,Stade Rennes vs Strasbourg,Aantal Goals   Over/Under 4.5,Over,Minder dan,6.5,1.09,107.12773465067042,False,0.0,0.0
+44,KAA Gent vs RSC Anderlecht,Aantal Goals   Over/Under 5.5,Under,Meer dan,1.05,14.0,102.38095238095238,False,0.0,0.0
+45,KAA Gent vs RSC Anderlecht,Aantal Goals   Over/Under 5.5,Over,Minder dan,9.75,1.01,109.26631124650928,False,0.0,0.0
+46,KV Kortrijk vs KVC Westerlo,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.53,2.63,103.38229081239594,False,0.0,0.0
+47,KV Kortrijk vs KVC Westerlo,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.45,1.46,109.30947721554374,False,0.0,0.0
+48,Olympique Marseille vs Olympique Lyon,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.45,2.7,106.00255427841634,False,0.0,0.0
+49,Olympique Marseille vs Olympique Lyon,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.7,1.47,105.06424792139077,False,0.0,0.0
+50,Olympique Lyon vs Stade Reims,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.55,2.28,108.37577815506508,False,0.0,0.0
+51,Olympique Lyon vs Stade Reims,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.3,1.63,104.82795412109897,False,0.0,0.0
+52,Strasbourg vs Angers SCO,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.29,3.7,104.54640687198827,False,0.0,0.0
+53,Strasbourg vs Angers SCO,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.25,1.26,110.13431013431014,False,0.0,0.0
+54,Nantes vs Stade Brest,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.75,1.21,109.31129476584023,False,0.0,0.0
+55,Nantes vs Stade Brest,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.23,4.5,103.5230352303523,False,0.0,0.0
+56,OGC Nice vs RC Lens,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.23,4.2,105.11033681765389,False,0.0,0.0
+57,OGC Nice vs RC Lens,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.7,1.23,108.3278400351571,False,0.0,0.0
+58,LOSC Lille vs Le Havre,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.04,13.0,103.84615384615384,False,0.0,0.0
+59,LOSC Lille vs Le Havre,Aantal Goals   Over/Under 0.5,Under,Meer dan,8.5,1.03,108.85208452312965,False,0.0,0.0
+60,KRC Genk vs Cercle Brugge,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.48,2.75,103.93120393120392,False,0.0,0.0
+61,KRC Genk vs Cercle Brugge,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.48,1.4,111.75115207373271,False,0.0,0.0
+62,AS Saint Etienne vs Stade Rennes,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.11,7.0,104.37580437580436,False,0.0,0.0
+63,AS Saint Etienne vs Stade Rennes,Aantal Goals   Over/Under 4.5,Over,Minder dan,5.5,1.1,109.09090909090908,False,0.0,0.0
+64,Aj Auxerre vs Toulouse FC,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.27,3.7,105.76718450734197,False,0.0,0.0
+65,Aj Auxerre vs Toulouse FC,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.45,1.28,107.11050724637681,False,0.0,0.0
+66,Strasbourg vs Montpellier Hsc,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.47,2.55,107.24289715886354,False,0.0,0.0
+67,Strasbourg vs Montpellier Hsc,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.51,1.52,105.63011113440974,False,0.0,0.0
+68,AE Velo Clube SP vs Associacao Portuguesa De Desportos SP,Aantal Goals   Over/Under 0.5,Under,Meer dan,6.0,1.08,109.25925925925925,False,0.0,0.0
+69,AE Velo Clube SP vs Associacao Portuguesa De Desportos SP,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.08,6.75,107.40740740740739,False,0.0,0.0
+70,Wellington Phoenix FC vs Brisbane Roar FC,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.85,1.17,111.44411144411146,False,0.0,0.0
+71,Wellington Phoenix FC vs Brisbane Roar FC,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.22,4.5,104.18943533697633,False,0.0,0.0
+72,Botafogo Fr RJ vs CR Flamengo RJ,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.65,2.1,108.22510822510823,False,0.0,0.0
+73,Botafogo Fr RJ vs CR Flamengo RJ,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.1,1.68,107.14285714285714,False,0.0,0.0
+74,Botafogo Fr RJ vs CR Flamengo RJ,CR Flamengo RJ Aantal Goals   Over/Under 0.5,Under,Meer dan,3.4,1.24,110.05692599620494,False,0.0,0.0
+75,Botafogo Fr RJ vs CR Flamengo RJ,CR Flamengo RJ Aantal Goals   Over/Under 0.5,Over,Minder dan,1.29,3.55,105.68839392946828,False,0.0,0.0
+76,Botafogo Fr RJ vs CR Flamengo RJ,2e Helft: Aantal Goals Over/Under 1.5,Over,Minder dan,2.3,1.68,103.00207039337475,False,0.0,0.0
+77,Botafogo Fr RJ vs CR Flamengo RJ,2e Helft: Aantal Goals Over/Under 1.5,Under,Meer dan,1.54,2.05,113.71555273994298,False,0.0,0.0
+78,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo Fr RJ 1e Helft: Aantal Goals   Over/Under 0.5,Under,Meer dan,1.5,2.65,104.40251572327044,False,0.0,0.0
+79,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo Fr RJ 1e Helft: Aantal Goals   Over/Under 0.5,Over,Minder dan,2.45,1.41,111.73831234621507,False,0.0,0.0
+80,Botafogo Fr RJ vs CR Flamengo RJ,CR Flamengo RJ 1e Helft: Aantal Goals   Over/Under 0.5,Over,Minder dan,2.05,1.65,109.38654841093867,False,0.0,0.0
+81,Botafogo Fr RJ vs CR Flamengo RJ,CR Flamengo RJ 1e Helft: Aantal Goals   Over/Under 0.5,Under,Meer dan,1.69,2.1,106.79064525218371,False,0.0,0.0
+82,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo Fr RJ Aantal Goals   Over/Under 0.5,Under,Meer dan,2.6,1.45,107.42705570291777,False,0.0,0.0
+83,Botafogo Fr RJ vs CR Flamengo RJ,Botafogo Fr RJ Aantal Goals   Over/Under 0.5,Over,Minder dan,1.44,2.55,108.66013071895426,False,0.0,0.0
+84,Botafogo Fr RJ vs CR Flamengo RJ,1e Helft: Aantal Goals   Over/Under 0.5,Over,Minder dan,1.44,2.35,111.99763593380614,False,0.0,0.0
+85,Botafogo Fr RJ vs CR Flamengo RJ,1e Helft: Aantal Goals   Over/Under 0.5,Under,Meer dan,2.5,1.5,106.66666666666667,False,0.0,0.0
+86,Atletico San Luis vs Pumas UNAM,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.29,3.65,104.91664011893383,False,0.0,0.0
+87,Atletico San Luis vs Pumas UNAM,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.15,1.25,111.74603174603175,False,0.0,0.0
+88,CS 2 De Mayo vs Club Guarani,Aantal Goals   Over/Under 4.5,Over,Minder dan,8.5,1.02,109.80392156862744,False,0.0,0.0
+89,CS 2 De Mayo vs Club Guarani,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.04,12.0,104.48717948717947,False,0.0,0.0
+90,EC Democrata MG vs Pouso Alegre MG,1e Helft: Aantal Goals   Over/Under 1.5,Under,Meer dan,1.36,3.15,105.2754435107376,False,0.0,0.0
+91,EC Democrata MG vs Pouso Alegre MG,1e Helft: Aantal Goals   Over/Under 1.5,Over,Minder dan,2.9,1.3,111.40583554376657,False,0.0,0.0
+92,EC Democrata MG vs Pouso Alegre MG,EC Democrata MG Aantal Goals   Over/Under 1.5,Under,Meer dan,1.65,2.18,106.47762023908814,False,0.0,0.0
+93,EC Democrata MG vs Pouso Alegre MG,EC Democrata MG Aantal Goals   Over/Under 1.5,Over,Minder dan,2.1,1.61,109.73084886128363,False,0.0,0.0
+94,EC Democrata MG vs Pouso Alegre MG,Pouso Alegre MG Aantal Goals   Over/Under 0.5,Over,Minder dan,1.51,2.55,105.44085183742374,False,0.0,0.0
+95,EC Democrata MG vs Pouso Alegre MG,Pouso Alegre MG Aantal Goals   Over/Under 0.5,Under,Meer dan,2.35,1.47,110.58040237371544,False,0.0,0.0
+96,EC Democrata MG vs Pouso Alegre MG,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.65,2.05,109.38654841093867,False,0.0,0.0
+97,EC Democrata MG vs Pouso Alegre MG,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.1,1.64,108.59465737514518,False,0.0,0.0
+98,EC Taubate SP vs EC Sao Bento SP,EC Sao Bento SP Aantal Goals   Over/Under 1.5,Over,Minder dan,3.4,1.26,108.77684407096172,False,0.0,0.0
+99,EC Taubate SP vs EC Sao Bento SP,EC Sao Bento SP Aantal Goals   Over/Under 1.5,Under,Meer dan,1.26,3.55,107.5340934495864,False,0.0,0.0
+100,EC Taubate SP vs EC Sao Bento SP,EC Taubate SP Aantal Goals   Over/Under 0.5,Under,Meer dan,2.5,1.46,108.4931506849315,False,0.0,0.0
+101,EC Taubate SP vs EC Sao Bento SP,EC Taubate SP Aantal Goals   Over/Under 0.5,Over,Minder dan,1.44,2.55,108.66013071895426,False,0.0,0.0
+102,EC Taubate SP vs EC Sao Bento SP,Aantal Goals   Over/Under 4.5,Over,Minder dan,9.0,,,False,0.0,0.0
+103,EC Taubate SP vs EC Sao Bento SP,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.03,12.5,105.0873786407767,False,0.0,0.0
+104,EC Taubate SP vs EC Sao Bento SP,1e Helft: Aantal Goals   Over/Under 1.5,Over,Minder dan,3.75,1.19,110.70028011204482,False,0.0,0.0
+105,EC Taubate SP vs EC Sao Bento SP,1e Helft: Aantal Goals   Over/Under 1.5,Under,Meer dan,1.23,4.1,105.6910569105691,False,0.0,0.0
+106,Clube Andraus Brasil PR vs Paranaense,1e Helft: Aantal Goals   Over/Under 1.5,Under,Meer dan,1.61,2.38,104.1286079649251,False,0.0,0.0
+107,Clube Andraus Brasil PR vs Paranaense,1e Helft: Aantal Goals   Over/Under 1.5,Over,Minder dan,2.2,1.5,112.12121212121211,False,0.0,0.0
+108,Clube Andraus Brasil PR vs Paranaense,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.3,1.58,106.76940011007154,False,0.0,0.0
+109,Clube Andraus Brasil PR vs Paranaense,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.54,2.12,112.10487625581965,False,0.0,0.0
+110,Clube Andraus Brasil PR vs Paranaense,Clube Andraus Brasil PR Aantal Goals   Over/Under 0.5,Over,Minder dan,2.0,1.89,102.91005291005293,False,0.0,0.0
+111,Clube Andraus Brasil PR vs Paranaense,Clube Andraus Brasil PR Aantal Goals   Over/Under 0.5,Under,Meer dan,1.71,1.81,113.72815094827308,False,0.0,0.0
+112,Clube Andraus Brasil PR vs Paranaense,Paranaense Aantal Goals   Over/Under 2.5,Under,Meer dan,1.73,2.3,101.28172907765772,False,0.0,0.0
+113,Clube Andraus Brasil PR vs Paranaense,Paranaense Aantal Goals   Over/Under 2.5,Over,Minder dan,2.0,1.54,114.93506493506493,False,0.0,0.0
+114,EC Agua Santa SP vs Ponte Preta,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.5,1.44,109.44444444444446,False,0.0,0.0
+115,EC Agua Santa SP vs Ponte Preta,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.44,2.6,107.9059829059829,False,0.0,0.0
+116,Club General Caballero JLM vs Sportivo Ameliano,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.51,2.48,106.54774620807521,False,0.0,0.0
+117,Club General Caballero JLM vs Sportivo Ameliano,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.4,1.52,107.4561403508772,False,0.0,0.0
+118,Cianorte FC PR vs Coritiba,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.33,3.2,106.43796992481202,False,0.0,0.0
+119,Cianorte FC PR vs Coritiba,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.0,1.28,111.45833333333333,False,0.0,0.0
+120,Cianorte FC PR vs Coritiba,1e Helft: Aantal Goals   Over/Under 0.5,Over,Minder dan,1.44,2.95,103.3427495291902,False,0.0,0.0
+121,Cianorte FC PR vs Coritiba,1e Helft: Aantal Goals   Over/Under 0.5,Under,Meer dan,2.6,1.34,113.08840413318025,False,0.0,0.0
+122,Cianorte FC PR vs Coritiba,Coritiba Aantal Goals   Over/Under 1.5,Under,Meer dan,1.47,2.55,107.24289715886354,False,0.0,0.0
+123,Cianorte FC PR vs Coritiba,Coritiba Aantal Goals   Over/Under 1.5,Over,Minder dan,2.5,1.46,108.4931506849315,False,0.0,0.0
+124,Cianorte FC PR vs Coritiba,Cianorte FC PR Aantal Goals   Over/Under 1.5,Under,Meer dan,1.47,2.5,108.02721088435374,False,0.0,0.0
+125,Cianorte FC PR vs Coritiba,Cianorte FC PR Aantal Goals   Over/Under 1.5,Over,Minder dan,2.5,1.46,108.4931506849315,False,0.0,0.0
+126,Cruzeiro vs Uberlandia EC MG,Cruzeiro Aantal Goals   Over/Under 1.5,Over,Minder dan,1.4,2.7,108.46560846560847,False,0.0,0.0
+127,Cruzeiro vs Uberlandia EC MG,Cruzeiro Aantal Goals   Over/Under 1.5,Under,Meer dan,2.75,1.42,106.78617157490397,False,0.0,0.0
+128,Cruzeiro vs Uberlandia EC MG,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.98,1.77,107.00222564629345,False,0.0,0.0
+129,Cruzeiro vs Uberlandia EC MG,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.73,1.87,111.27940403696948,False,0.0,0.0
+130,Cruzeiro vs Uberlandia EC MG,1e Helft: Aantal Goals   Over/Under 1.5,Over,Minder dan,2.45,1.4,112.24489795918366,False,0.0,0.0
+131,Cruzeiro vs Uberlandia EC MG,1e Helft: Aantal Goals   Over/Under 1.5,Under,Meer dan,1.5,2.7,103.7037037037037,False,0.0,0.0
+132,Cruzeiro vs Uberlandia EC MG,Uberlandia EC MG Aantal Goals   Over/Under 0.5,Under,Meer dan,1.54,2.35,107.48825642442664,False,0.0,0.0
+133,Cruzeiro vs Uberlandia EC MG,Uberlandia EC MG Aantal Goals   Over/Under 0.5,Over,Minder dan,2.3,1.54,108.41332580463016,False,0.0,0.0
+134,Club Necaxa vs Puebla,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.8,1.81,110.80417434008596,False,0.0,0.0
+135,Club Necaxa vs Puebla,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.83,1.91,107.00082968557778,False,0.0,0.0
+136,Coleraine FC vs Cliftonville FC,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.87,1.83,108.12074457204639,False,0.0,0.0
+137,Coleraine FC vs Cliftonville FC,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.83,1.93,106.45828024576008,False,0.0,0.0
+138,EC Noroeste SP vs Ponte Preta,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.04,11.5,104.84949832775918,False,0.0,0.0
+139,EC Noroeste SP vs Ponte Preta,Aantal Goals   Over/Under 4.5,Over,Minder dan,8.5,1.02,109.80392156862744,False,0.0,0.0
+140,Club Leon vs Deportivo Toluca,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.49,2.65,104.84994301633532,False,0.0,0.0
+141,Club Leon vs Deportivo Toluca,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.45,1.43,110.74639646068218,False,0.0,0.0
+142,Guarani vs SE Palmeiras SP,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.25,1.29,108.288610614192,False,0.0,0.0
+143,Guarani vs SE Palmeiras SP,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.29,3.35,107.37012611361796,False,0.0,0.0
+144,Hemel Hempstead vs Boreham Wood FC,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.6,1.35,112.53561253561253,False,0.0,0.0
+145,Hemel Hempstead vs Boreham Wood FC,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.38,2.95,106.3620732006878,False,0.0,0.0
+146,FC Juarez vs Club Leon,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.91,1.81,107.60463972693877,False,0.0,0.0
+147,FC Juarez vs Club Leon,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.73,1.91,110.15948915050086,False,0.0,0.0
+148,Itabirito FC MG vs SC Aymores MG,SC Aymores MG Aantal Goals   Over/Under 1.5,Over,Minder dan,3.0,1.34,107.96019900497511,False,0.0,0.0
+149,Itabirito FC MG vs SC Aymores MG,SC Aymores MG Aantal Goals   Over/Under 1.5,Under,Meer dan,1.33,3.0,108.52130325814535,False,0.0,0.0
+150,Itabirito FC MG vs SC Aymores MG,1e Helft: Aantal Goals   Over/Under 0.5,Over,Minder dan,1.47,2.55,107.24289715886354,False,0.0,0.0
+151,Itabirito FC MG vs SC Aymores MG,1e Helft: Aantal Goals   Over/Under 0.5,Under,Meer dan,2.5,1.43,109.93006993006995,False,0.0,0.0
+152,Itabirito FC MG vs SC Aymores MG,Itabirito FC MG Aantal Goals   Over/Under 1.5,Over,Minder dan,2.5,1.41,110.92198581560284,False,0.0,0.0
+153,Itabirito FC MG vs SC Aymores MG,Itabirito FC MG Aantal Goals   Over/Under 1.5,Under,Meer dan,1.47,2.7,105.06424792139077,False,0.0,0.0
+154,Itabirito FC MG vs SC Aymores MG,Aantal Goals   Over/Under 4.5,Over,Minder dan,7.25,1.02,111.83231913455036,False,0.0,0.0
+155,Itabirito FC MG vs SC Aymores MG,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.06,8.0,106.83962264150941,False,0.0,0.0
+156,Libertad Asuncion vs CD Recoleta,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.36,3.35,103.3801580333626,False,0.0,0.0
+157,Libertad Asuncion vs CD Recoleta,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.9,1.3,111.40583554376657,False,0.0,0.0
+158,Necaxa vs Santos Laguna,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.69,2.23,104.01464696049037,False,0.0,0.0
+159,Necaxa vs Santos Laguna,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.05,1.6,111.28048780487805,False,0.0,0.0
+160,AEK Larnaca vs Ael Limassol,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.67,2.02,109.3851900160076,False,0.0,0.0
+161,AEK Larnaca vs Ael Limassol,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.05,1.66,109.02145166029975,False,0.0,0.0
+162,Willem II vs AZ,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.9,1.25,105.64102564102565,False,0.0,0.0
+163,Willem II vs AZ,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.26,3.75,106.03174603174604,False,0.0,0.0
+164,Jong AZ vs VVV Venlo,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.37,1.52,107.98356651121475,False,0.0,0.0
+165,Jong AZ vs VVV Venlo,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.56,2.4,105.76923076923077,False,0.0,0.0
+166,Jong FC Utrecht vs Jong Ajax,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.61,2.35,104.66499273159772,False,0.0,0.0
+167,Jong FC Utrecht vs Jong Ajax,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.28,1.53,109.21912624699002,False,0.0,0.0
+168,Pachuca vs Club America,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.25,1.46,112.93759512937594,False,0.0,0.0
+169,Pachuca vs Club America,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.53,2.55,104.57516339869282,False,0.0,0.0
+170,Newcastle United vs Arsenal,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.24,4.1,105.03540519276162,False,0.0,0.0
+171,Newcastle United vs Arsenal,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.65,1.22,109.36447338872671,False,0.0,0.0
+172,Liverpool vs Tottenham Hotspur,Aantal Goals   Over/Under 4.5,Over,Minder dan,2.43,1.5,107.81893004115226,False,0.0,0.0
+173,Liverpool vs Tottenham Hotspur,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.49,2.5,107.11409395973155,False,0.0,0.0
+174,Heracles Almelo vs Go Ahead Eagles,Aantal Goals   Over/Under 1.5,Under,Meer dan,4.25,1.16,109.73630831643003,False,0.0,0.0
+175,Heracles Almelo vs Go Ahead Eagles,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.18,4.9,105.15392597717053,False,0.0,0.0
+176,PSV vs Willem II,Aantal Goals   Over/Under 0.5,Under,Meer dan,11.5,,,False,0.0,0.0
+177,PSV vs Willem II,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.01,31.0,102.23570744171191,False,0.0,0.0
+178,FC Groningen vs NEC,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.81,1.93,107.06209028712107,False,0.0,0.0
+179,FC Groningen vs NEC,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.9,1.84,106.97940503432494,False,0.0,0.0
+180,FC Utrecht vs Almere City,Aantal Goals   Over/Under 3.5,Over,Minder dan,2.7,1.43,106.96710696710699,False,0.0,0.0
+181,FC Utrecht vs Almere City,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.41,2.75,107.2856221792392,False,0.0,0.0
+182,Fortuna Sittard vs Ajax,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.59,2.5,102.89308176100629,False,0.0,0.0
+183,Fortuna Sittard vs Ajax,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.23,1.5,111.50971599402094,False,0.0,0.0
+184,RKC vs NAC,Aantal Goals   Over/Under 1.5,Under,Meer dan,3.85,1.21,108.61865407319952,False,0.0,0.0
+185,RKC vs NAC,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.22,4.2,105.77673692427791,False,0.0,0.0
+186,AZ vs PEC Zwolle,Aantal Goals   Over/Under 2.5,Under,Meer dan,2.16,1.61,108.40809753853232,False,0.0,0.0
+187,AZ vs PEC Zwolle,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.62,2.28,105.58804418453542,False,0.0,0.0
+188,AD Cali vs Envigado FC,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.4,3.2,102.67857142857144,False,0.0,0.0
+189,AD Cali vs Envigado FC,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.8,1.3,112.63736263736264,False,0.0,0.0
+190,CA Bucaramanga vs America De Cali,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.16,5.5,104.38871473354232,False,0.0,0.0
+191,CA Bucaramanga vs America De Cali,Aantal Goals   Over/Under 3.5,Over,Minder dan,4.75,1.12,110.33834586466165,False,0.0,0.0
+192,CS Deportivo Pereira vs Alianza FC Valledupar,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.05,10.5,104.76190476190474,False,0.0,0.0
+193,CS Deportivo Pereira vs Alianza FC Valledupar,Aantal Goals   Over/Under 4.5,Over,Minder dan,8.5,1.02,109.80392156862744,False,0.0,0.0
+194,Deportes Quindio vs CD Atletico Huila,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.45,1.46,109.30947721554374,False,0.0,0.0
+195,Deportes Quindio vs CD Atletico Huila,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.49,2.48,107.43667460489283,False,0.0,0.0
+196,Jaguares De Cordoba vs Real Soacha Cundinamarca,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.2,1.6,107.95454545454545,False,0.0,0.0
+197,Jaguares De Cordoba vs Real Soacha Cundinamarca,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.59,2.16,109.18937805730258,False,0.0,0.0
+198,Independiente Medellin vs Boyaca Chico FC,Aantal Goals   Over/Under 5.5,Over,Minder dan,10.0,,,False,0.0,0.0
+199,Independiente Medellin vs Boyaca Chico FC,Aantal Goals   Over/Under 5.5,Under,Meer dan,1.03,20.0,102.0873786407767,False,0.0,0.0
+200,Granada CF vs Atletico Madrid,Aantal Goals   Over/Under 2.5,Over,Minder dan,1.8,1.93,107.36902705814624,False,0.0,0.0
+201,Granada CF vs Atletico Madrid,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.83,1.8,110.20036429872495,False,0.0,0.0
+202,CA San Lorenzo Almagro vs CA River Plate,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.04,14.0,103.29670329670328,False,0.0,0.0
+203,CA San Lorenzo Almagro vs CA River Plate,Aantal Goals   Over/Under 4.5,Over,Minder dan,9.0,1.01,110.12101210121013,False,0.0,0.0
+204,Boca Juniors vs CA Huracan,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.75,1.42,106.78617157490397,False,0.0,0.0
+205,Boca Juniors vs CA Huracan,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.4,2.75,107.79220779220779,False,0.0,0.0
+206,Newells Old Boys vs CA Aldosivi,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.16,5.3,105.07482108002604,False,0.0,0.0
+207,Newells Old Boys vs CA Aldosivi,Aantal Goals   Over/Under 3.5,Over,Minder dan,4.75,1.14,108.77192982456141,False,0.0,0.0
+208,CA Independiente vs Gimnasia Y Esgrima La Plata,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.5,1.45,108.9655172413793,False,0.0,0.0
+209,CA Independiente vs Gimnasia Y Esgrima La Plata,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.49,2.65,104.84994301633532,False,0.0,0.0
+210,Instituto AC Cordoba vs Velez Sarsfield,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.49,2.63,105.13690764794448,False,0.0,0.0
+211,Instituto AC Cordoba vs Velez Sarsfield,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.5,1.46,108.4931506849315,False,0.0,0.0
+212,Defensa Y Justicia vs CA Central Cordoba SE,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.6,1.41,109.3835242771413,False,0.0,0.0
+213,Defensa Y Justicia vs CA Central Cordoba SE,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.47,2.8,103.74149659863944,False,0.0,0.0
+214,CA Tigre vs Union De Santa Fe,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.4,2.9,105.91133004926108,False,0.0,0.0
+215,CA Tigre vs Union De Santa Fe,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.75,1.38,108.82740447957842,False,0.0,0.0
+216,Estudiantes De La Plata vs Racing Club Avellaneda,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.61,2.25,106.55624568668047,False,0.0,0.0
+217,Estudiantes De La Plata vs Racing Club Avellaneda,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.2,1.62,107.18294051627385,False,0.0,0.0
+218,Argentinos Juniors vs CA Platense,Aantal Goals   Over/Under 4.5,Over,Minder dan,11.0,,,False,0.0,0.0
+219,Argentinos Juniors vs CA Platense,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.02,23.0,102.38704177323103,False,0.0,0.0
+220,Belgrano De Cordoba vs Independiente Rivadavia De Mendoza,Aantal Goals   Over/Under 3.5,Over,Minder dan,4.75,1.14,108.77192982456141,False,0.0,0.0
+221,Belgrano De Cordoba vs Independiente Rivadavia De Mendoza,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.16,5.3,105.07482108002604,False,0.0,0.0
+222,CD Godoy Cruz vs CA Talleres De Cordoba,Aantal Goals   Over/Under 0.5,Under,Meer dan,6.25,1.06,110.33962264150942,False,0.0,0.0
+223,CD Godoy Cruz vs CA Talleres De Cordoba,Aantal Goals   Over/Under 0.5,Over,Minder dan,1.08,8.5,104.35729847494552,False,0.0,0.0
+224,Atletico Tucuman vs Deportivo Riestra Afbc,Aantal Goals   Over/Under 4.5,Over,Minder dan,8.5,1.02,109.80392156862744,False,0.0,0.0
+225,Atletico Tucuman vs Deportivo Riestra Afbc,Aantal Goals   Over/Under 4.5,Under,Meer dan,1.04,12.0,104.48717948717947,False,0.0,0.0
+226,FC Andorra vs Ourense CF,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.85,1.16,112.18092252575012,False,0.0,0.0
+227,FC Andorra vs Ourense CF,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.21,4.8,103.47796143250689,False,0.0,0.0
+228,AC Lumezzane vs US Triestina Calcio 1918,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.23,4.0,106.30081300813008,False,0.0,0.0
+229,AC Lumezzane vs US Triestina Calcio 1918,Aantal Goals   Over/Under 3.5,Over,Minder dan,3.4,1.21,112.0563928050559,False,0.0,0.0
+230,AS Giana Erminio vs Feralpisalo,Aantal Goals   Over/Under 2.5,Under,Meer dan,1.51,2.43,107.3774289373995,False,0.0,0.0
+231,AS Giana Erminio vs Feralpisalo,Aantal Goals   Over/Under 2.5,Over,Minder dan,2.3,1.5,110.14492753623189,False,0.0,0.0
+232,US Citta Di Pontedera vs ASD Pineto Calcio,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.4,2.8,107.14285714285714,False,0.0,0.0
+233,US Citta Di Pontedera vs ASD Pineto Calcio,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.6,1.38,110.9253065774805,False,0.0,0.0
+234,US Pianese vs AS Lucchese Libertas 1905,Aantal Goals   Over/Under 1.5,Over,Minder dan,1.36,2.95,107.42771684945166,False,0.0,0.0
+235,US Pianese vs AS Lucchese Libertas 1905,Aantal Goals   Over/Under 1.5,Under,Meer dan,2.8,1.35,109.78835978835978,False,0.0,0.0
+236,Pescara vs Virtus Entella,Aantal Goals   Over/Under 3.5,Under,Meer dan,1.12,5.6,107.14285714285714,False,0.0,0.0
+237,Pescara vs Virtus Entella,Aantal Goals   Over/Under 3.5,Over,Minder dan,4.5,1.12,111.5079365079365,False,0.0,0.0
+238,SSC Bari vs Frosinone,Draw No Bet,SSC Bari,2,1.44,2.7,106.4814814814815,False,0.0,0.0
+239,SSC Bari vs Frosinone,Draw No Bet,Frosinone,1,2.6,1.44,107.9059829059829,False,0.0,0.0
+240,Legia Warschau vs Korona Kielce,Draw No Bet,Legia Warschau,2,1.12,5.6,107.14285714285714,False,0.0,0.0
+241,Legia Warschau vs Korona Kielce,Draw No Bet,Korona Kielce,1,5.25,1.14,106.76691729323309,False,0.0,0.0
+242,AC Milan vs Inter Milan,Draw No Bet,Inter Milan,1,1.39,3.25,102.71167681239626,False,0.0,0.0
+243,AC Milan vs Inter Milan,Draw No Bet,AC Milan,2,3.05,1.32,108.54446100347741,False,0.0,0.0
+244,AS Roma vs Napoli,Draw No Bet,Napoli,1,1.7,2.23,103.66657873911898,False,0.0,0.0
+245,AS Roma vs Napoli,Draw No Bet,AS Roma,2,2.16,1.63,107.64598954783003,False,0.0,0.0
+246,Cagliari vs Lazio Roma,Draw No Bet,Cagliari,2,2.7,1.42,107.45957224830465,False,0.0,0.0
+247,Cagliari vs Lazio Roma,Draw No Bet,Lazio Roma,1,1.47,2.75,104.39084724799011,False,0.0,0.0
+248,Middlesbrough vs Sunderland AFC,Draw No Bet,Middlesbrough,2,1.67,2.17,105.96318882971386,False,0.0,0.0
+249,Middlesbrough vs Sunderland AFC,Draw No Bet,Sunderland AFC,1,2.22,1.68,104.56885456885456,False,0.0,0.0
+250,Burnley vs Oxford United,Draw No Bet,Burnley,2,1.13,5.8,105.73695453158378,False,0.0,0.0
+251,Burnley vs Oxford United,Draw No Bet,Oxford United,1,5.25,1.14,106.76691729323309,False,0.0,0.0
+252,Coventry City vs Leeds United,Draw No Bet,Coventry City,2,2.75,1.37,109.35633709356338,False,0.0,0.0
+253,Coventry City vs Leeds United,Draw No Bet,Leeds United,1,1.39,3.05,104.72933128906712,False,0.0,0.0
+254,Como 1907 vs Juventus,Draw No Bet,Como 1907,2,2.41,1.49,108.6078698933415,False,0.0,0.0
+255,Como 1907 vs Juventus,Draw No Bet,Juventus,1,1.5,2.55,105.88235294117648,False,0.0,0.0
+256,Hellas Verona vs Atalanta,Draw No Bet,Atalanta,1,1.2,4.5,105.55555555555556,False,0.0,0.0
+257,Hellas Verona vs Atalanta,Draw No Bet,Hellas Verona,2,4.0,1.19,109.03361344537817,False,0.0,0.0
+258,Empoli vs AC Milan,Draw No Bet,Empoli,2,3.4,1.29,106.93114455084358,False,0.0,0.0
+259,Empoli vs AC Milan,Draw No Bet,AC Milan,1,1.27,3.45,107.72566472669176,False,0.0,0.0
+260,Torino vs Genoa,Draw No Bet,Torino,2,1.42,2.75,106.78617157490397,False,0.0,0.0
+261,Torino vs Genoa,Draw No Bet,Genoa,1,2.65,1.43,107.66591898667373,False,0.0,0.0
+262,Venezia vs AS Roma,Draw No Bet,AS Roma,1,1.3,3.3,107.22610722610722,False,0.0,0.0
+263,Venezia vs AS Roma,Draw No Bet,Venezia,2,3.25,1.32,106.52680652680652,False,0.0,0.0
+264,Cagliari vs Parma Calcio,Draw No Bet,Parma Calcio,1,2.65,1.41,108.65783487220662,False,0.0,0.0
+265,Cagliari vs Parma Calcio,Draw No Bet,Cagliari,2,1.42,2.8,106.13682092555332,False,0.0,0.0
+266,Lazio Roma vs AC Monza,Draw No Bet,AC Monza,1,4.75,1.13,109.5482068001863,False,0.0,0.0
+267,Lazio Roma vs AC Monza,Draw No Bet,Lazio Roma,2,1.15,5.4,105.47504025764896,False,0.0,0.0
+268,Lecce vs Bologna,Draw No Bet,Lecce,2,3.0,1.33,108.52130325814535,False,0.0,0.0
+269,Lecce vs Bologna,Draw No Bet,Bologna,1,1.34,3.2,105.87686567164178,False,0.0,0.0
+270,Napoli vs Udinese,Draw No Bet,Napoli,2,1.13,5.75,105.88687956906502,False,0.0,0.0
+271,Napoli vs Udinese,Draw No Bet,Udinese,1,5.0,1.13,108.49557522123894,False,0.0,0.0
+272,Inter Milan vs Fiorentina,Draw No Bet,Fiorentina,1,4.5,1.18,106.96798493408663,False,0.0,0.0
+273,Inter Milan vs Fiorentina,Draw No Bet,Inter Milan,2,1.17,4.6,107.20921590486809,False,0.0,0.0
+274,Lazio Roma vs Napoli,Draw No Bet,Napoli,1,1.7,2.23,103.66657873911898,False,0.0,0.0
+275,Lazio Roma vs Napoli,Draw No Bet,Lazio Roma,2,2.03,1.63,110.61077699537611,False,0.0,0.0
+276,FCSB vs CFR Cluj,Draw No Bet,FCSB,2,1.63,2.17,107.43264256028951,False,0.0,0.0
+277,FCSB vs CFR Cluj,Draw No Bet,CFR Cluj,1,2.15,1.68,106.03543743078627,False,0.0,0.0
+278,Farul Constanta vs FC Petrolul Ploiesti,Draw No Bet,FC Petrolul Ploiesti,1,2.15,1.67,106.39186742793483,False,0.0,0.0
+279,Farul Constanta vs FC Petrolul Ploiesti,Draw No Bet,Farul Constanta,2,1.63,2.18,107.22125288456125,False,0.0,0.0
+280,Slask Wroclaw vs Piast Gliwice,Draw No Bet,Slask Wroclaw,2,1.83,1.98,105.14985924821988,False,0.0,0.0
+281,Slask Wroclaw vs Piast Gliwice,Draw No Bet,Piast Gliwice,1,1.87,1.8,109.03149138443256,False,0.0,0.0
+282,FC Dinamo Bucuresti 1948 vs ASC Otelul Galati,Draw No Bet,ASC Otelul Galati,1,2.9,1.36,108.01217038539552,False,0.0,0.0
+283,FC Dinamo Bucuresti 1948 vs ASC Otelul Galati,Draw No Bet,FC Dinamo Bucuresti 1948,2,1.36,3.05,106.31629701060751,False,0.0,0.0
+284,Queens Park Rangers vs Blackburn Rovers,Draw No Bet,Blackburn Rovers,1,2.03,1.77,105.7582588850853,False,0.0,0.0
+285,Queens Park Rangers vs Blackburn Rovers,Draw No Bet,Queens Park Rangers,2,1.7,2.02,108.32847990681422,False,0.0,0.0
+286,CFR Cluj vs AFC Hermannstadt,Draw No Bet,CFR Cluj,2,1.23,3.65,108.69807328210268,False,0.0,0.0
+287,CFR Cluj vs AFC Hermannstadt,Draw No Bet,AFC Hermannstadt,1,3.65,1.27,106.13741775428755,False,0.0,0.0
+288,Universitatea Craiova 1948 Cs vs FC Universitatea Cluj,Draw No Bet,Universitatea Craiova 1948 Cs,2,1.47,2.38,110.0440176070428,False,0.0,0.0
+289,Universitatea Craiova 1948 Cs vs FC Universitatea Cluj,Draw No Bet,FC Universitatea Cluj,1,2.5,1.56,104.10256410256409,False,0.0,0.0
+290,CSM Politehnica Iasi vs FC Uta Arad,Draw No Bet,FC Uta Arad,1,2.05,1.7,107.60401721664277,False,0.0,0.0
+291,CSM Politehnica Iasi vs FC Uta Arad,Draw No Bet,CSM Politehnica Iasi,2,1.67,2.1,107.49928714000569,False,0.0,0.0
+292,Angers SCO vs Le Havre,Draw No Bet,Le Havre,1,3.35,1.33,105.03871619346874,False,0.0,0.0
+293,Angers SCO vs Le Havre,Draw No Bet,Angers SCO,2,1.33,3.05,107.97485517071368,False,0.0,0.0
+294,Stade Reims vs Nantes,Draw No Bet,Nantes,1,2.4,1.52,107.4561403508772,False,0.0,0.0
+295,Stade Reims vs Nantes,Draw No Bet,Stade Reims,2,1.58,2.38,105.3079459631954,False,0.0,0.0
+296,Stade Rennes vs Strasbourg,Draw No Bet,Stade Rennes,2,1.44,2.65,107.18029350104823,False,0.0,0.0
+297,Stade Rennes vs Strasbourg,Draw No Bet,Strasbourg,1,2.8,1.42,106.13682092555332,False,0.0,0.0
+298,KAA Gent vs RSC Anderlecht,Draw No Bet,RSC Anderlecht,1,2.46,1.55,105.16653553632311,False,0.0,0.0
+299,KAA Gent vs RSC Anderlecht,Draw No Bet,KAA Gent,2,1.55,2.32,107.61957730812013,False,0.0,0.0
+300,KV Kortrijk vs KVC Westerlo,Draw No Bet,KVC Westerlo,1,1.56,2.33,107.02101903818641,False,0.0,0.0
+301,KV Kortrijk vs KVC Westerlo,Draw No Bet,KV Kortrijk,2,2.46,1.53,106.00988362824806,False,0.0,0.0
+302,Olympique Marseille vs Olympique Lyon,Draw No Bet,Olympique Marseille,2,1.51,2.48,106.54774620807521,False,0.0,0.0
+303,Olympique Marseille vs Olympique Lyon,Draw No Bet,Olympique Lyon,1,2.6,1.47,106.48874934589219,False,0.0,0.0
+304,SCM Gloria Buzau vs FC Botosani,Draw No Bet,SCM Gloria Buzau,2,1.78,2.02,105.68472577594838,False,0.0,0.0
+305,SCM Gloria Buzau vs FC Botosani,Draw No Bet,FC Botoșani,1,1.93,1.84,106.1612975895472,False,0.0,0.0
+306,Olympique Lyon vs Stade Reims,Draw No Bet,Olympique Lyon,2,1.21,3.9,108.28565374019921,False,0.0,0.0
+307,Olympique Lyon vs Stade Reims,Draw No Bet,Stade Reims,1,3.95,1.23,106.61726870433262,False,0.0,0.0
+308,Strasbourg vs Angers SCO,Draw No Bet,Angers SCO,1,3.15,1.32,107.5036075036075,False,0.0,0.0
+309,Strasbourg vs Angers SCO,Draw No Bet,Strasbourg,2,1.31,3.3,106.63890816562571,False,0.0,0.0
+310,Nantes vs Stade Brest,Draw No Bet,Stade Brest,1,2.05,1.7,107.60401721664277,False,0.0,0.0
+311,Nantes vs Stade Brest,Draw No Bet,Nantes,2,1.69,2.06,107.71528695352445,False,0.0,0.0
+312,Paris Saint Germain FC vs AS Monaco,Draw No Bet,AS Monaco,1,4.0,1.19,109.03361344537817,False,0.0,0.0
+313,Paris Saint Germain FC vs AS Monaco,Draw No Bet,Paris Saint Germain FC,2,1.2,4.3,106.58914728682171,False,0.0,0.0
+314,OGC Nice vs RC Lens,Draw No Bet,OGC Nice,2,1.65,2.12,107.77587192681533,False,0.0,0.0
+315,OGC Nice vs RC Lens,Draw No Bet,RC Lens,1,2.11,1.66,107.63432878433163,False,0.0,0.0
+316,LOSC Lille vs Le Havre,Draw No Bet,LOSC Lille,2,1.11,6.4,105.71509009009009,False,0.0,0.0
+317,LOSC Lille vs Le Havre,Draw No Bet,Le Havre,1,5.75,1.09,109.13442361388113,False,0.0,0.0
+318,KRC Genk vs Cercle Brugge,Draw No Bet,KRC Genk,2,1.24,1.7,139.4686907020873,False,0.0,0.0
+319,KRC Genk vs Cercle Brugge,Draw No Bet,Cercle Brugge,1,3.6,2.1,75.39682539682539,True,368.42105263157896,631.578947368421
+320,AS Saint Etienne vs Stade Rennes,Draw No Bet,Stade Rennes,1,1.59,2.35,105.446273250368,False,0.0,0.0
+321,AS Saint Etienne vs Stade Rennes,Draw No Bet,AS Saint-Etienne,2,2.22,1.54,109.98010998010996,False,0.0,0.0
+322,Aj Auxerre vs Toulouse FC,Draw No Bet,Toulouse FC,1,1.52,2.35,108.34266517357223,False,0.0,0.0
+323,Aj Auxerre vs Toulouse FC,Draw No Bet,Aj Auxerre,2,2.37,1.54,107.12915776206916,False,0.0,0.0
+324,Strasbourg vs Montpellier Hsc,Draw No Bet,Strasbourg,2,1.31,3.25,107.10510863182618,False,0.0,0.0
+325,Strasbourg vs Montpellier Hsc,Draw No Bet,Montpellier Hsc,1,3.15,1.3,108.66910866910867,False,0.0,0.0
+326,Angers SCO vs Olympique Marseille,Draw No Bet,Angers SCO,2,3.7,1.24,107.67218831734962,False,0.0,0.0
+327,Angers SCO vs Olympique Marseille,Draw No Bet,Olympique Marseille,1,1.24,3.7,107.67218831734962,False,0.0,0.0
+328,AE Velo Clube SP vs Associacao Portuguesa De Desportos SP,Draw No Bet,Associacao Portuguesa De Desportos SP,1,1.93,1.76,108.63165332077251,False,0.0,0.0
+329,AE Velo Clube SP vs Associacao Portuguesa De Desportos SP,Draw No Bet,AE Velo Clube SP,2,1.78,1.97,106.94119660069583,False,0.0,0.0
+330,Wellington Phoenix FC vs Brisbane Roar FC,Draw No Bet,Wellington Phoenix FC,2,1.67,2.06,108.42392884134644,False,0.0,0.0
+331,Wellington Phoenix FC vs Brisbane Roar FC,Draw No Bet,Brisbane Roar FC,1,2.05,1.66,109.02145166029975,False,0.0,0.0
+332,Botafogo Fr RJ vs CR Flamengo RJ,Draw No Bet,Botafogo Fr RJ,2,2.3,1.53,108.83773799374823,False,0.0,0.0
+333,Botafogo Fr RJ vs CR Flamengo RJ,Draw No Bet,CR Flamengo RJ,1,1.56,2.45,104.91889063317635,False,0.0,0.0
+334,Botafogo Fr RJ vs CR Flamengo RJ,1e Helft: Draw No Bet,CR Flamengo RJ,1,1.59,2.23,107.73613108836055,False,0.0,0.0
+335,Botafogo Fr RJ vs CR Flamengo RJ,1e Helft: Draw No Bet,Botafogo Fr RJ,2,2.2,1.54,110.3896103896104,False,0.0,0.0
+336,Atletico San Luis vs Pumas UNAM,Draw No Bet,Atletico San Luis,2,1.98,1.64,111.48066026114807,False,0.0,0.0
+337,Atletico San Luis vs Pumas UNAM,Draw No Bet,Pumas UNAM,1,1.73,2.04,106.82307605122973,False,0.0,0.0
+338,CS 2 De Mayo vs Club Guarani,Draw No Bet,CS 2 De Mayo,2,1.8,1.86,109.31899641577061,False,0.0,0.0
+339,CS 2 De Mayo vs Club Guarani,Draw No Bet,Club Guarani,1,1.83,1.89,107.5548616532223,False,0.0,0.0
+340,EC Democrata MG vs Pouso Alegre MG,Draw No Bet,EC Democrata MG,2,1.38,2.7,109.50080515297907,False,0.0,0.0
+341,EC Democrata MG vs Pouso Alegre MG,Draw No Bet,Pouso Alegre MG,1,2.6,1.4,109.8901098901099,False,0.0,0.0
+342,EC Democrata MG vs Pouso Alegre MG,1e Helft: Draw No Bet,EC Democrata MG,2,1.44,2.4,111.11111111111111,False,0.0,0.0
+343,EC Democrata MG vs Pouso Alegre MG,1e Helft: Draw No Bet,Pouso Alegre MG,1,2.45,1.49,107.93042049034378,False,0.0,0.0
+344,EC Taubate SP vs EC Sao Bento SP,Draw No Bet,EC Taubate SP,2,1.71,1.97,109.24095348353964,False,0.0,0.0
+345,EC Taubate SP vs EC Sao Bento SP,Draw No Bet,EC Sao Bento SP,1,1.93,1.75,108.95632864544783,False,0.0,0.0
+346,EC Taubate SP vs EC Sao Bento SP,1e Helft: Draw No Bet,EC Taubate SP,2,1.73,1.9,110.43504715546091,False,0.0,0.0
+347,EC Taubate SP vs EC Sao Bento SP,1e Helft: Draw No Bet,EC Sao Bento SP,1,1.91,1.79,108.22194273011787,False,0.0,0.0
+348,Clube Andraus Brasil PR vs Paranaense,Draw No Bet,Paranaense,1,1.05,7.5,108.57142857142857,False,0.0,0.0
+349,Clube Andraus Brasil PR vs Paranaense,Draw No Bet,Clube Andraus Brasil PR,2,7.0,1.05,109.52380952380952,False,0.0,0.0
+350,EC Agua Santa SP vs Ponte Preta,Draw No Bet,EC Agua Santa SP,2,2.05,1.67,108.66072732583613,False,0.0,0.0
+351,EC Agua Santa SP vs Ponte Preta,Draw No Bet,Ponte Preta,1,1.69,2.08,107.24852071005917,False,0.0,0.0
+352,Club General Caballero JLM vs Sportivo Ameliano,Draw No Bet,Club General Caballero JLM,2,1.83,1.81,109.8934275276998,False,0.0,0.0
+353,Club General Caballero JLM vs Sportivo Ameliano,Draw No Bet,Sportivo Ameliano,1,1.78,1.97,106.94119660069583,False,0.0,0.0
+354,Cianorte FC PR vs Coritiba,Draw No Bet,Coritiba,1,1.78,1.83,110.82458402406827,False,0.0,0.0
+355,Cianorte FC PR vs Coritiba,Draw No Bet,Cianorte FC PR,2,1.83,1.87,108.12074457204639,False,0.0,0.0
+356,Cruzeiro vs Uberlandia EC MG,1e Helft: Draw No Bet,Uberlandia EC MG,1,5.75,1.08,109.98389694041867,False,0.0,0.0
+357,Cruzeiro vs Uberlandia EC MG,1e Helft: Draw No Bet,Cruzeiro,2,1.08,6.25,108.59259259259258,False,0.0,0.0
+358,Club Necaxa vs Puebla,Draw No Bet,Puebla,1,1.77,1.89,109.40722805129586,False,0.0,0.0
+359,Club Necaxa vs Puebla,Draw No Bet,Club Necaxa,2,1.8,1.81,110.80417434008596,False,0.0,0.0
+360,Coleraine FC vs Cliftonville FC,Draw No Bet,Coleraine FC,2,1.65,2.12,107.77587192681533,False,0.0,0.0
+361,Coleraine FC vs Cliftonville FC,Draw No Bet,Cliftonville FC,1,2.0,1.65,110.6060606060606,False,0.0,0.0
+362,EC Noroeste SP vs Ponte Preta,Draw No Bet,EC Noroeste SP,2,1.63,2.16,107.64598954783003,False,0.0,0.0
+363,EC Noroeste SP vs Ponte Preta,Draw No Bet,Ponte Preta,1,2.1,1.63,108.96874087058137,False,0.0,0.0
+364,Club Leon vs Deportivo Toluca,Draw No Bet,Club León,2,2.1,1.66,107.8600114744693,False,0.0,0.0
+365,Club Leon vs Deportivo Toluca,Draw No Bet,Deportivo Toluca,1,1.65,2.02,110.11101110111011,False,0.0,0.0
+366,Cruz Azul vs Pachuca,Draw No Bet,Pachuca,1,3.4,1.25,109.41176470588236,False,0.0,0.0
+367,Cruz Azul vs Pachuca,Draw No Bet,Cruz Azul,2,1.29,3.3,107.82241014799155,False,0.0,0.0
+368,Guarani vs SE Palmeiras SP,Draw No Bet,Guarani,2,4.0,1.13,113.49557522123894,False,0.0,0.0
+369,Guarani vs SE Palmeiras SP,Draw No Bet,SE Palmeiras SP,1,1.2,5.3,102.20125786163523,False,0.0,0.0
+370,Hemel Hempstead vs Boreham Wood FC,Draw No Bet,Hemel Hempstead,2,3.0,1.3,110.25641025641025,False,0.0,0.0
+371,Hemel Hempstead vs Boreham Wood FC,Draw No Bet,Boreham Wood FC,1,1.26,3.15,111.11111111111111,False,0.0,0.0
+372,FC Juarez vs Club Leon,Draw No Bet,Club Leon,1,3.5,1.2,111.90476190476191,False,0.0,0.0
+373,FC Juarez vs Club Leon,Draw No Bet,FC Juarez,2,1.2,4.1,107.72357723577237,False,0.0,0.0
+374,Guarani vs EC Agua Santa SP,Draw No Bet,Guarani,2,1.38,2.95,106.3620732006878,False,0.0,0.0
+375,Guarani vs EC Agua Santa SP,Draw No Bet,EC Agua Santa SP,1,2.8,1.36,109.24369747899159,False,0.0,0.0
+376,Guadalajara Chivas vs Club Tijuana De Caliente,Draw No Bet,Club Tijuana De Caliente,1,2.7,1.38,109.50080515297907,False,0.0,0.0
+377,Guadalajara Chivas vs Club Tijuana De Caliente,Draw No Bet,Guadalajara Chivas,2,1.4,2.65,109.16442048517521,False,0.0,0.0
+378,Itabirito FC MG vs SC Aymores MG,Draw No Bet,Itabirito FC MG,2,1.61,2.02,111.61675173728551,False,0.0,0.0
+379,Itabirito FC MG vs SC Aymores MG,Draw No Bet,SC Aymores MG,1,2.05,1.71,107.26001996862074,False,0.0,0.0
+380,Itabirito FC MG vs SC Aymores MG,1e Helft: Draw No Bet,Itabirito FC MG,2,1.65,1.94,112.15245235863793,False,0.0,0.0
+381,Itabirito FC MG vs SC Aymores MG,1e Helft: Draw No Bet,SC Aymores MG,1,2.0,1.75,107.14285714285714,False,0.0,0.0
+382,Libertad Asuncion vs CD Recoleta,Draw No Bet,Libertad Asunción,2,1.12,5.6,107.14285714285714,False,0.0,0.0
+383,Libertad Asuncion vs CD Recoleta,Draw No Bet,CD Recoleta,1,4.75,1.14,108.77192982456141,False,0.0,0.0
+384,Monterrey vs Club Tijuana,Draw No Bet,Club Tijuana,1,4.75,1.06,115.3922542204568,False,0.0,0.0
+385,Monterrey vs Club Tijuana,Draw No Bet,Monterrey,2,1.1,7.0,105.1948051948052,False,0.0,0.0
+386,Necaxa vs Santos Laguna,Draw No Bet,Necaxa,2,1.16,4.7,107.48349229640499,False,0.0,0.0
+387,Necaxa vs Santos Laguna,Draw No Bet,Santos Laguna,1,4.5,1.13,110.71779744346118,False,0.0,0.0
+388,Juarez vs Monterrey,Draw No Bet,Monterrey,1,1.36,2.8,109.24369747899159,False,0.0,0.0
+389,Juarez vs Monterrey,Draw No Bet,Juarez,2,2.9,1.36,108.01217038539552,False,0.0,0.0
+390,AEK Larnaca vs Ael Limassol,Draw No Bet,AEK Larnaca,2,1.08,6.4,108.21759259259258,False,0.0,0.0
+391,AEK Larnaca vs Ael Limassol,Draw No Bet,Ael Limassol,1,5.5,1.08,110.77441077441077,False,0.0,0.0
+392,Willem II vs AZ,Draw No Bet,AZ,1,1.25,4.0,105.0,False,0.0,0.0
+393,Willem II vs AZ,Draw No Bet,Willem II,2,4.0,1.19,109.03361344537817,False,0.0,0.0
+394,Jong AZ vs VVV Venlo,Draw No Bet,VVV Venlo,1,2.48,1.54,105.25764558022624,False,0.0,0.0
+395,Jong AZ vs VVV Venlo,Draw No Bet,Jong AZ,2,1.55,2.43,105.66839240674366,False,0.0,0.0
+396,Jong FC Utrecht vs Jong Ajax,Draw No Bet,Jong Ajax,1,1.63,2.33,104.26814818715606,False,0.0,0.0
+397,Jong FC Utrecht vs Jong Ajax,Draw No Bet,Jong FC Utrecht,2,2.29,1.57,107.36238978666593,False,0.0,0.0
+398,Pachuca vs Club America,Draw No Bet,Pachuca,2,3.5,1.2,111.90476190476191,False,0.0,0.0
+399,Pachuca vs Club America,Draw No Bet,Club America,1,1.2,4.0,108.33333333333334,False,0.0,0.0
+400,Newcastle United vs Arsenal,Draw No Bet,Arsenal,1,1.62,2.23,106.57144438908266,False,0.0,0.0
+401,Newcastle United vs Arsenal,Draw No Bet,Newcastle United,2,2.16,1.65,106.9023569023569,False,0.0,0.0
+402,Liverpool vs Tottenham Hotspur,Draw No Bet,Tottenham Hotspur,1,6.5,1.08,107.97720797720798,False,0.0,0.0
+403,Liverpool vs Tottenham Hotspur,Draw No Bet,Liverpool,2,1.08,7.5,105.92592592592591,False,0.0,0.0
+404,Heracles Almelo vs Go Ahead Eagles,Draw No Bet,Heracles Almelo,2,2.23,1.58,108.13418856786059,False,0.0,0.0
+405,Heracles Almelo vs Go Ahead Eagles,Draw No Bet,Go Ahead Eagles,1,1.58,2.2,108.74568469505176,False,0.0,0.0
+406,PSV vs Willem II,Draw No Bet,PSV,2,1.03,11.0,106.17828773168578,False,0.0,0.0
+407,PSV vs Willem II,Draw No Bet,Willem II,1,9.0,,,False,0.0,0.0
+408,FC Groningen vs NEC,Draw No Bet,FC Groningen,2,1.86,1.84,108.11126694717157,False,0.0,0.0
+409,FC Groningen vs NEC,Draw No Bet,NEC,1,1.85,1.83,108.69886279722346,False,0.0,0.0
+410,Feyenoord vs Sparta,Draw No Bet,Feyenoord,2,1.08,6.75,107.40740740740739,False,0.0,0.0
+411,Feyenoord vs Sparta,Draw No Bet,Sparta,1,6.5,1.06,109.72423802612481,False,0.0,0.0
+412,FC Utrecht vs Almere City,Draw No Bet,Almere City,1,5.0,1.1,110.9090909090909,False,0.0,0.0
+413,FC Utrecht vs Almere City,Draw No Bet,FC Utrecht,2,1.14,5.8,104.96067755595888,False,0.0,0.0
+414,Fortuna Sittard vs Ajax,Draw No Bet,Ajax,1,1.17,4.1,109.8603293725245,False,0.0,0.0
+415,Fortuna Sittard vs Ajax,Draw No Bet,Fortuna Sittard,2,4.5,1.19,106.25583566760038,False,0.0,0.0
+416,RKC vs NAC,Draw No Bet,RKC,2,1.91,1.83,107.00082968557778,False,0.0,0.0
+417,RKC vs NAC,Draw No Bet,NAC,1,1.8,1.85,109.60960960960962,False,0.0,0.0
+418,AZ vs PEC Zwolle,Draw No Bet,AZ,2,1.16,5.1,105.81473968897906,False,0.0,0.0
+419,AZ vs PEC Zwolle,Draw No Bet,PEC Zwolle,1,4.5,1.12,111.5079365079365,False,0.0,0.0
+420,SC Heerenveen vs FC Twente,Draw No Bet,FC Twente,1,1.37,2.95,106.89100581467277,False,0.0,0.0
+421,SC Heerenveen vs FC Twente,Draw No Bet,SC Heerenveen,2,2.85,1.32,110.84529505582137,False,0.0,0.0
+422,AD Cali vs Envigado FC,Draw No Bet,AD Cali,2,1.18,5.0,104.74576271186442,False,0.0,0.0
+423,AD Cali vs Envigado FC,Draw No Bet,Envigado FC,1,4.25,1.12,112.81512605042016,False,0.0,0.0
+424,CA Bucaramanga vs America De Cali,Draw No Bet,CA Bucaramanga,2,2.1,1.6,110.11904761904762,False,0.0,0.0
+425,CA Bucaramanga vs America De Cali,Draw No Bet,America De Cali,1,1.65,2.14,107.33503256867742,False,0.0,0.0
+426,CS Deportivo Pereira vs Alianza FC Valledupar,Draw No Bet,CS Deportivo Pereira,2,1.29,3.75,104.18604651162791,False,0.0,0.0
+427,CS Deportivo Pereira vs Alianza FC Valledupar,Draw No Bet,Alianza FC Valledupar,1,3.4,1.22,111.37897782063646,False,0.0,0.0
+428,Deportes Quindio vs CD Atletico Huila,Draw No Bet,Deportes Quindio,2,2.0,1.7,108.82352941176472,False,0.0,0.0
+429,Deportes Quindio vs CD Atletico Huila,Draw No Bet,CD Atletico Huila,1,1.65,2.05,109.38654841093867,False,0.0,0.0
+430,Jaguares De Cordoba vs Real Soacha Cundinamarca,Draw No Bet,Jaguares De Cordoba,2,1.14,4.5,109.94152046783627,False,0.0,0.0
+431,Jaguares De Cordoba vs Real Soacha Cundinamarca,Draw No Bet,Real Soacha Cundinamarca,1,4.25,1.17,108.99949723479136,False,0.0,0.0
+432,Independiente Medellin vs Boyaca Chico FC,Draw No Bet,Independiente Medellín,2,1.08,7.0,106.87830687830686,False,0.0,0.0
+433,Independiente Medellin vs Boyaca Chico FC,Draw No Bet,Boyaca Chico FC,1,6.25,1.06,110.33962264150942,False,0.0,0.0
+434,Granada CF vs Atletico Madrid,Draw No Bet,Atletico Madrid,1,1.38,2.65,110.1996171725458,False,0.0,0.0
+435,Granada CF vs Atletico Madrid,Draw No Bet,Granada CF,2,2.5,1.42,110.42253521126761,False,0.0,0.0
+436,CA San Lorenzo Almagro vs CA River Plate,Draw No Bet,CA San Lorenzo Almagro,2,3.25,1.29,108.288610614192,False,0.0,0.0
+437,CA San Lorenzo Almagro vs CA River Plate,Draw No Bet,CA River Plate,1,1.29,3.2,108.76937984496125,False,0.0,0.0
+438,Boca Juniors vs CA Huracan,Draw No Bet,Boca Juniors,2,1.43,2.88,104.65229215229215,False,0.0,0.0
+439,Boca Juniors vs CA Huracan,Draw No Bet,CA Huracan,1,2.6,1.34,113.08840413318025,False,0.0,0.0
+440,Newells Old Boys vs CA Aldosivi,Draw No Bet,CA Aldosivi,1,3.15,1.34,106.37289741767353,False,0.0,0.0
+441,Newells Old Boys vs CA Aldosivi,Draw No Bet,Newells Old Boys,2,1.31,2.9,110.81863648328508,False,0.0,0.0
+442,CA Independiente vs Gimnasia Y Esgrima La Plata,Draw No Bet,Gimnasia Y Esgrima La Plata,1,3.85,1.19,110.00763941940413,False,0.0,0.0
+443,CA Independiente vs Gimnasia Y Esgrima La Plata,Draw No Bet,CA Independiente,2,1.22,4.0,106.9672131147541,False,0.0,0.0
+444,Instituto AC Cordoba vs Velez Sarsfield,Draw No Bet,Instituto AC Cordoba,2,1.83,1.93,106.45828024576008,False,0.0,0.0
+445,Instituto AC Cordoba vs Velez Sarsfield,Draw No Bet,Vélez Sarsfield,1,1.87,1.74,110.94720019669309,False,0.0,0.0
+446,Defensa Y Justicia vs CA Central Cordoba SE,Draw No Bet,Defensa Y Justicia,2,1.43,2.55,109.14575620457975,False,0.0,0.0
+447,Defensa Y Justicia vs CA Central Cordoba SE,Draw No Bet,CA Central Cordoba SE,1,2.6,1.44,107.9059829059829,False,0.0,0.0
+448,CA Tigre vs Union De Santa Fe,Draw No Bet,Union De Santa Fe,1,2.3,1.5,110.14492753623189,False,0.0,0.0
+449,CA Tigre vs Union De Santa Fe,Draw No Bet,CA Tigre,2,1.54,2.32,108.03851321092701,False,0.0,0.0
+450,Estudiantes De La Plata vs Racing Club Avellaneda,Draw No Bet,Racing Club Avellaneda,1,2.0,1.78,106.17977528089888,False,0.0,0.0
+451,Estudiantes De La Plata vs Racing Club Avellaneda,Draw No Bet,Estudiantes De La Plata,2,1.71,1.9,111.11111111111111,False,0.0,0.0
+452,Argentinos Juniors vs CA Platense,Draw No Bet,CA Platense,1,2.8,1.42,106.13682092555332,False,0.0,0.0
+453,Argentinos Juniors vs CA Platense,Draw No Bet,Argentinos Juniors,2,1.38,2.6,110.9253065774805,False,0.0,0.0
+454,Belgrano De Cordoba vs Independiente Rivadavia De Mendoza,Draw No Bet,Belgrano De Cordoba,2,1.33,2.8,110.90225563909775,False,0.0,0.0
+455,Belgrano De Cordoba vs Independiente Rivadavia De Mendoza,Draw No Bet,Independiente Rivadavia De Mendoza,1,3.0,1.36,106.86274509803921,False,0.0,0.0
+456,CD Godoy Cruz vs CA Talleres De Cordoba,Draw No Bet,CD Godoy Cruz,2,2.3,1.56,107.58082497212934,False,0.0,0.0
+457,CD Godoy Cruz vs CA Talleres De Cordoba,Draw No Bet,CA Talleres De Cordoba,1,1.54,2.25,109.37950937950937,False,0.0,0.0
+458,Atletico Tucuman vs Deportivo Riestra Afbc,Draw No Bet,Deportivo Riestra Afbc,1,3.5,1.3,105.49450549450547,False,0.0,0.0
+459,Atletico Tucuman vs Deportivo Riestra Afbc,Draw No Bet,Atletico Tucumán,2,1.25,3.05,112.78688524590166,False,0.0,0.0
+460,FC Andorra vs Ourense CF,Draw No Bet,Ourense CF,1,4.0,1.17,110.47008547008548,False,0.0,0.0
+461,FC Andorra vs Ourense CF,Draw No Bet,FC Andorra,2,1.16,4.4,108.93416927899686,False,0.0,0.0
+462,AC Lumezzane vs US Triestina Calcio 1918,Draw No Bet,US Triestina Calcio 1918,1,1.57,2.04,112.71387535906081,False,0.0,0.0
+463,AC Lumezzane vs US Triestina Calcio 1918,Draw No Bet,AC Lumezzane,2,2.1,1.68,107.14285714285714,False,0.0,0.0
+464,AS Giana Erminio vs Feralpisalo,Draw No Bet,Feralpisalo,1,1.54,2.17,111.0180142438207,False,0.0,0.0
+465,AS Giana Erminio vs Feralpisalo,Draw No Bet,AS Giana Erminio,2,2.15,1.61,108.62342914921277,False,0.0,0.0
+466,US Citta Di Pontedera vs ASD Pineto Calcio,Draw No Bet,US Citta Di Pontedera,2,1.61,2.18,107.98336087526354,False,0.0,0.0
+467,US Citta Di Pontedera vs ASD Pineto Calcio,Draw No Bet,ASD Pineto Calcio,1,1.98,1.6,113.00505050505052,False,0.0,0.0
+468,US Pianese vs AS Lucchese Libertas 1905,Draw No Bet,AS Lucchese Libertas 1905,1,2.5,1.36,113.52941176470588,False,0.0,0.0
+469,US Pianese vs AS Lucchese Libertas 1905,Draw No Bet,US Pianese,2,1.38,2.88,107.18599033816427,False,0.0,0.0
+470,Pescara vs Virtus Entella,Draw No Bet,Virtus Entella,1,1.91,1.7,111.17955035417309,False,0.0,0.0
+471,Pescara vs Virtus Entella,Draw No Bet,Pescara,2,1.67,2.02,109.3851900160076,False,0.0,0.0

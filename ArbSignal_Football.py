@@ -3,6 +3,7 @@ import pandas as pd
 from fuzzywuzzy import process, fuzz
 from datetime import datetime
 import pandas as pd
+pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
 
 def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
     """

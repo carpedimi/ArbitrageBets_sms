@@ -1,8 +1,8 @@
-# betting_data_fetcher.py
 import pandas as pd
 import requests
 import regex as re
 from datetime import datetime, timedelta
+pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
 
 class BettingDataFetcher:
     def __init__(self):
