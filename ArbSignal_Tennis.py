@@ -16,7 +16,7 @@ def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
     Returns:
     str: The path to the latest file.
     """
-    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('totoTennis') or file.startswith('unibet'))]
+    files = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(file_extension.split('.')[-1]) and (file.startswith('toto') or file.startswith('unibet'))]
     if not files:
         raise FileNotFoundError(f"No files found in {directory} with extension {file_extension}")
     latest_file = max(files, key=os.path.getmtime)
@@ -44,6 +44,9 @@ def preprocess_tennis_data(toto_file_path: str, kambi_file_path: str):
     # Adjust odds and line in Kambi data
     kambi_raw_tennis['line'] = kambi_raw_tennis['line'] / 1000
     kambi_raw_tennis['odds'] = kambi_raw_tennis['odds'] / 1000
+    
+    # Adjust toto outcome
+    toto_raw_tennis['Outcome SubType'] = toto_raw_tennis['Outcome SubType'].replace({'H': '1', 'A': '2'})
     
     # Filter Kambi for suitable betting opportunities
     kambi_filtered_tennis = kambi_raw_tennis[
@@ -125,8 +128,8 @@ def create_merged_df_winnaar(toto_filtered_tennis: pd.DataFrame, kambi_filtered_
     merged_df_winnaar = pd.merge(
         filtered_toto_winnaar,
         filtered_kambi_winnaar,
-        left_on=['matched_event'],
-        right_on=['event_name'],
+        left_on=['matched_event', 'start_time'],
+        right_on=['event_name', 'start_time'],
         how='inner'
     )
 
@@ -249,8 +252,8 @@ def create_merged_tennis_overunder(kambi_filtered_tennis, toto_filtered_tennis):
     merged_tennis_overunder = pd.merge(
         toto_filtered_tennis_overunder,
         kambi_filtered_tennis_overunder,
-        left_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'matched_event'],
-        right_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'event_name'],
+        left_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'matched_event', 'start_time'],
+        right_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'event_name', 'start_time'],
         how='inner'
     )
 
@@ -362,8 +365,8 @@ def create_merged_tennis_yesno(toto_filtered_tennis: pd.DataFrame, kambi_filtere
     merged_tennis_yesno = pd.merge(
         toto_filtered_tennis_yesno,
         kambi_filtered_tennis_yesno,
-        left_on=['YesNoType', 'OverUnderTime', 'YesNoType2', 'matched_event'],
-        right_on=['YesNoType', 'OverUnderTime', 'YesNoType2', 'event_name'],
+        left_on=['YesNoType', 'OverUnderTime', 'YesNoType2', 'matched_event', 'start_time'],
+        right_on=['YesNoType', 'OverUnderTime', 'YesNoType2', 'event_name', 'start_time'],
         how='inner'
     )
 

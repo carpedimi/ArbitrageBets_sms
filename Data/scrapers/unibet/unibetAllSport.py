@@ -81,6 +81,7 @@ class BettingDataFetcher:
                                         "event_id": event_info.get("id"),
                                         "event_name": event_info.get("englishName"),
                                         "sport": event_info.get("sport"),
+                                        'start_time': event_info.get('start'),
                                         "country/sport": path_term_id.split('/')[-1],
                                         "group_name": group.get("name", "N/A")
                                     })
@@ -195,7 +196,7 @@ class BettingDataFetcher:
         print("Kambi: Fetching bet offers...")
         offers_df = self.fetch_bet_offers(events_df["event_id"].unique())
 
-        final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name']], on="event_id", how="left")
+        final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name', 'start_time']], on="event_id", how="left")
         # Function to reformat names from "Last, First" to "First Last"
         def reformat_name(match_name):
             # Use regex to match "Last, First - Last, First" format

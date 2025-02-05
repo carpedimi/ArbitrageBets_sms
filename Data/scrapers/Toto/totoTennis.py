@@ -226,7 +226,7 @@ def main():
     # Perform the join on 'event_id' to get 'sport', 'competition', etc.
     print("Toto: Merging matches and odds data...")
     final_df = detailed_odds_df.merge(
-        matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team']],
+        matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team', 'start_time']],
         on='event_id',
         how='left'
     ).drop_duplicates()
