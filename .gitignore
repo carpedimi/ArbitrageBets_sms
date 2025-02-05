@@ -1,0 +1,5 @@
+# Ignore all CSV and Excel files
+*.csv
+*.xlsx
+
+# Ensure existing files are ignored even if tracked before
