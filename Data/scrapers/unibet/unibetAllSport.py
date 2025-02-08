@@ -157,6 +157,7 @@ class BettingDataFetcher:
             '/football/russia',
             '/football/ukraine',
             '/football/england',
+            '/football/england/fa_cup'
             '/football/denmark',
             '/football/sweden',
             '/football/spain',
@@ -186,7 +187,10 @@ class BettingDataFetcher:
             '/football/india',
             '/football/netherlands',
             '/football/cyprus',
-            '/football/world_cup_qualifying_-_europe']
+            '/football/world_cup_qualifying_-_europe',
+            '/tennis/atp',
+            '/tennis/wta',
+            '/tennis/challenger']
         print(f"Kambi: Fetched {len(groups_df)} groups.")
 
         print("Kambi: Fetching events...")

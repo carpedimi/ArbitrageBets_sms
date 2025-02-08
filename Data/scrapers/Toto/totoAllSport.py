@@ -7,36 +7,216 @@ from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Any
 
+# def get_event_matches() -> pd.DataFrame:
+#     """
+#     Fetch matches for a given time range
+    
+#     Returns:
+#         pd.DataFrame: DataFrame containing match information
+#     """
+#     # Current time in UTC
+#     now = datetime.utcnow()
+
+#     # Calculate the start time and end time
+#     start_time = now.replace(minute=0, second=0, microsecond=0)
+#     start_time = start_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+#     end_time = (now + timedelta(weeks=2)).replace(
+#         hour=23,
+#         minute=59,
+#         second=59,
+#         microsecond=0
+#     )
+#     end_time = end_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+#     # Initialize an empty list to store each batch of matches data
+#     all_matches = []
+
+#     # Loop over drillDownTagIds ranges in steps of 200
+#     for start in range(200, 14000, 200):
+#         # Generate a comma-separated string of drillDownTagIds for the current range
+#         drilldown_ids = ','.join(str(i) for i in range(start, start + 200))
+
+#         # Define the request URL
+#         url = (
+#             f"https://content.toto.nl/content-service/api/v1/q/event-list?"
+#             f"startTimeFrom={start_time}"
+#             f"startTimeTo={end_time}&"
+#             "liveNow=false&"
+#             "maxEvents=190&"
+#             "orderEventsBy=popularity&"
+#             "orderMarketsBy=displayOrder&"
+#             "marketSortsIncluded=--,CS,DC,DN,HH,HL,MH,MR,WH&"
+#             "marketGroupTypesIncluded=CUSTOM_GROUP,DOUBLE_CHANCE,DRAW_NO_BET,MATCH_RESULT,"
+#             "MATCH_WINNER,MONEYLINE,ROLLING_SPREAD,ROLLING_TOTAL,STATIC_SPREAD,STATIC_TOTAL&"
+#             "eventSortsIncluded=MTCH&"
+#             "includeChildMarkets=true&"
+#             "prioritisePrimaryMarkets=true&"
+#             "includeCommentary=true&"
+#             "includeMedia=true&"
+#             f"drilldownTagIds={drilldown_ids}&"
+#             "lang=nl-NL&"
+#             "channel=I"
+#         )
+
+#         # Headers for the request
+#         headers = {
+#             'accept': 'application/json',
+#             'accept-language': 'en-US,en;q=0.9,nl;q=0.8',
+#         }
+
+#         try:
+#             # Make the request
+#             response = requests.get(url, headers=headers)
+#             response.raise_for_status()  # Raise HTTPError for bad responses
+
+#             # Parse the JSON response
+#             data = response.json()
+
+#             # Extract match data if available
+#             matches = []
+#             for event in data.get('data', {}).get('events', []):
+#                 match = {
+#                     "event_id": event.get("id"),
+#                     "match_name": event.get("name"),
+#                     "start_time": event.get("startTime"),
+#                     "home_team": next((team['name'] for team in event.get('teams', []) if team['side'] == "HOME"), None),
+#                     "away_team": next((team['name'] for team in event.get('teams', []) if team['side'] == "AWAY"), None),
+#                     "competition": event.get('type', {}).get('name'),
+#                     "country": event.get('class', {}).get('name'),
+#                     "sport": event.get('category', {}).get('name'),
+#                 }
+
+#                 # Extract odds if available
+#                 outcomes = event.get("markets", [{}])[0].get("outcomes", [])
+#                 match["home_odds"] = next((outcome['prices'][0]['decimal'] for outcome in outcomes if outcome.get('subType') == "H"), None)
+#                 match["away_odds"] = next((outcome['prices'][0]['decimal'] for outcome in outcomes if outcome.get('subType') == "A"), None)
+                
+#                 matches.append(match)
+
+#             # Add the batch of matches to the all_matches list
+#             all_matches.extend(matches)
+
+#         except Exception as e:
+#             print(f"An error occurred for drilldown ID range {start}–{start + 200}: {e}")
+
+#     # Combine all match data into a single DataFrame
+#     return pd.DataFrame(all_matches)
+
+import requests
+import time
+import random
+import pandas as pd
+from datetime import datetime, timedelta
+from itertools import islice
+
 def get_event_matches() -> pd.DataFrame:
     """
-    Fetch matches for a given time range
+    Fetch matches using both range-based drilldown IDs and specific country drilldown IDs
     
     Returns:
         pd.DataFrame: DataFrame containing match information
     """
-    # Current time in UTC
-    now = datetime.utcnow()
+    # Define the country drilldown IDs
+    COUNTRY_MARKET_DRILLDOWNS = {'Nederland': 1052, 
+        'Engeland': 40, 
+        'Spanje': 44, 
+        'Italië': 43, 
+        'Duitsland': 42, 
+        'Frankrijk': 41, 
+        'België': 864, 
+        'Portugal': 551, 
+        'Turkije': 537, 
+        'Saudi Arabië': 987, 
+        'VS': 595, 
+        'Europees': 3214, 
+        'Wereldwijd': 667, 
+        'Americas': 9342, 
+        'Africa': 6505, 
+        'Andorra': 4578, 
+        'Algerije': 1797, 
+        'Argentinië': 1670, 
+        'Australië': 825,  
+        'Azerbeidzjan': 786, 
+        'Bahrein': 1000, 
+        'Bosnia and Herzegovina': 963, 
+        'Brazilië': 896, 
+        'Bulgarije': 619, 
+        'Burundi': 519, 
+        'Chili': 1132, 
+        'Cambodja': 4125, 
+        'Costa Rica': 475, 
+        'Colombia': 1225, 
+        'Cyprus': 1068, 
+        'Denemarken': 479, 
+        'Egypte': 994, 
+        'El Salvador': 1607, 
+        'Ethiopia': 3396, 
+        'Finland': 692, 
+        'Filipijnen': 5317, 
+        'Guatemala': 1548, 
+        'Griekenland': 513, 
+        'Honduras': 1471, 
+        'Hong Kong': 1353, 
+        'Hongarije': 484, 
+        'IJsland': 617, 
+        'Ierland': 925, 
+        'Indonesia': 3528, 
+        'India': 1799, 
+        'Israël': 542, 
+        'Iran': 795, 
+        'Japan': 581, 
+        'Jordanië': 988, 
+        'Koeweit': 1022, 
+        'Kroatië': 544, 
+        'Luxemburg': 1355,
+        'Malta': 1590, 
+        'Maleisië': 3143, 
+        'Mexico': 888, 
+        'Marokko': 919, 
+        'Nicaragua': 970, 
+        'Noord-Ierland': 915, 
+        'Noorwegen': 583, 
+        'Oekraine': 501, 
+        'Oman': 1645, 
+        'Oostenrijk': 534, 
+        'Panama': 3013, 
+        'Paraguay': 883, 
+        'Peru': 971, 
+        'Polen': 477, 
+        'Qatar': 910, 
+        'Roemenië': 555, 
+        'Schotland': 873, 
+        'Servië': 487, 
+        'Singapore': 1610, 
+        'Slowakije': 611, 
+        'Slovenie': 605, 
+        'Tanzania': 763, 
+        'Thailand': 1511, 
+        'Tsjechië': 489, 
+        'Tunesië': 967, 
+        'Uruguay': 1007, 
+        'Verenigde Arabische Emiraten': 1475, 
+        'Venezuela': 1546, 
+        'Vietnam': 620, 
+        'Wales': 1262, 
+        'Zuid-Afrika': 1003, 
+        'Zuid-Korea': 696, 
+        'Zweden': 539, 
+        'Zwitserland': 661,
+        'ATP': 1055,
+        'WTA': 47,
+        'Challenger': 1033,
+        'Grand Slam': 656
+    }
 
-    # Calculate the start time and end time
-    start_time = now.replace(minute=0, second=0, microsecond=0)
-    start_time = start_time.strftime("%Y-%m-%dT%H:%M:%SZ")
-    end_time = (now + timedelta(weeks=2)).replace(
-        hour=23,
-        minute=59,
-        second=59,
-        microsecond=0
-    )
-    end_time = end_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+    def batch_dict(data, batch_size):
+        it = iter(data)
+        for i in range(0, len(data), batch_size):
+            batch = {k: data[k] for k in islice(it, batch_size)}
+            yield batch
 
-    # Initialize an empty list to store each batch of matches data
-    all_matches = []
-
-    # Loop over drillDownTagIds ranges in steps of 200
-    for start in range(200, 14000, 200):
-        # Generate a comma-separated string of drillDownTagIds for the current range
-        drilldown_ids = ','.join(str(i) for i in range(start, start + 200))
-
-        # Define the request URL
+    def fetch_matches(drilldown_ids: str, batch_info: str) -> list:
+        """Helper function to fetch matches for given drilldown IDs"""
         url = (
             f"https://content.toto.nl/content-service/api/v1/q/event-list?"
             f"startTimeFrom={start_time}"
@@ -58,21 +238,16 @@ def get_event_matches() -> pd.DataFrame:
             "channel=I"
         )
 
-        # Headers for the request
         headers = {
             'accept': 'application/json',
             'accept-language': 'en-US,en;q=0.9,nl;q=0.8',
         }
 
         try:
-            # Make the request
             response = requests.get(url, headers=headers)
-            response.raise_for_status()  # Raise HTTPError for bad responses
-
-            # Parse the JSON response
+            response.raise_for_status()
             data = response.json()
-
-            # Extract match data if available
+            
             matches = []
             for event in data.get('data', {}).get('events', []):
                 match = {
@@ -85,21 +260,58 @@ def get_event_matches() -> pd.DataFrame:
                     "country": event.get('class', {}).get('name'),
                     "sport": event.get('category', {}).get('name'),
                 }
-
-                # Extract odds if available
+                
                 outcomes = event.get("markets", [{}])[0].get("outcomes", [])
                 match["home_odds"] = next((outcome['prices'][0]['decimal'] for outcome in outcomes if outcome.get('subType') == "H"), None)
                 match["away_odds"] = next((outcome['prices'][0]['decimal'] for outcome in outcomes if outcome.get('subType') == "A"), None)
                 
                 matches.append(match)
-
-            # Add the batch of matches to the all_matches list
-            all_matches.extend(matches)
-
+            
+            print(f"Successfully fetched data for {batch_info}")
+            return matches
+            
         except Exception as e:
-            print(f"An error occurred for drilldown ID range {start}–{start + 200}: {e}")
+            print(f"An error occurred for {batch_info}: {e}")
+            return []
 
-    # Combine all match data into a single DataFrame
+    # Current time in UTC
+    now = datetime.utcnow()
+
+    # Calculate the start time and end time
+    start_time = now.replace(minute=0, second=0, microsecond=0)
+    start_time = start_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+    end_time = (now + timedelta(weeks=2)).replace(
+        hour=23,
+        minute=59,
+        second=59,
+        microsecond=0
+    )
+    end_time = end_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    # Initialize list to store all matches
+    all_matches = []
+
+    # # Part 1: Fetch matches using range-based drilldown IDs
+    # print("\nProcessing range-based drilldown IDs...")
+    # for start in range(200, 14000, 200):
+    #     drilldown_ids = ','.join(str(i) for i in range(start, start + 200))
+    #     matches = fetch_matches(drilldown_ids, f"range {start}-{start + 200}")
+    #     all_matches.extend(matches)
+        # time.sleep(random.uniform(1, 2))
+
+    # Part 2: Fetch matches using country-specific drilldown IDs
+    print("\nProcessing country-specific drilldown IDs...")
+    for batch_num, country_batch in enumerate(batch_dict(COUNTRY_MARKET_DRILLDOWNS, 1)):
+        drilldown_ids = ','.join(str(id) for id in country_batch.values())
+        batch_info = f"countries: {', '.join(country_batch.keys())}"
+        matches = fetch_matches(drilldown_ids, batch_info)
+        all_matches.extend(matches)
+        
+        if batch_num < len(COUNTRY_MARKET_DRILLDOWNS) // 5:  # Don't sleep after the last batch
+            continue
+            # time.sleep(random.uniform(1, 2))
+
+    # Create and return the final DataFrame
     return pd.DataFrame(all_matches)
 
 def get_headers() -> Dict[str, str]:
@@ -364,7 +576,7 @@ def main() -> Dict[str, pd.DataFrame]:
     print("Toto: Fetching Market IDs...")
     event_market_ids_dict = collect_market_ids(
         matches_df['event_id'].tolist(), 
-        max_workers=50,  
+        max_workers=20,  
         batch_size=1
     )
     
