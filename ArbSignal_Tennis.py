@@ -422,6 +422,8 @@ start_time = datetime.utcnow()
 toto_file_path = get_latest_file(toto_directory)
 kambi_file_path = get_latest_file(kambi_directory)
 
+print(f"Latest Toto file Tennis: {toto_file_path}")
+print(f"Latest Kambi file Tennis: {kambi_file_path}")
 start_time = datetime.utcnow()
 
 toto_filtered_tennis, kambi_filtered_tennis = preprocess_tennis_data(toto_file_path, kambi_file_path)

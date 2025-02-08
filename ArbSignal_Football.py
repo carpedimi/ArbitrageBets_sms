@@ -71,19 +71,22 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
     kambi_raw_football['sex'] = kambi_raw_football['group_name'].apply(
         lambda x: 'W' if x in women_competitions_kambi else 'M'
     )
+
+    kambi_filtered_football = kambi_raw_football
+    toto_filtered_football = toto_raw_football
     
-    # Filter Kambi for suitable betting opportunities
-    kambi_filtered_football = kambi_raw_football[
-        kambi_raw_football['bet_offer_type_english_name'].isin([
-            'Match', 'Odd/Even', 'Player Occurrence Line', 'Asian Over/Under', 
-            'Over/Under', 'Handicap', 'Asian Handicap', 'Yes/No', 'Head to Head'
-        ])
-    ]
+    # # Filter Kambi for suitable betting opportunities
+    # kambi_filtered_football = kambi_raw_football[
+    #     kambi_raw_football['outcome_english_label'].isin([
+    #         'Match', 'Odd/Even', 'Player Occurrence Line', 'Asian Over/Under', 
+    #         'Over/Under', 'Handicap', 'Asian Handicap', 'Yes/No', 'Head to Head'
+    #     ])
+    # ]
     
-    # Filter Toto for suitable outcome types
-    toto_filtered_football = toto_raw_football[
-        toto_raw_football['Outcome Type'].isin(['DN', 'OE', 'HH', 'HL', 'AG'])
-    ]
+    # # Filter Toto for suitable outcome types
+    # toto_filtered_football = toto_raw_football[
+    #     toto_raw_football['Outcome Type'].isin(['DN', 'OE', 'HH', 'HL', 'AG'])
+    # ]
     
     # Remove duplicates in Toto data
     toto_filtered_football = toto_filtered_football.drop_duplicates(
@@ -98,7 +101,6 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
     return toto_filtered_football, kambi_filtered_football
 
 
-from rapidfuzz import process, fuzz
 import pandas as pd
 import unicodedata
 
@@ -217,115 +219,331 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
     return merged_df_winnaar, matched_events
 
 
+# def create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events):
+#     """
+#     Preprocess, match, and merge football betting data from Toto and Kambi for "Over/Under" events.
+
+#     Args:
+#     toto_filtered_football (pd.DataFrame): Filtered Toto football DataFrame.
+#     kambi_filtered_football (pd.DataFrame): Filtered Kambi football DataFrame.
+
+#     Returns:
+#     pd.DataFrame: Merged DataFrame with matched "Ja/Nee" events and filtered conditions.
+#     """
+#     kambi_filtered_football_overunder = kambi_filtered_football[(kambi_filtered_football['outcome_english_label'].str.contains('Over')) |
+#         (kambi_filtered_football['outcome_english_label'].str.contains('Under'))
+#     ]
+#     toto_filtered_football_overunder = toto_filtered_football[
+#         (toto_filtered_football['Outcome Name'].str.contains('Over')) |
+#         (toto_filtered_football['Outcome Name'].str.contains('Under')) |
+#         (toto_filtered_football['Outcome Name'].str.match(r'^\d+\+$')) |  # matches strings that ONLY contain digit(s) followed by '+'
+#         (toto_filtered_football['Outcome Name'].str.contains(r'\d{1,2} of meer')) &
+#         ~(toto_filtered_football['Outcome Name'].str.contains(' en ')) &  # excludes strings containing ' en '
+#         ~(toto_filtered_football['Outcome Name'].str.contains('&'))  # excludes strings containing '&'
+#     ]
+
+#     # Remove accents and replace '-' with spaces in the necessary columns
+#     for column in ['event_name', 'criterion_label', 'criterion_english_label']:
+#         kambi_filtered_football_overunder[column] = kambi_filtered_football_overunder[column].apply(
+#             lambda x: ''.join(
+#                 char for char in unicodedata.normalize('NFKD', x.replace('-', ' '))
+#                 if not unicodedata.combining(char)
+#             )
+#         )
+    
+#     for column in ['Event Name', 'Market Name']:
+#         toto_filtered_football_overunder[column] = toto_filtered_football_overunder[column].apply(
+#             lambda x: ''.join(
+#                 char for char in unicodedata.normalize('NFKD', x.replace('-', ' '))
+#                 if not unicodedata.combining(char)
+#             )
+#         )
+
+#     # Get event names for matching
+#     kambi_events = kambi_filtered_football_overunder['event_name'].tolist()
+
+#     # # Function to find the best match
+#     # def find_best_match(event_name):
+#     #     result = process.extractOne(event_name, kambi_events, scorer=fuzz.token_set_ratio, score_cutoff=90)
+#     #     if result is None:
+#     #         return None
+#     #     match, _, _ = result
+#     #     return match
+
+#     # Perform a left join to bring in 'matched_event' and 'fuzzy_score' from matched_events
+#     toto_filtered_football_overunder = toto_filtered_football_overunder.merge(
+#         matched_events,
+#         on='Event Name',  # Join on the 'Event Name' column
+#         how='left'  # Ensure all rows in toto_filtered_football_overunder are retained
+#     )
+
+#     # Define OverUnderType
+#     # Create 'OverUnderType'
+#     kambi_filtered_football_overunder['OverUnderType'] = kambi_filtered_football_overunder['criterion_label'].apply(
+#             lambda x: 'Goals' if ('Doelpunten' in x and 'Resultaat' not in x) 
+#             else 'Wedstrijd schoten op doel' if ('Totaal Aantal Schoten op Doel' in x and ' & ' not in x)
+#             else 'Team schoten op doel' if ('Totaal Aantal Schoten op Doel door' in x and ' & ' not in x) 
+#             else 'Team schoten' if ('Totaal Aantal Schoten door' in x and ' & ' not in x) 
+#             else 'Totaal schoten op doel' if ('Totaal Aantal Schoten op Doel' in x and ' & ' not in x)
+#             else 'Totaal schoten' if ('Totaal Aantal Schoten' in x and ' & ' not in x)
+#             else 'Speler schoten op doel' if ('Schoten van Speler op Doel' in x and ' & ' not in x)
+#             else 'Speler schoten' if ('Schoten van Speler' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+#             else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
+#             else 'other'
+#         )
+
+#     toto_filtered_football_overunder['OverUnderType'] = toto_filtered_football_overunder['Market Name'].apply(
+#         lambda x: 'Goals' if ('Goals' in x and 'Resultaat' not in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+#         # else 'Speler schoten op doel' if ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+#         else 'Wedstrijd schoten op doel' if ('Wedstrijd schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+#         else 'Team schoten op doel' if ('Team schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+#         # else 'Schoten op doel van buiten 16 mtr' if ('schoten op doel van buiten 16 mtr' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) # via specials voor later
+#         else 'Speler schoten op doel' if ('aantal schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) or ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+#         else 'Speler schoten' if ('aantal schoten' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+#         else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
+#         else 'other'
+#     )
+
+#     # Define OverUnderTime
+#     def determine_over_under_time(label):
+#         label_lower = label.lower()
+#         if '1e helft' in label_lower:
+#             return '1e Helft'
+#         elif '2e helft' in label_lower:
+#             return '2e Helft'
+#         elif 'eerste 10 minuten' in label_lower:
+#             return '00:00 09:59'
+#         # Check if the label contains a time range in the format 'XX:XX YY:YY'
+#         time_match = re.search(r'\b\d{1,2}:\d{2} \d{1,2}:\d{2}\b', label)
+#         if time_match:
+#             return time_match.group()  # Return the matched time range
+#         else:
+#             return 'Full Time'
+
+#     kambi_filtered_football_overunder['OverUnderTime'] = kambi_filtered_football_overunder['criterion_label'].apply(determine_over_under_time)
+#     toto_filtered_football_overunder['OverUnderTime'] = toto_filtered_football_overunder['Market Name'].apply(determine_over_under_time)
+
+#     # Split Team1 and Team2
+#     kambi_filtered_football_overunder[['Team1', 'Team2']] = kambi_filtered_football_overunder['event_name'].str.split(' vs ', expand=True)
+#     toto_filtered_football_overunder[['Team1', 'Team2']] = toto_filtered_football_overunder['Event Name'].str.split(' vs ', expand=True)
+
+#     # Define OverUnderType2
+#     kambi_filtered_football_overunder['OverUnderType2'] = kambi_filtered_football_overunder.apply(
+#         lambda row: row['participant'] if row['OverUnderType'] in ['Speler schoten op doel', 'Speler schoten'] else (
+#             '1' if row['Team1'] in row['criterion_english_label'] else 
+#             '2' if row['Team2'] in row['criterion_english_label'] else 
+#             'Total team 1 and team 2'
+#         ),
+#         axis=1
+#     )
+
+#     toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder.apply(
+#         lambda row: (
+#             '1' if row['OverUnderType'] == 'Goals' and row['Team1'] in row['Market Name'] else
+#             '2' if row['OverUnderType'] == 'Goals' and row['Team2'] in row['Market Name'] else
+#             'Total team 1 and team 2' if row['OverUnderType'] == 'Goals' else
+#             'Total team 1 and team 2' if row['OverUnderType'] == 'Wedstrijd schoten op doel' else
+#             '1' if row['OverUnderType'] == 'Team schoten op doel' and row['Team1'] in row['Outcome Name'] else
+#             '2' if row['OverUnderType'] == 'Team schoten op doel' and row['Team2'] in row['Outcome Name'] else
+#             row['Market Name'].split('aantal schoten')[0].strip() if row['OverUnderType'] in ['Speler schoten op doel', 'Speler schoten'] else # Get player name
+#             row['OverUnderType']  # Default to OverUnderType if none of the conditions apply
+#         ),
+#         axis=1
+#     )
+
+#     def extract_line_toto(row):
+#         market_name = row['Market Name']
+#         outcome_name = row['Outcome Name']
+#         over_under_type = row['OverUnderType']
+
+#         # Extract number from 'Market Name' when it contains 'Over/Under '
+#         if 'Over/Under ' in market_name:
+#             return float(market_name.split('Over/Under ')[-1])
+
+#         # Extract number from 'Outcome Name'
+#         match = re.search(r'\d+(\.\d+)?', outcome_name)
+#         if match:
+#             value = float(match.group())  # Convert extracted number to float
+
+#             # Adjust value based on conditions
+#             if over_under_type in ['Wedstrijd schoten op doel', 'Team schoten op doel'] and 'of meer' in outcome_name:
+#                 return value - 0.5
+#             elif over_under_type in ['Speler schoten op doel', 'Speler schoten'] and '+' in outcome_name:
+#                 return value - 0.5
+#             else:
+#                 return value
+
+#         return None  # Default if no number found
+
+#     # Apply function to create 'line' column
+#     toto_filtered_football_overunder['line'] = toto_filtered_football_overunder.apply(extract_line_toto, axis=1)
+
+#     # Adjust Outcome Name where {digit} + to over
+#     toto_filtered_football_overunder['Outcome Name'] = toto_filtered_football_overunder['Outcome Name'].apply(
+#         lambda outcome_name: 'Over' if re.search(r'\d+(\.\d+)?\+', outcome_name) else outcome_name
+#     )
+
+#     def find_best_fuzzy_match(overunder_type2, kambi_df):
+#         try:
+#             # Perform fuzzy matching with all Kambi OverUnderType2 values
+#             match_scores = kambi_df['OverUnderType2'].apply(lambda x: fuzz.token_set_ratio(overunder_type2, x))
+            
+#             # Get the best match score and the corresponding OverUnderType2 value
+#             best_match_idx = match_scores.idxmax()
+#             best_score = match_scores.max()
+            
+#             if best_score >= 80:  # Threshold for fuzzy matching
+#                 return kambi_df.loc[best_match_idx, 'OverUnderType2'], best_score
+#             return None, None  # No match found
+#         except Exception as e:
+#             print(f"Error in fuzzy matching for {overunder_type2}: {e}")
+#             return None, None
+
+#     # When applying, handle potential None returns
+#     def safe_fuzzy_match(x):
+#         match, score = find_best_fuzzy_match(x, filtered_kambi)
+#         return pd.Series([match if match is not None else x, 
+#                         score if score is not None else 0])
+
+#     filtered_toto[['matched_OverUnderType2', 'fuzzy_score']] = filtered_toto['OverUnderType2'].apply(
+#         safe_fuzzy_match, 
+#         result_type='expand'
+#     )
+
+#     # Filter records where OverUnderType contains 'Team' or 'Speler'
+#     filtered_toto = toto_filtered_football_overunder[
+#         toto_filtered_football_overunder['OverUnderType'].str.contains('Speler')
+#     ]
+#     filtered_kambi = kambi_filtered_football_overunder[
+#         kambi_filtered_football_overunder['OverUnderType'].str.contains('Speler')
+#     ]
+
+#     # Apply fuzzy matching function
+#     filtered_toto[['matched_OverUnderType2', 'fuzzy_score']] = filtered_toto['OverUnderType2'].apply(
+#         lambda x: pd.Series(find_best_fuzzy_match(x, filtered_kambi), result_type='expand')
+#     )
+
+#     # Merge back to the original dataset (if needed)
+#     toto_filtered_football_overunder = toto_filtered_football_overunder.merge(
+#         filtered_toto[['OverUnderType2', 'matched_OverUnderType2', 'fuzzy_score']],
+#         on='OverUnderType2',
+#         how='left'
+#     )
+
+#     # Fill OverUnderType2 with matched_OverUnderType2 if it is null then OverUnderType2
+#     toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder.apply(
+#         lambda row: row['OverUnderType2'] if pd.isna(row['matched_OverUnderType2']) else row['matched_OverUnderType2'], axis=1
+#     )
+
+#     # Merge the DataFrames
+#     merged_football_overunder = pd.merge(
+#         toto_filtered_football_overunder,
+#         kambi_filtered_football_overunder,
+#         left_on=['line', 'OverUnderType', 'OverUnderTime', 'final_OverUnderType', 'matched_event', 'sex', 'start_time'],
+#         right_on=['line', 'OverUnderType', 'OverUnderTime', 'OverUnderType2', 'event_name', 'sex', 'start_time'],
+#         how='inner'
+#     )
+
+#     merged_football_overunder['Outcome Name cleaned'] = merged_football_overunder['Outcome Name'].apply(
+#         lambda x: 'Over' if re.search(r'\b\d{1,2} of meer\b', x) else x
+#     )
+
+#     # Keep only records with opposite outcomes
+#     merged_football_overunder = merged_football_overunder[
+#         merged_football_overunder['outcome_english_label'] != merged_football_overunder['Outcome Name cleaned']
+#     ]
+
+#     return merged_football_overunder
+
+
 def create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events):
     """
-    Preprocess, match, and merge football betting data from Toto and Kambi for "Over/Under" events.
-
+    Merge football betting Over/Under data from Toto and Kambi with comprehensive filtering and matching.
+    
     Args:
-    toto_filtered_football (pd.DataFrame): Filtered Toto football DataFrame.
-    kambi_filtered_football (pd.DataFrame): Filtered Kambi football DataFrame.
-
+    kambi_filtered_football (pd.DataFrame): Kambi football betting data
+    toto_filtered_football (pd.DataFrame): Toto football betting data
+    matched_events (pd.DataFrame): Matched events data
+    
     Returns:
-    pd.DataFrame: Merged DataFrame with matched "Ja/Nee" events and filtered conditions.
+    pd.DataFrame: Merged and filtered Over/Under betting data
     """
-    kambi_filtered_football_overunder = kambi_filtered_football[kambi_filtered_football['bet_offer_type_name'].str.contains('Over')]
+    # Filter Over/Under events
+    kambi_filtered_football_overunder = kambi_filtered_football[
+        (kambi_filtered_football['outcome_english_label'].str.contains('Over')) |
+        (kambi_filtered_football['outcome_english_label'].str.contains('Under'))
+    ]
+    
     toto_filtered_football_overunder = toto_filtered_football[
         (toto_filtered_football['Outcome Name'].str.contains('Over')) |
         (toto_filtered_football['Outcome Name'].str.contains('Under')) |
-        (toto_filtered_football['Outcome Name'].str.match(r'^\d+\+$')) |  # matches strings that ONLY contain digit(s) followed by '+'
+        (toto_filtered_football['Outcome Name'].str.match(r'^\d+\+$')) |
         (toto_filtered_football['Outcome Name'].str.contains(r'\d{1,2} of meer')) &
-        ~(toto_filtered_football['Outcome Name'].str.contains(' en ')) &  # excludes strings containing ' en '
-        ~(toto_filtered_football['Outcome Name'].str.contains('&'))  # excludes strings containing '&'
+        ~(toto_filtered_football['Outcome Name'].str.contains(' en ')) &
+        ~(toto_filtered_football['Outcome Name'].str.contains('&'))
     ]
 
-    # Remove accents and replace '-' with spaces in the necessary columns
-    for column in ['event_name', 'criterion_label', 'criterion_english_label']:
-        kambi_filtered_football_overunder[column] = kambi_filtered_football_overunder[column].apply(
-            lambda x: ''.join(
-                char for char in unicodedata.normalize('NFKD', x.replace('-', ' '))
-                if not unicodedata.combining(char)
-            )
-        )
-    
-    for column in ['Event Name', 'Market Name']:
-        toto_filtered_football_overunder[column] = toto_filtered_football_overunder[column].apply(
-            lambda x: ''.join(
-                char for char in unicodedata.normalize('NFKD', x.replace('-', ' '))
-                if not unicodedata.combining(char)
-            )
+    # Normalize text function
+    def normalize_text(x):
+        return ''.join(
+            char for char in unicodedata.normalize('NFKD', x.replace('-', ' '))
+            if not unicodedata.combining(char)
         )
 
-    # Get event names for matching
+    # Normalize columns
+    kambi_text_columns = ['event_name', 'criterion_label', 'criterion_english_label']
+    for col in kambi_text_columns:
+        kambi_filtered_football_overunder[col] = kambi_filtered_football_overunder[col].apply(normalize_text)
+
+    toto_text_columns = ['Event Name', 'Market Name']
+    for col in toto_text_columns:
+        toto_filtered_football_overunder[col] = toto_filtered_football_overunder[col].apply(normalize_text)
+
     kambi_events = kambi_filtered_football_overunder['event_name'].tolist()
 
-    # # Function to find the best match
-    # def find_best_match(event_name):
-    #     result = process.extractOne(event_name, kambi_events, scorer=fuzz.token_set_ratio, score_cutoff=90)
-    #     if result is None:
-    #         return None
-    #     match, _, _ = result
-    #     return match
-
-    # Perform a left join to bring in 'matched_event' and 'fuzzy_score' from matched_events
+    # Merge with matched events
     toto_filtered_football_overunder = toto_filtered_football_overunder.merge(
         matched_events,
-        on='Event Name',  # Join on the 'Event Name' column
-        how='left'  # Ensure all rows in toto_filtered_football_overunder are retained
+        on='Event Name',
+        how='left'
     )
 
-    # Define OverUnderType
-    # Create 'OverUnderType'
+    # Create 'OverUnderType' for Kambi
     kambi_filtered_football_overunder['OverUnderType'] = kambi_filtered_football_overunder['criterion_label'].apply(
-            lambda x: 'Goals' if ('Doelpunten' in x and 'Resultaat' not in x) 
-            else 'Wedstrijd schoten op doel' if ('Totaal Aantal Schoten op Doel' in x and ' & ' not in x)
-            else 'Team schoten op doel' if ('Totaal Aantal Schoten op Doel door' in x and ' & ' not in x) 
-            else 'Team schoten' if ('Totaal Aantal Schoten door' in x and ' & ' not in x) 
-            else 'Totaal aantal schoten op doel' if ('Totaal Aantal Schoten op Doel' in x and ' & ' not in x)
-            else 'Totaal aantal schoten' if ('Totaal Aantal Schoten' in x and ' & ' not in x)
-            else 'Speler aantal schoten op doel' if ('Schoten van Speler op Doel' in x and ' & ' not in x)
-            else 'Speler aantal schoten' if ('Schoten van Speler' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
-            else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
-            else 'other'
-        )
-
-    toto_filtered_football_overunder['OverUnderType'] = toto_filtered_football_overunder['Market Name'].apply(
-        lambda x: 'Goals' if ('Goals' in x and 'Resultaat' not in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
-        # else 'Speler schoten op doel' if ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
-        else 'Wedstrijd schoten op doel' if ('Wedstrijd schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
-        else 'Team schoten op doel' if ('Team schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
-        # else 'Schoten op doel van buiten 16 mtr' if ('schoten op doel van buiten 16 mtr' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) # via specials voor later
-        else 'Speler aantal schoten op doel' if ('aantal schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) or ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
-        else 'Speler aantal schoten' if ('aantal schoten' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+        lambda x: 'Goals' if ('Doelpunten' in x and 'Resultaat' not in x and 'Doelpuntenmaker' not in x) 
+        else 'Team schoten op doel' if ('Totaal Aantal Schoten op Doel door' in x and ' & ' not in x) 
+        else 'Wedstrijd schoten op doel' if ('Totaal Aantal Schoten op Doel' in x and ' & ' not in x)
+        else 'Team schoten' if ('Totaal Aantal Schoten door' in x and ' & ' not in x) 
+        else 'Wedstrijd schoten' if ('Totaal Aantal Schoten' in x and ' & ' not in x)
+        else 'Speler schoten op doel' if ('Schoten van Speler op Doel' in x and ' & ' not in x)
+        else 'Speler schoten' if ('Schoten van Speler' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
         else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
         else 'other'
     )
 
-    # Define OverUnderTime
+    # Determine Over/Under Time
     def determine_over_under_time(label):
         label_lower = label.lower()
         if '1e helft' in label_lower:
             return '1e Helft'
         elif '2e helft' in label_lower:
             return '2e Helft'
-        elif 'eerste 10 minuten' in label_lower:
-            return '00:00 09:59'
-        # Check if the label contains a time range in the format 'XX:XX YY:YY'
+        
         time_match = re.search(r'\b\d{1,2}:\d{2} \d{1,2}:\d{2}\b', label)
         if time_match:
-            return time_match.group()  # Return the matched time range
-        else:
-            return 'Full Time'
+            return time_match.group()
+        
+        return 'Full Time'
 
+    # Apply time determination
     kambi_filtered_football_overunder['OverUnderTime'] = kambi_filtered_football_overunder['criterion_label'].apply(determine_over_under_time)
-    toto_filtered_football_overunder['OverUnderTime'] = toto_filtered_football_overunder['Market Name'].apply(determine_over_under_time)
 
-    # Split Team1 and Team2
+    # Split teams
     kambi_filtered_football_overunder[['Team1', 'Team2']] = kambi_filtered_football_overunder['event_name'].str.split(' vs ', expand=True)
-    toto_filtered_football_overunder[['Team1', 'Team2']] = toto_filtered_football_overunder['Event Name'].str.split(' vs ', expand=True)
 
-    # Define OverUnderType2
+    # Create OverUnderType2
     kambi_filtered_football_overunder['OverUnderType2'] = kambi_filtered_football_overunder.apply(
-        lambda row: row['Participant'] if row['OverUnderType'] in ['Speler aantal schoten op doel', 'Speler aantal schoten'] else (
+        lambda row: row['participant'] if row['OverUnderType'] in ['Speler schoten op doel', 'Speler schoten'] else (
             '1' if row['Team1'] in row['criterion_english_label'] else 
             '2' if row['Team2'] in row['criterion_english_label'] else 
             'Total team 1 and team 2'
@@ -333,6 +551,29 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
         axis=1
     )
 
+    # Create 'OverUnderType' for toto
+    toto_filtered_football_overunder['OverUnderType'] = toto_filtered_football_overunder['Market Name'].apply(
+        lambda x: 'Goals' if ('Goals' in x and 'Resultaat' not in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+        # else 'Speler schoten op doel' if ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+        else 'Wedstrijd schoten op doel' if ('Wedstrijd schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+        else 'Team schoten op doel' if ('Team schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+        # else 'Schoten op doel van buiten 16 mtr' if ('schoten op doel van buiten 16 mtr' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) # via specials voor later
+        else 'Speler schoten op doel' if ('aantal schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) or ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
+        else 'Speler schoten' if ('aantal schoten' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+        else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
+        else 'other'
+    )
+
+    # Create 'OverUnderTime'
+    toto_filtered_football_overunder['OverUnderTime'] = toto_filtered_football_overunder['Market Name'].apply(
+        lambda x: '1e Helft' if '1e helft' in x.lower() else '2e Helft' if '2e helft' in x.lower() 
+        else  '00:00 09:59' if 'eerste 10 minuten' in x.lower() else 'Full Time'
+    )
+
+    # Create 'Team1' and 'Team2'
+    toto_filtered_football_overunder[['Team1', 'Team2']] = toto_filtered_football_overunder['Event Name'].str.split(' vs ', expand=True)
+
+    # Create 'OverUnderType2'
     toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder.apply(
         lambda row: (
             '1' if row['OverUnderType'] == 'Goals' and row['Team1'] in row['Market Name'] else
@@ -341,18 +582,92 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
             'Total team 1 and team 2' if row['OverUnderType'] == 'Wedstrijd schoten op doel' else
             '1' if row['OverUnderType'] == 'Team schoten op doel' and row['Team1'] in row['Outcome Name'] else
             '2' if row['OverUnderType'] == 'Team schoten op doel' and row['Team2'] in row['Outcome Name'] else
-            row['Market Name'].split('aantal schoten')[0].strip() if row['OverUnderType'] in ['Speler aantal schoten op doel', 'Speler aantal schoten'] else # Get player name
-            row['OverUnderType']  # Default to OverUnderType if none of the conditions apply
+            row['Market Name'].split('aantal schoten')[0].strip() if row['OverUnderType'] in ['Speler schoten op doel', 'Speler schoten'] 
+            else 'other'  # Default to OverUnderType if none of the conditions apply
         ),
         axis=1
     )
 
-    # Extract line value
-    toto_filtered_football_overunder['line'] = toto_filtered_football_overunder['Market Name'].apply(
-        lambda x: float(x.split('Over/Under ')[-1]) if 'Over/Under ' in x else None
+
+    def extract_line_toto(row):
+        market_name = row['Market Name']
+        outcome_name = row['Outcome Name']
+        over_under_type = row['OverUnderType']
+
+        # Extract number from 'Market Name' when it contains 'Over/Under '
+        if 'Over/Under ' in market_name:
+            return float(market_name.split('Over/Under ')[-1])
+
+        # Extract number from 'Outcome Name'
+        match = re.search(r'\d+(\.\d+)?', outcome_name)
+        if match:
+            value = float(match.group())  # Convert extracted number to float
+
+            # Adjust value based on conditions
+            if over_under_type in ['Wedstrijd schoten op doel', 'Team schoten op doel'] and 'of meer' in outcome_name:
+                return value - 0.5
+            elif over_under_type in ['Speler schoten op doel', 'Speler schoten'] and '+' in outcome_name:
+                return value - 0.5
+            else:
+                return value
+
+        return None  # Default if no number found
+
+    # Apply function to create 'line' column
+    toto_filtered_football_overunder['line'] = toto_filtered_football_overunder.apply(extract_line_toto, axis=1)
+
+    # Adjust Outcome Name where {digit} + to over
+    toto_filtered_football_overunder['Outcome Name'] = toto_filtered_football_overunder['Outcome Name'].apply(
+        lambda outcome_name: 'Over' if re.search(r'\d+(\.\d+)?\+', outcome_name) else outcome_name
     )
 
-    # Merge the DataFrames
+    # Function to find the best fuzzy match for OverUnderType2
+    def find_best_fuzzy_match(overunder_type2, kambi_df):
+        # Perform fuzzy matching with all Kambi OverUnderType2 values
+        match_scores = kambi_df['OverUnderType2'].apply(lambda x: fuzz.token_set_ratio(str(overunder_type2), str(x)))
+        
+        # Get the best match score and the corresponding OverUnderType2 value
+        if len(match_scores) > 0:
+            best_match_idx = match_scores.idxmax()
+            best_score = match_scores.max()
+            
+            if best_score >= 80:  # Threshold for fuzzy matching
+                return kambi_df.loc[best_match_idx, 'OverUnderType2'], best_score
+        return None, None  # No match found
+
+    # Filter records
+    filtered_toto = toto_filtered_football_overunder[
+        toto_filtered_football_overunder['OverUnderType'].str.contains('Speler', na=False)
+    ].copy()
+
+    filtered_kambi = kambi_filtered_football_overunder[
+        kambi_filtered_football_overunder['OverUnderType'].str.contains('Speler', na=False)
+    ].copy()
+
+    # Apply fuzzy matching function
+    fuzzy_matches = filtered_toto['OverUnderType2'].apply(
+        lambda x: find_best_fuzzy_match(x, filtered_kambi)
+    )
+
+    filtered_toto['matched_OverUnderType2'] = fuzzy_matches.apply(lambda x: x[0])
+    filtered_toto['fuzzy_score'] = fuzzy_matches.apply(lambda x: x[1])
+
+    filtered_toto.to_csv('examine_fuzzy_matches_player.csv', index=False)
+
+    # Merge back to the original dataset
+    toto_filtered_football_overunder = toto_filtered_football_overunder.merge(
+        filtered_toto[['OverUnderType2', 'matched_OverUnderType2', 'fuzzy_score']],
+        on='OverUnderType2',
+        how='left'
+    )
+
+    # Fill OverUnderType2 with matched_OverUnderType2 if it is null
+    toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder['matched_OverUnderType2'].fillna(toto_filtered_football_overunder['OverUnderType2'])
+
+    # Fill OverUnderType2 with matched_OverUnderType2 if it is null
+    toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder['matched_OverUnderType2'].fillna(toto_filtered_football_overunder['OverUnderType2'])
+
+    # Merge DataFrames
     merged_football_overunder = pd.merge(
         toto_filtered_football_overunder,
         kambi_filtered_football_overunder,
@@ -361,16 +676,17 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
         how='inner'
     )
 
+    # Clean Outcome Names
     merged_football_overunder['Outcome Name cleaned'] = merged_football_overunder['Outcome Name'].apply(
-        lambda x: 'Over' if re.match(r'^\d{1,2} of meer', x) else x
+        lambda x: 'Over' if re.search(r'\b\d{1,2} of meer\b', x) else x
     )
 
-    # Keep only records with opposite outcomes
+    # Filter opposite outcomes
     merged_football_overunder = merged_football_overunder[
         merged_football_overunder['outcome_english_label'] != merged_football_overunder['Outcome Name cleaned']
     ]
 
-    return merged_football_overunder
+    return merged_football_overunder 
 
 
 def process_football_betting_data(toto_filtered_football, kambi_filtered_football):
@@ -400,12 +716,17 @@ def process_football_betting_data(toto_filtered_football, kambi_filtered_footbal
         axis=1
     )
 
-    # Select and return the relevant columns
-    result = total_football[[
-        'Event Name', 'Market Name', 'Outcome Name', 'outcome_label', 
-        'Odds (Decimal)', 'odds', 'Arbitrage Percentage', 
-        'Is Arbitrage', 'Stake A', 'Stake B'
-    ]]
+    # # Select and return the relevant columns
+    # result = total_football[[
+    #     'Event Name', 'Market Name', 'Outcome Name', 'outcome_label', 
+    #     'Odds (Decimal)', 'odds', 'Arbitrage Percentage', 
+    #     'Is Arbitrage', 'Stake A', 'Stake B'
+    # ]]
+    result = total_football[['Event Name', 'matched_event', 'Market Name', 'criterion_label', 'Outcome Name', 'Outcome Name cleaned', 'line', 'outcome_english_label', 'type', 'Outcome SubType', 'OverUnderType2',
+       'Odds (Decimal)', 'odds', 'Price Numerator', 'Price Denominator',
+       'Outcome Type', 'Outcome SubType', 'sport_x', 'competition',
+       'OverUnderType', 'OverUnderTime', 'Team1_x', 'Team2_x', 'Team1_y', 'Team2_y', 'Arbitrage Percentage',
+       'Is Arbitrage', 'Stake A', 'Stake B', 'group_name', 'sex', 'start_time']].drop_duplicates()
     
     return result
 
@@ -419,8 +740,8 @@ start_time = datetime.utcnow()
 toto_file_path = get_latest_file(toto_directory)
 kambi_file_path = get_latest_file(kambi_directory)
 
-print(f"Latest Toto file: {toto_file_path}")
-print(f"Latest Kambi file: {kambi_file_path}")
+print(f"Latest Toto file Football: {toto_file_path}")
+print(f"Latest Kambi file Football: {kambi_file_path}")
 
 # Process the files
 toto_filtered, kambi_filtered = preprocess_football_data(toto_file_path, kambi_file_path)

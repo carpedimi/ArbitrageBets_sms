@@ -115,15 +115,59 @@ def get_headers() -> Dict[str, str]:
         'Cookie': 'incap_ses_1581_2280942=FvpNPI919nl1UsyZNNfwFR6GL2cAAAAA8yX5UHfYkaWD/ax05SY+Jg==; visid_incap_2280942=CzAo1Y6yTMa654jo8RfVRtBiL2cAAAAAQkIPAAAAAAAE7rpFtkP20364qTw5VQQQ'
     }
 
+# def fetch_market_ids_for_event_batch(batch_ids: List[int]) -> Dict[int, List[int]]:
+#     """
+#     Fetch market IDs for a small batch of event IDs
+    
+#     Args:
+#         batch_ids (List[int]): List of event IDs to process
+    
+#     Returns:
+#         Dict[int, List[int]]: Dictionary mapping event IDs to their market IDs
+#     """
+#     headers = get_headers()
+#     event_market_ids_dict = {}
+    
+#     event_ids_str = ','.join(map(str, batch_ids))
+    
+#     url = (
+#         "https://content.toto.nl/content-service/api/v1/q/events-by-ids?"
+#         f"eventIds={event_ids_str}&"
+#         "includeChildMarkets=true&includeCollections=true&"
+#         "includePriorityCollectionChildMarkets=true&includePriceHistory=true&"
+#         "includeCommentary=true&includeIncidents=true&includeRace=true&"
+#         "includePools=true&includeNonFixedOdds=true&lang=nl-NL&channel=I"
+#     )
+    
+#     try:
+#         # Add random sleep to reduce request rate
+#         time.sleep(random.uniform(0.1, 0.3))
+        
+#         response = requests.get(url, headers=headers, timeout=30)
+#         json_data = response.json()
+        
+#         for event in json_data['data']['events']:
+#             event_id = event['id']
+#             market_ids = []
+#             for collection in event.get('collections', []):
+#                 if collection['name'] in ['Alles', 'UNASSIGNED']:
+#                     market_ids = collection.get('marketIds', [])
+#                     break
+#             event_market_ids_dict[event_id] = market_ids
+        
+#     except Exception as e:
+#         print(f"Error collecting market IDs: {e} for event_ids: {batch_ids}")
+    
+#     return event_market_ids_dict
 def fetch_market_ids_for_event_batch(batch_ids: List[int]) -> Dict[int, List[int]]:
     """
-    Fetch market IDs for a small batch of event IDs
+    Fetch market IDs for a small batch of event IDs.
     
     Args:
-        batch_ids (List[int]): List of event IDs to process
+        batch_ids (List[int]): List of event IDs to process.
     
     Returns:
-        Dict[int, List[int]]: Dictionary mapping event IDs to their market IDs
+        Dict[int, List[int]]: Dictionary mapping event IDs to their market IDs.
     """
     headers = get_headers()
     event_market_ids_dict = {}
@@ -146,13 +190,28 @@ def fetch_market_ids_for_event_batch(batch_ids: List[int]) -> Dict[int, List[int
         response = requests.get(url, headers=headers, timeout=30)
         json_data = response.json()
         
+        preferred_collections = ['Alles', 'UNASSIGNED']
+        fallback_collections = ['Wedstrijd', 'Doelpunten', 'Schoten', 'Schoten op doel']
+        
         for event in json_data['data']['events']:
             event_id = event['id']
             market_ids = []
+
+            # Eerst zoeken in 'Alles' en 'UNASSIGNED'
             for collection in event.get('collections', []):
-                if collection['name'] in ['Alles', 'UNASSIGNED']:
+                if collection['name'] in preferred_collections:
                     market_ids = collection.get('marketIds', [])
-                    break
+                    if market_ids:
+                        break  # Stop als een van deze collecties markten heeft
+            
+            # Als geen markten gevonden, zoek in de fallback-lijst
+            if not market_ids:
+                for collection in event.get('collections', []):
+                    if collection['name'] in fallback_collections:
+                        market_ids = collection.get('marketIds', [])
+                        if market_ids:
+                            break  # Stop bij de eerste geldige fallback-markt
+            
             event_market_ids_dict[event_id] = market_ids
         
     except Exception as e:
@@ -305,7 +364,7 @@ def main() -> Dict[str, pd.DataFrame]:
     print("Toto: Fetching Market IDs...")
     event_market_ids_dict = collect_market_ids(
         matches_df['event_id'].tolist(), 
-        max_workers=100,  
+        max_workers=50,  
         batch_size=1
     )
     
@@ -323,7 +382,7 @@ def main() -> Dict[str, pd.DataFrame]:
     )
 
     # Step 5: Save the final DataFrame to CSV & return final_df
-    csv_filename = f"Data/scrapers/Toto/totoFootball{datetime.utcnow()}.csv"    
+    csv_filename = f"Data/scrapers/Toto/totoAllSport{datetime.utcnow()}.csv"    
     final_df = market_data_df.merge(matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team', 'start_time']], on='event_id', how='left').drop_duplicates()
     final_df.to_csv(csv_filename, index=False)
     return final_df
