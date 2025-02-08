@@ -90,12 +90,12 @@ def preprocess_football_data(toto_file_path: str, kambi_file_path: str):
     
     # Remove duplicates in Toto data
     toto_filtered_football = toto_filtered_football.drop_duplicates(
-        subset=['Event Name', 'Market Name', 'Outcome Name']
+        subset=['Event Name', 'Market Name', 'Outcome Name' ,'Odds (Decimal)']
     )
     
     # Remove duplicates in Kambi data
     kambi_filtered_football = kambi_filtered_football.drop_duplicates(
-        subset=['event_name', 'outcome_label', 'criterion_label']
+        subset=['event_name', 'outcome_label', 'criterion_label', 'line', 'odds']
     )
     
     return toto_filtered_football, kambi_filtered_football
