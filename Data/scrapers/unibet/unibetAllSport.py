@@ -69,25 +69,60 @@ class BettingDataFetcher:
             if response.status_code == 200:
                 try:
                     data = response.json()
-                    sections = data.get("layout", {}).get("sections", [])
-                    if len(sections) > 1:
-                        widgets = sections[1].get("widgets", [])
-                        if widgets and "matches" in widgets[0]:
-                            matches = widgets[0]["matches"]
-                            for group in matches.get("groups", []):
-                                for event in group.get("events", []):
-                                    event_info = event.get("event", {})
-                                    all_events_data.append({
-                                        "event_id": event_info.get("id"),
-                                        "event_name": event_info.get("englishName"),
-                                        "sport": event_info.get("sport"),
-                                        'start_time': event_info.get('start'),
-                                        "country/sport": path_term_id.split('/')[-1],
-                                        "group_name": group.get("name", "N/A")
-                                    })
+                    # Check if 'layout' and the necessary sections exist
+                    if 'layout' in data and 'sections' in data['layout'] and len(data['layout']['sections']) > 1:
+                        sections = data['layout']['sections'][1]
+                        if 'widgets' in sections and len(sections['widgets']) > 0:
+                            widgets = sections['widgets'][0]
+                            if 'matches' in widgets:
+                                matches = widgets['matches']
+                                
+                                # Check if 'groups' is present in matches
+                                if 'groups' in matches and len(matches['groups']) > 0:
+                                    # Loop over all groups
+                                    for group in matches['groups']:
+                                        group_name = group.get('name', 'N/A')  # Get the group name, if available
+                                        if 'events' in group:
+                                            # Loop over events and gather the necessary information
+                                            for event in group['events']:
+                                                event_info = event.get('event', {})
+                                                event_data = {
+                                                    'event_id': event_info.get('id'),
+                                                    'event_name': event_info.get('englishName'),
+                                                    'start_time': event_info.get('start'),
+                                                    'sport': event_info.get('sport'),
+                                                    'country/sport': path_term_id.split('/')[-1],
+                                                    'group_name': group_name  # Include the group name here
+                                                }
+                                                all_events_data.append(event_data)
+                                        else:
+                                            print(f"No 'events' key in group {group_name} for {path_term_id}")
+                                elif 'events' in matches:
+                                    # Fallback: If 'groups' is not found, check if 'events' is directly under 'matches'
+                                    for event in matches['events']:
+                                        event_info = event.get('event', {})
+                                        event_data = {
+                                            'event_id': event_info.get('id'),
+                                            'event_name': event_info.get('englishName'),
+                                            'start_time': event_info.get('start'),
+                                            'sport': event_info.get('sport'),
+                                            'group_name': 'N/A'  # No group in this case
+                                        }
+                                        all_events_data.append(event_data)
+                                else:
+                                    print(f"No 'groups' or 'events' in matches for {path_term_id}")
+                            else:
+                                print(f"No 'matches' in widgets for {path_term_id}")
+                        else:
+                            print(f"No 'widgets' in section for {path_term_id}")
+                    else:
+                        print(f"Invalid data structure for {path_term_id}")
+
                 except Exception as e:
-                    print(f"Kambi: Error processing pathTermId {path_term_id}: {e}")
-        return pd.DataFrame(all_events_data)
+                    print(f"Error processing {path_term_id}: {e}")
+            else:
+                print(f"Request failed for {path_term_id} with status code: {response.status_code}")
+        return pd.DataFrame(all_events_data), data
 
     def fetch_bet_offers(self, event_ids):
         """Fetch bet offers for a list of event IDs."""
@@ -157,7 +192,7 @@ class BettingDataFetcher:
             '/football/russia',
             '/football/ukraine',
             '/football/england',
-            '/football/england/fa_cup'
+            '/football/england/fa_cup',
             '/football/denmark',
             '/football/sweden',
             '/football/spain',
@@ -179,8 +214,8 @@ class BettingDataFetcher:
             '/football/ethiopia',
             '/football/copa_libertadores',
             '/football/saudi_arabia',
-            '/football/qatar'
-            '/football/united_arab_emirates'
+            '/football/qatar',
+            '/football/united_arab_emirates',
             '/football/egypt',
             '/football/germany',
             '/football/portugal',
@@ -194,7 +229,7 @@ class BettingDataFetcher:
         print(f"Kambi: Fetched {len(groups_df)} groups.")
 
         print("Kambi: Fetching events...")
-        events_df = self.fetch_events(groups_df["pathTermId"], sport_list)
+        events_df, all_path_terms = self.fetch_events(groups_df["pathTermId"], sport_list)
         print(f"Kambi: Fetched {len(events_df)} events.")
 
         print("Kambi: Fetching bet offers...")
