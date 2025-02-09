@@ -284,7 +284,7 @@ def get_event_matches() -> pd.DataFrame:
     # Calculate the start time and end time
     start_time = now.replace(minute=0, second=0, microsecond=0)
     start_time = start_time.strftime("%Y-%m-%dT%H:%M:%SZ")
-    end_time = (now + timedelta(weeks=2)).replace(
+    end_time = (now + timedelta(weeks=10)).replace(
         hour=23,
         minute=59,
         second=59,
