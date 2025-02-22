@@ -158,8 +158,8 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
 
             # Perform fuzzy matching for both Team1 and Team2
             kambi_matches = filtered_kambi_winnaar[
-                (filtered_kambi_winnaar['Team1'].apply(lambda x: match_teams(team1, x) >= 65)) &
-                (filtered_kambi_winnaar['Team2'].apply(lambda x: match_teams(team2, x) >= 65))
+                (filtered_kambi_winnaar['Team1'].apply(lambda x: match_teams(team1, x) >= 80)) &
+                (filtered_kambi_winnaar['Team2'].apply(lambda x: match_teams(team2, x) >= 80))
             ]
             
             # If there is a match, return the matched event_name and fuzzy match score
@@ -214,7 +214,7 @@ def create_merged_df_winnaar(toto_filtered_football: pd.DataFrame, kambi_filtere
     merged_df_winnaar = merged_df_winnaar[
         (merged_df_winnaar['matched_event'].notnull()) &
         (merged_df_winnaar['Outcome SubType'] != merged_df_winnaar['outcome_label'])
-    ]
+    ].drop_duplicates()
 
     return merged_df_winnaar, matched_events
 
@@ -559,7 +559,7 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
         else 'Team schoten op doel' if ('Team schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
         # else 'Schoten op doel van buiten 16 mtr' if ('schoten op doel van buiten 16 mtr' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) # via specials voor later
         else 'Speler schoten op doel' if ('aantal schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) or ('Speler schoten op doel' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x)
-        else 'Speler schoten' if ('aantal schoten' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
+        else 'Speler schoten' if ('Aantal Schoten' in x and 'Dubbele Kans' not in x and ' en ' not in x and ' & ' not in x) 
         else 'Dubbele Kans' if ('Dubbele Kans' in x or ' en ' in x or ' & ' in x)
         else 'other'
     )
@@ -621,18 +621,26 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
         lambda outcome_name: 'Over' if re.search(r'\d+(\.\d+)?\+', outcome_name) else outcome_name
     )
 
-    # Function to find the best fuzzy match for OverUnderType2
-    def find_best_fuzzy_match(overunder_type2, kambi_df):
-        # Perform fuzzy matching with all Kambi OverUnderType2 values
-        match_scores = kambi_df['OverUnderType2'].apply(lambda x: fuzz.token_set_ratio(str(overunder_type2), str(x)))
+    def find_best_fuzzy_match(row, kambi_df):
+        overunder_type2 = row['OverUnderType2']
+        start_time = row['start_time']
         
-        # Get the best match score and the corresponding OverUnderType2 value
-        if len(match_scores) > 0:
-            best_match_idx = match_scores.idxmax()
-            best_score = match_scores.max()
+        # First subset based on matching start_time
+        time_matched_events = kambi_df[kambi_df['start_time'] == start_time]
+        
+        if not time_matched_events.empty:
+            # Perform fuzzy matching with time-matched Kambi OverUnderType2 values
+            match_scores = time_matched_events['OverUnderType2'].apply(
+                lambda x: fuzz.token_set_ratio(str(overunder_type2), str(x))
+            )
             
-            if best_score >= 80:  # Threshold for fuzzy matching
-                return kambi_df.loc[best_match_idx, 'OverUnderType2'], best_score
+            # Get the best match score and the corresponding OverUnderType2 value
+            if len(match_scores) > 0:
+                best_match_idx = match_scores.idxmax()
+                best_score = match_scores.max()
+                
+                if best_score >= 90:  # Threshold for fuzzy matching
+                    return time_matched_events.loc[best_match_idx, 'OverUnderType2'], best_score
         return None, None  # No match found
 
     # Filter records
@@ -644,9 +652,10 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
         kambi_filtered_football_overunder['OverUnderType'].str.contains('Speler', na=False)
     ].copy()
 
-    # Apply fuzzy matching function
-    fuzzy_matches = filtered_toto['OverUnderType2'].apply(
-        lambda x: find_best_fuzzy_match(x, filtered_kambi)
+    # Apply fuzzy matching function - now passing both OverUnderType2 and start_time
+    fuzzy_matches = filtered_toto.apply(
+        lambda row: find_best_fuzzy_match(row, filtered_kambi),
+        axis=1
     )
 
     filtered_toto['matched_OverUnderType2'] = fuzzy_matches.apply(lambda x: x[0])
@@ -664,8 +673,8 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
     # Fill OverUnderType2 with matched_OverUnderType2 if it is null
     toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder['matched_OverUnderType2'].fillna(toto_filtered_football_overunder['OverUnderType2'])
 
-    # Fill OverUnderType2 with matched_OverUnderType2 if it is null
-    toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder['matched_OverUnderType2'].fillna(toto_filtered_football_overunder['OverUnderType2'])
+    # # Fill OverUnderType2 with matched_OverUnderType2 if it is null
+    # toto_filtered_football_overunder['OverUnderType2'] = toto_filtered_football_overunder['matched_OverUnderType2'].fillna(toto_filtered_football_overunder['OverUnderType2'])
 
     # Merge DataFrames
     merged_football_overunder = pd.merge(
@@ -684,7 +693,7 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
     # Filter opposite outcomes
     merged_football_overunder = merged_football_overunder[
         merged_football_overunder['outcome_english_label'] != merged_football_overunder['Outcome Name cleaned']
-    ]
+    ].drop_duplicates()
 
     return merged_football_overunder 
 
@@ -728,7 +737,7 @@ def process_football_betting_data(toto_filtered_football, kambi_filtered_footbal
        'OverUnderType', 'OverUnderTime', 'Team1_x', 'Team2_x', 'Team1_y', 'Team2_y', 'Arbitrage Percentage',
        'Is Arbitrage', 'Stake A', 'Stake B', 'group_name', 'sex', 'start_time']].drop_duplicates()
     
-    return result
+    return result, merged_df_winnaar, merged_football_overunder
 
 # toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
 # kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
@@ -748,7 +757,7 @@ toto_filtered, kambi_filtered = preprocess_football_data(toto_file_path, kambi_f
 toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_file_path, kambi_file_path)
 
 # Perform the stacked union
-total_football_results = process_football_betting_data(toto_filtered_football, kambi_filtered_football)
+total_football_results, merged_df_winnaar, merged_football_overunder= process_football_betting_data(toto_filtered_football, kambi_filtered_football)
 total_football_results.to_csv(f'test_total_merge_Football_{start_time}.csv')
 
 # Check if latest output file contains Arbitrage opportunities
