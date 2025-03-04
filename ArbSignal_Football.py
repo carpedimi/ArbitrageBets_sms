@@ -4,7 +4,42 @@ from fuzzywuzzy import process, fuzz
 from datetime import datetime
 import pandas as pd
 import re
+import logging
+from notifications import get_notifier
+from cloud_storage import get_storage_manager
+from dotenv import load_dotenv
 pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
+
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+def get_latest_data():
+    """
+    Fetch the latest data from Google Cloud Storage for both Toto and Unibet.
+    
+    Returns:
+        tuple: (toto_df, kambi_df) containing the latest data from both sources
+    """
+    try:
+        storage_mgr = get_storage_manager()
+        
+        logging.info("Fetching latest Toto data from cloud storage...")
+        toto_df = storage_mgr.get_latest_file('toto')
+        
+        logging.info("Fetching latest Unibet data from cloud storage...")
+        kambi_df = storage_mgr.get_latest_file('unibet')
+        
+        return toto_df, kambi_df
+        
+    except Exception as e:
+        logging.error(f"Error fetching data from cloud storage: {str(e)}")
+        raise
 
 def get_latest_file(directory: str, file_extension: str = "*.csv") -> str:
     """
@@ -699,45 +734,54 @@ def create_merged_football_overunder(kambi_filtered_football, toto_filtered_foot
 
 
 def process_football_betting_data(toto_filtered_football, kambi_filtered_football):
-    # Call the specific functions to process different bet types
-    merged_df_winnaar, matched_events = create_merged_df_winnaar(toto_filtered_football, kambi_filtered_football)
-    merged_football_overunder = create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events)
-
-    # Perform the stacked union
-    total_football = pd.concat([merged_football_overunder, merged_df_winnaar], ignore_index=True, sort=True)
-
-    # Calculate Arbitrage Percentage
-    total_football['Arbitrage Percentage'] = (1 / total_football['Odds (Decimal)'] + 1 / total_football['odds']) * 100
-
-    # Identify Arbitrage Opportunities
-    total_football['Is Arbitrage'] = total_football['Arbitrage Percentage'] < 100
-
-    # Calculate Optimal Stakes if Arbitrage
-    total_stake = 1000  # Define the total stake for arbitrage
-    total_football['Stake A'] = total_football.apply(
-        lambda row: (1 / row['Odds (Decimal)'] / (1 / row['Odds (Decimal)'] + 1 / row['odds']) * total_stake) 
-        if row['Is Arbitrage'] else 0,
-        axis=1
-    )
-    total_football['Stake B'] = total_football.apply(
-        lambda row: (1 / row['odds'] / (1 / row['Odds (Decimal)'] + 1 / row['odds']) * total_stake) 
-        if row['Is Arbitrage'] else 0,
-        axis=1
-    )
-
-    # # Select and return the relevant columns
-    # result = total_football[[
-    #     'Event Name', 'Market Name', 'Outcome Name', 'outcome_label', 
-    #     'Odds (Decimal)', 'odds', 'Arbitrage Percentage', 
-    #     'Is Arbitrage', 'Stake A', 'Stake B'
-    # ]]
-    result = total_football[['Event Name', 'matched_event', 'Market Name', 'criterion_label', 'Outcome Name', 'Outcome Name cleaned', 'line', 'outcome_english_label', 'type', 'Outcome SubType', 'OverUnderType2',
-       'Odds (Decimal)', 'odds', 'Price Numerator', 'Price Denominator',
-       'Outcome Type', 'Outcome SubType', 'sport_x', 'competition',
-       'OverUnderType', 'OverUnderTime', 'Team1_x', 'Team2_x', 'Team1_y', 'Team2_y', 'Arbitrage Percentage',
-       'Is Arbitrage', 'Stake A', 'Stake B', 'group_name', 'sex', 'start_time']].drop_duplicates()
-    
-    return result, merged_df_winnaar, merged_football_overunder
+    """Process football betting data and find arbitrage opportunities."""
+    try:
+        # Initialize SMS notifier
+        notifier = get_notifier()
+        
+        # Process winnaar bets
+        merged_df_winnaar, matched_events = create_merged_df_winnaar(toto_filtered_football, kambi_filtered_football)
+        
+        # Calculate arbitrage opportunities for winnaar bets
+        for _, row in merged_df_winnaar.iterrows():
+            toto_odds = row['Odds (Decimal)']
+            kambi_odds = row['odds']
+            
+            # Calculate potential profit ratio
+            profit_ratio = min(toto_odds, kambi_odds) / max(toto_odds, kambi_odds)
+            
+            if profit_ratio >= notifier.min_profit_threshold:
+                notifier.send_arbitrage_notification(
+                    event_name=row['Event Name'],
+                    market_type=row['Market Name'],
+                    profit_ratio=profit_ratio,
+                    toto_odds=toto_odds,
+                    kambi_odds=kambi_odds
+                )
+        
+        # Process over/under bets
+        merged_df_overunder = create_merged_football_overunder(kambi_filtered_football, toto_filtered_football, matched_events)
+        
+        # Calculate arbitrage opportunities for over/under bets
+        for _, row in merged_df_overunder.iterrows():
+            toto_odds = row['Odds (Decimal)']
+            kambi_odds = row['odds']
+            
+            # Calculate potential profit ratio
+            profit_ratio = min(toto_odds, kambi_odds) / max(toto_odds, kambi_odds)
+            
+            if profit_ratio >= notifier.min_profit_threshold:
+                notifier.send_arbitrage_notification(
+                    event_name=row['Event Name'],
+                    market_type=f"Over/Under - {row['line']}",
+                    profit_ratio=profit_ratio,
+                    toto_odds=toto_odds,
+                    kambi_odds=kambi_odds
+                )
+                
+    except Exception as e:
+        logging.error(f"Error processing football betting data: {str(e)}")
+        raise
 
 # toto_file = 'Data/scrapers/Toto/totoAllSports2025-01-26T14:23:09Z.csv'
 # kambi_file = 'Data/scrapers/unibet/unibetAllSports2025-01-26T14:23:30Z.csv'
@@ -776,3 +820,20 @@ try:
         
 except Exception as e:
     print(f"Football: Error checking for arbitrage opportunities: {str(e)}")
+
+if __name__ == "__main__":
+    start_time = datetime.utcnow()
+    
+    try:
+        # Get latest data from cloud storage
+        toto_filtered, kambi_filtered = get_latest_data()
+        
+        # Process the data
+        toto_filtered_football, kambi_filtered_football = preprocess_football_data(toto_filtered, kambi_filtered)
+        
+        # Process betting data and find arbitrage opportunities
+        process_football_betting_data(toto_filtered_football, kambi_filtered_football)
+        
+    except Exception as e:
+        logging.error(f"Error in main process: {str(e)}")
+        raise

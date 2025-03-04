@@ -1,8 +1,17 @@
+import os
 import pandas as pd
 import requests
 import regex as re
 from datetime import datetime, timedelta
+from cloud_storage import get_storage_manager
+import logging
 pd.options.mode.chained_assignment = None  # Suppress SettingWithCopyWarning
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 class BettingDataFetcher:
     def __init__(self):
@@ -166,106 +175,117 @@ class BettingDataFetcher:
 
     def run(self):
         """Run the full data fetching process."""
-        print("Fetching groups...")
-        groups_df = self.fetch_groups()
-        sport_list = ['/football/costa_rica',
-            '/football/world_cup_qualifying_-_south_america',
-            '/football/uefa_womens_euro__w_',
-            '/football/australia',
-            '/football/scotland',
-            '/football/romania',
-            '/football/finland',
-            '/football/argentina',
-            '/football/south_africa',
-            '/football/poland',
-            '/football/northern_ireland',
-            '/football/usa',
-            '/football/colombia',
-            '/football/paraguay',
-            '/football/bahrain',
-            '/football/israel',
-            '/football/african_nations_cup',
-            '/football/iraq',
-            '/football/fifa_club_world_cup',
-            '/football/conference_league',
-            '/football/norway',
-            '/football/russia',
-            '/football/ukraine',
-            '/football/england',
-            '/football/england/fa_cup',
-            '/football/denmark',
-            '/football/sweden',
-            '/football/spain',
-            '/football/club_friendly_matches',
-            '/football/champions_league__w_',
-            '/football/iceland',
-            '/football/champions_league',
-            '/football/belgium',
-            '/football/uefa_nations_league',
-            '/football/france',
-            '/football/turkey',
-            '/football/europa_league',
-            '/football/brazil',
-            '/football/guatemala',
-            '/football/mexico',
-            '/football/greece',
-            '/football/australia',
-            '/football/italy',
-            '/football/ethiopia',
-            '/football/copa_libertadores',
-            '/football/saudi_arabia',
-            '/football/qatar',
-            '/football/united_arab_emirates',
-            '/football/egypt',
-            '/football/germany',
-            '/football/portugal',
-            '/football/india',
-            '/football/netherlands',
-            '/football/cyprus',
-            '/football/world_cup_qualifying_-_europe',
-            '/tennis/atp',
-            '/tennis/wta',
-            '/tennis/challenger']
-        print(f"Kambi: Fetched {len(groups_df)} groups.")
+        try:
+            logging.info("Kambi: Fetching groups...")
+            groups_df = self.fetch_groups()
+            sport_list = ['/football/costa_rica',
+                '/football/world_cup_qualifying_-_south_america',
+                '/football/uefa_womens_euro__w_',
+                '/football/australia',
+                '/football/scotland',
+                '/football/romania',
+                '/football/finland',
+                '/football/argentina',
+                '/football/south_africa',
+                '/football/poland',
+                '/football/northern_ireland',
+                '/football/usa',
+                '/football/colombia',
+                '/football/paraguay',
+                '/football/bahrain',
+                '/football/israel',
+                '/football/african_nations_cup',
+                '/football/iraq',
+                '/football/fifa_club_world_cup',
+                '/football/conference_league',
+                '/football/norway',
+                '/football/russia',
+                '/football/ukraine',
+                '/football/england',
+                '/football/england/fa_cup',
+                '/football/denmark',
+                '/football/sweden',
+                '/football/spain',
+                '/football/club_friendly_matches',
+                '/football/champions_league__w_',
+                '/football/iceland',
+                '/football/champions_league',
+                '/football/belgium',
+                '/football/uefa_nations_league',
+                '/football/france',
+                '/football/turkey',
+                '/football/europa_league',
+                '/football/brazil',
+                '/football/guatemala',
+                '/football/mexico',
+                '/football/greece',
+                '/football/australia',
+                '/football/italy',
+                '/football/ethiopia',
+                '/football/copa_libertadores',
+                '/football/saudi_arabia',
+                '/football/qatar',
+                '/football/united_arab_emirates',
+                '/football/egypt',
+                '/football/germany',
+                '/football/portugal',
+                '/football/india',
+                '/football/netherlands',
+                '/football/cyprus',
+                '/football/world_cup_qualifying_-_europe',
+                '/tennis/atp',
+                '/tennis/wta',
+                '/tennis/challenger']
+            logging.info(f"Kambi: Fetched {len(groups_df)} groups.")
 
-        print("Kambi: Fetching events...")
-        events_df, all_path_terms = self.fetch_events(groups_df["pathTermId"], sport_list)
-        print(f"Kambi: Fetched {len(events_df)} events.")
+            logging.info("Kambi: Fetching events...")
+            events_df, all_path_terms = self.fetch_events(groups_df["pathTermId"], sport_list)
+            logging.info(f"Kambi: Fetched {len(events_df)} events.")
 
-        print("Kambi: Fetching bet offers...")
-        offers_df = self.fetch_bet_offers(events_df["event_id"].unique())
+            logging.info("Kambi: Fetching bet offers...")
+            offers_df = self.fetch_bet_offers(events_df["event_id"].unique())
 
-        final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name', 'start_time']], on="event_id", how="left")
-        # Function to reformat names from "Last, First" to "First Last"
-        def reformat_name(match_name):
-            # Use regex to match "Last, First - Last, First" format
-            formatted_names = re.sub(r"(\w+), (\w+)", r"\2 \1", match_name)
-            formatted_names = formatted_names.replace(" - ", " vs ")
-            return formatted_names
+            final_df = offers_df.merge(events_df[['event_id', 'event_name', 'sport', 'group_name', 'start_time']], on="event_id", how="left")
+            
+            # Function to reformat names from "Last, First" to "First Last"
+            def reformat_name(match_name):
+                # Use regex to match "Last, First - Last, First" format
+                formatted_names = re.sub(r"(\w+), (\w+)", r"\2 \1", match_name)
+                formatted_names = formatted_names.replace(" - ", " vs ")
+                return formatted_names
 
-        # Apply the function to the 'event_name' column
-        final_df['event_name'] = final_df['event_name'].apply(reformat_name)
+            # Apply the function to the 'event_name' column
+            final_df['event_name'] = final_df['event_name'].apply(reformat_name)
 
-        # Define a function to swap and reformat the criterion_label for tennis
-        def swap_name_format(row):
-            if row['sport'] == 'TENNIS':
-                # Use regex to capture "Last name, First name" pattern and rearrange
-                match = re.search(r"(\w+), (\w+) wint minstens één set", row['criterion_label'])
-                if match:
-                    last_name, first_name = match.groups()
-                    # Reformat to "First name Last name Wint een Set"
-                    return f"{first_name} {last_name} Wint een Set"
-            # Return the original criterion_label if conditions are not met
-            return row['criterion_label']
+            # Define a function to swap and reformat the criterion_label for tennis
+            def swap_name_format(row):
+                if row['sport'] == 'TENNIS':
+                    # Use regex to capture "Last name, First name" pattern and rearrange
+                    match = re.search(r"(\w+), (\w+) wint minstens één set", row['criterion_label'])
+                    if match:
+                        last_name, first_name = match.groups()
+                        # Reformat to "First name Last name Wint een Set"
+                        return f"{first_name} {last_name} Wint een Set"
+                # Return the original criterion_label if conditions are not met
+                return row['criterion_label']
 
-        # Apply the function to the criterion_label column
-        final_df['criterion_label'] = final_df.apply(swap_name_format, axis=1)
+            # Apply the function to the criterion_label column
+            final_df['criterion_label'] = final_df.apply(swap_name_format, axis=1)
 
-        # Replace values in the 'type' column
-        final_df['type'] = final_df['type'].replace({'OT_ONE': '1', 'OT_TWO': '2'})
-        print(f"Kambi: Fetched {len(final_df)} bet offers.")
-        
-        return final_df
+            # Replace values in the 'type' column
+            final_df['type'] = final_df['type'].replace({'OT_ONE': '1', 'OT_TWO': '2'})
+            logging.info(f"Kambi: Fetched {len(final_df)} bet offers.")
+            
+            # Upload to Google Cloud Storage
+            storage_mgr = get_storage_manager()
+            blob_path = storage_mgr.upload_dataframe(final_df, 'unibet')
+            logging.info(f"Unibet: Data uploaded to cloud storage: {blob_path}")
+            
+            return final_df
+            
+        except Exception as e:
+            logging.error(f"Error in Unibet scraper: {str(e)}")
+            raise
 
 
 if __name__ == "__main__":

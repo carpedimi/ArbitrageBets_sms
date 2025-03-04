@@ -6,6 +6,14 @@ import random
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Any
+from cloud_storage import get_storage_manager
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 # def get_event_matches() -> pd.DataFrame:
 #     """
@@ -572,37 +580,49 @@ def main() -> Dict[str, pd.DataFrame]:
     Returns:
         Dict[str, pd.DataFrame]: Dictionary containing matches and market data
     """
-    # Step 1: Get event matches
-    print("Toto: Fetching matches...")
-    matches_df = get_event_matches()
-    
-    # Step 2: Collect market IDs
-    print("Toto: Fetching Market IDs...")
-    event_market_ids_dict = collect_market_ids(
-        matches_df['event_id'].tolist(), 
-        max_workers=20,  
-        batch_size=1
-    )
-    
-    # Step 3: Flatten market IDs into a single list
-    all_market_ids = []
-    for market_ids in event_market_ids_dict.values():
-        all_market_ids.extend(market_ids)
-    
-    # Step 4: Process market data
-    print("Toto: Fetching odds data from Market IDs...")
-    market_data_df = process_market_data(
-        all_market_ids, 
-        max_workers=100,  
-        batch_size=100
-    )
+    try:
+        # Step 1: Get event matches
+        logging.info("Toto: Fetching matches...")
+        matches_df = get_event_matches()
+        
+        # Step 2: Collect market IDs
+        logging.info("Toto: Fetching Market IDs...")
+        event_market_ids_dict = collect_market_ids(
+            matches_df['event_id'].tolist(), 
+            max_workers=20,  
+            batch_size=1
+        )
+        
+        # Step 3: Flatten market IDs into a single list
+        all_market_ids = []
+        for market_ids in event_market_ids_dict.values():
+            all_market_ids.extend(market_ids)
+        
+        # Step 4: Process market data
+        logging.info("Toto: Fetching odds data from Market IDs...")
+        market_data_df = process_market_data(
+            all_market_ids, 
+            max_workers=100,  
+            batch_size=100
+        )
 
-    # Step 5: Save the final DataFrame to CSV & return final_df
-    csv_filename = f"Data/scrapers/Toto/totoAllSport{datetime.utcnow()}.csv"    
-    final_df = market_data_df.merge(matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team', 'start_time']], on='event_id', how='left').drop_duplicates()
-    final_df.to_csv(csv_filename, index=False)
-    return final_df
+        # Step 5: Create final DataFrame
+        final_df = market_data_df.merge(
+            matches_df[['event_id', 'sport', 'competition', 'match_name', 'home_team', 'away_team', 'start_time']], 
+            on='event_id', 
+            how='left'
+        ).drop_duplicates()
+
+        # Step 6: Upload to Google Cloud Storage
+        storage_mgr = get_storage_manager()
+        blob_path = storage_mgr.upload_dataframe(final_df, 'toto')
+        logging.info(f"Toto: Data uploaded to cloud storage: {blob_path}")
+        
+        return final_df
+        
+    except Exception as e:
+        logging.error(f"Error in Toto scraper: {str(e)}")
+        raise
 
 if __name__ == "__main__":
-    # Run the main function and print the results
-    results = main()
+    final_df = main()
