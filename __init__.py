@@ -1,6 +1,10 @@
 import os
 import subprocess
 from threading import Thread
+from flask import Flask
+import ArbSignal_Football
+import threading
+import logging
 
 # Paths to the Python scripts
 BASE_DIR = "/Users/ddeboe01/Downloads/ArbitrageBets"
@@ -67,5 +71,40 @@ def main():
     arbsignal_football_thread.start()
     arbsignal_tennis_thread.start()
 
-if __name__ == "__main__":
-    main()
+app = Flask(__name__)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+def run_arbitrage_detection():
+    """Background task to run arbitrage detection"""
+    while True:
+        try:
+            logging.info("Starting arbitrage detection cycle")
+            ArbSignal_Football.main()
+            # Sleep for 5 minutes before next check
+            threading.Event().wait(300)
+        except Exception as e:
+            logging.error(f"Error in arbitrage detection: {e}")
+            # Sleep for 1 minute before retry on error
+            threading.Event().wait(60)
+
+@app.route('/')
+def home():
+    return 'Arbitrage Detection Service is running'
+
+@app.route('/health')
+def health():
+    return 'OK'
+
+if __name__ == '__main__':
+    # Start the arbitrage detection in a background thread
+    arbitrage_thread = threading.Thread(target=run_arbitrage_detection, daemon=True)
+    arbitrage_thread.start()
+    
+    # Start the Flask server
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host='0.0.0.0', port=port)
